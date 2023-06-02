@@ -271,6 +271,9 @@ function handleBuildSettings (platformConfig, locations, infoPlist) {
     const deploymentTarget = platformConfig.getPreference('deployment-target', 'ios');
     const swiftVersion = platformConfig.getPreference('SwiftVersion', 'ios');
 
+    const supportMac = platformConfig.getPreference('SupportMac', 'ios');
+    const disableMacTarget = supportMac !== undefined && supportMac.toString().toLowerCase() === 'false';
+
     let project;
 
     try {
@@ -283,7 +286,7 @@ function handleBuildSettings (platformConfig, locations, infoPlist) {
 
     // no build settings provided and we don't need to update build settings for launch storyboards,
     // then we don't need to parse and update .pbxproj file
-    if (origPkg === pkg && !targetDevice && !deploymentTarget && !swiftVersion) {
+    if (origPkg === pkg && !targetDevice && !deploymentTarget && !swiftVersion && !disableMacTarget) {
         return Promise.resolve();
     }
 
@@ -305,6 +308,19 @@ function handleBuildSettings (platformConfig, locations, infoPlist) {
     if (swiftVersion) {
         events.emit('verbose', `Set SwiftVersion to "${swiftVersion}".`);
         project.xcode.updateBuildProperty('SWIFT_VERSION', swiftVersion);
+    }
+
+    if (disableMacTarget) {
+        events.emit('verbose', 'Disable MacOS target.');
+        // This whole conundrum is required in order to only change the settings of the PBXNativeTarget and not the PBXProject
+        Object.values(project.xcode.pbxNativeTargetSection())
+            .filter((item) => item.isa === 'PBXNativeTarget' && item.name)
+            .forEach((item) => {
+                const target = item.name.replace(/^['"]*|['"]*$/g, ''); // Remove leading and trailing quotes
+                project.xcode.updateBuildProperty('SUPPORTED_PLATFORMS', '"iphoneos iphonesimulator"', undefined, target);
+                project.xcode.updateBuildProperty('SUPPORTS_MACCATALYST', 'NO', undefined, target);
+                project.xcode.updateBuildProperty('SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD', 'NO', undefined, target);
+            });
     }
 
     project.write();
@@ -997,8 +1013,12 @@ function processAccessAndAllowNavigationEntries (config) {
     null is returned if the URL cannot be parsed, or is to be skipped for ATS.
 */
 function parseWhitelistUrlForATS (url, options) {
-    // Guiding principle: we only set values in retObj if they are NOT the default
+    // @todo 'url.parse' was deprecated since v11.0.0. Use 'url.URL' constructor instead.
+    const href = URL.parse(url); // eslint-disable-line
     const retObj = {};
+    retObj.Hostname = href.hostname;
+
+    // Guiding principle: we only set values in retObj if they are NOT the default
 
     if (url === '*') {
         retObj.Hostname = '*';
@@ -1022,31 +1042,25 @@ function parseWhitelistUrlForATS (url, options) {
         return retObj;
     }
 
-    let href = null;
-    try {
-        href = new URL.URL(url);
-    } catch (e) {
-        const scheme = url.split(':')[0];
-        // If there's a wildcard in the protocol, the URL will fail to parse
-        // Replace it with "http" to allow insecure loads
-        if (scheme.includes('*')) {
-            href = new URL.URL(url.replace(scheme, 'http'));
+    if (!retObj.Hostname) {
+        // check origin, if it allows subdomains (wildcard in hostname), we set NSIncludesSubdomains to YES. Default is NO
+        const subdomain1 = '/*.'; // wildcard in hostname
+        const subdomain2 = '*://*.'; // wildcard in hostname and protocol
+        const subdomain3 = '*://'; // wildcard in protocol only
+        if (!href.pathname) {
+            return null;
+        } else if (href.pathname.indexOf(subdomain1) === 0) {
+            retObj.NSIncludesSubdomains = true;
+            retObj.Hostname = href.pathname.substring(subdomain1.length);
+        } else if (href.pathname.indexOf(subdomain2) === 0) {
+            retObj.NSIncludesSubdomains = true;
+            retObj.Hostname = href.pathname.substring(subdomain2.length);
+        } else if (href.pathname.indexOf(subdomain3) === 0) {
+            retObj.Hostname = href.pathname.substring(subdomain3.length);
         } else {
+            // Handling "scheme:*" case to avoid creating of a blank key in NSExceptionDomains.
             return null;
         }
-    }
-
-    retObj.Hostname = href.hostname;
-
-    // Handling "scheme:*" case to avoid creating of a blank key in NSExceptionDomains.
-    if (retObj.Hostname === '') {
-        return null;
-    }
-
-    // check origin, if it allows subdomains (wildcard in hostname), we set NSIncludesSubdomains to YES. Default is NO
-    if (retObj.Hostname.startsWith('*.')) {
-        retObj.NSIncludesSubdomains = true;
-        retObj.Hostname = href.hostname.substring(2);
     }
 
     if (options.minimum_tls_version && options.minimum_tls_version !== 'TLSv1.2') { // default is TLSv1.2
@@ -1065,6 +1079,8 @@ function parseWhitelistUrlForATS (url, options) {
 
     // if the scheme is HTTP, we set NSExceptionAllowsInsecureHTTPLoads to YES. Default is NO
     if (href.protocol === 'http:') {
+        retObj.NSExceptionAllowsInsecureHTTPLoads = true;
+    } else if (!href.protocol && href.pathname.indexOf('*:/') === 0) { // wilcard in protocol
         retObj.NSExceptionAllowsInsecureHTTPLoads = true;
     }
 
