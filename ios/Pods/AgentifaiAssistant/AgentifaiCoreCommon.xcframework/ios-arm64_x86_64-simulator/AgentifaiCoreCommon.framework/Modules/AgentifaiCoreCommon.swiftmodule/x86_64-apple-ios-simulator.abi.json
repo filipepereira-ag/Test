@@ -1,0 +1,3843 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DictionaryEncoder",
+        "printedName": "DictionaryEncoder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DictionaryEncoder",
+                "printedName": "AgentifaiCoreCommon.DictionaryEncoder",
+                "usr": "s:19AgentifaiCoreCommon17DictionaryEncoderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon17DictionaryEncoderCACycfc",
+            "mangledName": "$s19AgentifaiCoreCommon17DictionaryEncoderCACycfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon17DictionaryEncoderC6encodeySDySSypGxKSERzlF",
+            "mangledName": "$s19AgentifaiCoreCommon17DictionaryEncoderC6encodeySDySSypGxKSERzlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon17DictionaryEncoderC",
+        "mangledName": "$s19AgentifaiCoreCommon17DictionaryEncoderC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TopLevelEncoder",
+            "printedName": "TopLevelEncoder",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine15TopLevelEncoderP",
+            "mangledName": "$s7Combine15TopLevelEncoderP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReadWriteCoordinatorProtocol",
+        "printedName": "ReadWriteCoordinatorProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP4readyqd__qd__yXElF",
+            "mangledName": "$s19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP4readyqd__qd__yXElF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AgentifaiCoreCommon.ReadWriteCoordinatorProtocol>",
+            "sugared_genericSig": "<Self, R where Self : AgentifaiCoreCommon.ReadWriteCoordinatorProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enqueueWrite",
+            "printedName": "enqueueWrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP07enqueueE0yyyycF",
+            "mangledName": "$s19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP07enqueueE0yyyycF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.ReadWriteCoordinatorProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.ReadWriteCoordinatorProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "blockingWrite",
+            "printedName": "blockingWrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP08blockingE0yqd__qd__yKXEKlF",
+            "mangledName": "$s19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP08blockingE0yqd__qd__yKXEKlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AgentifaiCoreCommon.ReadWriteCoordinatorProtocol>",
+            "sugared_genericSig": "<Self, R where Self : AgentifaiCoreCommon.ReadWriteCoordinatorProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Rethrows"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP",
+        "mangledName": "$s19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReadWriteCoordinator",
+        "printedName": "ReadWriteCoordinator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(queue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReadWriteCoordinator",
+                "printedName": "AgentifaiCoreCommon.ReadWriteCoordinator",
+                "usr": "s:19AgentifaiCoreCommon20ReadWriteCoordinatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon20ReadWriteCoordinatorC5queueACSo012OS_dispatch_G0C_tcfc",
+            "mangledName": "$s19AgentifaiCoreCommon20ReadWriteCoordinatorC5queueACSo012OS_dispatch_G0C_tcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon20ReadWriteCoordinatorC4readyxxyXElF",
+            "mangledName": "$s19AgentifaiCoreCommon20ReadWriteCoordinatorC4readyxxyXElF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<R>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enqueueWrite",
+            "printedName": "enqueueWrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon20ReadWriteCoordinatorC07enqueueE0yyyycF",
+            "mangledName": "$s19AgentifaiCoreCommon20ReadWriteCoordinatorC07enqueueE0yyyycF",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "blockingWrite",
+            "printedName": "blockingWrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon20ReadWriteCoordinatorC08blockingE0yxxyKXEKlF",
+            "mangledName": "$s19AgentifaiCoreCommon20ReadWriteCoordinatorC08blockingE0yxxyKXEKlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<R>",
+            "declAttributes": [
+              "Final",
+              "Rethrows",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon20ReadWriteCoordinatorC",
+        "mangledName": "$s19AgentifaiCoreCommon20ReadWriteCoordinatorC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReadWriteCoordinatorProtocol",
+            "printedName": "ReadWriteCoordinatorProtocol",
+            "usr": "s:19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP",
+            "mangledName": "$s19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnvironmentConfiguration",
+        "printedName": "EnvironmentConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EnvironmentConfiguration",
+                "printedName": "AgentifaiCoreCommon.EnvironmentConfiguration",
+                "usr": "s:19AgentifaiCoreCommon24EnvironmentConfigurationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon24EnvironmentConfigurationCACycfc",
+            "mangledName": "$s19AgentifaiCoreCommon24EnvironmentConfigurationCACycfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon24EnvironmentConfigurationC",
+        "mangledName": "$s19AgentifaiCoreCommon24EnvironmentConfigurationC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISO8601Date",
+        "printedName": "ISO8601Date",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0Vvp",
+            "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0Vvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0Vvg",
+                "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0Vvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0Vvs",
+                "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0Vvs",
+                "moduleName": "AgentifaiCoreCommon",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0VvM",
+                "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC12wrappedValue10Foundation0E0VvM",
+                "moduleName": "AgentifaiCoreCommon",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISO8601Date",
+                "printedName": "AgentifaiCoreCommon.ISO8601Date",
+                "usr": "s:19AgentifaiCoreCommon11ISO8601DateC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon11ISO8601DateC4dateAC10Foundation0E0V_tcfc",
+            "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC4dateAC10Foundation0E0V_tcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISO8601Date",
+                "printedName": "AgentifaiCoreCommon.ISO8601Date",
+                "usr": "s:19AgentifaiCoreCommon11ISO8601DateC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon11ISO8601DateC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon11ISO8601DateC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon11ISO8601DateC",
+        "mangledName": "$s19AgentifaiCoreCommon11ISO8601DateC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISO8601FullDate",
+        "printedName": "ISO8601FullDate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0Vvp",
+            "mangledName": "$s19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0Vvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0Vvg",
+                "mangledName": "$s19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0Vvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "overriding": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0Vvs",
+                "mangledName": "$s19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0Vvs",
+                "moduleName": "AgentifaiCoreCommon",
+                "overriding": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0VvM",
+                "mangledName": "$s19AgentifaiCoreCommon15ISO8601FullDateC12wrappedValue10Foundation0F0VvM",
+                "moduleName": "AgentifaiCoreCommon",
+                "overriding": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISO8601FullDate",
+                "printedName": "AgentifaiCoreCommon.ISO8601FullDate",
+                "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC4dateAC10Foundation0F0V_tcfc",
+            "mangledName": "$s19AgentifaiCoreCommon15ISO8601FullDateC4dateAC10Foundation0F0V_tcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISO8601FullDate",
+                "printedName": "AgentifaiCoreCommon.ISO8601FullDate",
+                "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19AgentifaiCoreCommon15ISO8601FullDateC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon15ISO8601FullDateC",
+        "mangledName": "$s19AgentifaiCoreCommon15ISO8601FullDateC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "superclassUsr": "s:19AgentifaiCoreCommon11ISO8601DateC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AgentifaiCoreCommon.ISO8601Date"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AgentifaiError",
+        "printedName": "AgentifaiError",
+        "declKind": "Protocol",
+        "usr": "s:19AgentifaiCoreCommon0A5ErrorP",
+        "mangledName": "$s19AgentifaiCoreCommon0A5ErrorP",
+        "moduleName": "AgentifaiCoreCommon",
+        "genericSig": "<τ_0_0 : Swift.CustomStringConvertible, τ_0_0 : Swift.Error>",
+        "sugared_genericSig": "<Self : Swift.CustomStringConvertible, Self : Swift.Error>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(environmentConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EnvironmentConfiguration",
+                "printedName": "AgentifaiCoreCommon.EnvironmentConfiguration",
+                "usr": "s:19AgentifaiCoreCommon24EnvironmentConfigurationC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon6LoggerC10initialize17environmentConfigyAA24EnvironmentConfigurationC_tFZ",
+            "mangledName": "$s19AgentifaiCoreCommon6LoggerC10initialize17environmentConfigyAA24EnvironmentConfigurationC_tFZ",
+            "moduleName": "AgentifaiCoreCommon",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:separator:terminator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Any",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon6LoggerC3log_9separator10terminatoryypyXK_S2StFZ",
+            "mangledName": "$s19AgentifaiCoreCommon6LoggerC3log_9separator10terminatoryypyXK_S2StFZ",
+            "moduleName": "AgentifaiCoreCommon",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon6LoggerC",
+        "mangledName": "$s19AgentifaiCoreCommon6LoggerC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "User",
+        "printedName": "User",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon4UserP2idSSvp",
+            "mangledName": "$s19AgentifaiCoreCommon4UserP2idSSvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon4UserP2idSSvg",
+                "mangledName": "$s19AgentifaiCoreCommon4UserP2idSSvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.User>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.User>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon4UserP4nameSSSgvp",
+            "mangledName": "$s19AgentifaiCoreCommon4UserP4nameSSSgvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon4UserP4nameSSSgvg",
+                "mangledName": "$s19AgentifaiCoreCommon4UserP4nameSSSgvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.User>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.User>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "equal",
+            "printedName": "equal(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "AgentifaiCoreCommon.User",
+                "usr": "s:19AgentifaiCoreCommon4UserP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon4UserPAAE5equal2toSbAaB_p_tF",
+            "mangledName": "$s19AgentifaiCoreCommon4UserPAAE5equal2toSbAaB_p_tF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.User>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.User>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19AgentifaiCoreCommon4UserP",
+        "mangledName": "$s19AgentifaiCoreCommon4UserP",
+        "moduleName": "AgentifaiCoreCommon",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSONMapper",
+        "printedName": "JSONMapper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon10JSONMapperP6decode_4fromqd__qd__m_10Foundation4DataVtKSeRd__lF",
+            "mangledName": "$s19AgentifaiCoreCommon10JSONMapperP6decode_4fromqd__qd__m_10Foundation4DataVtKSeRd__lF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AgentifaiCoreCommon.JSONMapper, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : AgentifaiCoreCommon.JSONMapper, T : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon10JSONMapperP6decode_4fromqd__qd__m_SDySSypGtKSeRd__lF",
+            "mangledName": "$s19AgentifaiCoreCommon10JSONMapperP6decode_4fromqd__qd__m_SDySSypGtKSeRd__lF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AgentifaiCoreCommon.JSONMapper, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : AgentifaiCoreCommon.JSONMapper, T : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon10JSONMapperP6decode4fromyp10Foundation4DataV_tKF",
+            "mangledName": "$s19AgentifaiCoreCommon10JSONMapperP6decode4fromyp10Foundation4DataV_tKF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.JSONMapper>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.JSONMapper>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encodeToData",
+            "printedName": "encodeToData(object:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon10JSONMapperP12encodeToData6object10Foundation0G0Vqd___tKSERd__lF",
+            "mangledName": "$s19AgentifaiCoreCommon10JSONMapperP12encodeToData6object10Foundation0G0Vqd___tKSERd__lF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AgentifaiCoreCommon.JSONMapper, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : AgentifaiCoreCommon.JSONMapper, T : Swift.Encodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(object:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon10JSONMapperP6encode6objectSDySSypGqd___tKSERd__lF",
+            "mangledName": "$s19AgentifaiCoreCommon10JSONMapperP6encode6objectSDySSypGqd___tKSERd__lF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AgentifaiCoreCommon.JSONMapper, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : AgentifaiCoreCommon.JSONMapper, T : Swift.Encodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19AgentifaiCoreCommon10JSONMapperP",
+        "mangledName": "$s19AgentifaiCoreCommon10JSONMapperP",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeJSONMapper",
+        "printedName": "NativeJSONMapper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(jsonDecoder:jsonEncoder:dictionaryDecoder:dictionaryEncoder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeJSONMapper",
+                "printedName": "AgentifaiCoreCommon.NativeJSONMapper",
+                "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONDecoder",
+                "printedName": "Foundation.JSONDecoder",
+                "usr": "s:10Foundation11JSONDecoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONEncoder",
+                "printedName": "Foundation.JSONEncoder",
+                "usr": "s:10Foundation11JSONEncoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DictionaryDecoder",
+                "printedName": "AgentifaiCoreCommon.DictionaryDecoder",
+                "usr": "s:19AgentifaiCoreCommon17DictionaryDecoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DictionaryEncoder",
+                "printedName": "AgentifaiCoreCommon.DictionaryEncoder",
+                "usr": "s:19AgentifaiCoreCommon17DictionaryEncoderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC11jsonDecoder0F7Encoder010dictionaryG00iH0AC10Foundation11JSONDecoderC_AH11JSONEncoderCAA010DictionaryG0CAA0mH0Ctcfc",
+            "mangledName": "$s19AgentifaiCoreCommon16NativeJSONMapperC11jsonDecoder0F7Encoder010dictionaryG00iH0AC10Foundation11JSONDecoderC_AH11JSONEncoderCAA010DictionaryG0CAA0mH0Ctcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC6decode_4fromxxm_10Foundation4DataVtKSeRzlF",
+            "mangledName": "$s19AgentifaiCoreCommon16NativeJSONMapperC6decode_4fromxxm_10Foundation4DataVtKSeRzlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC6decode_4fromxxm_SDySSypGtKSeRzlF",
+            "mangledName": "$s19AgentifaiCoreCommon16NativeJSONMapperC6decode_4fromxxm_SDySSypGtKSeRzlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC6decode4fromyp10Foundation4DataV_tKF",
+            "mangledName": "$s19AgentifaiCoreCommon16NativeJSONMapperC6decode4fromyp10Foundation4DataV_tKF",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encodeToData",
+            "printedName": "encodeToData(object:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC12encodeToData6object10Foundation0H0Vx_tKSERzlF",
+            "mangledName": "$s19AgentifaiCoreCommon16NativeJSONMapperC12encodeToData6object10Foundation0H0Vx_tKSERzlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(object:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC6encode6objectSDySSypGx_tKSERzlF",
+            "mangledName": "$s19AgentifaiCoreCommon16NativeJSONMapperC6encode6objectSDySSypGx_tKSERzlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon16NativeJSONMapperC",
+        "mangledName": "$s19AgentifaiCoreCommon16NativeJSONMapperC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "JSONMapper",
+            "printedName": "JSONMapper",
+            "usr": "s:19AgentifaiCoreCommon10JSONMapperP",
+            "mangledName": "$s19AgentifaiCoreCommon10JSONMapperP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CommonErrors",
+        "printedName": "CommonErrors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selfNotFound",
+            "printedName": "selfNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreCommon.CommonErrors.Type) -> AgentifaiCoreCommon.CommonErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonErrors",
+                    "printedName": "AgentifaiCoreCommon.CommonErrors",
+                    "usr": "s:19AgentifaiCoreCommon0C6ErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreCommon.CommonErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonErrors",
+                        "printedName": "AgentifaiCoreCommon.CommonErrors",
+                        "usr": "s:19AgentifaiCoreCommon0C6ErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19AgentifaiCoreCommon0C6ErrorsO12selfNotFoundyA2CmF",
+            "mangledName": "$s19AgentifaiCoreCommon0C6ErrorsO12selfNotFoundyA2CmF",
+            "moduleName": "AgentifaiCoreCommon"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonErrors",
+                "printedName": "AgentifaiCoreCommon.CommonErrors",
+                "usr": "s:19AgentifaiCoreCommon0C6ErrorsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonErrors",
+                "printedName": "AgentifaiCoreCommon.CommonErrors",
+                "usr": "s:19AgentifaiCoreCommon0C6ErrorsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon0C6ErrorsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19AgentifaiCoreCommon0C6ErrorsO2eeoiySbAC_ACtFZ",
+            "moduleName": "AgentifaiCoreCommon",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon0C6ErrorsO9hashValueSivp",
+            "mangledName": "$s19AgentifaiCoreCommon0C6ErrorsO9hashValueSivp",
+            "moduleName": "AgentifaiCoreCommon",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon0C6ErrorsO9hashValueSivg",
+                "mangledName": "$s19AgentifaiCoreCommon0C6ErrorsO9hashValueSivg",
+                "moduleName": "AgentifaiCoreCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon0C6ErrorsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19AgentifaiCoreCommon0C6ErrorsO4hash4intoys6HasherVz_tF",
+            "moduleName": "AgentifaiCoreCommon",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19AgentifaiCoreCommon0C6ErrorsO",
+        "mangledName": "$s19AgentifaiCoreCommon0C6ErrorsO",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CollectionFactoryProtocol",
+        "printedName": "CollectionFactoryProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "concurrentDictionary",
+            "printedName": "concurrentDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConcurrentDictionary",
+                "printedName": "AgentifaiCoreCommon.ConcurrentDictionary<τ_1_0, τ_1_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_1"
+                  }
+                ],
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon25CollectionFactoryProtocolP20concurrentDictionaryAA010ConcurrentH0Cyqd__qd_0_GySHRd__r0_lF",
+            "mangledName": "$s19AgentifaiCoreCommon25CollectionFactoryProtocolP20concurrentDictionaryAA010ConcurrentH0Cyqd__qd_0_GySHRd__r0_lF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : AgentifaiCoreCommon.CollectionFactoryProtocol, τ_1_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Self, Key, Value where Self : AgentifaiCoreCommon.CollectionFactoryProtocol, Key : Swift.Hashable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19AgentifaiCoreCommon25CollectionFactoryProtocolP",
+        "mangledName": "$s19AgentifaiCoreCommon25CollectionFactoryProtocolP",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CollectionFactory",
+        "printedName": "CollectionFactory",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(readWriteCoordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CollectionFactory",
+                "printedName": "AgentifaiCoreCommon.CollectionFactory",
+                "usr": "s:19AgentifaiCoreCommon17CollectionFactoryC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadWriteCoordinatorProtocol",
+                "printedName": "AgentifaiCoreCommon.ReadWriteCoordinatorProtocol",
+                "usr": "s:19AgentifaiCoreCommon28ReadWriteCoordinatorProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon17CollectionFactoryC20readWriteCoordinatorAcA04ReadgH8Protocol_p_tcfc",
+            "mangledName": "$s19AgentifaiCoreCommon17CollectionFactoryC20readWriteCoordinatorAcA04ReadgH8Protocol_p_tcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "concurrentDictionary",
+            "printedName": "concurrentDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConcurrentDictionary",
+                "printedName": "AgentifaiCoreCommon.ConcurrentDictionary<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon17CollectionFactoryC20concurrentDictionaryAA010ConcurrentG0Cyxq_GySHRzr0_lF",
+            "mangledName": "$s19AgentifaiCoreCommon17CollectionFactoryC20concurrentDictionaryAA010ConcurrentG0Cyxq_GySHRzr0_lF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon17CollectionFactoryC",
+        "mangledName": "$s19AgentifaiCoreCommon17CollectionFactoryC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CollectionFactoryProtocol",
+            "printedName": "CollectionFactoryProtocol",
+            "usr": "s:19AgentifaiCoreCommon25CollectionFactoryProtocolP",
+            "mangledName": "$s19AgentifaiCoreCommon25CollectionFactoryProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DictionaryDecoder",
+        "printedName": "DictionaryDecoder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DictionaryDecoder",
+                "printedName": "AgentifaiCoreCommon.DictionaryDecoder",
+                "usr": "s:19AgentifaiCoreCommon17DictionaryDecoderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon17DictionaryDecoderCACycfc",
+            "mangledName": "$s19AgentifaiCoreCommon17DictionaryDecoderCACycfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon17DictionaryDecoderC6decode_4fromxxm_SDySSypGtKSeRzlF",
+            "mangledName": "$s19AgentifaiCoreCommon17DictionaryDecoderC6decode_4fromxxm_SDySSypGtKSeRzlF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon17DictionaryDecoderC",
+        "mangledName": "$s19AgentifaiCoreCommon17DictionaryDecoderC",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TopLevelDecoder",
+            "printedName": "TopLevelDecoder",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Input",
+                "printedName": "Input",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine15TopLevelDecoderP",
+            "mangledName": "$s7Combine15TopLevelDecoderP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConcurrentDictionary",
+        "printedName": "ConcurrentDictionary",
+        "children": [
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_1?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryCyq_Sgxcip",
+            "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryCyq_Sgxcip",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryCyq_Sgxcig",
+                "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryCyq_Sgxcig",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryCyq_Sgxcis",
+                "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryCyq_Sgxcis",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryCyq_SgxciM",
+                "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryCyq_SgxciM",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(setAsync:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_1?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tcip",
+            "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tcip",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tcig",
+                "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tcig",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tcis",
+                "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tcis",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tciM",
+                "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC8setAsyncq_Sgx_tciM",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "values",
+            "printedName": "values()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Values",
+                "printedName": "Swift.Dictionary<τ_0_0, τ_0_1>.Values",
+                "usr": "s:SD6ValuesV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC6valuesSD6ValuesVyxq__GyF",
+            "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC6valuesSD6ValuesVyxq__GyF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "merge",
+            "printedName": "merge(_:uniquingKeysWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[τ_0_0 : τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_1, τ_0_1) throws -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(τ_0_1, τ_0_1)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC5merge_16uniquingKeysWithySDyxq_G_q_q__q_tKXEtKF",
+            "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC5merge_16uniquingKeysWithySDyxq_G_q_q__q_tKXEtKF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+            "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC11descriptionSSvp",
+            "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC11descriptionSSvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC11descriptionSSvg",
+                "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC11descriptionSSvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon20ConcurrentDictionaryC",
+        "mangledName": "$s19AgentifaiCoreCommon20ConcurrentDictionaryC",
+        "moduleName": "AgentifaiCoreCommon",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Hashable>",
+        "sugared_genericSig": "<Key, Value where Key : Swift.Hashable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Atomic",
+        "printedName": "Atomic",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Atomic",
+                "printedName": "AgentifaiCoreCommon.Atomic<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:19AgentifaiCoreCommon6AtomicC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AgentifaiCoreCommon6AtomicCyACyxGxcfc",
+            "mangledName": "$s19AgentifaiCoreCommon6AtomicCyACyxGxcfc",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<A>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon6AtomicC5valuexvp",
+            "mangledName": "$s19AgentifaiCoreCommon6AtomicC5valuexvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon6AtomicC5valuexvg",
+                "mangledName": "$s19AgentifaiCoreCommon6AtomicC5valuexvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<A>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "mutate",
+            "printedName": "mutate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(inout τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InOut",
+                    "printedName": "inout τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon6AtomicC6mutateyyyxzXEF",
+            "mangledName": "$s19AgentifaiCoreCommon6AtomicC6mutateyyyxzXEF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<A>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AgentifaiCoreCommon6AtomicC",
+        "mangledName": "$s19AgentifaiCoreCommon6AtomicC",
+        "moduleName": "AgentifaiCoreCommon",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<A>",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreCommon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InternalUserProtocol",
+        "printedName": "InternalUserProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hashId",
+            "printedName": "hashId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP6hashIdSSvp",
+            "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP6hashIdSSvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP6hashIdSSvg",
+                "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP6hashIdSSvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.InternalUserProtocol>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.InternalUserProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP5tokenSSSgvp",
+            "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP5tokenSSSgvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP5tokenSSSgvg",
+                "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP5tokenSSSgvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.InternalUserProtocol>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.InternalUserProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authHeaders",
+            "printedName": "authHeaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP11authHeadersSDyS2SGvp",
+            "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP11authHeadersSDyS2SGvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP11authHeadersSDyS2SGvg",
+                "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP11authHeadersSDyS2SGvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.InternalUserProtocol>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.InternalUserProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAnonymous",
+            "printedName": "isAnonymous",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP11isAnonymousSbvp",
+            "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP11isAnonymousSbvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP11isAnonymousSbvg",
+                "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP11isAnonymousSbvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.InternalUserProtocol>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.InternalUserProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isOnboardingNeeded",
+            "printedName": "isOnboardingNeeded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP18isOnboardingNeededSbvp",
+            "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP18isOnboardingNeededSbvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP18isOnboardingNeededSbvg",
+                "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP18isOnboardingNeededSbvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.InternalUserProtocol>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.InternalUserProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isConsentToTermsAndConditionsNeeded",
+            "printedName": "isConsentToTermsAndConditionsNeeded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP35isConsentToTermsAndConditionsNeededSbvp",
+            "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP35isConsentToTermsAndConditionsNeededSbvp",
+            "moduleName": "AgentifaiCoreCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP35isConsentToTermsAndConditionsNeededSbvg",
+                "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP35isConsentToTermsAndConditionsNeededSbvg",
+                "moduleName": "AgentifaiCoreCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.InternalUserProtocol>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.InternalUserProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "equal",
+            "printedName": "equal(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InternalUserProtocol",
+                "printedName": "AgentifaiCoreCommon.InternalUserProtocol",
+                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolPAAE5equal2toSbAaB_p_tF",
+            "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolPAAE5equal2toSbAaB_p_tF",
+            "moduleName": "AgentifaiCoreCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreCommon.InternalUserProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreCommon.InternalUserProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP",
+        "mangledName": "$s19AgentifaiCoreCommon20InternalUserProtocolP",
+        "moduleName": "AgentifaiCoreCommon",
+        "genericSig": "<τ_0_0 : AgentifaiCoreCommon.User>",
+        "sugared_genericSig": "<Self : AgentifaiCoreCommon.User>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "User",
+            "printedName": "User",
+            "usr": "s:19AgentifaiCoreCommon4UserP",
+            "mangledName": "$s19AgentifaiCoreCommon4UserP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "searchContains",
+            "printedName": "searchContains(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS19AgentifaiCoreCommonE14searchContainsySbSSF",
+            "mangledName": "$sSS19AgentifaiCoreCommonE14searchContainsySbSSF",
+            "moduleName": "AgentifaiCoreCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 8734,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryEncoder.swift",
+      "kind": "Array",
+      "offset": 13449,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryEncoder.swift",
+      "kind": "Array",
+      "offset": 16741,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 38671,
+      "length": 29,
+      "value": "\"AgentifaiCoreCommon._DictionaryReferencingEncoder\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/EnvironmentConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 299,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Utils\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 209,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Utils\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Utils\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryCodingKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
+      "length": 7,
+      "value": "\"super\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryDecoder.swift",
+      "kind": "Dictionary",
+      "offset": 8371,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryDecoder.swift",
+      "kind": "Array",
+      "offset": 13029,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Mappers\/DictionaryCoder\/DictionaryDecoder.swift",
+      "kind": "Array",
+      "offset": 15343,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreCommon\/AgentifaiCoreCommon\/Models\/Concurrency\/Atomic.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 21,
+      "value": "\"Atomic serial queue\""
+    }
+  ]
+}
