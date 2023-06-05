@@ -11,6 +11,46 @@ return ErrorList;
 AgentifaiAssistantPluginModel.ErrorList = ErrorList;
 
 });
+define("AgentifaiAssistantPlugin.model$Mobile_OperatingSystemRecord", ["exports", "OutSystems/ClientRuntime/Main", "CommonPlugin.model", "AgentifaiAssistantPlugin.model", "CommonPlugin.model$Mobile_OperatingSystemRec", "AgentifaiAssistantPlugin.referencesHealth", "AgentifaiAssistantPlugin.referencesHealth$CommonPlugin"], function (exports, OutSystems, CommonPluginModel, AgentifaiAssistantPluginModel) {
+var OS = OutSystems.Internal;
+var Mobile_OperatingSystemRecord = (function (_super) {
+__extends(Mobile_OperatingSystemRecord, _super);
+function Mobile_OperatingSystemRecord(defaults) {
+_super.apply(this, arguments);
+}
+Mobile_OperatingSystemRecord.attributesToDeclare = function () {
+return [
+this.attr("Mobile_OperatingSystem", "mobile_OperatingSystemAttr", "Mobile_OperatingSystem", false, false, OS.Types.Record, function () {
+return OS.DataTypes.ImmutableBase.getData(new CommonPluginModel.Mobile_OperatingSystemRec());
+}, true, CommonPluginModel.Mobile_OperatingSystemRec)
+].concat(_super.attributesToDeclare.call(this));
+};
+Mobile_OperatingSystemRecord.fromStructure = function (str) {
+return new Mobile_OperatingSystemRecord(new Mobile_OperatingSystemRecord.RecordClass({
+mobile_OperatingSystemAttr: OS.DataTypes.ImmutableBase.getData(str)
+}));
+};
+Mobile_OperatingSystemRecord._isAnonymousRecord = true;
+Mobile_OperatingSystemRecord.UniqueId = "f56bdc75-0614-38d3-e901-3cdbe4073c38";
+Mobile_OperatingSystemRecord.init();
+return Mobile_OperatingSystemRecord;
+})(OS.DataTypes.GenericRecord);
+AgentifaiAssistantPluginModel.Mobile_OperatingSystemRecord = Mobile_OperatingSystemRecord;
+
+});
+define("AgentifaiAssistantPlugin.model$Mobile_OperatingSystemRecordList", ["exports", "OutSystems/ClientRuntime/Main", "AgentifaiAssistantPlugin.model", "AgentifaiAssistantPlugin.model$Mobile_OperatingSystemRecord"], function (exports, OutSystems, AgentifaiAssistantPluginModel) {
+var OS = OutSystems.Internal;
+var Mobile_OperatingSystemRecordList = (function (_super) {
+__extends(Mobile_OperatingSystemRecordList, _super);
+function Mobile_OperatingSystemRecordList(defaults) {
+_super.apply(this, arguments);
+}
+Mobile_OperatingSystemRecordList.itemType = AgentifaiAssistantPluginModel.Mobile_OperatingSystemRecord;
+return Mobile_OperatingSystemRecordList;
+})(OS.DataTypes.GenericRecordList);
+AgentifaiAssistantPluginModel.Mobile_OperatingSystemRecordList = Mobile_OperatingSystemRecordList;
+
+});
 define("AgentifaiAssistantPlugin.model$PluginLicenseRecord", ["exports", "OutSystems/ClientRuntime/Main", "CommonPlugin.model", "AgentifaiAssistantPlugin.model", "CommonPlugin.model$PluginLicenseRec", "AgentifaiAssistantPlugin.referencesHealth", "AgentifaiAssistantPlugin.referencesHealth$CommonPlugin"], function (exports, OutSystems, CommonPluginModel, AgentifaiAssistantPluginModel) {
 var OS = OutSystems.Internal;
 var PluginLicenseRecord = (function (_super) {
@@ -104,6 +144,19 @@ return PluginLicenseRecordList;
 AgentifaiAssistantPluginModel.PluginLicenseRecordList = PluginLicenseRecordList;
 
 });
+define("AgentifaiAssistantPlugin.model$Mobile_OperatingSystemList", ["exports", "OutSystems/ClientRuntime/Main", "CommonPlugin.model", "AgentifaiAssistantPlugin.model", "CommonPlugin.model$Mobile_OperatingSystemRec", "AgentifaiAssistantPlugin.referencesHealth", "AgentifaiAssistantPlugin.referencesHealth$CommonPlugin"], function (exports, OutSystems, CommonPluginModel, AgentifaiAssistantPluginModel) {
+var OS = OutSystems.Internal;
+var Mobile_OperatingSystemList = (function (_super) {
+__extends(Mobile_OperatingSystemList, _super);
+function Mobile_OperatingSystemList(defaults) {
+_super.apply(this, arguments);
+}
+Mobile_OperatingSystemList.itemType = CommonPluginModel.Mobile_OperatingSystemRec;
+return Mobile_OperatingSystemList;
+})(OS.DataTypes.GenericRecordList);
+AgentifaiAssistantPluginModel.Mobile_OperatingSystemList = Mobile_OperatingSystemList;
+
+});
 define("AgentifaiAssistantPlugin.model", ["exports", "OutSystems/ClientRuntime/Main"], function (exports, OutSystems) {
 var OS = OutSystems.Internal;
 var AgentifaiAssistantPluginModel = exports;
@@ -114,4 +167,32 @@ return OS.ApplicationInfo.getModules()["735e1c77-1f9e-41bc-baf4-d293324d3846"];
 });
 
 AgentifaiAssistantPluginModel.staticEntities = {};
+AgentifaiAssistantPluginModel.staticEntities.mobile_OperatingSystem = {};
+var getMobile_OperatingSystemRecord = function (record) {
+return OS.ApplicationInfo.getModules()["5b6515d9-f417-41d9-9c45-5dfc1a7b019f"].staticEntities["c1eb5dfb-b8c1-47fc-bc7d-1cd017f67311"][record];
+};
+Object.defineProperty(AgentifaiAssistantPluginModel.staticEntities.mobile_OperatingSystem, "android", {
+get: function () {
+return getMobile_OperatingSystemRecord("01edb2f7-0e57-4dc0-9509-92d0d28ebfe3");
+}
+});
+
+Object.defineProperty(AgentifaiAssistantPluginModel.staticEntities.mobile_OperatingSystem, "windows", {
+get: function () {
+return getMobile_OperatingSystemRecord("164b2bee-9204-44fd-99b7-4d8e15ea9c63");
+}
+});
+
+Object.defineProperty(AgentifaiAssistantPluginModel.staticEntities.mobile_OperatingSystem, "iOS", {
+get: function () {
+return getMobile_OperatingSystemRecord("91c837e3-89f4-4179-9b8c-c79a99090027");
+}
+});
+
+Object.defineProperty(AgentifaiAssistantPluginModel.staticEntities.mobile_OperatingSystem, "other", {
+get: function () {
+return getMobile_OperatingSystemRecord("e0264a53-735d-4dea-8647-b8bfe757d34b");
+}
+});
+
 });

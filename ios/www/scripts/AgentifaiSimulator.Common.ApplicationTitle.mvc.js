@@ -237,7 +237,7 @@ return controller.safeExecuteClientAction(controller._onClick$Action, callContex
 Controller.prototype.pushDebuggerContext = function (callContext) {
 var varBag = {};
 OutSystemsDebugger.push("OMivivUb40uhXdy2a9HVYw:0eZ+W3SSVk+CJcw1X48PQA:/NRWebFlows.0eZ+W3SSVk+CJcw1X48PQA:v2PEyf62LHVkKM1ctja0Kg", "AgentifaiSimulator", "Common", "NRFlows.WebFlow", callContext.id, varBag);
-OutSystemsDebugger.push("OMivivUb40uhXdy2a9HVYw:LitHYJcTmUWxRufKja0Gsw:/NRWebFlows.0eZ+W3SSVk+CJcw1X48PQA/NodesShownInESpaceTree.LitHYJcTmUWxRufKja0Gsw:MwCzs+sVwgjmxC_KQahG9g", "AgentifaiSimulator", "ApplicationTitle", "NRNodes.WebBlock", callContext.id, varBag);
+OutSystemsDebugger.push("OMivivUb40uhXdy2a9HVYw:LitHYJcTmUWxRufKja0Gsw:/NRWebFlows.0eZ+W3SSVk+CJcw1X48PQA/NodesShownInESpaceTree.LitHYJcTmUWxRufKja0Gsw:IRbzuuPbWtIZYaZUe3EpkA", "AgentifaiSimulator", "ApplicationTitle", "NRNodes.WebBlock", callContext.id, varBag);
 };
 Controller.prototype.popDebuggerContext = function (callContext) {
 OutSystemsDebugger.pop("OMivivUb40uhXdy2a9HVYw:LitHYJcTmUWxRufKja0Gsw", callContext.id);
