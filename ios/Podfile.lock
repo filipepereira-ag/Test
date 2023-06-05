@@ -1,0 +1,496 @@
+PODS:
+  - abseil/algorithm/algorithm (0.20200225.0):
+    - abseil/base/config
+  - abseil/base/atomic_hook (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/base (0.20200225.0):
+    - abseil/base/atomic_hook
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/log_severity
+    - abseil/base/raw_logging_internal
+    - abseil/base/spinlock_wait
+    - abseil/meta/type_traits
+  - abseil/base/base_internal (0.20200225.0):
+    - abseil/base/config
+    - abseil/meta/type_traits
+  - abseil/base/bits (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/config (0.20200225.0)
+  - abseil/base/core_headers (0.20200225.0):
+    - abseil/base/config
+  - abseil/base/dynamic_annotations (0.20200225.0)
+  - abseil/base/endian (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/errno_saver (0.20200225.0):
+    - abseil/base/config
+  - abseil/base/log_severity (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/raw_logging_internal (0.20200225.0):
+    - abseil/base/atomic_hook
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/log_severity
+  - abseil/base/spinlock_wait (0.20200225.0):
+    - abseil/base/base_internal
+    - abseil/base/core_headers
+    - abseil/base/errno_saver
+  - abseil/base/throw_delegate (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/container/compressed_tuple (0.20200225.0):
+    - abseil/utility/utility
+  - abseil/container/inlined_vector (0.20200225.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/base/throw_delegate
+    - abseil/container/inlined_vector_internal
+    - abseil/memory/memory
+  - abseil/container/inlined_vector_internal (0.20200225.0):
+    - abseil/base/core_headers
+    - abseil/container/compressed_tuple
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/types/span
+  - abseil/memory/memory (0.20200225.0):
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/meta/type_traits (0.20200225.0):
+    - abseil/base/config
+  - abseil/numeric/int128 (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/strings/internal (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/meta/type_traits
+  - abseil/strings/str_format (0.20200225.0):
+    - abseil/strings/str_format_internal
+  - abseil/strings/str_format_internal (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/numeric/int128
+    - abseil/strings/strings
+    - abseil/types/span
+  - abseil/strings/strings (0.20200225.0):
+    - abseil/base/base
+    - abseil/base/bits
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/base/throw_delegate
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/numeric/int128
+    - abseil/strings/internal
+  - abseil/types/bad_optional_access (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/types/optional (0.20200225.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/types/bad_optional_access
+    - abseil/utility/utility
+  - abseil/types/span (0.20200225.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/base/throw_delegate
+    - abseil/meta/type_traits
+  - abseil/utility/utility (0.20200225.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/meta/type_traits
+  - AgentifaiAssistant (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreCommon (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiCoreNetworking (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiCoreNotifications (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiCoreRealtime (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiCoreUI (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiCoreUserAuth (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiFeatureNotifications (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiFeatureSelector (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiFeatureWebView (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AgentifaiAssistant/AgentifaiSharedResources (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiCoreCommon (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiCoreNetworking (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Alamofire (~> 4.7)
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiCoreNotifications (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreCommon
+    - AgentifaiAssistant/AgentifaiCoreNetworking
+    - AgentifaiAssistant/AgentifaiCoreRealtime
+    - AgentifaiAssistant/AgentifaiCoreUserAuth
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiCoreRealtime (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreUserAuth
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - ReachabilitySwift (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - Socket.IO-Client-Swift (~> 16)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiCoreUI (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreCommon
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - lottie-ios (~> 2.5.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiCoreUserAuth (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreCommon
+    - AgentifaiAssistant/AgentifaiCoreNetworking
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - JWTDecode (~> 2.6)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiFeatureNotifications (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreNotifications
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiFeatureSelector (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreUI
+    - AgentifaiAssistant/AgentifaiSharedResources
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiFeatureWebView (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AgentifaiAssistant/AgentifaiCoreUI
+    - AgentifaiAssistant/AgentifaiSharedResources
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - AgentifaiAssistant/AgentifaiSharedResources (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - AnyCodable-FlightSchool (~> 0.2.3)
+    - MaterialComponents/TextFields (~> 84.0)
+    - MDFInternationalization (~> 2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.7.0)
+    - Toaster
+  - Alamofire (4.9.1)
+  - AnyCodable-FlightSchool (0.2.3)
+  - BoringSSL-GRPC (0.0.7):
+    - BoringSSL-GRPC/Implementation (= 0.0.7)
+    - BoringSSL-GRPC/Interface (= 0.0.7)
+  - BoringSSL-GRPC/Implementation (0.0.7):
+    - BoringSSL-GRPC/Interface (= 0.0.7)
+  - BoringSSL-GRPC/Interface (0.0.7)
+  - "FLEX (5.22.10+1.0.0)"
+  - gRPC-Core (1.28.2):
+    - gRPC-Core/Implementation (= 1.28.2)
+    - gRPC-Core/Interface (= 1.28.2)
+  - gRPC-Core/Implementation (1.28.2):
+    - abseil/container/inlined_vector (= 0.20200225.0)
+    - abseil/memory/memory (= 0.20200225.0)
+    - abseil/strings/str_format (= 0.20200225.0)
+    - abseil/strings/strings (= 0.20200225.0)
+    - abseil/types/optional (= 0.20200225.0)
+    - BoringSSL-GRPC (= 0.0.7)
+    - gRPC-Core/Interface (= 1.28.2)
+  - gRPC-Core/Interface (1.28.2)
+  - JWTDecode (2.6.3)
+  - lottie-ios (2.5.3)
+  - MaterialComponents/AnimationTiming (84.6.0)
+  - MaterialComponents/Palettes (84.6.0)
+  - MaterialComponents/private/Application (84.6.0)
+  - MaterialComponents/private/Math (84.6.0)
+  - MaterialComponents/TextFields (84.6.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (84.6.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MTSlideToOpen (1.5.1)
+  - PureeOS (2.0.1.OS7):
+    - YapDatabase (~> 4.0)
+  - ReachabilitySwift (5.0.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - SwiftGRPC-FirebaseFirestore-DependencyFix (0.10.1-df):
+    - gRPC-Core (<= 1.28.2, >= 1.21)
+    - SwiftProtobuf (~> 1.7.0)
+  - SwiftProtobuf (1.7.0)
+  - Swinject (2.7.1)
+  - Toaster (2.3.0)
+  - YapDatabase (4.0.1):
+    - YapDatabase/Standard (= 4.0.1)
+  - YapDatabase/Standard (4.0.1):
+    - YapDatabase/Standard/Core (= 4.0.1)
+    - YapDatabase/Standard/Extensions (= 4.0.1)
+  - YapDatabase/Standard-ObjC/Core (4.0.1)
+  - YapDatabase/Standard-ObjC/Extensions/ActionManager (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+    - YapDatabase/Standard-ObjC/Extensions/AutoView
+  - YapDatabase/Standard-ObjC/Extensions/AutoView (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+    - YapDatabase/Standard-ObjC/Extensions/View
+  - YapDatabase/Standard-ObjC/Extensions/CloudCore (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/CloudKit (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/CrossProcessNotification (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/FilteredView (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+    - YapDatabase/Standard-ObjC/Extensions/View
+  - YapDatabase/Standard-ObjC/Extensions/FullTextSearch (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/Hooks (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/ManualView (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+    - YapDatabase/Standard-ObjC/Extensions/View
+  - YapDatabase/Standard-ObjC/Extensions/Relationships (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/RTreeIndex (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/SearchResultsView (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+    - YapDatabase/Standard-ObjC/Extensions/AutoView
+    - YapDatabase/Standard-ObjC/Extensions/FullTextSearch
+  - YapDatabase/Standard-ObjC/Extensions/SecondaryIndex (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard-ObjC/Extensions/View (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard/Core (4.0.1):
+    - YapDatabase/Standard-ObjC/Core
+  - YapDatabase/Standard/Extensions (4.0.1):
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/ActionManager (= 4.0.1)
+    - YapDatabase/Standard/Extensions/AutoView (= 4.0.1)
+    - YapDatabase/Standard/Extensions/CloudCore (= 4.0.1)
+    - YapDatabase/Standard/Extensions/CloudKit (= 4.0.1)
+    - YapDatabase/Standard/Extensions/CrossProcessNotification (= 4.0.1)
+    - YapDatabase/Standard/Extensions/FilteredView (= 4.0.1)
+    - YapDatabase/Standard/Extensions/FullTextSearch (= 4.0.1)
+    - YapDatabase/Standard/Extensions/Hooks (= 4.0.1)
+    - YapDatabase/Standard/Extensions/ManualView (= 4.0.1)
+    - YapDatabase/Standard/Extensions/Relationships (= 4.0.1)
+    - YapDatabase/Standard/Extensions/RTreeIndex (= 4.0.1)
+    - YapDatabase/Standard/Extensions/SearchResultsView (= 4.0.1)
+    - YapDatabase/Standard/Extensions/SecondaryIndex (= 4.0.1)
+    - YapDatabase/Standard/Extensions/View (= 4.0.1)
+  - YapDatabase/Standard/Extensions/ActionManager (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/ActionManager
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/AutoView
+  - YapDatabase/Standard/Extensions/AutoView (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/AutoView
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/CloudCore (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/CloudCore
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/CloudKit (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/CloudKit
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/CrossProcessNotification (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/CrossProcessNotification
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/FilteredView (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/FilteredView
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/FullTextSearch (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/FullTextSearch
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/Hooks (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/Hooks
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/ManualView (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/ManualView
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/View
+  - YapDatabase/Standard/Extensions/Relationships (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/Relationships
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/RTreeIndex (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/RTreeIndex
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/SearchResultsView (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/SearchResultsView
+    - YapDatabase/Standard/Core
+    - YapDatabase/Standard/Extensions/AutoView
+    - YapDatabase/Standard/Extensions/FullTextSearch
+  - YapDatabase/Standard/Extensions/SecondaryIndex (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/SecondaryIndex
+    - YapDatabase/Standard/Core
+  - YapDatabase/Standard/Extensions/View (4.0.1):
+    - YapDatabase/Standard-ObjC/Extensions/View
+    - YapDatabase/Standard/Core
+
+DEPENDENCIES:
+  - "AgentifaiAssistant (from `https://filipepereira21:ATBBbQ2R3D4fxsxzXRsHwhWq8ddwE2872F21@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git`, tag `8.3.2-xcode14.2`)"
+  - "FLEX (from `https://github.com/OutSystems/FLEX/`, tag `5.22.10+1.0.0`)"
+  - PureeOS (from `https://github.com/OutSystems/puree-ios.git`, commit `2.0.1.OS7`)
+
+SPEC REPOS:
+  trunk:
+    - abseil
+    - Alamofire
+    - AnyCodable-FlightSchool
+    - BoringSSL-GRPC
+    - gRPC-Core
+    - JWTDecode
+    - lottie-ios
+    - MaterialComponents
+    - MDFInternationalization
+    - MTSlideToOpen
+    - ReachabilitySwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftGRPC-FirebaseFirestore-DependencyFix
+    - SwiftProtobuf
+    - Swinject
+    - Toaster
+    - YapDatabase
+
+EXTERNAL SOURCES:
+  AgentifaiAssistant:
+    :git: "https://filipepereira21:ATBBbQ2R3D4fxsxzXRsHwhWq8ddwE2872F21@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git"
+    :tag: 8.3.2-xcode14.2
+  FLEX:
+    :git: https://github.com/OutSystems/FLEX/
+    :tag: "5.22.10+1.0.0"
+  PureeOS:
+    :commit: 2.0.1.OS7
+    :git: https://github.com/OutSystems/puree-ios.git
+
+CHECKOUT OPTIONS:
+  AgentifaiAssistant:
+    :git: "https://filipepereira21:ATBBbQ2R3D4fxsxzXRsHwhWq8ddwE2872F21@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git"
+    :tag: 8.3.2-xcode14.2
+  FLEX:
+    :git: https://github.com/OutSystems/FLEX/
+    :tag: "5.22.10+1.0.0"
+  PureeOS:
+    :commit: 2.0.1.OS7
+    :git: https://github.com/OutSystems/puree-ios.git
+
+SPEC CHECKSUMS:
+  abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  AgentifaiAssistant: f95ffd3df4728f20251ee62a6da45812f35d28db
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AnyCodable-FlightSchool: cf53737f4bd1d9187cea453679734506e478fff3
+  BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
+  FLEX: 82afae2b62eb4912a1b9909d7d819b1a4757272a
+  gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
+  JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  MaterialComponents: 71139af6ca6875fbde8ab8e64a275b7fd6a22d7f
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MTSlideToOpen: dedc9abf1e377fef40544b84e5590d4981055030
+  PureeOS: a8b6aedb63f32495a6950c4cf60f51d1e750cd4b
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftGRPC-FirebaseFirestore-DependencyFix: 623fcb9196f6a134ec4deb36f80ba1e12cd0e601
+  SwiftProtobuf: 4fd9645e69b72cbae6ec8da5be0cdd20ca6565dd
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+  YapDatabase: 350ab72b61f9dcc32504594da1a52a93f5ef1476
+
+PODFILE CHECKSUM: a89b2036a5cd9f256e41fbd13d28df2a4befa27b
+
+COCOAPODS: 1.11.3
