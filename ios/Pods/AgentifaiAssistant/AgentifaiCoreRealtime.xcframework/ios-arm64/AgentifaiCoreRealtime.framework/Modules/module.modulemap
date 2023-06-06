@@ -1,0 +1,11 @@
+framework module AgentifaiCoreRealtime {
+  umbrella header "AgentifaiCoreRealtime.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiCoreRealtime.Swift {
+  header "AgentifaiCoreRealtime-Swift.h"
+  requires objc
+}
