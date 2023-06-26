@@ -1,0 +1,11 @@
+framework module AgentifaiSharedResources {
+  umbrella header "AgentifaiSharedResources-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiSharedResources.Swift {
+  header "AgentifaiSharedResources-Swift.h"
+  requires objc
+}

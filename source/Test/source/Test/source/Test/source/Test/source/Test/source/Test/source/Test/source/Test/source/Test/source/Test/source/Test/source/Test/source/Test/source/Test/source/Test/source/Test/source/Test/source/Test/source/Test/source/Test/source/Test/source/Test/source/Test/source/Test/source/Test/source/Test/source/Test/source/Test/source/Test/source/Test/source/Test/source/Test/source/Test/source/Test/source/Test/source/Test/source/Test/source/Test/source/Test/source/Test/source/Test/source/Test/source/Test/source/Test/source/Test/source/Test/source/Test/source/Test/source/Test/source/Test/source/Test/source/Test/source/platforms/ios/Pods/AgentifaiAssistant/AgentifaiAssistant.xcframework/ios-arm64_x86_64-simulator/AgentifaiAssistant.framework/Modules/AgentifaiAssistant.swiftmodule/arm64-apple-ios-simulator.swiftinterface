@@ -1,0 +1,167 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiAssistant
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AgentifaiCoreCommon
+import AgentifaiCoreNetworking
+import AgentifaiCoreNotifications
+import AgentifaiCoreRealtime
+import AgentifaiCoreUI
+import AgentifaiCoreUserAuth
+import AgentifaiFeatureNotifications
+import AgentifaiFeatureSelector
+import AgentifaiFeatureWebView
+import AgentifaiSharedResources
+import AnyCodable
+import CommonCrypto
+import Contacts
+import CoreFoundation
+import Darwin
+import Dispatch
+import Foundation
+import Lottie
+import MTSlideToOpen
+import MaterialComponents
+import MaterialComponents.MaterialTextFields
+import PDFKit
+import QuartzCore
+import RxCocoa
+import RxSwift
+import SocketIO
+import Swift
+import SwiftGRPC_FirebaseFirestore_DependencyFix
+import SwiftProtobuf
+import Swinject
+import Toaster
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+public protocol AgentifaiProtocol : AnyObject {
+  func request(id: Swift.String, data: [Swift.String : Any])
+  func agentifaiStatus(isOpened: Swift.Bool)
+}
+public class ClientApiConfigurations : Swift.Codable {
+  final public let url: Swift.String
+  final public let headers: [Swift.String : Swift.String]
+  public var endpoints: [AgentifaiAssistant.ApiEndpointConfiguration]
+  public init(url: Swift.String, headers: [Swift.String : Swift.String], endpoints: [AgentifaiAssistant.ApiEndpointConfiguration])
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public class ApiEndpointConfiguration : Swift.Codable {
+  final public let endpoint: Swift.String
+  final public let httpMethod: AgentifaiAssistant.HTTPMethod
+  final public let successWhitelist: [Swift.String]
+  final public let failureWhitelist: [Swift.String]
+  public init(endpoint: Swift.String, httpMethod: AgentifaiAssistant.HTTPMethod, successWhitelist: [Swift.String], failureWhitelist: [Swift.String])
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public class AgentifaiUser : AgentifaiCoreCommon.User {
+  final public let id: Swift.String
+  final public let name: Swift.String?
+  final public let token: Swift.String?
+  public init(id: Swift.String, name: Swift.String? = nil, token: Swift.String? = nil)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public class WidgetDimensions : Swift.Codable {
+  public enum VerticalAlignment : Swift.String, Swift.Codable {
+    case top
+    case bottom
+    case center
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum HorizontalAlignment : Swift.String, Swift.Codable {
+    case left
+    case right
+    case center
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  final public let verticalMargin: CoreFoundation.CGFloat
+  final public let horizontalMargin: CoreFoundation.CGFloat
+  final public let verticalAlignment: AgentifaiAssistant.WidgetDimensions.VerticalAlignment
+  final public let horizontalAlignment: AgentifaiAssistant.WidgetDimensions.HorizontalAlignment
+  final public let size: CoreFoundation.CGFloat?
+  public init(verticalAlignment: AgentifaiAssistant.WidgetDimensions.VerticalAlignment, horizontalAlignment: AgentifaiAssistant.WidgetDimensions.HorizontalAlignment, verticalMargin: CoreFoundation.CGFloat, horizontalMargin: CoreFoundation.CGFloat, size: CoreFoundation.CGFloat? = nil)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public enum ClientLocalSettingsError : AgentifaiCoreCommon.AgentifaiError {
+  case invalidSettings
+  case invalidFileVersion
+  case invalidDefaultTheme
+  case invalidThemeId
+  public static func == (a: AgentifaiAssistant.ClientLocalSettingsError, b: AgentifaiAssistant.ClientLocalSettingsError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension AgentifaiAssistant.ClientLocalSettingsError {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum HTTPMethod : Swift.String, Swift.Codable {
+  case get
+  case post
+  case put
+  case delete
+  case patch
+  case connect
+  case head
+  case options
+  case trace
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class HostAppResponse : Swift.Codable {
+  public init(requestId: Swift.String, success: Swift.Bool, data: [Swift.String : Any], nonAnonymizableRegexPaths: [Swift.String])
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Agentifai {
+  public static func initialize(apiUrl: Swift.String, apiKey: Swift.String, settings: [Swift.String : Any], delegate: AgentifaiAssistant.AgentifaiProtocol? = nil)
+  public static func setConfigurations(configurations: AgentifaiAssistant.ClientApiConfigurations)
+  public static func setWidgetVisibility(visible: Swift.Bool)
+  public static func setWidgetDimensions(dimensions: AgentifaiAssistant.WidgetDimensions)
+  public static func setTheme(theme: Swift.String)
+  public static func openApplication(intent: Swift.String? = nil)
+  public static func closeApplication()
+  public static func register(user: AgentifaiAssistant.AgentifaiUser, authHeaders: [Swift.String : Swift.String])
+  public static func unregisterUser()
+  public static func requestResult(response: AgentifaiAssistant.HostAppResponse)
+  public static func setDelegate(delegate: AgentifaiAssistant.AgentifaiProtocol)
+  public static func stop()
+  @objc deinit
+}
+extension AgentifaiAssistant.WidgetDimensions.VerticalAlignment : Swift.Equatable {}
+extension AgentifaiAssistant.WidgetDimensions.VerticalAlignment : Swift.Hashable {}
+extension AgentifaiAssistant.WidgetDimensions.VerticalAlignment : Swift.RawRepresentable {}
+extension AgentifaiAssistant.WidgetDimensions.HorizontalAlignment : Swift.Equatable {}
+extension AgentifaiAssistant.WidgetDimensions.HorizontalAlignment : Swift.Hashable {}
+extension AgentifaiAssistant.WidgetDimensions.HorizontalAlignment : Swift.RawRepresentable {}
+extension AgentifaiAssistant.ClientLocalSettingsError : Swift.Equatable {}
+extension AgentifaiAssistant.ClientLocalSettingsError : Swift.Hashable {}
+extension AgentifaiAssistant.HTTPMethod : Swift.Equatable {}
+extension AgentifaiAssistant.HTTPMethod : Swift.Hashable {}
+extension AgentifaiAssistant.HTTPMethod : Swift.RawRepresentable {}

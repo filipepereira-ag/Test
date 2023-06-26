@@ -1,0 +1,2090 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RestApiResponse",
+        "printedName": "RestApiResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC4bodyxvp",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC4bodyxvp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC4bodyxvg",
+                "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC4bodyxvg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Data>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC10statusCodeSivp",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC10statusCodeSivp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC10statusCodeSivg",
+                "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC10statusCodeSivg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Data>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC7headersSDyS2SGvp",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC7headersSDyS2SGvp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC7headersSDyS2SGvg",
+                "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC7headersSDyS2SGvg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Data>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFromCache",
+            "printedName": "isFromCache",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC11isFromCacheSbvp",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC11isFromCacheSbvp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC11isFromCacheSbvg",
+                "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC11isFromCacheSbvg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Data>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(body:statusCode:headers:isFromCache:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiResponse",
+                "printedName": "AgentifaiCoreNetworking.RestApiResponse<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC4body10statusCode7headers11isFromCacheACyxGx_SiSDyS2SGSbSgtcfc",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC4body10statusCode7headers11isFromCacheACyxGx_SiSDyS2SGSbSgtcfc",
+            "moduleName": "AgentifaiCoreNetworking",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Data>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC",
+        "mangledName": "$s23AgentifaiCoreNetworking15RestApiResponseC",
+        "moduleName": "AgentifaiCoreNetworking",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Data>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreNetworkingDI",
+        "printedName": "CoreNetworkingDI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Container",
+                "printedName": "Swinject.Container",
+                "usr": "s:8Swinject9ContainerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "mangledName": "$s23AgentifaiCoreNetworking0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "moduleName": "AgentifaiCoreNetworking",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(container:serviceName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Container",
+                "printedName": "Swinject.Container",
+                "usr": "s:8Swinject9ContainerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking0bC2DIC8register9container11serviceNamey8Swinject9ContainerC_SStFZ",
+            "mangledName": "$s23AgentifaiCoreNetworking0bC2DIC8register9container11serviceNamey8Swinject9ContainerC_SStFZ",
+            "moduleName": "AgentifaiCoreNetworking",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23AgentifaiCoreNetworking0bC2DIC",
+        "mangledName": "$s23AgentifaiCoreNetworking0bC2DIC",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RestApi",
+        "printedName": "RestApi",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configuration:cache:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RestApi",
+                "printedName": "AgentifaiCoreNetworking.RestApi",
+                "usr": "s:23AgentifaiCoreNetworking7RestApiC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionConfiguration",
+                "printedName": "Foundation.URLSessionConfiguration",
+                "usr": "c:objc(cs)NSURLSessionConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLCache",
+                "printedName": "Foundation.URLCache",
+                "usr": "c:objc(cs)NSURLCache"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23AgentifaiCoreNetworking7RestApiC13configuration5cacheACSo25NSURLSessionConfigurationC_So10NSURLCacheCtcfc",
+            "mangledName": "$s23AgentifaiCoreNetworking7RestApiC13configuration5cacheACSo25NSURLSessionConfigurationC_So10NSURLCacheCtcfc",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getBasicAuthHeaders",
+            "printedName": "getBasicAuthHeaders(user:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking7RestApiC19getBasicAuthHeaders4user8passwordSDyS2SGSS_SStF",
+            "mangledName": "$s23AgentifaiCoreNetworking7RestApiC19getBasicAuthHeaders4user8passwordSDyS2SGSS_SStF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBearerTokenHeaders",
+            "printedName": "getBearerTokenHeaders(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking7RestApiC21getBearerTokenHeaders5tokenSDyS2SGSS_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking7RestApiC21getBearerTokenHeaders5tokenSDyS2SGSS_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<Foundation.Data>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking7RestApiC4data7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCy10Foundation4DataVGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking7RestApiC4data7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCy10Foundation4DataVGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "json",
+            "printedName": "json(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<[Swift.String : Any]>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<[Swift.String : Any]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking7RestApiC4json7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySDySSypGGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking7RestApiC4json7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySDySSypGGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<Swift.String?>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<Swift.String?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking7RestApiC6string7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySSSgGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking7RestApiC6string7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySSSgGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23AgentifaiCoreNetworking7RestApiC",
+        "mangledName": "$s23AgentifaiCoreNetworking7RestApiC",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RestApiProtocol",
+            "printedName": "RestApiProtocol",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RestApiProtocol",
+        "printedName": "RestApiProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<Foundation.Data>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP4data7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCy10Foundation4DataVGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP4data7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCy10Foundation4DataVGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNetworking.RestApiProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNetworking.RestApiProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "json",
+            "printedName": "json(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<[Swift.String : Any]>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<[Swift.String : Any]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP4json7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySDySSypGGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP4json7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySDySSypGGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNetworking.RestApiProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNetworking.RestApiProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<Swift.String?>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<Swift.String?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP6string7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySSSgGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP6string7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySSSgGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNetworking.RestApiProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNetworking.RestApiProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBasicAuthHeaders",
+            "printedName": "getBasicAuthHeaders(user:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP19getBasicAuthHeaders4user8passwordSDyS2SGSS_SStF",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP19getBasicAuthHeaders4user8passwordSDyS2SGSS_SStF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNetworking.RestApiProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNetworking.RestApiProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBearerTokenHeaders",
+            "printedName": "getBearerTokenHeaders(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP21getBearerTokenHeaders5tokenSDyS2SGSS_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP21getBearerTokenHeaders5tokenSDyS2SGSS_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNetworking.RestApiProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNetworking.RestApiProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP",
+        "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RestApiErrorResponse",
+        "printedName": "RestApiErrorResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC10statusCodeSivp",
+            "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC10statusCodeSivp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC10statusCodeSivg",
+                "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC10statusCodeSivg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC7headersSDyS2SGvp",
+            "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC7headersSDyS2SGvp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC7headersSDyS2SGvg",
+                "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC7headersSDyS2SGvg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC5errors0F0_pvp",
+            "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC5errors0F0_pvp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC5errors0F0_pvg",
+                "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC5errors0F0_pvg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC4body10Foundation4DataVSgvp",
+            "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC4body10Foundation4DataVSgvp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC4body10Foundation4DataVSgvg",
+                "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC4body10Foundation4DataVSgvg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(statusCode:headers:error:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiErrorResponse",
+                "printedName": "AgentifaiCoreNetworking.RestApiErrorResponse",
+                "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC10statusCode7headers5error4bodyACSi_SDyS2SGs0F0_p10Foundation4DataVSgtcfc",
+            "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC10statusCode7headers5error4bodyACSi_SDyS2SGs0F0_p10Foundation4DataVSgtcfc",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23AgentifaiCoreNetworking20RestApiErrorResponseC",
+        "mangledName": "$s23AgentifaiCoreNetworking20RestApiErrorResponseC",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RestApiRequest",
+        "printedName": "RestApiRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:method:parameters:headers:body:timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HttpMethod",
+                "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC3url6method10parameters7headers4body7timeoutACSS_AA10HttpMethodOSDySSypGSgSDyS2SGSgAMSdSgtcfc",
+            "mangledName": "$s23AgentifaiCoreNetworking14RestApiRequestC3url6method10parameters7headers4body7timeoutACSS_AA10HttpMethodOSDySSypGSgSDyS2SGSgAMSdSgtcfc",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC",
+        "mangledName": "$s23AgentifaiCoreNetworking14RestApiRequestC",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpMethod",
+        "printedName": "HttpMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO3getyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO3getyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO4postyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO4postyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO3putyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO3putyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO6deleteyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO6deleteyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO5patchyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO5patchyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "connect",
+            "printedName": "connect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO7connectyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO7connectyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "head",
+            "printedName": "head",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO4headyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO4headyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO7optionsyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO7optionsyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "trace",
+            "printedName": "trace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNetworking.HttpMethod.Type) -> AgentifaiCoreNetworking.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                    "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNetworking.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO5traceyA2CmF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO5traceyA2CmF",
+            "moduleName": "AgentifaiCoreNetworking"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HttpMethod",
+                "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HttpMethod",
+                "printedName": "AgentifaiCoreNetworking.HttpMethod",
+                "usr": "s:23AgentifaiCoreNetworking10HttpMethodO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO2eeoiySbAC_ACtFZ",
+            "moduleName": "AgentifaiCoreNetworking",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO9hashValueSivp",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO9hashValueSivp",
+            "moduleName": "AgentifaiCoreNetworking",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AgentifaiCoreNetworking10HttpMethodO9hashValueSivg",
+                "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO9hashValueSivg",
+                "moduleName": "AgentifaiCoreNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking10HttpMethodO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO4hash4intoys6HasherVz_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23AgentifaiCoreNetworking10HttpMethodO",
+        "mangledName": "$s23AgentifaiCoreNetworking10HttpMethodO",
+        "moduleName": "AgentifaiCoreNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNetworking\/AgentifaiCoreNetworking\/Networking\/Response\/RestApiResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNetworking\/AgentifaiCoreNetworking\/Networking\/RestApi.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6020,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

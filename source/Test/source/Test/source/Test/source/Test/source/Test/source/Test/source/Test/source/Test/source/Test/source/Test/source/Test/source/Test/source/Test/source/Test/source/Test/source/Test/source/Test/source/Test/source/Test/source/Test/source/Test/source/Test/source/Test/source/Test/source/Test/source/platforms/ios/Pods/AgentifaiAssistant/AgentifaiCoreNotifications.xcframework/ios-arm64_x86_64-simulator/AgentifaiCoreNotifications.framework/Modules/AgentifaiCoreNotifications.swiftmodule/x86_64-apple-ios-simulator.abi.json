@@ -1,0 +1,4692 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationContent",
+        "printedName": "NotificationContent",
+        "declKind": "Protocol",
+        "usr": "s:26AgentifaiCoreNotifications19NotificationContentP",
+        "mangledName": "$s26AgentifaiCoreNotifications19NotificationContentP",
+        "moduleName": "AgentifaiCoreNotifications",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationStatus",
+        "printedName": "NotificationStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "read",
+            "printedName": "read",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNotifications.NotificationStatus.Type) -> AgentifaiCoreNotifications.NotificationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationStatus",
+                        "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                        "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO4readyA2CmF",
+            "mangledName": "$s26AgentifaiCoreNotifications18NotificationStatusO4readyA2CmF",
+            "moduleName": "AgentifaiCoreNotifications"
+          },
+          {
+            "kind": "Var",
+            "name": "partialRead",
+            "printedName": "partialRead",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNotifications.NotificationStatus.Type) -> AgentifaiCoreNotifications.NotificationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationStatus",
+                        "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                        "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO11partialReadyA2CmF",
+            "mangledName": "$s26AgentifaiCoreNotifications18NotificationStatusO11partialReadyA2CmF",
+            "moduleName": "AgentifaiCoreNotifications"
+          },
+          {
+            "kind": "Var",
+            "name": "unread",
+            "printedName": "unread",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNotifications.NotificationStatus.Type) -> AgentifaiCoreNotifications.NotificationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationStatus",
+                        "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                        "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO6unreadyA2CmF",
+            "mangledName": "$s26AgentifaiCoreNotifications18NotificationStatusO6unreadyA2CmF",
+            "moduleName": "AgentifaiCoreNotifications"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiCoreNotifications.NotificationStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications18NotificationStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO8rawValueSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications18NotificationStatusO8rawValueSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO8rawValueSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications18NotificationStatusO8rawValueSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO",
+        "mangledName": "$s26AgentifaiCoreNotifications18NotificationStatusO",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationContentType",
+        "printedName": "NotificationContentType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "urlInfo",
+            "printedName": "urlInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNotifications.NotificationContentType.Type) -> AgentifaiCoreNotifications.NotificationContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContentType",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                    "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationContentType",
+                        "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                        "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO7urlInfoyA2CmF",
+            "mangledName": "$s26AgentifaiCoreNotifications23NotificationContentTypeO7urlInfoyA2CmF",
+            "moduleName": "AgentifaiCoreNotifications"
+          },
+          {
+            "kind": "Var",
+            "name": "flowAction",
+            "printedName": "flowAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNotifications.NotificationContentType.Type) -> AgentifaiCoreNotifications.NotificationContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContentType",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                    "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationContentType",
+                        "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                        "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO10flowActionyA2CmF",
+            "mangledName": "$s26AgentifaiCoreNotifications23NotificationContentTypeO10flowActionyA2CmF",
+            "moduleName": "AgentifaiCoreNotifications"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiCoreNotifications.NotificationContentType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContentType",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                    "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications23NotificationContentTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO8rawValueSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications23NotificationContentTypeO8rawValueSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO8rawValueSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications23NotificationContentTypeO8rawValueSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO",
+        "mangledName": "$s26AgentifaiCoreNotifications23NotificationContentTypeO",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationRepositoryConfiguration",
+        "printedName": "NotificationRepositoryConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseUrl:socketPath:notificationsPath:notificationPath:updateStatusPath:countPath:notificationEvent:notificationsTotalUnread:healthEvent:serverEvent:tokenValidityFactor:pingTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationRepositoryConfiguration",
+                "printedName": "AgentifaiCoreNotifications.NotificationRepositoryConfiguration",
+                "usr": "s:26AgentifaiCoreNotifications35NotificationRepositoryConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications35NotificationRepositoryConfigurationC7baseUrl10socketPath013notificationsJ0012notificationJ0012updateStatusJ005countJ00L5Event0K11TotalUnread06healthP006serverP019tokenValidityFactor8pingTimeACSS_S9SS2dtcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications35NotificationRepositoryConfigurationC7baseUrl10socketPath013notificationsJ0012notificationJ0012updateStatusJ005countJ00L5Event0K11TotalUnread06healthP006serverP019tokenValidityFactor8pingTimeACSS_S9SS2dtcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications35NotificationRepositoryConfigurationC",
+        "mangledName": "$s26AgentifaiCoreNotifications35NotificationRepositoryConfigurationC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreNetworking",
+        "printedName": "AgentifaiCoreNetworking",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUserAuth",
+        "printedName": "AgentifaiCoreUserAuth",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreRealtime",
+        "printedName": "AgentifaiCoreRealtime",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreCommon",
+        "printedName": "AgentifaiCoreCommon",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreNotificationsDI",
+        "printedName": "CoreNotificationsDI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Container",
+                "printedName": "Swinject.Container",
+                "usr": "s:8Swinject9ContainerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "mangledName": "$s26AgentifaiCoreNotifications0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "moduleName": "AgentifaiCoreNotifications",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications0bC2DIC",
+        "mangledName": "$s26AgentifaiCoreNotifications0bC2DIC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationPayload",
+        "printedName": "NotificationPayload",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Content",
+            "printedName": "Content",
+            "declKind": "AssociatedType",
+            "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP7ContentQa",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP7ContentQa",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP4textSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP4textSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP4textSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP4textSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationPayload>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationPayload>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP5titleSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP5titleSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP5titleSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP5titleSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationPayload>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationPayload>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "content",
+            "printedName": "content",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Content"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP7content7ContentQzvp",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP7content7ContentQzvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Content"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP7content7ContentQzvg",
+                "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP7content7ContentQzvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationPayload>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationPayload>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationContentType",
+                "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP11contentTypeAA0d7ContentG0Ovp",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP11contentTypeAA0d7ContentG0Ovp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContentType",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                    "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP11contentTypeAA0d7ContentG0Ovg",
+                "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP11contentTypeAA0d7ContentG0Ovg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationPayload>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationPayload>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP",
+        "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP",
+        "moduleName": "AgentifaiCoreNotifications",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0.Content : AgentifaiCoreNotifications.NotificationContent>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable, Self.Content : AgentifaiCoreNotifications.NotificationContent>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlowActionNotificationContent",
+        "printedName": "FlowActionNotificationContent",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Status",
+            "printedName": "Status",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "pending",
+                "printedName": "pending",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AgentifaiCoreNotifications.FlowActionNotificationContent.Status.Type) -> AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                        "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO7pendingyA2EmF",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO7pendingyA2EmF",
+                "moduleName": "AgentifaiCoreNotifications"
+              },
+              {
+                "kind": "Var",
+                "name": "done",
+                "printedName": "done",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AgentifaiCoreNotifications.FlowActionNotificationContent.Status.Type) -> AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                        "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO4doneyA2EmF",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO4doneyA2EmF",
+                "moduleName": "AgentifaiCoreNotifications"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                        "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO8rawValueAESgSS_tcfc",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO8rawValueAESgSS_tcfc",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO8rawValueSSvp",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO8rawValueSSvp",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO8rawValueSSvg",
+                    "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO8rawValueSSvg",
+                    "moduleName": "AgentifaiCoreNotifications",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionText",
+            "printedName": "actionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC10actionTextSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC10actionTextSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC10actionTextSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC10actionTextSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionStatus",
+            "printedName": "actionStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC12actionStatusAC0I0Ovp",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC12actionStatusAC0I0Ovp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Status",
+                    "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                    "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC12actionStatusAC0I0Ovg",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC12actionStatusAC0I0Ovg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionDoneText",
+            "printedName": "actionDoneText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC14actionDoneTextSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC14actionDoneTextSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC14actionDoneTextSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC14actionDoneTextSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(actionText:actionStatus:actionDoneText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent.Status",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6StatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC10actionText0H6Status0h4DoneI0ACSS_AC0J0OSStcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC10actionText0H6Status0h4DoneI0ACSS_AC0J0OSStcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC",
+        "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationContentC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NotificationContent",
+            "printedName": "NotificationContent",
+            "usr": "s:26AgentifaiCoreNotifications19NotificationContentP",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationRequestParameters",
+        "printedName": "NotificationRequestParameters",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Sort",
+            "printedName": "Sort",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "date",
+                "printedName": "date",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AgentifaiCoreNotifications.NotificationRequestParameters.Sort.Type) -> AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sort",
+                        "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                        "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Sort",
+                            "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                            "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO4dateyA2EmF",
+                "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO4dateyA2EmF",
+                "moduleName": "AgentifaiCoreNotifications"
+              },
+              {
+                "kind": "Var",
+                "name": "priority",
+                "printedName": "priority",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AgentifaiCoreNotifications.NotificationRequestParameters.Sort.Type) -> AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sort",
+                        "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                        "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Sort",
+                            "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                            "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8priorityyA2EmF",
+                "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8priorityyA2EmF",
+                "moduleName": "AgentifaiCoreNotifications"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sort",
+                        "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                        "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8rawValueAESgSS_tcfc",
+                "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8rawValueAESgSS_tcfc",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8rawValueSSvp",
+                "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8rawValueSSvp",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8rawValueSSvg",
+                    "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO8rawValueSSvg",
+                    "moduleName": "AgentifaiCoreNotifications",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO",
+            "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(page:limit:notificationStatus:sort:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationRequestParameters",
+                "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AgentifaiCoreNotifications.NotificationStatus]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sort",
+                    "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters.Sort",
+                    "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4SortO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC4page5limit18notificationStatus4sortACSiSg_AHSayAA0dJ0OGAC4SortOSgtcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC4page5limit18notificationStatus4sortACSiSg_AHSayAA0dJ0OGAC4SortOSgtcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC",
+        "mangledName": "$s26AgentifaiCoreNotifications29NotificationRequestParametersC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Notification",
+        "printedName": "Notification",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Payload",
+            "printedName": "Payload",
+            "declKind": "AssociatedType",
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP7PayloadQa",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP7PayloadQa",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP2idSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP2idSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications12NotificationP2idSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications12NotificationP2idSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.Notification>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.Notification>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "triggerDate",
+            "printedName": "triggerDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP11triggerDate10Foundation0F0Vvp",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP11triggerDate10Foundation0F0Vvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications12NotificationP11triggerDate10Foundation0F0Vvg",
+                "mangledName": "$s26AgentifaiCoreNotifications12NotificationP11triggerDate10Foundation0F0Vvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.Notification>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.Notification>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "priority",
+            "printedName": "priority",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP8prioritySivp",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP8prioritySivp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications12NotificationP8prioritySivg",
+                "mangledName": "$s26AgentifaiCoreNotifications12NotificationP8prioritySivg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.Notification>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.Notification>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attentionLevel",
+            "printedName": "attentionLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationAttentionLevel",
+                "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP14attentionLevelAA0d9AttentionF0Ovp",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP14attentionLevelAA0d9AttentionF0Ovp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAttentionLevel",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                    "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications12NotificationP14attentionLevelAA0d9AttentionF0Ovg",
+                "mangledName": "$s26AgentifaiCoreNotifications12NotificationP14attentionLevelAA0d9AttentionF0Ovg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.Notification>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.Notification>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Payload"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP7payload7PayloadQzvp",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP7payload7PayloadQzvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Payload"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications12NotificationP7payload7PayloadQzvg",
+                "mangledName": "$s26AgentifaiCoreNotifications12NotificationP7payload7PayloadQzvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.Notification>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.Notification>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationStatus",
+                "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP6statusAA0D6StatusOvp",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP6statusAA0D6StatusOvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications12NotificationP6statusAA0D6StatusOvg",
+                "mangledName": "$s26AgentifaiCoreNotifications12NotificationP6statusAA0D6StatusOvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.Notification>",
+                "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.Notification>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:26AgentifaiCoreNotifications12NotificationP",
+        "mangledName": "$s26AgentifaiCoreNotifications12NotificationP",
+        "moduleName": "AgentifaiCoreNotifications",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0.Payload : AgentifaiCoreNotifications.NotificationPayload>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable, Self.Payload : AgentifaiCoreNotifications.NotificationPayload>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreCommon",
+        "printedName": "AgentifaiCoreCommon",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UrlInfoNotification",
+        "printedName": "UrlInfoNotification",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC2idSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC2idSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC2idSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC2idSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "triggerDate",
+            "printedName": "triggerDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC11triggerDate10Foundation0H0Vvp",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC11triggerDate10Foundation0H0Vvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC11triggerDate10Foundation0H0Vvg",
+                "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC11triggerDate10Foundation0H0Vvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "priority",
+            "printedName": "priority",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC8prioritySivp",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC8prioritySivp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC8prioritySivg",
+                "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC8prioritySivg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attentionLevel",
+            "printedName": "attentionLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationAttentionLevel",
+                "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC14attentionLevelAA0f9AttentionH0Ovp",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC14attentionLevelAA0f9AttentionH0Ovp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAttentionLevel",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                    "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC14attentionLevelAA0f9AttentionH0Ovg",
+                "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC14attentionLevelAA0f9AttentionH0Ovg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC7payloadAA0deF7PayloadCvp",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC7payloadAA0deF7PayloadCvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UrlInfoNotificationPayload",
+                    "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationPayload",
+                    "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC7payloadAA0deF7PayloadCvg",
+                "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC7payloadAA0deF7PayloadCvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationStatus",
+                "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC6statusAA0F6StatusOvp",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC6statusAA0F6StatusOvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC6statusAA0F6StatusOvg",
+                "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC6statusAA0F6StatusOvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:triggerDate:priority:attentionLevel:payload:status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotification",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotification",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationAttentionLevel",
+                "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationStatus",
+                "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC2id11triggerDate8priority14attentionLevel7payload6statusACSS_10Foundation0I0VSiAA0f9AttentionL0OAA0deF7PayloadCAA0F6StatusOtcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC2id11triggerDate8priority14attentionLevel7payload6statusACSS_10Foundation0I0VSiAA0f9AttentionL0OAA0deF7PayloadCAA0F6StatusOtcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotification",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotification",
+                "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications19UrlInfoNotificationC",
+        "mangledName": "$s26AgentifaiCoreNotifications19UrlInfoNotificationC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Notification",
+            "printedName": "Notification",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Payload",
+                "printedName": "Payload",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UrlInfoNotificationPayload",
+                    "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationPayload",
+                    "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreNetworking",
+        "printedName": "AgentifaiCoreNetworking",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUserAuth",
+        "printedName": "AgentifaiCoreUserAuth",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreRealtime",
+        "printedName": "AgentifaiCoreRealtime",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreCommon",
+        "printedName": "AgentifaiCoreCommon",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationsRepository",
+        "printedName": "NotificationsRepository",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRealtimeTotal",
+            "printedName": "getRealtimeTotal(parameters:skipMissedEvents:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationRequestParameters",
+                "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications0C10RepositoryP16getRealtimeTotal10parameters16skipMissedEvents7RxSwift10ObservableCySiGAA29NotificationRequestParametersC_SbtF",
+            "mangledName": "$s26AgentifaiCoreNotifications0C10RepositoryP16getRealtimeTotal10parameters16skipMissedEvents7RxSwift10ObservableCySiGAA29NotificationRequestParametersC_SbtF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationsRepository>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationsRepository>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTotal",
+            "printedName": "getTotal(parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationRequestParameters",
+                "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications0C10RepositoryP8getTotal10parameters7RxSwift17PrimitiveSequenceVyAF11SingleTraitOSiGAA29NotificationRequestParametersC_tF",
+            "mangledName": "$s26AgentifaiCoreNotifications0C10RepositoryP8getTotal10parameters7RxSwift17PrimitiveSequenceVyAF11SingleTraitOSiGAA29NotificationRequestParametersC_tF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationsRepository>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationsRepository>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRealtimeNotifications",
+            "printedName": "getRealtimeNotifications(parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<[AgentifaiCoreNotifications.Notification]>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AgentifaiCoreNotifications.Notification]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Notification",
+                        "printedName": "AgentifaiCoreNotifications.Notification",
+                        "usr": "s:26AgentifaiCoreNotifications12NotificationP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationRequestParameters",
+                "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications0C10RepositoryP011getRealtimeC010parameters7RxSwift10ObservableCySayAA12Notification_pGGAA0K17RequestParametersC_tF",
+            "mangledName": "$s26AgentifaiCoreNotifications0C10RepositoryP011getRealtimeC010parameters7RxSwift10ObservableCySayAA12Notification_pGGAA0K17RequestParametersC_tF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationsRepository>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationsRepository>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNotifications",
+            "printedName": "getNotifications(parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, [AgentifaiCoreNotifications.Notification]>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AgentifaiCoreNotifications.Notification]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Notification",
+                        "printedName": "AgentifaiCoreNotifications.Notification",
+                        "usr": "s:26AgentifaiCoreNotifications12NotificationP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationRequestParameters",
+                "printedName": "AgentifaiCoreNotifications.NotificationRequestParameters",
+                "usr": "s:26AgentifaiCoreNotifications29NotificationRequestParametersC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications0C10RepositoryP03getC010parameters7RxSwift17PrimitiveSequenceVyAF11SingleTraitOSayAA12Notification_pGGAA0M17RequestParametersC_tF",
+            "mangledName": "$s26AgentifaiCoreNotifications0C10RepositoryP03getC010parameters7RxSwift17PrimitiveSequenceVyAF11SingleTraitOSayAA12Notification_pGGAA0M17RequestParametersC_tF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationsRepository>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationsRepository>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateNotificationStatus",
+            "printedName": "updateNotificationStatus(id:status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.CompletableTrait, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CompletableTrait",
+                    "printedName": "RxSwift.CompletableTrait",
+                    "usr": "s:7RxSwift16CompletableTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationStatus",
+                "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications0C10RepositoryP24updateNotificationStatus2id6status7RxSwift17PrimitiveSequenceVyAG16CompletableTraitOs5NeverOGSS_AA0fG0OtF",
+            "mangledName": "$s26AgentifaiCoreNotifications0C10RepositoryP24updateNotificationStatus2id6status7RxSwift17PrimitiveSequenceVyAG16CompletableTraitOs5NeverOGSS_AA0fG0OtF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNotifications.NotificationsRepository>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNotifications.NotificationsRepository>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:26AgentifaiCoreNotifications0C10RepositoryP",
+        "mangledName": "$s26AgentifaiCoreNotifications0C10RepositoryP",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreCommon",
+        "printedName": "AgentifaiCoreCommon",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlowActionNotification",
+        "printedName": "FlowActionNotification",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC2idSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC2idSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC2idSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC2idSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "triggerDate",
+            "printedName": "triggerDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC11triggerDate10Foundation0H0Vvp",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC11triggerDate10Foundation0H0Vvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC11triggerDate10Foundation0H0Vvg",
+                "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC11triggerDate10Foundation0H0Vvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "priority",
+            "printedName": "priority",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC8prioritySivp",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC8prioritySivp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC8prioritySivg",
+                "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC8prioritySivg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attentionLevel",
+            "printedName": "attentionLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationAttentionLevel",
+                "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC14attentionLevelAA0f9AttentionH0Ovp",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC14attentionLevelAA0f9AttentionH0Ovp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAttentionLevel",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                    "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC14attentionLevelAA0f9AttentionH0Ovg",
+                "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC14attentionLevelAA0f9AttentionH0Ovg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC7payloadAA0deF7PayloadCvp",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC7payloadAA0deF7PayloadCvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlowActionNotificationPayload",
+                    "printedName": "AgentifaiCoreNotifications.FlowActionNotificationPayload",
+                    "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC7payloadAA0deF7PayloadCvg",
+                "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC7payloadAA0deF7PayloadCvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationStatus",
+                "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC6statusAA0F6StatusOvp",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC6statusAA0F6StatusOvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationStatus",
+                    "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                    "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC6statusAA0F6StatusOvg",
+                "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC6statusAA0F6StatusOvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:triggerDate:priority:attentionLevel:payload:status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotification",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotification",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationAttentionLevel",
+                "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationStatus",
+                "printedName": "AgentifaiCoreNotifications.NotificationStatus",
+                "usr": "s:26AgentifaiCoreNotifications18NotificationStatusO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC2id11triggerDate8priority14attentionLevel7payload6statusACSS_10Foundation0I0VSiAA0f9AttentionL0OAA0deF7PayloadCAA0F6StatusOtcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC2id11triggerDate8priority14attentionLevel7payload6statusACSS_10Foundation0I0VSiAA0f9AttentionL0OAA0deF7PayloadCAA0F6StatusOtcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotification",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotification",
+                "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications22FlowActionNotificationC",
+        "mangledName": "$s26AgentifaiCoreNotifications22FlowActionNotificationC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Notification",
+            "printedName": "Notification",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Payload",
+                "printedName": "Payload",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlowActionNotificationPayload",
+                    "printedName": "AgentifaiCoreNotifications.FlowActionNotificationPayload",
+                    "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:26AgentifaiCoreNotifications12NotificationP",
+            "mangledName": "$s26AgentifaiCoreNotifications12NotificationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationAttentionLevel",
+        "printedName": "NotificationAttentionLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNotifications.NotificationAttentionLevel.Type) -> AgentifaiCoreNotifications.NotificationAttentionLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAttentionLevel",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                    "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationAttentionLevel",
+                        "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                        "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO4infoyA2CmF",
+            "mangledName": "$s26AgentifaiCoreNotifications26NotificationAttentionLevelO4infoyA2CmF",
+            "moduleName": "AgentifaiCoreNotifications"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiCoreNotifications.NotificationAttentionLevel.Type) -> AgentifaiCoreNotifications.NotificationAttentionLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAttentionLevel",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                    "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificationAttentionLevel",
+                        "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                        "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO7warningyA2CmF",
+            "mangledName": "$s26AgentifaiCoreNotifications26NotificationAttentionLevelO7warningyA2CmF",
+            "moduleName": "AgentifaiCoreNotifications"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationAttentionLevel",
+                    "printedName": "AgentifaiCoreNotifications.NotificationAttentionLevel",
+                    "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO8rawValueACSgSS_tcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications26NotificationAttentionLevelO8rawValueACSgSS_tcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO8rawValueSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications26NotificationAttentionLevelO8rawValueSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO8rawValueSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications26NotificationAttentionLevelO8rawValueSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:26AgentifaiCoreNotifications26NotificationAttentionLevelO",
+        "mangledName": "$s26AgentifaiCoreNotifications26NotificationAttentionLevelO",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlowActionNotificationPayload",
+        "printedName": "FlowActionNotificationPayload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4textSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4textSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4textSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4textSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC5titleSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC5titleSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC5titleSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC5titleSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "content",
+            "printedName": "content",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC7contentAA0deF7ContentCvp",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC7contentAA0deF7ContentCvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlowActionNotificationContent",
+                    "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent",
+                    "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC7contentAA0deF7ContentCvg",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC7contentAA0deF7ContentCvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationContentType",
+                "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC11contentTypeAA0f7ContentI0Ovp",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC11contentTypeAA0f7ContentI0Ovp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContentType",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                    "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC11contentTypeAA0f7ContentI0Ovg",
+                "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC11contentTypeAA0f7ContentI0Ovg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:title:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4text5title7contentACSS_SSAA0deF7ContentCtcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4text5title7contentACSS_SSAA0deF7ContentCtcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlowActionNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.FlowActionNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationPayloadC",
+        "mangledName": "$s26AgentifaiCoreNotifications29FlowActionNotificationPayloadC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NotificationPayload",
+            "printedName": "NotificationPayload",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Content",
+                "printedName": "Content",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlowActionNotificationContent",
+                    "printedName": "AgentifaiCoreNotifications.FlowActionNotificationContent",
+                    "usr": "s:26AgentifaiCoreNotifications29FlowActionNotificationContentC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UrlInfoNotificationContent",
+        "printedName": "UrlInfoNotificationContent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "linkText",
+            "printedName": "linkText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC8linkTextSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC8linkTextSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC8linkTextSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC8linkTextSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC3urlSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC3urlSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC3urlSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC3urlSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(linkText:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC8linkText3urlACSS_SStcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC8linkText3urlACSS_SStcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC",
+        "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationContentC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NotificationContent",
+            "printedName": "NotificationContent",
+            "usr": "s:26AgentifaiCoreNotifications19NotificationContentP",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UrlInfoNotificationPayload",
+        "printedName": "UrlInfoNotificationPayload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4textSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4textSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4textSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4textSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC5titleSSvp",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC5titleSSvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC5titleSSvg",
+                "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC5titleSSvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "content",
+            "printedName": "content",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC7contentAA0deF7ContentCvp",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC7contentAA0deF7ContentCvp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UrlInfoNotificationContent",
+                    "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationContent",
+                    "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC7contentAA0deF7ContentCvg",
+                "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC7contentAA0deF7ContentCvg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationContentType",
+                "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC11contentTypeAA0f7ContentI0Ovp",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC11contentTypeAA0f7ContentI0Ovp",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContentType",
+                    "printedName": "AgentifaiCoreNotifications.NotificationContentType",
+                    "usr": "s:26AgentifaiCoreNotifications23NotificationContentTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC11contentTypeAA0f7ContentI0Ovg",
+                "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC11contentTypeAA0f7ContentI0Ovg",
+                "moduleName": "AgentifaiCoreNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:title:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationContent",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationContent",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4text5title7contentACSS_SSAA0deF7ContentCtcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4text5title7contentACSS_SSAA0deF7ContentCtcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlInfoNotificationPayload",
+                "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationPayload",
+                "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiCoreNotifications",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC",
+        "mangledName": "$s26AgentifaiCoreNotifications26UrlInfoNotificationPayloadC",
+        "moduleName": "AgentifaiCoreNotifications",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NotificationPayload",
+            "printedName": "NotificationPayload",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Content",
+                "printedName": "Content",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UrlInfoNotificationContent",
+                    "printedName": "AgentifaiCoreNotifications.UrlInfoNotificationContent",
+                    "usr": "s:26AgentifaiCoreNotifications26UrlInfoNotificationContentC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:26AgentifaiCoreNotifications19NotificationPayloadP",
+            "mangledName": "$s26AgentifaiCoreNotifications19NotificationPayloadP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 6,
+      "value": "\"READ\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 14,
+      "value": "\"PARTIAL_READ\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 8,
+      "value": "\"UNREAD\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 6,
+      "value": "\"READ\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 14,
+      "value": "\"PARTIAL_READ\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 8,
+      "value": "\"UNREAD\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/Payload\/Content\/NotificationContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 10,
+      "value": "\"URL_INFO\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/Payload\/Content\/NotificationContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 13,
+      "value": "\"FLOW_ACTION\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/Payload\/Content\/NotificationContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 10,
+      "value": "\"URL_INFO\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/Payload\/Content\/NotificationContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 13,
+      "value": "\"FLOW_ACTION\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Flow Action\/FlowActionNotificationContent.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 9,
+      "value": "\"PENDING\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Flow Action\/FlowActionNotificationContent.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 6,
+      "value": "\"DONE\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Flow Action\/FlowActionNotificationContent.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 9,
+      "value": "\"PENDING\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Flow Action\/FlowActionNotificationContent.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 6,
+      "value": "\"DONE\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Repository\/NotificationRequestParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 13,
+      "value": "\"triggerDate\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Repository\/NotificationRequestParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 10,
+      "value": "\"priority\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Repository\/NotificationRequestParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 13,
+      "value": "\"triggerDate\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Repository\/NotificationRequestParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 10,
+      "value": "\"priority\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Repository\/NotificationRequestParameters.swift",
+      "kind": "Array",
+      "offset": 560,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationAttentionLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationAttentionLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationAttentionLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNotifications\/AgentifaiCoreNotifications\/Models\/Notifications\/Notification\/NotificationAttentionLevel.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 9,
+      "value": "\"WARNING\""
+    }
+  ]
+}
