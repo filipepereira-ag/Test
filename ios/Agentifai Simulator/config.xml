@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="1" id="com.outsystemscloud.personalj0k0xjdw.AgentifaiSimulator" ios-CFBundleVersion="93" version="0.37.10" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="1" id="com.outsystemscloud.personalj0k0xjdw.AgentifaiSimulator" ios-CFBundleVersion="94" version="0.37.10" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="CDVWebViewEngine">
         <param name="ios-package" value="CDVWebViewEngine" />
     </feature>
@@ -186,12 +186,12 @@
     <preference name="InitLoggerSyncDelay" value="0" />
     <preference name="DefaultPlatformVersion" value="11.21.0.39357" />
     <preference name="NativeShellVersion" value="12.7.4" />
-    <preference name="AGENTIFAI_ASSISTANT_IOS_URL" value="https://filipepereira21:ATBBbQ2R3D4fxsxzXRsHwhWq8ddwE2872F21@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git" />
+    <preference name="AGENTIFAI_ASSISTANT_IOS_URL" value="https://mobile-agentifai:ATBBq3x8Q6TGQRk9tWkQJEnBdTsb76574791@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git" />
     <preference name="AGENTIFAI_ASSISTANT_ANDROID_URL" value="https://api.bitbucket.org/2.0/repositories/agentifai/agentifai-assistant-android/src/releases" />
     <preference name="AGENTIFAI_ASSISTANT_IOS_VERSION" value="8.3.2-xcode14.2" />
     <preference name="AGENTIFAI_ASSISTANT_ANDROID_VERSION" value="8.3.2" />
-    <preference name="AGENTIFAI_ASSISTANT_USERNAME" value="filipepereira21" />
-    <preference name="AGENTIFAI_ASSISTANT_PASSWORD" value="ATBBbQ2R3D4fxsxzXRsHwhWq8ddwE2872F21" />
+    <preference name="AGENTIFAI_ASSISTANT_USERNAME" value="mobile-agentifai" />
+    <preference name="AGENTIFAI_ASSISTANT_PASSWORD" value="ATBBq3x8Q6TGQRk9tWkQJEnBdTsb76574791" />
     <preference name="XCodeVersion" value="14.1" />
     <preference name="deployment-target" value="13.0" />
     <preference name="SupportMac" value="false" />

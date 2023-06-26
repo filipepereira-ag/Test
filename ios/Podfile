@@ -4,7 +4,7 @@ platform :ios, '13.0'
 use_frameworks!
 target 'Agentifai Simulator' do
 	project 'Agentifai Simulator.xcodeproj'
-	pod 'AgentifaiAssistant', :git => 'https://filipepereira21:ATBBbQ2R3D4fxsxzXRsHwhWq8ddwE2872F21@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git', :tag => '8.3.2-xcode14.2'
+	pod 'AgentifaiAssistant', :git => 'https://mobile-agentifai:ATBBq3x8Q6TGQRk9tWkQJEnBdTsb76574791@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git', :tag => '8.3.2-xcode14.2'
 	pod 'PureeOS', :commit => '2.0.1.OS7', :git => 'https://github.com/OutSystems/puree-ios.git'
 	pod 'FLEX', :tag => '5.22.10+1.0.0', :git => 'https://github.com/OutSystems/FLEX/', :configurations => ['Debug']
 end

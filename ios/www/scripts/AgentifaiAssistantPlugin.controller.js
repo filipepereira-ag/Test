@@ -286,21 +286,23 @@ window.plugin.agentifai.openApplication();
 
 define("AgentifaiAssistantPlugin.controller$RegisterUser", ["exports", "OutSystems/ClientRuntime/Main", "AgentifaiAssistantPlugin.model", "AgentifaiAssistantPlugin.controller", "AgentifaiAssistantPlugin.controller$RegisterUser.RegisterUserJS"], function (exports, OutSystems, AgentifaiAssistantPluginModel, AgentifaiAssistantPluginController, AgentifaiAssistantPlugin_controller_RegisterUser_RegisterUserJS) {
 var OS = OutSystems.Internal;
-AgentifaiAssistantPluginController.default.registerUser$Action = function (idIn, nameIn, tokenIn, callContext) {
+AgentifaiAssistantPluginController.default.registerUser$Action = function (idIn, nameIn, tokenIn, authHeadersIn, callContext) {
 var varBag = {};
 callContext = controller.callContext(callContext);
 var vars = new OS.DataTypes.VariableHolder(new (controller.constructor.getVariableGroupType("AgentifaiAssistantPlugin.RegisterUser$vars"))());
 vars.value.idInLocal = idIn;
 vars.value.nameInLocal = nameIn;
 vars.value.tokenInLocal = tokenIn;
+vars.value.authHeadersInLocal = authHeadersIn;
 varBag.callContext = callContext;
 varBag.vars = vars;
-try {OutSystemsDebugger.push("dxxec54fvEG69NKTMk04Rg:UzbRCksKvEyVGIiL+dddpw:/ClientActionFlows.UzbRCksKvEyVGIiL+dddpw:MoA1q0aYeqF8EiQBKh30tg", "AgentifaiAssistantPlugin", "RegisterUser", "NRFlows.ClientActionFlow", callContext.id, varBag);
+try {OutSystemsDebugger.push("dxxec54fvEG69NKTMk04Rg:UzbRCksKvEyVGIiL+dddpw:/ClientActionFlows.UzbRCksKvEyVGIiL+dddpw:Ma5EXcf4KOnAjEK0GFMu3A", "AgentifaiAssistantPlugin", "RegisterUser", "NRFlows.ClientActionFlow", callContext.id, varBag);
 OutSystemsDebugger.handleBreakpoint("dxxec54fvEG69NKTMk04Rg:DcRMUyzwREinl49yWwKaTw", callContext.id);
 OutSystemsDebugger.handleBreakpoint("dxxec54fvEG69NKTMk04Rg:700sSHPNHkusVYgqLzprEQ", callContext.id);
 controller.safeExecuteJSNode(AgentifaiAssistantPlugin_controller_RegisterUser_RegisterUserJS, "RegisterUser", "RegisterUser", {
 Name: OS.DataConversion.JSNodeParamConverter.to(vars.value.nameInLocal, OS.Types.Text),
 Id: OS.DataConversion.JSNodeParamConverter.to(vars.value.idInLocal, OS.Types.Text),
+AuthHeaders: OS.DataConversion.JSNodeParamConverter.to(vars.value.authHeadersInLocal, OS.Types.Object),
 Token: OS.DataConversion.JSNodeParamConverter.to(vars.value.tokenInLocal, OS.Types.Text)
 }, function ($parameters) {
 }, {}, {});
@@ -339,12 +341,21 @@ dataType: OS.Types.Text,
 defaultValue: function () {
 return "";
 }
+}, {
+name: "AuthHeaders",
+attrName: "authHeadersInLocal",
+mandatory: false,
+dataType: OS.Types.Object,
+defaultValue: function () {
+return null;
+}
 }]);
-AgentifaiAssistantPluginController.default.clientActionProxies.registerUser$Action = function (idIn, nameIn, tokenIn) {
+AgentifaiAssistantPluginController.default.clientActionProxies.registerUser$Action = function (idIn, nameIn, tokenIn, authHeadersIn) {
 idIn = (idIn === undefined) ? "" : idIn;
 nameIn = (nameIn === undefined) ? "" : nameIn;
 tokenIn = (tokenIn === undefined) ? "" : tokenIn;
-return controller.executeActionInsideJSNode(AgentifaiAssistantPluginController.default.registerUser$Action.bind(controller, OS.DataConversion.JSNodeParamConverter.from(idIn, OS.Types.Text), OS.DataConversion.JSNodeParamConverter.from(nameIn, OS.Types.Text), OS.DataConversion.JSNodeParamConverter.from(tokenIn, OS.Types.Text)), OS.Controller.BaseViewController.activeScreen ? OS.Controller.BaseViewController.activeScreen.callContext() : undefined, function (actionResults) {
+authHeadersIn = (authHeadersIn === undefined) ? null : authHeadersIn;
+return controller.executeActionInsideJSNode(AgentifaiAssistantPluginController.default.registerUser$Action.bind(controller, OS.DataConversion.JSNodeParamConverter.from(idIn, OS.Types.Text), OS.DataConversion.JSNodeParamConverter.from(nameIn, OS.Types.Text), OS.DataConversion.JSNodeParamConverter.from(tokenIn, OS.Types.Text), OS.DataConversion.JSNodeParamConverter.from(authHeadersIn, OS.Types.Object)), OS.Controller.BaseViewController.activeScreen ? OS.Controller.BaseViewController.activeScreen.callContext() : undefined, function (actionResults) {
 return {};
 });
 };
@@ -352,7 +363,7 @@ return {};
 define("AgentifaiAssistantPlugin.controller$RegisterUser.RegisterUserJS", [], function () {
 return function ($parameters, $actions, $roles, $public) {
 var user = {"id": $parameters.Id, "name": $parameters.Name, "token": $parameters.Token};
-window.plugin.agentifai.registerUser(user);
+window.plugin.agentifai.registerUser(user, $parameters.AuthHeaders);
 };
 });
 
@@ -651,6 +662,12 @@ getter: function (varBag, idService) {
 return varBag.vars.value.tokenInLocal;
 },
 dataType: OS.Types.Text
+},
+"q3vhX8whQ0CB22dssplw_Q": {
+getter: function (varBag, idService) {
+return varBag.vars.value.authHeadersInLocal;
+},
+dataType: OS.Types.Object
 },
 "700sSHPNHkusVYgqLzprEQ": {
 getter: function (varBag, idService) {

@@ -716,11 +716,11 @@ varBag.idService = idService;
 controller.ensureControllerAlive("RegisterUserOnClick");
 callContext = controller.callContext(callContext);
 varBag.callContext = callContext;
-try {OutSystemsDebugger.push("OMivivUb40uhXdy2a9HVYw:eVZIKNPJ00G6968FSHdF6w:/NRWebFlows.fWtJs57lI0qCTlwkcDoxDA/NodesShownInESpaceTree.3Hwgi8tCOkGNeZCoVz1iPw/ClientActions.eVZIKNPJ00G6968FSHdF6w:ylRLsSY9LFR6N_3Y8_Fh6Q", "AgentifaiSimulator", "RegisterUserOnClick", "NRFlows.ClientScreenActionFlow", callContext.id, varBag);
+try {OutSystemsDebugger.push("OMivivUb40uhXdy2a9HVYw:eVZIKNPJ00G6968FSHdF6w:/NRWebFlows.fWtJs57lI0qCTlwkcDoxDA/NodesShownInESpaceTree.3Hwgi8tCOkGNeZCoVz1iPw/ClientActions.eVZIKNPJ00G6968FSHdF6w:+vq04XiaKyix092V4dQ+Gw", "AgentifaiSimulator", "RegisterUserOnClick", "NRFlows.ClientScreenActionFlow", callContext.id, varBag);
 OutSystemsDebugger.handleBreakpoint("OMivivUb40uhXdy2a9HVYw:tblwDZLRWUqSi_lYZtpUGA", callContext.id);
 OutSystemsDebugger.handleBreakpoint("OMivivUb40uhXdy2a9HVYw:L5J1tJe0IEKvHQReJkxELw", callContext.id);
 // Execute Action: RegisterUser
-AgentifaiAssistantPluginController.default.registerUser$Action("123456789", "Agentifai", "", callContext);
+AgentifaiAssistantPluginController.default.registerUser$Action("123456789", "Agentifai", "", null, callContext);
 OutSystemsDebugger.handleBreakpoint("OMivivUb40uhXdy2a9HVYw:0w5Uu0bZDkOfm9TLH0F+FA", callContext.id);
 } catch (ex) {
 OutSystemsDebugger.handleException(ex, callContext.id);
