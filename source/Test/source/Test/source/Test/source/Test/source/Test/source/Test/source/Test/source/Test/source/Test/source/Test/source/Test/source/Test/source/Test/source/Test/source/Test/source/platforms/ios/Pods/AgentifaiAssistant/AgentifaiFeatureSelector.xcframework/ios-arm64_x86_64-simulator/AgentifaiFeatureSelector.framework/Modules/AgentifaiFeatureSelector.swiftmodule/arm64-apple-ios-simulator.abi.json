@@ -1,0 +1,1239 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeatureSelectorDI",
+        "printedName": "FeatureSelectorDI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Container",
+                "printedName": "Swinject.Container",
+                "usr": "s:8Swinject9ContainerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureSelector0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "mangledName": "$s24AgentifaiFeatureSelector0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "moduleName": "AgentifaiFeatureSelector",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureSelector0bC2DIC",
+        "mangledName": "$s24AgentifaiFeatureSelector0bC2DIC",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SelectorItem",
+        "printedName": "SelectorItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureSelector0C4ItemC2idSSvp",
+            "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC2idSSvp",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC2idSSvg",
+                "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC2idSSvg",
+                "moduleName": "AgentifaiFeatureSelector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "label",
+            "printedName": "label",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureSelector0C4ItemC5labelSSvp",
+            "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC5labelSSvp",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC5labelSSvg",
+                "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC5labelSSvg",
+                "moduleName": "AgentifaiFeatureSelector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSelected",
+            "printedName": "isSelected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvp",
+            "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvp",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvg",
+                "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvg",
+                "moduleName": "AgentifaiFeatureSelector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvs",
+                "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvs",
+                "moduleName": "AgentifaiFeatureSelector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvM",
+                "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC10isSelectedSbvM",
+                "moduleName": "AgentifaiFeatureSelector",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:label:isSelected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorItem",
+                "printedName": "AgentifaiFeatureSelector.SelectorItem",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureSelector0C4ItemC2id5label10isSelectedACSS_SSSbtcfc",
+            "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC2id5label10isSelectedACSS_SSSbtcfc",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorItem",
+                "printedName": "AgentifaiFeatureSelector.SelectorItem",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorItem",
+                "printedName": "AgentifaiFeatureSelector.SelectorItem",
+                "usr": "s:24AgentifaiFeatureSelector0C4ItemC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureSelector0C4ItemC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC2eeoiySbAC_ACtFZ",
+            "moduleName": "AgentifaiFeatureSelector",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureSelector0C4ItemC",
+        "mangledName": "$s24AgentifaiFeatureSelector0C4ItemC",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SelectorCellTheme",
+        "printedName": "SelectorCellTheme",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(labelTheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorCellTheme",
+                "printedName": "AgentifaiFeatureSelector.SelectorCellTheme",
+                "usr": "s:24AgentifaiFeatureSelector0C9CellThemeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextTheme",
+                "printedName": "AgentifaiCoreUI.TextTheme",
+                "usr": "s:15AgentifaiCoreUI9TextThemeC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureSelector0C9CellThemeC05labelE0AC0A6CoreUI04TextE0C_tcfc",
+            "mangledName": "$s24AgentifaiFeatureSelector0C9CellThemeC05labelE0AC0A6CoreUI04TextE0C_tcfc",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureSelector0C9CellThemeC",
+        "mangledName": "$s24AgentifaiFeatureSelector0C9CellThemeC",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiSharedResources",
+        "printedName": "AgentifaiSharedResources",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SelectorFeatureOutput",
+        "printedName": "SelectorFeatureOutput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(itemsSelected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorFeatureOutput",
+                "printedName": "AgentifaiFeatureSelector.SelectorFeatureOutput",
+                "usr": "s:24AgentifaiFeatureSelector0cB6OutputC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureSelector0cB6OutputC13itemsSelectedACySaySSGc_tcfc",
+            "mangledName": "$s24AgentifaiFeatureSelector0cB6OutputC13itemsSelectedACySaySSGc_tcfc",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureSelector0cB6OutputC",
+        "mangledName": "$s24AgentifaiFeatureSelector0cB6OutputC",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SelectorFeatureInput",
+        "printedName": "SelectorFeatureInput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(theme:items:title:searchPlaceholder:confirmLabel:emptyMessage:minSelectedItemsAllowed:maxSelectedItemsAllowed:isDismissable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorFeatureInput",
+                "printedName": "AgentifaiFeatureSelector.SelectorFeatureInput",
+                "usr": "s:24AgentifaiFeatureSelector0cB5InputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorTheme",
+                "printedName": "AgentifaiFeatureSelector.SelectorTheme",
+                "usr": "s:24AgentifaiFeatureSelector0C5ThemeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AgentifaiFeatureSelector.SelectorItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelectorItem",
+                    "printedName": "AgentifaiFeatureSelector.SelectorItem",
+                    "usr": "s:24AgentifaiFeatureSelector0C4ItemC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureSelector0cB5InputC5theme5items5title17searchPlaceholder12confirmLabel12emptyMessage23minSelectedItemsAllowed03maxopQ013isDismissableAcA0C5ThemeC_SayAA0C4ItemCGS4SS2iSbtcfc",
+            "mangledName": "$s24AgentifaiFeatureSelector0cB5InputC5theme5items5title17searchPlaceholder12confirmLabel12emptyMessage23minSelectedItemsAllowed03maxopQ013isDismissableAcA0C5ThemeC_SayAA0C4ItemCGS4SS2iSbtcfc",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureSelector0cB5InputC",
+        "mangledName": "$s24AgentifaiFeatureSelector0cB5InputC",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreCommon",
+        "printedName": "AgentifaiCoreCommon",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SelectorTheme",
+        "printedName": "SelectorTheme",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationTheme:backgroundColor:cellTheme:separatorColor:confirmButtonTheme:emptyResultsTheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorTheme",
+                "printedName": "AgentifaiFeatureSelector.SelectorTheme",
+                "usr": "s:24AgentifaiFeatureSelector0C5ThemeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationTheme",
+                "printedName": "AgentifaiCoreUI.NavigationTheme",
+                "usr": "s:15AgentifaiCoreUI15NavigationThemeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "AgentifaiCoreUI.Color",
+                "usr": "s:15AgentifaiCoreUI5ColorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorCellTheme",
+                "printedName": "AgentifaiFeatureSelector.SelectorCellTheme",
+                "usr": "s:24AgentifaiFeatureSelector0C9CellThemeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "AgentifaiCoreUI.Color",
+                "usr": "s:15AgentifaiCoreUI5ColorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonTheme",
+                "printedName": "AgentifaiCoreUI.ButtonTheme",
+                "usr": "s:15AgentifaiCoreUI11ButtonThemeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextTheme",
+                "printedName": "AgentifaiCoreUI.TextTheme",
+                "usr": "s:15AgentifaiCoreUI9TextThemeC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureSelector0C5ThemeC010navigationD015backgroundColor04cellD009separatorG0013confirmButtonD0012emptyResultsD0AC0A6CoreUI010NavigationD0C_AJ0G0CAA0c4CellD0CAnJ0kD0CAJ04TextD0Ctcfc",
+            "mangledName": "$s24AgentifaiFeatureSelector0C5ThemeC010navigationD015backgroundColor04cellD009separatorG0013confirmButtonD0012emptyResultsD0AC0A6CoreUI010NavigationD0C_AJ0G0CAA0c4CellD0CAnJ0kD0CAJ04TextD0Ctcfc",
+            "moduleName": "AgentifaiFeatureSelector",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureSelector0C5ThemeC",
+        "mangledName": "$s24AgentifaiFeatureSelector0C5ThemeC",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureSelector"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SelectorViewController",
+        "printedName": "SelectorViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AgentifaiFeatureSelector@objc(cs)SelectorViewController(im)viewDidLoad",
+            "mangledName": "$s24AgentifaiFeatureSelector0C14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "AgentifaiFeatureSelector",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AgentifaiFeatureSelector@objc(cs)SelectorViewController(im)viewWillAppear:",
+            "mangledName": "$s24AgentifaiFeatureSelector0C14ViewControllerC14viewWillAppearyySbF",
+            "moduleName": "AgentifaiFeatureSelector",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AgentifaiFeatureSelector@objc(cs)SelectorViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s24AgentifaiFeatureSelector0C14ViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "AgentifaiFeatureSelector",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectorViewController",
+                "printedName": "AgentifaiFeatureSelector.SelectorViewController",
+                "usr": "c:@M@AgentifaiFeatureSelector@objc(cs)SelectorViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AgentifaiFeatureSelector@objc(cs)SelectorViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s24AgentifaiFeatureSelector0C14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "AgentifaiFeatureSelector",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:didSelectRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AgentifaiFeatureSelector@objc(cs)SelectorViewController(im)tableView:didSelectRowAtIndexPath:",
+            "mangledName": "$s24AgentifaiFeatureSelector0C14ViewControllerC05tableD0_14didSelectRowAtySo07UITableD0C_10Foundation9IndexPathVtF",
+            "moduleName": "AgentifaiFeatureSelector",
+            "objc_name": "tableView:didSelectRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AgentifaiFeatureSelector@objc(cs)SelectorViewController",
+        "mangledName": "$s24AgentifaiFeatureSelector0C14ViewControllerC",
+        "moduleName": "AgentifaiFeatureSelector",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureSelector\/AgentifaiFeatureSelector\/View\/View Controller\/Cell\/SelectorTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 23,
+      "value": "\"SelectorTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureSelector\/AgentifaiFeatureSelector\/Models\/Input\/SelectorFeatureInput.swift",
+      "kind": "BooleanLiteral",
+      "offset": 757,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureSelector\/AgentifaiFeatureSelector\/View\/View Controller\/SelectorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 22,
+      "value": "\"AgentifaiFeatureSelector.SelectorViewController\""
+    }
+  ]
+}

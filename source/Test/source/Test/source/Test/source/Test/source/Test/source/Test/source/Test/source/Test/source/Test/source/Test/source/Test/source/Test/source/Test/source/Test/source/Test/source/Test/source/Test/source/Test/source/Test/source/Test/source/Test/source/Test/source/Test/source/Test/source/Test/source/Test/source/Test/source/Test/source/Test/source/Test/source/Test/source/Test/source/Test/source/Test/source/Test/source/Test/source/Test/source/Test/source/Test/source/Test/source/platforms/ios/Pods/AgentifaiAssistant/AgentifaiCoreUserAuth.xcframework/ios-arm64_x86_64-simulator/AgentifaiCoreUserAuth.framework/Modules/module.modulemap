@@ -1,0 +1,11 @@
+framework module AgentifaiCoreUserAuth {
+  umbrella header "AgentifaiCoreUserAuth.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiCoreUserAuth.Swift {
+  header "AgentifaiCoreUserAuth-Swift.h"
+  requires objc
+}

@@ -1,0 +1,6 @@
+framework module PureeOS {
+  umbrella header "PureeOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

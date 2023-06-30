@@ -1,0 +1,11 @@
+framework module AgentifaiFeatureNotifications {
+  umbrella header "AgentifaiFeatureNotifications.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiFeatureNotifications.Swift {
+  header "AgentifaiFeatureNotifications-Swift.h"
+  requires objc
+}

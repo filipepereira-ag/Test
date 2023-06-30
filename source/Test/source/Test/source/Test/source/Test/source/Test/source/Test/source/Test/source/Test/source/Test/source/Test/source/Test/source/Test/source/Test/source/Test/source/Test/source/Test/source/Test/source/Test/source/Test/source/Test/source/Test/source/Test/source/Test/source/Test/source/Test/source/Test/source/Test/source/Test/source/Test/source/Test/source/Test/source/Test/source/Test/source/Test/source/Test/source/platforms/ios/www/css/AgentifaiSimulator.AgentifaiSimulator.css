@@ -1,0 +1,24 @@
+﻿/* ===================================================================== */
+/*  The following CSS was created using Theme Editor.                    */
+/*  To modify this CSS, click "Open Theme Editor".                       */
+/* ===================================================================== */
+
+/* ===================================================================== */
+/*  Root - CSS Variables                                                 */
+/* ===================================================================== */
+
+:root {
+	
+    /* Color - Brand */
+    --color-primary: #4d5c66;
+    --color-secondary: #4d5c66;
+
+    --color-primary-hover: #3a454c;
+    --color-primary-selected: rgba(77, 92, 102, .12);
+	
+    /* Dark Theme */
+    --background-dark-theme: rgba(255, 255, 255, .1);
+    --background-dark-theme-hover: rgba(255, 255, 255, .2);
+}
+
+

@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiCoreRealtime
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AgentifaiCoreCommon
+@_exported import AgentifaiCoreRealtime
+import Foundation
+import Reachability
+import RxCocoa
+import RxSwift
+import SocketIO
+import Swift
+import Swinject
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class CoreRealtimeDI {
+  public static func register(container: Swinject.Container)
+  @objc deinit
+}
+public protocol RealtimeServiceProtocol {
+  func connect(configuration: AgentifaiCoreRealtime.ConnectionConfiguration, getAuth: RxSwift.Single<AgentifaiCoreRealtime.ConnectionAuth>) -> RxSwift.Single<Swift.String>
+  func disconnect(connectionId: Swift.String)
+  func addEvent(connectionId: Swift.String, name: Swift.String, getMissedEvents: RxSwift.Single<[Swift.String : Any]>) -> RxSwift.Observable<[Swift.String : Any]>
+  func removeEvent(connectionId: Swift.String, name: Swift.String) throws
+}
+public class ConnectionConfiguration {
+  public init(id: Swift.String? = nil, baseUrl: Foundation.URL, path: Swift.String, queryParameters: [Swift.String : Any], healthEvent: Swift.String, serverErrorEvent: Swift.String, pingtime: Foundation.TimeInterval, acktimeout: Foundation.TimeInterval = 10)
+  public func getId() -> Swift.String
+  @objc deinit
+}
+public class ConnectionAuth {
+  public init(payload: [Swift.String : Any], expiryTime: Foundation.TimeInterval)
+  @objc deinit
+}

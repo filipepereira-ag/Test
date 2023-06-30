@@ -1,0 +1,99 @@
+/*
+ AgentifaiLocalizable 
+ Copyright Agentifai. All rights reserved.  
+*/
+
+// General
+"save" = "Salvar";
+"search" = "Procurar";
+"begin" = "Começar";
+"contact" = "Contacto";
+"suggested" = "Sugeridos";
+"all" = "Todos";
+"continue" = "Continuar";
+"confirm" = "Confirmar";
+"cancel" = "Cancelar";
+"general_error" = "Não foi possível realizar o seu pedido. Por favor tente mais tarde.";
+"language" = "Idioma";
+"language_name" = "Português";
+"welcome" = "Bem-vindo";
+"copy_to_clipboard" = "Copiado para a área de transferência";
+"permission_denied" = "Permissão recusada";
+"ok" = "OK";
+"share" = "Partilhar";
+"loading_information" = "A carregar informação…";
+"retry" = "Tentar novamente";
+
+
+// Text Recognition Attachment
+"chat_text_recognition_message" = "Dados recolhidos por foto";
+
+
+// Edit Form
+"edit_form_is_required_validation_failed" = "Campo obrigatório.";
+"edit_form_pattern_validation_failed" = "Campo inválido.";
+"edit_form_range_validation_failed" = "O valor deve estar entre %@ e %@.";
+"edit_form_range_min_validation_failed" = "O valor deve ser maior ou igual a %@.";
+"edit_form_range_max_validation_failed" = "O valor deve ser menor ou igual a %@.";
+
+
+// Errors
+"error_photo_capture" = "Ocorreu um erro ao capturar a imagem";
+"error_text_recognition" = "Ocorreu um erro ao processar a imagem";
+"error_text_recognition_empty_recognition" = "Não foi possível identificar a Entidade, Referência e Montante.";
+"error_text_recognition_capture_device_unavailable" = "Não foi possível iniciar a câmara do dispositivo.";
+"error_text_recognition_not_available" = "O reconhecimento de texto não está disponível neste dispositivo.";
+
+
+// Message Errors
+"message_error_unavailable" = "Lamento, o sistema não se encontra operacional. Não me será possível satisfazer os seus pedidos. Por favor tente mais tarde.";
+"message_error_upgrade_required" = "Para prosseguir com o seu pedido por favor atualize a aplicação, poderei assim assegurar que recebe a melhor experiência possível.";
+"message_error_generic_error" = "Lamento, ocorreu um erro no sistema, por favor tente novamente.";
+
+
+// Input Options View
+"input_options_voice_tip" = "Toque para falar";
+"input_limit_text" = "%@/%@";
+
+
+// Card Payment
+"card_payment_amount_text" = "+%@";
+
+
+// Pdf Viewer
+"pdf_viewer_document_error" = "Documento indisponível";
+
+
+// Document Picker
+"document_picker_take_photo" = "Tirar uma foto";
+"document_picker_open_photo_library" = "Abrir galeria de fotos";
+"document_picker_open_document" = "Abrir documento";
+"document_picker_error_filetype_not_allowed" = "O tipo de documento que escolheu é inválido.";
+"document_picker_error_maximum_size_exceeded" = "O documento excedeu o tamanho máximo permitido.";
+"document_picker_error_unable_to_access" = "Não foi possível aceder ao documento que escolheu.";
+
+
+// Errors
+"error_network_title" = "Problemas de rede";
+"error_network_content" = "Falha de conexão à internet.\nPor favor, tente novamente.";
+"error_generic_title" = "Algo correu mal";
+"error_generic_content" = "Oops, ocorreu um erro inesperado.\nPor favor, tente novamente.";
+"error_maintenance_title" = "Em manutenção";
+"error_maintenance_content" = "A sua assistente está em manutenção.\nPor favor tente novamente mais tarde.";
+
+
+// Notifications
+"widget_notification_message" = "Olá %@, tem mensagens pendentes que necessitam da sua atenção. Toque aqui para ver as mensagens.";
+
+
+// Feature Notifications
+"notifications_title" = "Notificações";
+"notifications_empty_message" = "Não existem notificações";
+"notifications_sort_by" = "Ordenar por:";
+"notifications_sort_by_priority" = "Prioridade";
+"notifications_sort_by_most_recent" = "Mais recente";
+"notifications_loading" = "A carregar...";
+
+
+// Feature Selector
+"selector_without_results_for" = "Sem resultados encontrador por %@.";

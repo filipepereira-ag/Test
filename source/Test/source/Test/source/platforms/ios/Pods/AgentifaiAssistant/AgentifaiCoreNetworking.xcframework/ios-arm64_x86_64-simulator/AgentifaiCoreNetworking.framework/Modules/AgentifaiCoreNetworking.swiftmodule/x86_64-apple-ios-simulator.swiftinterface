@@ -1,0 +1,71 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiCoreNetworking
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AgentifaiCoreNetworking
+import Alamofire
+import Foundation
+import RxSwift
+import Swift
+import Swinject
+import _Concurrency
+import _StringProcessing
+public class RestApiResponse<Data> {
+  final public let body: Data
+  final public let statusCode: Swift.Int
+  final public let headers: [Swift.String : Swift.String]
+  final public let isFromCache: Swift.Bool
+  public init(body: Data, statusCode: Swift.Int, headers: [Swift.String : Swift.String], isFromCache: Swift.Bool? = false)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CoreNetworkingDI {
+  public static func register(container: Swinject.Container)
+  public static func register(container: Swinject.Container, serviceName: Swift.String)
+  @objc deinit
+}
+public class RestApi : AgentifaiCoreNetworking.RestApiProtocol {
+  public init(configuration: Foundation.URLSessionConfiguration, cache: Foundation.URLCache)
+  public func getBasicAuthHeaders(user: Swift.String, password: Swift.String) -> [Swift.String : Swift.String]
+  public func getBearerTokenHeaders(token: Swift.String) -> [Swift.String : Swift.String]
+  public func data(request: AgentifaiCoreNetworking.RestApiRequest) -> RxSwift.Single<AgentifaiCoreNetworking.RestApiResponse<Foundation.Data>>
+  public func json(request: AgentifaiCoreNetworking.RestApiRequest) -> RxSwift.Single<AgentifaiCoreNetworking.RestApiResponse<[Swift.String : Any]>>
+  public func string(request: AgentifaiCoreNetworking.RestApiRequest) -> RxSwift.Single<AgentifaiCoreNetworking.RestApiResponse<Swift.String?>>
+  @objc deinit
+}
+public protocol RestApiProtocol {
+  func data(request: AgentifaiCoreNetworking.RestApiRequest) -> RxSwift.Single<AgentifaiCoreNetworking.RestApiResponse<Foundation.Data>>
+  func json(request: AgentifaiCoreNetworking.RestApiRequest) -> RxSwift.Single<AgentifaiCoreNetworking.RestApiResponse<[Swift.String : Any]>>
+  func string(request: AgentifaiCoreNetworking.RestApiRequest) -> RxSwift.Single<AgentifaiCoreNetworking.RestApiResponse<Swift.String?>>
+  func getBasicAuthHeaders(user: Swift.String, password: Swift.String) -> [Swift.String : Swift.String]
+  func getBearerTokenHeaders(token: Swift.String) -> [Swift.String : Swift.String]
+}
+public class RestApiErrorResponse : Swift.Error {
+  final public let statusCode: Swift.Int
+  final public let headers: [Swift.String : Swift.String]
+  final public let error: Swift.Error
+  final public let body: Foundation.Data?
+  public init(statusCode: Swift.Int, headers: [Swift.String : Swift.String], error: Swift.Error, body: Foundation.Data? = nil)
+  @objc deinit
+}
+public class RestApiRequest {
+  public init(url: Swift.String, method: AgentifaiCoreNetworking.HttpMethod, parameters: [Swift.String : Any]? = nil, headers: [Swift.String : Swift.String]? = nil, body: [Swift.String : Any]? = nil, timeout: Swift.Double? = nil)
+  @objc deinit
+}
+public enum HttpMethod {
+  case get
+  case post
+  case put
+  case delete
+  case patch
+  case connect
+  case head
+  case options
+  case trace
+  public static func == (a: AgentifaiCoreNetworking.HttpMethod, b: AgentifaiCoreNetworking.HttpMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension AgentifaiCoreNetworking.HttpMethod : Swift.Equatable {}
+extension AgentifaiCoreNetworking.HttpMethod : Swift.Hashable {}

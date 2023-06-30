@@ -1,0 +1,6 @@
+framework module OSMobileCore {
+  umbrella header "OSMobileCore.h"
+
+  export *
+  module * { export * }
+}

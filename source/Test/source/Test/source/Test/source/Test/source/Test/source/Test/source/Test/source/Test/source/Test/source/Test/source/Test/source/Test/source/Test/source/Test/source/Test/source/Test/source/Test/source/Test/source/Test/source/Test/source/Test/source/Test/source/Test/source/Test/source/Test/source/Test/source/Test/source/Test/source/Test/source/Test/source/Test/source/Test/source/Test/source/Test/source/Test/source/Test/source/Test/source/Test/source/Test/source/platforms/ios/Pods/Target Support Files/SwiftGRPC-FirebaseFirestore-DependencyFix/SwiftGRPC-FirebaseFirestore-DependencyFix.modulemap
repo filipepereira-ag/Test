@@ -1,0 +1,6 @@
+framework module SwiftGRPC_FirebaseFirestore_DependencyFix {
+  umbrella header "SwiftGRPC-FirebaseFirestore-DependencyFix-umbrella.h"
+
+  export *
+  module * { export * }
+}
