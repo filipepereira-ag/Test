@@ -1,4 +1,0 @@
-framework module AgentifaiAssistant {
-  header "AgentifaiAssistant-Swift.h"
-  requires objc
-}
