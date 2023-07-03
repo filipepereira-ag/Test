@@ -173,7 +173,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-androidx-adapter": "1.1.0",
     "cordova-plugin-agentifai-assistant": "9.0.0",
-    "cordova-plugin-agentifai-assistant-permissions": "1.0.0",
-    "com.outsystems.usesCleartextTraffic": "0.0.1"
+    "com.outsystems.usesCleartextTraffic": "0.0.1",
+    "cordova-plugin-agentifai-assistant-permissions": "1.0.0"
   };
 });

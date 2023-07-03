@@ -145,10 +145,10 @@
       "AGENTIFAI_ASSISTANT_IOS_VERSION": "9.0.0",
       "PACKAGE_NAME": "com.outsystemscloud.personalj0k0xjdw.AgentifaiSimulator"
     },
-    "cordova-plugin-agentifai-assistant-permissions": {
+    "com.outsystems.usesCleartextTraffic": {
       "PACKAGE_NAME": "com.outsystemscloud.personalj0k0xjdw.AgentifaiSimulator"
     },
-    "com.outsystems.usesCleartextTraffic": {
+    "cordova-plugin-agentifai-assistant-permissions": {
       "PACKAGE_NAME": "com.outsystemscloud.personalj0k0xjdw.AgentifaiSimulator"
     }
   },
@@ -327,7 +327,7 @@
     "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-androidx-adapter": "1.1.0",
     "cordova-plugin-agentifai-assistant": "9.0.0",
-    "cordova-plugin-agentifai-assistant-permissions": "1.0.0",
-    "com.outsystems.usesCleartextTraffic": "0.0.1"
+    "com.outsystems.usesCleartextTraffic": "0.0.1",
+    "cordova-plugin-agentifai-assistant-permissions": "1.0.0"
   }
 }
