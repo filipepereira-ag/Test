@@ -7,93 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012BE5DC7ADA46FFB2628597 /* OSManifest.m in Sources */ = {isa = PBXBuildFile; fileRef = B14BD50F51CA47EB8043F5AD /* OSManifest.m */; };
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		0A47406F97C64C4BA585BF59 /* OSDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 212602801A374FE98ABBB5DB /* OSDownloadOperation.m */; };
-		10B624BAC5DA49ABAC0AADD8 /* OSApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 59852F15628F4EE4B4DA5D3F /* OSApplicationInfo.m */; };
-		10C63828739E48A5880EE41F /* NSDictionary+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = B178EEDF26A14D07BBC98BD9 /* NSDictionary+Merge.m */; };
-		16CB86D8431448F99016616E /* OSCustomSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8537A66FDCC246FCA0290FDC /* OSCustomSchemeHandler.m */; };
-		172A5A89A1934AF3BDF77BA2 /* OSOtelUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7212F883434DEAA79D2EBE /* OSOtelUtils.m */; };
-		1A460BEC48574158B770C14C /* OSCordovaLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD540EEBBD4FAABFB810A0 /* OSCordovaLoaderImpl.m */; };
+		08F0C2E441D044D3BDFD2C74 /* NSDictionary+Merge.h in Sources */ = {isa = PBXBuildFile; fileRef = 37670F6A9ED24885B17DFBFE /* NSDictionary+Merge.h */; };
+		095B4F608BC5457590D3C231 /* OSDateUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 933EFE08D2734073A79BD4CC /* OSDateUtils.h */; };
+		0AFCE561E52343089B248A64 /* OSOtelUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C8FED8CB745278D62044A /* OSOtelUtils.h */; };
+		0B6D24F05CFE4F8684304773 /* OSCacheResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C33C7AF4D04741B4A9543F /* OSCacheResources.m */; };
+		0EF03B4D9A1FF2DF4F8956D7 /* Pods_Agentifai_Simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095897E6CAF41340BB0E2049 /* Pods_Agentifai_Simulator.framework */; };
+		10C1C1B5364E4E868EC99758 /* OSHttpHeadersUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D351DE2B94596B451D28E /* OSHttpHeadersUtils.m */; };
+		11092CB6378E497AB7F11C7A /* OSManifest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E4C48D13EF4FA499BF1238 /* OSManifest.m */; };
+		1618A2271AF64D62AC3F192A /* OSDeepLinks.h in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F7AB0251F4C9D88F462A3 /* OSDeepLinks.h */; };
+		194ADDEFF05049328C559111 /* OSBroadcasterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 65632EEFF12940D99A54E73C /* OSBroadcasterPlugin.m */; };
+		1B992A58651A4F998BD6B32D /* OSBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18E8BE41945278E05790D /* OSBroadcaster.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1FF2108BC9FF4C85873B23B4 /* OSWebResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FEBE89B9EA49B784AA6B1B /* OSWebResponse.m */; };
-		24FBF86D3CC44677B4F7748E /* OSLoggerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D6E552B994E3B9F7050D7 /* OSLoggerPlugin.m */; };
-		27040F3C073C42E08CE076F1 /* OSPureeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34F4F842474306AAE7D7AB /* OSPureeFilter.m */; };
-		2C1A54DD8DB7436E931DA47A /* OSProtocolManagerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD896BF45347DC855DFDF1 /* OSProtocolManagerPlugin.m */; };
+		1DC309394D444294A50F8B0D /* OSHTTPFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E2BCCCDAA4FC2BA9A4A1B /* OSHTTPFactory.m */; };
+		1E28BE550373447B88BA9D96 /* OSFileChecksum.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D502AB99364FDA86AC02F3 /* OSFileChecksum.m */; };
+		1F236B9AF63C4C4EB5065BE5 /* NSDictionary+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = F72236F9B04246D1906F45E0 /* NSDictionary+Merge.m */; };
+		21E52C4D1D874E24949FE46F /* OSInspectorNotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D94634B544160B8F19564 /* OSInspectorNotificationHelper.m */; };
+		2472C7A505194A4DBD369F19 /* OSCordovaLoaderProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = E90FB1E465EB43A19E9EB71F /* OSCordovaLoaderProtocol.h */; };
+		28B65054CC6A44709308C2ED /* OSManifestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D2D655323648AFB419E89E /* OSManifestParser.m */; };
+		2B86580DE9C748F1AC48CDAE /* OSHttpResultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B27F2CB2484DDEA468DCC3 /* OSHttpResultUtil.m */; };
+		2D4B16D59F6A4D2A8FFE6EA3 /* OSDeepLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B670528B5148A9A712F5DE /* OSDeepLinks.m */; };
+		2DFCAE6B40BB4B4AA1C07CD4 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C533EB2584B42D1AE80D8CD /* CDVDevice.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		339CA9ACC3464196A94CEEFE /* AgentifaiBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16186BDDA8144C9EAD90F3F2 /* AgentifaiBridge.swift */; };
-		3545F8743D734CC391B91C82 /* OSThreadSafeDictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F37E101EED45BFBB8119D6 /* OSThreadSafeDictionaryWrapper.m */; };
-		38F7DF83FBB74F7BACD78BAB /* OSHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D10235F8D495188957032 /* OSHttp.m */; };
-		3C6ADBF1B25244FE85626ACC /* OSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD55583951444A084DAE8B6 /* OSLogger.m */; };
-		455FA1D092A94DA581895D4F /* OSPureeServerOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545A66975894BECBED790C5 /* OSPureeServerOutput.m */; };
-		4565ADFA06BE4394964745F5 /* OSDeepLinks.h in Sources */ = {isa = PBXBuildFile; fileRef = 65B02F4F2B88422A8415A36A /* OSDeepLinks.h */; };
-		4B59F18D596741BBA72C7B7D /* OSSendRequestCommandArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E61D70970A4EF4B586A2CA /* OSSendRequestCommandArgs.m */; };
-		4D273047AEA54CF59372829B /* OSBroadcasterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C07317F361407DA907E2BA /* OSBroadcasterPlugin.m */; };
-		4E3FEF2A9A0E40549EC4EF31 /* OSWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BBAFA8A5642D6B33AD52B /* OSWKWebViewEngine.m */; };
-		4F2E2C291A0A40A9A50B6E35 /* OSCacheEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB1779589E448368339AEFB /* OSCacheEntry.m */; };
-		559DA7B283AE4F85BD77F095 /* OSDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9430B65EE984F609DC883AD /* OSDeviceInfo.m */; };
-		56A46631623B410D94C20E83 /* OSHttpHeadersUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A0661715ABC74944B4C25ABD /* OSHttpHeadersUtils.m */; };
-		5E385848F0D44791AB81DC5C /* OSHttpWKWebViewCookieHandlerEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFBF5EAA82F49F59FDCFE8A /* OSHttpWKWebViewCookieHandlerEngine.m */; };
-		63EABD83BB8C46B09D901F2C /* OSApplicationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 430039AF1E3143B8B0C93374 /* OSApplicationCache.m */; };
-		648F69BBA9DE4084AF76A446 /* OSAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C5314981824D4D97289AFB /* OSAuth.m */; };
-		67B2B40AA1574489B4E505AA /* OSHTTPFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D413C771FC244804928499C9 /* OSHTTPFactory.m */; };
-		68AA22F280534E30BC88D640 /* OSMimeTypesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C33499177745AEB510A927 /* OSMimeTypesHelper.m */; };
-		6A994A1943004679B892DE6D /* OSAbortRequestCommandArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A86DB1BE0405AAA425E09 /* OSAbortRequestCommandArgs.m */; };
-		6ABD7CB08C9759791E2B466D /* Pods_Agentifai_Simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792580AE51A0DACFF871BDAC /* Pods_Agentifai_Simulator.framework */; };
+		30DFBBB0540A44B6B1BEAB90 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD34AFDB547A46B79F9051CB /* CDVStatusBar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		32E2CD122B4A4044AF5C002E /* OSCordovaLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C974091BFE54E0698DD2B51 /* OSCordovaLoaderImpl.m */; };
+		3372A94095FB489A877CFD1D /* OSHttpUrlSessionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E0802CA719714705809B61E4 /* OSHttpUrlSessionEngine.m */; };
+		34E3F703AECF400A92380959 /* OSApplicationInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A574C7BC17649FD895C0A32 /* OSApplicationInfoPlugin.m */; };
+		38A90BBD487948D9A195C3EA /* OSAbortRequestCommandArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F773AA43F249158D3C7FE6 /* OSAbortRequestCommandArgs.m */; };
+		42CB1A1DA1C14F70B11CD18D /* OSInspectorPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8341247A1C42A799B9F043 /* OSInspectorPreferences.m */; };
+		42DB9921243041BB8A952C7B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D3A3E9C4354282AC1DA6BE /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		467EEF65692E4BC19D2D6A3F /* OSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FF35C64AABB647E9AE642813 /* OSLog.m */; };
+		4A7A9CE75B574ADF95088AD1 /* OSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C83AD63BCFF4D5BBC032B47 /* OSLogger.m */; };
+		4D15B9890C1A439B9368847F /* OSCordovaLoaderEngine.h in Sources */ = {isa = PBXBuildFile; fileRef = 42DAB6E8ED5242A48DCC2475 /* OSCordovaLoaderEngine.h */; };
+		504E9BE8141D4785A9B76844 /* OSHttpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B06BDF3F85D14AC3BB52F04C /* OSHttpPlugin.m */; };
+		5206F013AD114F918E72DCB2 /* OSCacheEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B037CDCE4D548789B7CECBC /* OSCacheEntry.m */; };
+		55B6B61DA0FD44ADB019D8C9 /* OSPreBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDF6DE182242A3AA2CED97 /* OSPreBundle.m */; };
+		59884B10197A4F048A0DABD7 /* OSCordovaLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 794FE871E04642E7A235D304 /* OSCordovaLoader.m */; };
+		5ADE5E6B908C4A5482948B1C /* OSMimeTypesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2536AA4901D84B2E81E29546 /* OSMimeTypesHelper.m */; };
+		61910211A5A7499A8F902035 /* OSPureeServerOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A84AAEA134984C9E9797EEE5 /* OSPureeServerOutput.m */; };
+		65577EEC38284A6C925A4E2C /* OSInspectorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3379C16D399144FF813765CC /* OSInspectorPlugin.m */; };
+		6A14DDFFD1174AB19A740C54 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A26ED5ED8DD4DEF804BFCDC /* SQLitePlugin.m */; };
+		6A3DCBF6186C4EA99CF407F3 /* OSCordovaLoaderURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 716A9FABE39140A5A69FA0F6 /* OSCordovaLoaderURLProtocol.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		6D5A66BFDC9D45DBA360F446 /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D633CCC4A54306A52D5E68 /* RSSwizzle.m */; };
-		6FFBF6B4906E4CB38C6D56D8 /* OSInspectorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491632DC57345AA92DB4097 /* OSInspectorPlugin.m */; };
-		722B9A55A3764B7BA3D779A1 /* OSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD00C517916498491B5B2F3 /* OSCache.m */; };
-		74BB6DAC6A8A4920B1A8DD99 /* OSHttpSharedCookieHandlerEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 888CAFAFCB2F462084FF2C66 /* OSHttpSharedCookieHandlerEngine.m */; };
-		7547E1505D834880A4361CC4 /* OSHttpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F0608ABF042F3877FE819 /* OSHttpPlugin.m */; };
-		77787855D8C54F7A96DF7EE5 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E46F50A185B40A89874D8A6 /* CDVReachability.m */; };
-		7D30B78AF9E14C898BCD3E38 /* OSNetworkEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AC2828CD814F129EB9C99C /* OSNetworkEvent.m */; };
-		81C999EB70F14C8EB841796E /* CustomPSPDFThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A667F0207A94BA890B39A49 /* CustomPSPDFThreadSafeMutableDictionary.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		81E18DAB34D043CABE9296CE /* OSNetworkEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80244A8AB8994109A223AFD6 /* OSNetworkEventEmitter.m */; };
-		827BC71DB2594D418D3189D1 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 391D68417C6E4DC98B2B79BC /* CDVStatusBar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		830E369B958C409996414227 /* OSPureeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2014848A7BD743F086882156 /* OSPureeLogger.m */; };
-		940D76338F974FDDAD4322C3 /* OSDeepLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ED761C9A8467C957C6089 /* OSDeepLinks.m */; };
-		9434662C043D4E22964025CD /* OSMobileCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B6C4137D94867A2A5B683 /* OSMobileCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		955405181D1B4BBF9D0FEFFA /* OSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C0AED1257741F0A1E535B0 /* OSLog.m */; };
-		95F0267AC7EA41F182D1F86B /* OSCacheResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 971CC2E2D28B46449A4D376B /* OSCacheResources.m */; };
-		97FB39D5217C40298B9B874A /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 64007ABA099A459A9958C525 /* SQLitePlugin.m */; };
-		A0A09141F2994A00BFB035E9 /* OSOtelUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 6050DA653E9543CCA13127CE /* OSOtelUtils.h */; };
-		A54655D63B5A48119176823D /* OSFileChecksum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FCF0EFF9B4F50816FF2CE /* OSFileChecksum.m */; };
-		AE376B8E3E3348D9A3CC0467 /* OSCordovaLoaderURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 610609F63D7D4D5F94823DC4 /* OSCordovaLoaderURLProtocol.m */; };
-		B57EF70751904D40A1A69502 /* OSHttpUrlSessionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDFE4F4FE04BBF8DBFB560 /* OSHttpUrlSessionEngine.m */; };
-		B700404A8D9F4B3793CB31B6 /* OSOTLPApiKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A78F91ED9D437EA861C51A /* OSOTLPApiKeyManager.m */; };
-		B7CE69A075AD41A9B1CED653 /* OSPreBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F28044757224E42B726BC67 /* OSPreBundle.m */; };
-		B7FC59508E7E4B8B937A0B33 /* OSInspectorNotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4552BD10E344CD9A3F7BEA /* OSInspectorNotificationHelper.m */; };
-		B9B73F0E72224598932052B0 /* OSDateUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = BF59D31B9B714C979E20FA76 /* OSDateUtils.h */; };
-		C5395D53421B477EBF6DF710 /* OSCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BE09F5AF2141A9AA868072 /* OSCrashHandler.m */; };
-		C64A8D3E246F4CBF86C7F733 /* AgentifaiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C8BC7D3CC345F392C322B6 /* AgentifaiHelper.swift */; };
-		C78DD3E9946D440EB89DE846 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF78AAC10D4ABEA1375780 /* CDVDevice.m */; };
-		C7A200DD3FB74D1CA96B84FD /* OSPreBundlePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F1DC2982144DE1AA623018 /* OSPreBundlePlugin.m */; };
-		C8973CD27288446D995C1BFA /* OSPureeOtlpOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A12831F1CDC4124A640D5B6 /* OSPureeOtlpOutput.m */; };
-		C92418D672754DBE9BF3BBD3 /* OSCordovaLoaderEngine.h in Sources */ = {isa = PBXBuildFile; fileRef = 21F4B9E471204DC68C9F71A2 /* OSCordovaLoaderEngine.h */; };
-		CAE3CAE7758C4C00B89B5B80 /* OSPureeConsoleOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1432E057C45D3ABC2030C /* OSPureeConsoleOutput.m */; };
-		CDBF557529054B09BD3CA56D /* OSHttpResultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A5872CD026764F28A697691D /* OSHttpResultUtil.m */; };
-		D04286524F574A60B5C5ACEB /* OSHttpPluginArgHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B23079B18344E0ADF3957B /* OSHttpPluginArgHelper.m */; };
-		D781A53C673B4C34AD9BE1BF /* OSBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F718253CAA4369AE5D217B /* OSBroadcaster.m */; };
-		D8EF03746EC845F2AA79A9DA /* OSDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7655F587E3324DC9963C1C28 /* OSDateUtils.m */; };
-		E11E987E1C4F4DEA83CBD207 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30304E4F55E4DDA83FDFF4F /* CoreTelephony.framework */; };
-		E384199A19774CB283D532B7 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E041E98D56E4234BCB185D2 /* CDVConnection.m */; };
-		E70CDD53FA4D4B6BBE4E8766 /* OSLogRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C2190825B1495F959C7BA2 /* OSLogRecord.m */; };
-		E808C04214B340A78F5953A6 /* OSInspectorPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC8AB16B38F44EFA0F8CD3E /* OSInspectorPreferences.m */; };
-		EBAA0624F434448EB537DED3 /* OSApplicationInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEBC17F26244A9D9DF042B1 /* OSApplicationInfoPlugin.m */; };
-		EE36C86224E14430956331E1 /* OSCrashHandlerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4567475F4BAE4585A0486371 /* OSCrashHandlerPlugin.m */; };
-		F1C1DCCA436041539D07920F /* NSDictionary+Merge.h in Sources */ = {isa = PBXBuildFile; fileRef = 6515AB3B064B414FAED5E55A /* NSDictionary+Merge.h */; };
-		F2A072710A984E5D8D13F188 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = EA9B914EEFDF4BED81524311 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-w -DSQLITE_THREADSAFE=1 -DSQLITE_DEFAULT_SYNCHRONOUS=3 -DSQLITE_DEFAULT_MEMSTATUS=0 -DSQLITE_OMIT_DECLTYPE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_SHARED_CACHE -DSQLITE_TEMP_STORE=2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_DEFAULT_PAGE_SIZE=4096"; }; };
-		F3448CC0620747B698195C22 /* OSCordovaLoaderProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8C16862745F598DCC474 /* OSCordovaLoaderProtocol.h */; };
-		F3A690FE4BE743058CDAE11C /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA8A7148D20452882DE85AA /* AuthenticationServices.framework */; };
-		F8D3525EAA3C4307BF13A6A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905A04C2C68841838C606387 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F9008F0EF943409C931BE7BB /* OSManifestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE3E015DA74332AFB2E8CA /* OSManifestParser.m */; };
-		FA9D5A61AE784E2B82EC2CBE /* OSCordovaLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0EA38B7FC4F3AB04F42D5 /* OSCordovaLoader.m */; };
-		FDD342AC0C5241A69170A984 /* AgentifaiPluginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D598F3F324DFDB308F1F0 /* AgentifaiPluginError.swift */; };
-		FEFBF10ECFE54C999E78CBD7 /* OSNativeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 45092F526F914B3B847F37B5 /* OSNativeCache.m */; };
+		6B1926DD27994A6E9B5E38D7 /* OSWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 482955AFF6CB4B3F9D5E884E /* OSWKWebViewEngine.m */; };
+		6E1E5F1B413546F2B7321652 /* OSDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D42BF804364F28BA045A52 /* OSDeviceInfo.m */; };
+		705526EF9A4B444BA6EAAD05 /* OSDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C40493416204BBFA9D40BAC /* OSDateUtils.m */; };
+		7352924F7E694175B7BED17E /* OSHttpWKWebViewCookieHandlerEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F455A63451B404CB65D19F8 /* OSHttpWKWebViewCookieHandlerEngine.m */; };
+		75130FCBD14C425DA9E6C1B6 /* OSMobileCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD837427F38B4A8BA568D2CD /* OSMobileCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7646B67507A94EE2BF1E2E97 /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AF5C636BD4435983F36A30 /* RSSwizzle.m */; };
+		7CB4227A945C488B891AEE83 /* OSPureeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ED8F4CA7434C7C8DC85598 /* OSPureeFilter.m */; };
+		7ECAE7EE706A4D37A352A79A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95606E0E584479EAA4D9391 /* CoreTelephony.framework */; };
+		808F98C1960447909D8AA187 /* OSHttpSharedCookieHandlerEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = AC905A23FDB543538FE6C151 /* OSHttpSharedCookieHandlerEngine.m */; };
+		82E4C3BD374A409E8576B7A1 /* OSPureeConsoleOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B22DD34538148A8A4F76255 /* OSPureeConsoleOutput.m */; };
+		83F4AC0C12E14DF5A2710AEA /* OSPureeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E5200BA0591C4BBFBCE2B0AB /* OSPureeLogger.m */; };
+		85B0DB629C374F6F9CF7ED7C /* OSPreBundlePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB3C0CC00F41DE84F410BC /* OSPreBundlePlugin.m */; };
+		86BC7326EE3A411CBD29670A /* AgentifaiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E9E6E8754404381687B8F /* AgentifaiHelper.swift */; };
+		8BEE689EA3534DA7AC0616B9 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = E7A793968FA94E8992797DEF /* sqlite3.c */; settings = {COMPILER_FLAGS = "-w -DSQLITE_THREADSAFE=1 -DSQLITE_DEFAULT_SYNCHRONOUS=3 -DSQLITE_DEFAULT_MEMSTATUS=0 -DSQLITE_OMIT_DECLTYPE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_SHARED_CACHE -DSQLITE_TEMP_STORE=2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_DEFAULT_PAGE_SIZE=4096"; }; };
+		8FF1FBC34F7D44629B835A22 /* OSProtocolManagerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B327FA79D4441E949CE957 /* OSProtocolManagerPlugin.m */; };
+		92DD20D96C9B42EBA4C2FD4C /* OSNativeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8993C9D0E274430EAF95F9C1 /* OSNativeCache.m */; };
+		9482B2C42DB64E3B8FF3496F /* OSNetworkEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F16A893CF946078F71E6B2 /* OSNetworkEventEmitter.m */; };
+		98845D3C7A4E4F8CB1CDE26E /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 751DFE7CFFB042ABBB195F96 /* CDVReachability.m */; };
+		99D6952C64D042CC83549491 /* OSHttpPluginArgHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC30AB199F54AA9A4A05C89 /* OSHttpPluginArgHelper.m */; };
+		A01F4FE0155B4B39B0F9BDD1 /* OSLogRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA01FB26B2144E2BAC02860 /* OSLogRecord.m */; };
+		A668D483EBD648E7A5A78895 /* OSOTLPApiKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE836B70BF4B43C1AA60A1CB /* OSOTLPApiKeyManager.m */; };
+		AE4C1E7F36AE4E7ABABA40DA /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9219BA50549FEA3B291B1 /* AuthenticationServices.framework */; };
+		AEE47A1086D7485787876FD3 /* OSSendRequestCommandArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B629D962A40F080DC5278 /* OSSendRequestCommandArgs.m */; };
+		B43B51C90FCA420784E89B4B /* OSAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A9DEF02478481D814DBD19 /* OSAuth.m */; };
+		B8BB061FD9774B72A02A8C4E /* OSHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = A1374FB30A53478FB1A5A3AB /* OSHttp.m */; };
+		BB24592C07AE4D6A924C497B /* OSNetworkEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5777FF27155B4F51AD5BEEFC /* OSNetworkEvent.m */; };
+		BB864B88D19B4242BD27B01A /* OSWebResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A5AB0C7EF8419DAB927E59 /* OSWebResponse.m */; };
+		C065959B8D754A75A88281E0 /* OSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 461296FA08D04F81AC7CBF13 /* OSCache.m */; };
+		C1B9BB26481948F9A43F8045 /* AgentifaiBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127E2C1ACC747CAA06F1731 /* AgentifaiBridge.swift */; };
+		C8BC010302FA4A20BDCCA3BF /* OSCrashHandlerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F29EA089BA4BB5A2AA0D25 /* OSCrashHandlerPlugin.m */; };
+		CA71E4B91F28411A8B9E122B /* OSLoggerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9C49EE8FF44E0939C7950 /* OSLoggerPlugin.m */; };
+		CB80B553FEA14340B82991FC /* OSCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F29AD0E884879A9087E9D /* OSCrashHandler.m */; };
+		D14D4590DD4545ED9396CD82 /* AgentifaiPluginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054EF3CBB96C4033936AD0BB /* AgentifaiPluginError.swift */; };
+		D4CABCA576D4448D9F21A84B /* OSOtelUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 35501B7791F048F9ADA72F91 /* OSOtelUtils.m */; };
+		E49E37D2D1834F75A01B1ADD /* OSCustomSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4007CB187F449D9D160D6D /* OSCustomSchemeHandler.m */; };
+		E50A5F35DD0B40139A1C9B50 /* CustomPSPDFThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C1B57CCCEC482C8CE0043C /* CustomPSPDFThreadSafeMutableDictionary.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		EB1D753D49394C56BAE9A511 /* OSDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF0D6A453345CC960C38BF /* OSDownloadOperation.m */; };
+		F2C7DB5F6F3A4538B3465F38 /* OSPureeOtlpOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC03154712C482D92A89C5A /* OSPureeOtlpOutput.m */; };
+		F313471D6B4243C5ACCCB020 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA33A2185A47AD910962EF /* CDVConnection.m */; };
+		F5F668B9F7734743AD38E383 /* OSApplicationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A1311DA3B7EF48CEA7B28D57 /* OSApplicationCache.m */; };
+		FC25483D83974D788ACD60DD /* OSApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AC47F050F84493B251B268 /* OSApplicationInfo.m */; };
+		FC50E0B245ED4964AC5B2432 /* OSThreadSafeDictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E71C25B24B6D4B11947EEB30 /* OSThreadSafeDictionaryWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,13 +121,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6B2B7916AC0443ECA781067A /* Embed Frameworks */ = {
+		E397858A5C4D4C18A7EC4CC0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9434662C043D4E22964025CD /* OSMobileCore.xcframework in Embed Frameworks */,
+				75130FCBD14C425DA9E6C1B6 /* OSMobileCore.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,36 +135,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00DD5AEB70E24C24933EA6AE /* OSEventProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSEventProtocol.h; path = "@outsystems/cordova-outsystems-core/OSEventProtocol.h"; sourceTree = "<group>"; };
-		01F8CE4EA8BD4D1D910ED540 /* sqlite3.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; };
+		00E6BB9A0A034C65A48A8419 /* OSApplicationInfoPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationInfoPlugin.h; path = "@outsystems/cordova-outsystems-core/OSApplicationInfoPlugin.h"; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Agentifai Simulator/Images.xcassets"; sourceTree = SOURCE_ROOT; };
-		020903733CAB386B05C27521 /* Pods-Agentifai Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agentifai Simulator.debug.xcconfig"; path = "Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator.debug.xcconfig"; sourceTree = "<group>"; };
-		03CB6052E146405C82C2AA79 /* OSLoggerProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLoggerProtocol.h; path = "@outsystems/cordova-outsystems-core/OSLoggerProtocol.h"; sourceTree = "<group>"; };
-		0491632DC57345AA92DB4097 /* OSInspectorPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSInspectorPlugin.m; path = "@outsystems/cordova-outsystems-core/OSInspectorPlugin.m"; sourceTree = "<group>"; };
-		087ED5CB1BD343A89887EBBA /* OSHttpSharedCookieHandlerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpSharedCookieHandlerEngine.h; path = "@outsystems/cordova-outsystems-core/OSHttpSharedCookieHandlerEngine.h"; sourceTree = "<group>"; };
-		08E25F250A9B45569CA457D1 /* OSPureeServerOutput.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeServerOutput.h; path = "@outsystems/cordova-outsystems-core/OSPureeServerOutput.h"; sourceTree = "<group>"; };
-		09C2190825B1495F959C7BA2 /* OSLogRecord.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLogRecord.m; path = "@outsystems/cordova-outsystems-core/OSLogRecord.m"; sourceTree = "<group>"; };
-		0A5E76D3D17945B39C7F7382 /* OSCrashHandlerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCrashHandlerEngine.h; path = "@outsystems/cordova-outsystems-core/OSCrashHandlerEngine.h"; sourceTree = "<group>"; };
-		0D77762753194AAB8CCF9168 /* OSApplicationInfo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationInfo.h; path = "@outsystems/cordova-outsystems-core/OSApplicationInfo.h"; sourceTree = "<group>"; };
-		0F34F4F842474306AAE7D7AB /* OSPureeFilter.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeFilter.m; path = "@outsystems/cordova-outsystems-core/OSPureeFilter.m"; sourceTree = "<group>"; };
-		117D598F3F324DFDB308F1F0 /* AgentifaiPluginError.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AgentifaiPluginError.swift; path = "cordova-plugin-agentifai-assistant/AgentifaiPluginError.swift"; sourceTree = "<group>"; };
-		16186BDDA8144C9EAD90F3F2 /* AgentifaiBridge.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AgentifaiBridge.swift; path = "cordova-plugin-agentifai-assistant/AgentifaiBridge.swift"; sourceTree = "<group>"; };
-		166BA05C8A804629851A181C /* OSWebResponse.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSWebResponse.h; path = "@outsystems/cordova-outsystems-core/OSWebResponse.h"; sourceTree = "<group>"; };
-		18FCDA7A4BEC4A12BDBADD9D /* OSCacheListenerDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheListenerDelegate.h; path = "@outsystems/cordova-outsystems-core/OSCacheListenerDelegate.h"; sourceTree = "<group>"; };
+		02B27F2CB2484DDEA468DCC3 /* OSHttpResultUtil.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpResultUtil.m; path = "@outsystems/cordova-outsystems-core/OSHttpResultUtil.m"; sourceTree = "<group>"; };
+		03893760DBB14F61A93986FF /* OSCrashHandlerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCrashHandlerEngine.h; path = "@outsystems/cordova-outsystems-core/OSCrashHandlerEngine.h"; sourceTree = "<group>"; };
+		03896D1AE2C443BCB23FFA6A /* OSManifestParserEngineProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSManifestParserEngineProtocol.h; path = "@outsystems/cordova-outsystems-core/OSManifestParserEngineProtocol.h"; sourceTree = "<group>"; };
+		048F29AD0E884879A9087E9D /* OSCrashHandler.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCrashHandler.m; path = "@outsystems/cordova-outsystems-core/OSCrashHandler.m"; sourceTree = "<group>"; };
+		054EF3CBB96C4033936AD0BB /* AgentifaiPluginError.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AgentifaiPluginError.swift; path = "cordova-plugin-agentifai-assistant/AgentifaiPluginError.swift"; sourceTree = "<group>"; };
+		05B9FCF9417C4349B9097C1F /* OSPreBundleProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPreBundleProtocol.h; path = "@outsystems/cordova-outsystems-core/OSPreBundleProtocol.h"; sourceTree = "<group>"; };
+		084E9E6E8754404381687B8F /* AgentifaiHelper.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AgentifaiHelper.swift; path = "cordova-plugin-agentifai-assistant/AgentifaiHelper.swift"; sourceTree = "<group>"; };
+		095897E6CAF41340BB0E2049 /* Pods_Agentifai_Simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agentifai_Simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4007CB187F449D9D160D6D /* OSCustomSchemeHandler.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCustomSchemeHandler.m; path = "@outsystems/cordova-outsystems-core/OSCustomSchemeHandler.m"; sourceTree = "<group>"; };
+		0A648118942844629B18DE72 /* OSNetworkEventEmitter.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSNetworkEventEmitter.h; path = "@outsystems/cordova-outsystems-core/OSNetworkEventEmitter.h"; sourceTree = "<group>"; };
+		0C974091BFE54E0698DD2B51 /* OSCordovaLoaderImpl.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCordovaLoaderImpl.m; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderImpl.m"; sourceTree = "<group>"; };
+		0D5475EBA03B44B4A9BE6433 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
+		0DDDB0FEB41243C8B6756C27 /* OSPureeServerOutput.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeServerOutput.h; path = "@outsystems/cordova-outsystems-core/OSPureeServerOutput.h"; sourceTree = "<group>"; };
+		1196813CD56F48F4918B7968 /* OSPureeConsoleOutput.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeConsoleOutput.h; path = "@outsystems/cordova-outsystems-core/OSPureeConsoleOutput.h"; sourceTree = "<group>"; };
+		12CCDF8015784BC6879C8E3D /* OSDownloadOperation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDownloadOperation.h; path = "@outsystems/cordova-outsystems-core/OSDownloadOperation.h"; sourceTree = "<group>"; };
+		1324C9C4D6B04E26B113AF10 /* OSHttpPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpPlugin.h; path = "@outsystems/cordova-outsystems-core/OSHttpPlugin.h"; sourceTree = "<group>"; };
+		19F3B128045D4B9BB02D71AA /* OSInspectorPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSInspectorPlugin.h; path = "@outsystems/cordova-outsystems-core/OSInspectorPlugin.h"; sourceTree = "<group>"; };
+		1B2E2BCCCDAA4FC2BA9A4A1B /* OSHTTPFactory.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHTTPFactory.m; path = "@outsystems/cordova-outsystems-core/OSHTTPFactory.m"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Agentifai Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agentifai Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F0FCF0EFF9B4F50816FF2CE /* OSFileChecksum.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSFileChecksum.m; path = "@outsystems/cordova-outsystems-core/OSFileChecksum.m"; sourceTree = "<group>"; };
-		2014848A7BD743F086882156 /* OSPureeLogger.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeLogger.m; path = "@outsystems/cordova-outsystems-core/OSPureeLogger.m"; sourceTree = "<group>"; };
-		2124D1C6BA3647A6B1B290FE /* OSWKWebViewEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSWKWebViewEngine.h; path = "@outsystems/cordova-outsystems-core/OSWKWebViewEngine.h"; sourceTree = "<group>"; };
-		212602801A374FE98ABBB5DB /* OSDownloadOperation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDownloadOperation.m; path = "@outsystems/cordova-outsystems-core/OSDownloadOperation.m"; sourceTree = "<group>"; };
-		21F4B9E471204DC68C9F71A2 /* OSCordovaLoaderEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoaderEngine.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderEngine.h"; sourceTree = "<group>"; };
-		278EBD031FF348E2B8090E91 /* OSApplicationCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationCache.h; path = "@outsystems/cordova-outsystems-core/OSApplicationCache.h"; sourceTree = "<group>"; };
-		28B23079B18344E0ADF3957B /* OSHttpPluginArgHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpPluginArgHelper.m; path = "@outsystems/cordova-outsystems-core/OSHttpPluginArgHelper.m"; sourceTree = "<group>"; };
+		21CFFB879A3F4DA7B1715B65 /* OSApplicationCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationCache.h; path = "@outsystems/cordova-outsystems-core/OSApplicationCache.h"; sourceTree = "<group>"; };
+		231890A5AB3B4B27A3025C62 /* OSHttpResultUtil.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpResultUtil.h; path = "@outsystems/cordova-outsystems-core/OSHttpResultUtil.h"; sourceTree = "<group>"; };
+		23AF742FD9994A22AD230BA9 /* OSInspectorNotificationHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSInspectorNotificationHelper.h; path = "@outsystems/cordova-outsystems-core/OSInspectorNotificationHelper.h"; sourceTree = "<group>"; };
+		24C95986A2A94F21A0B02108 /* OSLogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLogger.h; path = "@outsystems/cordova-outsystems-core/OSLogger.h"; sourceTree = "<group>"; };
+		2536AA4901D84B2E81E29546 /* OSMimeTypesHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSMimeTypesHelper.m; path = "@outsystems/cordova-outsystems-core/OSMimeTypesHelper.m"; sourceTree = "<group>"; };
+		2553B58E851942ED93958323 /* OSThreadSafeDictionaryWrapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSThreadSafeDictionaryWrapper.h; path = "@outsystems/cordova-outsystems-core/OSThreadSafeDictionaryWrapper.h"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A12831F1CDC4124A640D5B6 /* OSPureeOtlpOutput.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeOtlpOutput.m; path = "@outsystems/cordova-outsystems-core/OSPureeOtlpOutput.m"; sourceTree = "<group>"; };
-		2E46F50A185B40A89874D8A6 /* CDVReachability.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVReachability.m; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; };
-		2F1AEC69A3EB4A5087807724 /* OSHTTPFactory.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHTTPFactory.h; path = "@outsystems/cordova-outsystems-core/OSHTTPFactory.h"; sourceTree = "<group>"; };
+		2A26ED5ED8DD4DEF804BFCDC /* SQLitePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SQLitePlugin.m; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; };
+		2B55550EA20D4EFBB7C1915C /* SQLitePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SQLitePlugin.h; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; };
+		2BEFD09F5AC45970481E9350 /* Pods-Agentifai Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agentifai Simulator.debug.xcconfig"; path = "Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator.debug.xcconfig"; sourceTree = "<group>"; };
+		2C83AD63BCFF4D5BBC032B47 /* OSLogger.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLogger.m; path = "@outsystems/cordova-outsystems-core/OSLogger.m"; sourceTree = "<group>"; };
+		300654D23397419A80859E52 /* OSBroadcasterPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSBroadcasterPlugin.h; path = "@outsystems/cordova-outsystems-core/OSBroadcasterPlugin.h"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -173,147 +178,142 @@
 		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
-		31DDFFF6E3D04AADB69599D7 /* OSCordovaLoaderImpl.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoaderImpl.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderImpl.h"; sourceTree = "<group>"; };
-		32A6A283A1384BAE8CD6501A /* OSHttpRequesterProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpRequesterProtocol.h; path = "@outsystems/cordova-outsystems-core/OSHttpRequesterProtocol.h"; sourceTree = "<group>"; };
+		30FDFC83BF8F4BDCB6781454 /* RSSwizzle.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RSSwizzle.h; path = "@outsystems/cordova-outsystems-core/RSSwizzle.h"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Agentifai Simulator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Agentifai Simulator-Prefix.pch"; sourceTree = "<group>"; };
-		33ABD016916E449D8FBC6639 /* OSAuth.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSAuth.h; path = "@outsystems/cordova-outsystems-core/OSAuth.h"; sourceTree = "<group>"; };
-		33FEBE89B9EA49B784AA6B1B /* OSWebResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSWebResponse.m; path = "@outsystems/cordova-outsystems-core/OSWebResponse.m"; sourceTree = "<group>"; };
-		3545A66975894BECBED790C5 /* OSPureeServerOutput.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeServerOutput.m; path = "@outsystems/cordova-outsystems-core/OSPureeServerOutput.m"; sourceTree = "<group>"; };
-		38260D66FC204C838AC9FB60 /* OSPreBundleProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPreBundleProtocol.h; path = "@outsystems/cordova-outsystems-core/OSPreBundleProtocol.h"; sourceTree = "<group>"; };
-		391D68417C6E4DC98B2B79BC /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
-		39997E500B32416AB2666AAC /* OSMimeTypesHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSMimeTypesHelper.h; path = "@outsystems/cordova-outsystems-core/OSMimeTypesHelper.h"; sourceTree = "<group>"; };
-		39CB8E5CD9AF416EAD1F8F62 /* OSManifestParserEngineProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSManifestParserEngineProtocol.h; path = "@outsystems/cordova-outsystems-core/OSManifestParserEngineProtocol.h"; sourceTree = "<group>"; };
-		3CFBF5EAA82F49F59FDCFE8A /* OSHttpWKWebViewCookieHandlerEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpWKWebViewCookieHandlerEngine.m; path = "@outsystems/cordova-outsystems-core/OSHttpWKWebViewCookieHandlerEngine.m"; sourceTree = "<group>"; };
-		3E484E455FDE4AA3B70D51E6 /* OSInspectorPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSInspectorPlugin.h; path = "@outsystems/cordova-outsystems-core/OSInspectorPlugin.h"; sourceTree = "<group>"; };
-		3EC8AB16B38F44EFA0F8CD3E /* OSInspectorPreferences.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSInspectorPreferences.m; path = "@outsystems/cordova-outsystems-core/OSInspectorPreferences.m"; sourceTree = "<group>"; };
-		430039AF1E3143B8B0C93374 /* OSApplicationCache.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSApplicationCache.m; path = "@outsystems/cordova-outsystems-core/OSApplicationCache.m"; sourceTree = "<group>"; };
-		43BADBFB9C894A19AD9D2271 /* OSManifestParser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSManifestParser.h; path = "@outsystems/cordova-outsystems-core/OSManifestParser.h"; sourceTree = "<group>"; };
-		45092F526F914B3B847F37B5 /* OSNativeCache.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSNativeCache.m; path = "@outsystems/cordova-outsystems-core/OSNativeCache.m"; sourceTree = "<group>"; };
-		4567475F4BAE4585A0486371 /* OSCrashHandlerPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCrashHandlerPlugin.m; path = "@outsystems/cordova-outsystems-core/OSCrashHandlerPlugin.m"; sourceTree = "<group>"; };
-		49FDF93A15144FD588526136 /* OSNativeCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSNativeCache.h; path = "@outsystems/cordova-outsystems-core/OSNativeCache.h"; sourceTree = "<group>"; };
-		4A8EF1FF41344D2C9D8FB72C /* OSProtocolManagerPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSProtocolManagerPlugin.h; path = "@outsystems/cordova-outsystems-core/OSProtocolManagerPlugin.h"; sourceTree = "<group>"; };
-		4AF0EA38B7FC4F3AB04F42D5 /* OSCordovaLoader.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCordovaLoader.m; path = "@outsystems/cordova-outsystems-core/OSCordovaLoader.m"; sourceTree = "<group>"; };
-		4BDE3E015DA74332AFB2E8CA /* OSManifestParser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSManifestParser.m; path = "@outsystems/cordova-outsystems-core/OSManifestParser.m"; sourceTree = "<group>"; };
-		4CF04F9B98C042D1BA83BECC /* OSLoggerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLoggerEngine.h; path = "@outsystems/cordova-outsystems-core/OSLoggerEngine.h"; sourceTree = "<group>"; };
-		4D9B6C4137D94867A2A5B683 /* OSMobileCore.xcframework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = OSMobileCore.xcframework; path = "Agentifai Simulator/Plugins/@outsystems/cordova-outsystems-core/OSMobileCore.xcframework"; sourceTree = "<group>"; };
-		4E4F0608ABF042F3877FE819 /* OSHttpPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpPlugin.m; path = "@outsystems/cordova-outsystems-core/OSHttpPlugin.m"; sourceTree = "<group>"; };
-		5025CA68495B44BB9EE6CD3E /* OSCrashHandlerPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCrashHandlerPlugin.h; path = "@outsystems/cordova-outsystems-core/OSCrashHandlerPlugin.h"; sourceTree = "<group>"; };
-		5071281FED7447BD9436BEE5 /* OSCacheEntry.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheEntry.h; path = "@outsystems/cordova-outsystems-core/OSCacheEntry.h"; sourceTree = "<group>"; };
-		50931EAAFF22468E9A24B259 /* OSNetworkEventEmitter.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSNetworkEventEmitter.h; path = "@outsystems/cordova-outsystems-core/OSNetworkEventEmitter.h"; sourceTree = "<group>"; };
-		536AE9FA43EA438DBB02C220 /* OSPureeOtlpOutput.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeOtlpOutput.h; path = "@outsystems/cordova-outsystems-core/OSPureeOtlpOutput.h"; sourceTree = "<group>"; };
-		56A78F91ED9D437EA861C51A /* OSOTLPApiKeyManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSOTLPApiKeyManager.m; path = "@outsystems/cordova-outsystems-core/OSOTLPApiKeyManager.m"; sourceTree = "<group>"; };
-		59852F15628F4EE4B4DA5D3F /* OSApplicationInfo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSApplicationInfo.m; path = "@outsystems/cordova-outsystems-core/OSApplicationInfo.m"; sourceTree = "<group>"; };
-		5A667F0207A94BA890B39A49 /* CustomPSPDFThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CustomPSPDFThreadSafeMutableDictionary.m; path = "cordova-sqlite-storage/CustomPSPDFThreadSafeMutableDictionary.m"; sourceTree = "<group>"; };
-		5CDF78AAC10D4ABEA1375780 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
-		5D0F2C07F0444D0BBDDE517E /* OSInspectorNotificationHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSInspectorNotificationHelper.h; path = "@outsystems/cordova-outsystems-core/OSInspectorNotificationHelper.h"; sourceTree = "<group>"; };
-		5DD00C517916498491B5B2F3 /* OSCache.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCache.m; path = "@outsystems/cordova-outsystems-core/OSCache.m"; sourceTree = "<group>"; };
-		5E0B37C18E7E4CF2942A3056 /* OSDeviceInfo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDeviceInfo.h; path = "@outsystems/cordova-outsystems-core/OSDeviceInfo.h"; sourceTree = "<group>"; };
-		5E924C5485AD5154543AC287 /* Pods-Agentifai Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agentifai Simulator.release.xcconfig"; path = "Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator.release.xcconfig"; sourceTree = "<group>"; };
-		6050DA653E9543CCA13127CE /* OSOtelUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSOtelUtils.h; path = "@outsystems/cordova-outsystems-core/OSOtelUtils.h"; sourceTree = "<group>"; };
-		610609F63D7D4D5F94823DC4 /* OSCordovaLoaderURLProtocol.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCordovaLoaderURLProtocol.m; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderURLProtocol.m"; sourceTree = "<group>"; };
-		62BD64CE1BD34275A59C3BC9 /* OSHttpPluginArgHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpPluginArgHelper.h; path = "@outsystems/cordova-outsystems-core/OSHttpPluginArgHelper.h"; sourceTree = "<group>"; };
-		62E3E58D79A145A7BEEEB312 /* CDVConnection.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; };
-		64007ABA099A459A9958C525 /* SQLitePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SQLitePlugin.m; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; };
-		64B2B3D5EFAB42E79F904B5C /* OSPureeConsoleOutput.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeConsoleOutput.h; path = "@outsystems/cordova-outsystems-core/OSPureeConsoleOutput.h"; sourceTree = "<group>"; };
-		64DD896BF45347DC855DFDF1 /* OSProtocolManagerPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSProtocolManagerPlugin.m; path = "@outsystems/cordova-outsystems-core/OSProtocolManagerPlugin.m"; sourceTree = "<group>"; };
-		6515AB3B064B414FAED5E55A /* NSDictionary+Merge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Merge.h"; path = "@outsystems/cordova-outsystems-core/NSDictionary+Merge.h"; sourceTree = "<group>"; };
-		65AC2828CD814F129EB9C99C /* OSNetworkEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSNetworkEvent.m; path = "@outsystems/cordova-outsystems-core/OSNetworkEvent.m"; sourceTree = "<group>"; };
-		65B02F4F2B88422A8415A36A /* OSDeepLinks.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDeepLinks.h; path = "@outsystems/cordova-outsystems-core/OSDeepLinks.h"; sourceTree = "<group>"; };
-		67C22DEDF6494881B68BFBB5 /* OSCordovaLoader.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoader.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoader.h"; sourceTree = "<group>"; };
-		68270004C8B54196B85613E3 /* OSHttpResultUtil.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpResultUtil.h; path = "@outsystems/cordova-outsystems-core/OSHttpResultUtil.h"; sourceTree = "<group>"; };
-		6AFA006AC2204748AC9A8232 /* OSSendRequestCommandArgs.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSSendRequestCommandArgs.h; path = "@outsystems/cordova-outsystems-core/OSSendRequestCommandArgs.h"; sourceTree = "<group>"; };
+		3379C16D399144FF813765CC /* OSInspectorPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSInspectorPlugin.m; path = "@outsystems/cordova-outsystems-core/OSInspectorPlugin.m"; sourceTree = "<group>"; };
+		35501B7791F048F9ADA72F91 /* OSOtelUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSOtelUtils.m; path = "@outsystems/cordova-outsystems-core/OSOtelUtils.m"; sourceTree = "<group>"; };
+		37670F6A9ED24885B17DFBFE /* NSDictionary+Merge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Merge.h"; path = "@outsystems/cordova-outsystems-core/NSDictionary+Merge.h"; sourceTree = "<group>"; };
+		38B70C8DEFC44D3ABDF6E5AB /* OSHttp.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttp.h; path = "@outsystems/cordova-outsystems-core/OSHttp.h"; sourceTree = "<group>"; };
+		3D9F7AB0251F4C9D88F462A3 /* OSDeepLinks.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDeepLinks.h; path = "@outsystems/cordova-outsystems-core/OSDeepLinks.h"; sourceTree = "<group>"; };
+		3FEA33A2185A47AD910962EF /* CDVConnection.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVConnection.m; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; };
+		42DAB6E8ED5242A48DCC2475 /* OSCordovaLoaderEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoaderEngine.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderEngine.h"; sourceTree = "<group>"; };
+		461296FA08D04F81AC7CBF13 /* OSCache.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCache.m; path = "@outsystems/cordova-outsystems-core/OSCache.m"; sourceTree = "<group>"; };
+		482955AFF6CB4B3F9D5E884E /* OSWKWebViewEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSWKWebViewEngine.m; path = "@outsystems/cordova-outsystems-core/OSWKWebViewEngine.m"; sourceTree = "<group>"; };
+		4AEB5C2910F041BA84DFF5B4 /* OSManifest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSManifest.h; path = "@outsystems/cordova-outsystems-core/OSManifest.h"; sourceTree = "<group>"; };
+		4BC30AB199F54AA9A4A05C89 /* OSHttpPluginArgHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpPluginArgHelper.m; path = "@outsystems/cordova-outsystems-core/OSHttpPluginArgHelper.m"; sourceTree = "<group>"; };
+		4FAB3C0CC00F41DE84F410BC /* OSPreBundlePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPreBundlePlugin.m; path = "@outsystems/cordova-outsystems-core/OSPreBundlePlugin.m"; sourceTree = "<group>"; };
+		525670BFE2D9474286CD466F /* OSBroadcasterProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSBroadcasterProtocol.h; path = "@outsystems/cordova-outsystems-core/OSBroadcasterProtocol.h"; sourceTree = "<group>"; };
+		536570B7D98A4044BF650033 /* OSHttpUrlSessionEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpUrlSessionEngine.h; path = "@outsystems/cordova-outsystems-core/OSHttpUrlSessionEngine.h"; sourceTree = "<group>"; };
+		54D18E8BE41945278E05790D /* OSBroadcaster.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSBroadcaster.m; path = "@outsystems/cordova-outsystems-core/OSBroadcaster.m"; sourceTree = "<group>"; };
+		54E4C48D13EF4FA499BF1238 /* OSManifest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSManifest.m; path = "@outsystems/cordova-outsystems-core/OSManifest.m"; sourceTree = "<group>"; };
+		550DD3293C394BB595D37085 /* OSApplicationInfo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationInfo.h; path = "@outsystems/cordova-outsystems-core/OSApplicationInfo.h"; sourceTree = "<group>"; };
+		55D42BF804364F28BA045A52 /* OSDeviceInfo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDeviceInfo.m; path = "@outsystems/cordova-outsystems-core/OSDeviceInfo.m"; sourceTree = "<group>"; };
+		57582720E1964A1893C480C8 /* OSWKWebViewEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSWKWebViewEngine.h; path = "@outsystems/cordova-outsystems-core/OSWKWebViewEngine.h"; sourceTree = "<group>"; };
+		5777FF27155B4F51AD5BEEFC /* OSNetworkEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSNetworkEvent.m; path = "@outsystems/cordova-outsystems-core/OSNetworkEvent.m"; sourceTree = "<group>"; };
+		5888D7D902D948658B901E22 /* OSHttpWKWebViewCookieHandlerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpWKWebViewCookieHandlerEngine.h; path = "@outsystems/cordova-outsystems-core/OSHttpWKWebViewCookieHandlerEngine.h"; sourceTree = "<group>"; };
+		58B670528B5148A9A712F5DE /* OSDeepLinks.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDeepLinks.m; path = "@outsystems/cordova-outsystems-core/OSDeepLinks.m"; sourceTree = "<group>"; };
+		59F773AA43F249158D3C7FE6 /* OSAbortRequestCommandArgs.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSAbortRequestCommandArgs.m; path = "@outsystems/cordova-outsystems-core/OSAbortRequestCommandArgs.m"; sourceTree = "<group>"; };
+		5A8341247A1C42A799B9F043 /* OSInspectorPreferences.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSInspectorPreferences.m; path = "@outsystems/cordova-outsystems-core/OSInspectorPreferences.m"; sourceTree = "<group>"; };
+		5B2D351DE2B94596B451D28E /* OSHttpHeadersUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpHeadersUtils.m; path = "@outsystems/cordova-outsystems-core/OSHttpHeadersUtils.m"; sourceTree = "<group>"; };
+		5C40493416204BBFA9D40BAC /* OSDateUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDateUtils.m; path = "@outsystems/cordova-outsystems-core/OSDateUtils.m"; sourceTree = "<group>"; };
+		5CB0FCE9ECC94552A80F1805 /* OSCordovaLoader.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoader.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoader.h"; sourceTree = "<group>"; };
+		63414279CF9F4A9C8D00630A /* OSDeviceInfo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDeviceInfo.h; path = "@outsystems/cordova-outsystems-core/OSDeviceInfo.h"; sourceTree = "<group>"; };
+		65632EEFF12940D99A54E73C /* OSBroadcasterPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSBroadcasterPlugin.m; path = "@outsystems/cordova-outsystems-core/OSBroadcasterPlugin.m"; sourceTree = "<group>"; };
+		67A9DEF02478481D814DBD19 /* OSAuth.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSAuth.m; path = "@outsystems/cordova-outsystems-core/OSAuth.m"; sourceTree = "<group>"; };
+		6A574C7BC17649FD895C0A32 /* OSApplicationInfoPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSApplicationInfoPlugin.m; path = "@outsystems/cordova-outsystems-core/OSApplicationInfoPlugin.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "Agentifai Simulator/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
-		6B0F4E5424024341828953C7 /* OSEventEmitterProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSEventEmitterProtocol.h; path = "@outsystems/cordova-outsystems-core/OSEventEmitterProtocol.h"; sourceTree = "<group>"; };
-		6E4CD02F6D864D31B041EF06 /* OSNetworkEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSNetworkEvent.h; path = "@outsystems/cordova-outsystems-core/OSNetworkEvent.h"; sourceTree = "<group>"; };
-		6EEDFE4F4FE04BBF8DBFB560 /* OSHttpUrlSessionEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpUrlSessionEngine.m; path = "@outsystems/cordova-outsystems-core/OSHttpUrlSessionEngine.m"; sourceTree = "<group>"; };
-		7655F587E3324DC9963C1C28 /* OSDateUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDateUtils.m; path = "@outsystems/cordova-outsystems-core/OSDateUtils.m"; sourceTree = "<group>"; };
-		792580AE51A0DACFF871BDAC /* Pods_Agentifai_Simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agentifai_Simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C0AED1257741F0A1E535B0 /* OSLog.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLog.m; path = "@outsystems/cordova-outsystems-core/OSLog.m"; sourceTree = "<group>"; };
-		7C7BBAFA8A5642D6B33AD52B /* OSWKWebViewEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSWKWebViewEngine.m; path = "@outsystems/cordova-outsystems-core/OSWKWebViewEngine.m"; sourceTree = "<group>"; };
-		7C89C7CC525C42679F18A360 /* OSCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCache.h; path = "@outsystems/cordova-outsystems-core/OSCache.h"; sourceTree = "<group>"; };
-		7EAE3143078D40BA92A07ABC /* SQLitePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SQLitePlugin.h; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; };
-		80244A8AB8994109A223AFD6 /* OSNetworkEventEmitter.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSNetworkEventEmitter.m; path = "@outsystems/cordova-outsystems-core/OSNetworkEventEmitter.m"; sourceTree = "<group>"; };
-		81D1432E057C45D3ABC2030C /* OSPureeConsoleOutput.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeConsoleOutput.m; path = "@outsystems/cordova-outsystems-core/OSPureeConsoleOutput.m"; sourceTree = "<group>"; };
-		8328ADF0255F4304BA1C07DA /* OSInspectorPreferences.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSInspectorPreferences.h; path = "@outsystems/cordova-outsystems-core/OSInspectorPreferences.h"; sourceTree = "<group>"; };
-		8537A66FDCC246FCA0290FDC /* OSCustomSchemeHandler.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCustomSchemeHandler.m; path = "@outsystems/cordova-outsystems-core/OSCustomSchemeHandler.m"; sourceTree = "<group>"; };
-		85D9859EF6624DE195464E98 /* CDVWebViewEngine+OutSystems.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewEngine+OutSystems.h"; path = "@outsystems/cordova-outsystems-core/CDVWebViewEngine+OutSystems.h"; sourceTree = "<group>"; };
-		8680D15CEC9445779DE00A27 /* OSPureeLogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeLogger.h; path = "@outsystems/cordova-outsystems-core/OSPureeLogger.h"; sourceTree = "<group>"; };
-		87BE09F5AF2141A9AA868072 /* OSCrashHandler.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCrashHandler.m; path = "@outsystems/cordova-outsystems-core/OSCrashHandler.m"; sourceTree = "<group>"; };
-		888CAFAFCB2F462084FF2C66 /* OSHttpSharedCookieHandlerEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpSharedCookieHandlerEngine.m; path = "@outsystems/cordova-outsystems-core/OSHttpSharedCookieHandlerEngine.m"; sourceTree = "<group>"; };
+		6B037CDCE4D548789B7CECBC /* OSCacheEntry.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCacheEntry.m; path = "@outsystems/cordova-outsystems-core/OSCacheEntry.m"; sourceTree = "<group>"; };
+		6B22DD34538148A8A4F76255 /* OSPureeConsoleOutput.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeConsoleOutput.m; path = "@outsystems/cordova-outsystems-core/OSPureeConsoleOutput.m"; sourceTree = "<group>"; };
+		6C533EB2584B42D1AE80D8CD /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		6E17BFFFE244456088CF1DBD /* OSHttpRequesterProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpRequesterProtocol.h; path = "@outsystems/cordova-outsystems-core/OSHttpRequesterProtocol.h"; sourceTree = "<group>"; };
+		6E6D94634B544160B8F19564 /* OSInspectorNotificationHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSInspectorNotificationHelper.m; path = "@outsystems/cordova-outsystems-core/OSInspectorNotificationHelper.m"; sourceTree = "<group>"; };
+		716A9FABE39140A5A69FA0F6 /* OSCordovaLoaderURLProtocol.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCordovaLoaderURLProtocol.m; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderURLProtocol.m"; sourceTree = "<group>"; };
+		726914FE26CF4E8EABFE1137 /* OSCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCache.h; path = "@outsystems/cordova-outsystems-core/OSCache.h"; sourceTree = "<group>"; };
+		73C9478864EC4908BD54B612 /* OSAbortRequestCommandArgs.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSAbortRequestCommandArgs.h; path = "@outsystems/cordova-outsystems-core/OSAbortRequestCommandArgs.h"; sourceTree = "<group>"; };
+		742A65C217CA4F07A5CCD2C0 /* OSLoggerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLoggerEngine.h; path = "@outsystems/cordova-outsystems-core/OSLoggerEngine.h"; sourceTree = "<group>"; };
+		751DFE7CFFB042ABBB195F96 /* CDVReachability.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVReachability.m; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; };
+		76D3A3E9C4354282AC1DA6BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77AC47F050F84493B251B268 /* OSApplicationInfo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSApplicationInfo.m; path = "@outsystems/cordova-outsystems-core/OSApplicationInfo.m"; sourceTree = "<group>"; };
+		77ED8F4CA7434C7C8DC85598 /* OSPureeFilter.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeFilter.m; path = "@outsystems/cordova-outsystems-core/OSPureeFilter.m"; sourceTree = "<group>"; };
+		794FE871E04642E7A235D304 /* OSCordovaLoader.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCordovaLoader.m; path = "@outsystems/cordova-outsystems-core/OSCordovaLoader.m"; sourceTree = "<group>"; };
+		7CCCEFE7D8B04498ADEB9013 /* OSEventProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSEventProtocol.h; path = "@outsystems/cordova-outsystems-core/OSEventProtocol.h"; sourceTree = "<group>"; };
+		80C33C7AF4D04741B4A9543F /* OSCacheResources.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCacheResources.m; path = "@outsystems/cordova-outsystems-core/OSCacheResources.m"; sourceTree = "<group>"; };
+		810AD14170A1484BB181D80B /* CDVReachability.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; };
+		81D2D655323648AFB419E89E /* OSManifestParser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSManifestParser.m; path = "@outsystems/cordova-outsystems-core/OSManifestParser.m"; sourceTree = "<group>"; };
+		8223F050BDF9483A943C79B4 /* OSMimeTypesHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSMimeTypesHelper.h; path = "@outsystems/cordova-outsystems-core/OSMimeTypesHelper.h"; sourceTree = "<group>"; };
+		840B629D962A40F080DC5278 /* OSSendRequestCommandArgs.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSSendRequestCommandArgs.m; path = "@outsystems/cordova-outsystems-core/OSSendRequestCommandArgs.m"; sourceTree = "<group>"; };
+		84F9C49EE8FF44E0939C7950 /* OSLoggerPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLoggerPlugin.m; path = "@outsystems/cordova-outsystems-core/OSLoggerPlugin.m"; sourceTree = "<group>"; };
+		88B674C399414680BE37D28A /* OSHttpPluginArgHelper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpPluginArgHelper.h; path = "@outsystems/cordova-outsystems-core/OSHttpPluginArgHelper.h"; sourceTree = "<group>"; };
+		88CDF6DE182242A3AA2CED97 /* OSPreBundle.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPreBundle.m; path = "@outsystems/cordova-outsystems-core/OSPreBundle.m"; sourceTree = "<group>"; };
+		8993C9D0E274430EAF95F9C1 /* OSNativeCache.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSNativeCache.m; path = "@outsystems/cordova-outsystems-core/OSNativeCache.m"; sourceTree = "<group>"; };
+		8C0C8FED8CB745278D62044A /* OSOtelUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSOtelUtils.h; path = "@outsystems/cordova-outsystems-core/OSOtelUtils.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Agentifai Simulator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Agentifai Simulator-Info.plist"; path = "Agentifai Simulator/Agentifai Simulator-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		8E041E98D56E4234BCB185D2 /* CDVConnection.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVConnection.m; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; };
-		8F28044757224E42B726BC67 /* OSPreBundle.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPreBundle.m; path = "@outsystems/cordova-outsystems-core/OSPreBundle.m"; sourceTree = "<group>"; };
-		8FDD540EEBBD4FAABFB810A0 /* OSCordovaLoaderImpl.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCordovaLoaderImpl.m; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderImpl.m"; sourceTree = "<group>"; };
-		905A04C2C68841838C606387 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		9114235E23944780AE743019 /* OSManifest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSManifest.h; path = "@outsystems/cordova-outsystems-core/OSManifest.h"; sourceTree = "<group>"; };
-		95C07317F361407DA907E2BA /* OSBroadcasterPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSBroadcasterPlugin.m; path = "@outsystems/cordova-outsystems-core/OSBroadcasterPlugin.m"; sourceTree = "<group>"; };
-		9618667394754FD284407694 /* OSThreadSafeDictionaryWrapper.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSThreadSafeDictionaryWrapper.h; path = "@outsystems/cordova-outsystems-core/OSThreadSafeDictionaryWrapper.h"; sourceTree = "<group>"; };
-		96DD5A3BA0D04B65B9326A69 /* OSBroadcasterProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSBroadcasterProtocol.h; path = "@outsystems/cordova-outsystems-core/OSBroadcasterProtocol.h"; sourceTree = "<group>"; };
-		971CC2E2D28B46449A4D376B /* OSCacheResources.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCacheResources.m; path = "@outsystems/cordova-outsystems-core/OSCacheResources.m"; sourceTree = "<group>"; };
-		97C2380DEF194645B7A4DF3B /* OSHttpErrorCodeEnum.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpErrorCodeEnum.h; path = "@outsystems/cordova-outsystems-core/OSHttpErrorCodeEnum.h"; sourceTree = "<group>"; };
-		97E0ADF64EC04FAE95885749 /* OSApplicationInfoProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationInfoProtocol.h; path = "@outsystems/cordova-outsystems-core/OSApplicationInfoProtocol.h"; sourceTree = "<group>"; };
-		991D5974C4A44EB28C5C2A18 /* OSFileChecksum.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSFileChecksum.h; path = "@outsystems/cordova-outsystems-core/OSFileChecksum.h"; sourceTree = "<group>"; };
-		9B2ED761C9A8467C957C6089 /* OSDeepLinks.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDeepLinks.m; path = "@outsystems/cordova-outsystems-core/OSDeepLinks.m"; sourceTree = "<group>"; };
-		A0661715ABC74944B4C25ABD /* OSHttpHeadersUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpHeadersUtils.m; path = "@outsystems/cordova-outsystems-core/OSHttpHeadersUtils.m"; sourceTree = "<group>"; };
-		A106752223954ADF8659E78F /* CDVReachability.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVReachability.h; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; };
-		A28D10235F8D495188957032 /* OSHttp.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttp.m; path = "@outsystems/cordova-outsystems-core/OSHttp.m"; sourceTree = "<group>"; };
-		A2F37E101EED45BFBB8119D6 /* OSThreadSafeDictionaryWrapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSThreadSafeDictionaryWrapper.m; path = "@outsystems/cordova-outsystems-core/OSThreadSafeDictionaryWrapper.m"; sourceTree = "<group>"; };
-		A30304E4F55E4DDA83FDFF4F /* CoreTelephony.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		A5872CD026764F28A697691D /* OSHttpResultUtil.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpResultUtil.m; path = "@outsystems/cordova-outsystems-core/OSHttpResultUtil.m"; sourceTree = "<group>"; };
-		A59A86DB1BE0405AAA425E09 /* OSAbortRequestCommandArgs.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSAbortRequestCommandArgs.m; path = "@outsystems/cordova-outsystems-core/OSAbortRequestCommandArgs.m"; sourceTree = "<group>"; };
-		A9430B65EE984F609DC883AD /* OSDeviceInfo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDeviceInfo.m; path = "@outsystems/cordova-outsystems-core/OSDeviceInfo.m"; sourceTree = "<group>"; };
-		AFEBC17F26244A9D9DF042B1 /* OSApplicationInfoPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSApplicationInfoPlugin.m; path = "@outsystems/cordova-outsystems-core/OSApplicationInfoPlugin.m"; sourceTree = "<group>"; };
-		B14BD50F51CA47EB8043F5AD /* OSManifest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSManifest.m; path = "@outsystems/cordova-outsystems-core/OSManifest.m"; sourceTree = "<group>"; };
-		B178EEDF26A14D07BBC98BD9 /* NSDictionary+Merge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Merge.m"; path = "@outsystems/cordova-outsystems-core/NSDictionary+Merge.m"; sourceTree = "<group>"; };
-		B58FA337FE15405DA7E6692B /* OSBroadcaster.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSBroadcaster.h; path = "@outsystems/cordova-outsystems-core/OSBroadcaster.h"; sourceTree = "<group>"; };
-		B5ED8C16862745F598DCC474 /* OSCordovaLoaderProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoaderProtocol.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderProtocol.h"; sourceTree = "<group>"; };
-		B731C07703F343F7B7F0C05C /* OSDownloadOperation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDownloadOperation.h; path = "@outsystems/cordova-outsystems-core/OSDownloadOperation.h"; sourceTree = "<group>"; };
-		B92A37F4E618428B8AC1941E /* RSSwizzle.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RSSwizzle.h; path = "@outsystems/cordova-outsystems-core/RSSwizzle.h"; sourceTree = "<group>"; };
-		BA10D206AE9044628837E012 /* OSCacheResources.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheResources.h; path = "@outsystems/cordova-outsystems-core/OSCacheResources.h"; sourceTree = "<group>"; };
-		BA624BE4B0054513B8A99D12 /* OSHttpPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpPlugin.h; path = "@outsystems/cordova-outsystems-core/OSHttpPlugin.h"; sourceTree = "<group>"; };
-		BCCBAB68F35D4A86A578C0E7 /* OSHttpHeadersUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpHeadersUtils.h; path = "@outsystems/cordova-outsystems-core/OSHttpHeadersUtils.h"; sourceTree = "<group>"; };
-		BE806D2B29F247E7A00F6F7C /* OSCrashHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCrashHandler.h; path = "@outsystems/cordova-outsystems-core/OSCrashHandler.h"; sourceTree = "<group>"; };
-		BEA8A7148D20452882DE85AA /* AuthenticationServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
-		BF59D31B9B714C979E20FA76 /* OSDateUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDateUtils.h; path = "@outsystems/cordova-outsystems-core/OSDateUtils.h"; sourceTree = "<group>"; };
-		BFA7DC5B726049F7B7B12D91 /* OSLogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLogger.h; path = "@outsystems/cordova-outsystems-core/OSLogger.h"; sourceTree = "<group>"; };
-		C0E6350328EF49BF95A9DEE0 /* OSHttp.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttp.h; path = "@outsystems/cordova-outsystems-core/OSHttp.h"; sourceTree = "<group>"; };
-		C112154F712F465A81B0DD5B /* OSLog.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLog.h; path = "@outsystems/cordova-outsystems-core/OSLog.h"; sourceTree = "<group>"; };
-		C1595E62795B4C768538E1C7 /* OSLoggerPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLoggerPlugin.h; path = "@outsystems/cordova-outsystems-core/OSLoggerPlugin.h"; sourceTree = "<group>"; };
-		C4BFB8D6D45C42B6898AAC6F /* OSLogRecord.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLogRecord.h; path = "@outsystems/cordova-outsystems-core/OSLogRecord.h"; sourceTree = "<group>"; };
-		C4E61D70970A4EF4B586A2CA /* OSSendRequestCommandArgs.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSSendRequestCommandArgs.m; path = "@outsystems/cordova-outsystems-core/OSSendRequestCommandArgs.m"; sourceTree = "<group>"; };
-		C5C33499177745AEB510A927 /* OSMimeTypesHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSMimeTypesHelper.m; path = "@outsystems/cordova-outsystems-core/OSMimeTypesHelper.m"; sourceTree = "<group>"; };
-		C8B70E196C324CF68ACDA8AF /* OSApiKeyManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApiKeyManager.h; path = "@outsystems/cordova-outsystems-core/OSApiKeyManager.h"; sourceTree = "<group>"; };
-		CDB1779589E448368339AEFB /* OSCacheEntry.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCacheEntry.m; path = "@outsystems/cordova-outsystems-core/OSCacheEntry.m"; sourceTree = "<group>"; };
-		CFE7D578FFDA4DCD91BBCB28 /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
-		D384EF86EA244CFF8F79EA4E /* OSHttpCookieHandlerProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpCookieHandlerProtocol.h; path = "@outsystems/cordova-outsystems-core/OSHttpCookieHandlerProtocol.h"; sourceTree = "<group>"; };
-		D413C771FC244804928499C9 /* OSHTTPFactory.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHTTPFactory.m; path = "@outsystems/cordova-outsystems-core/OSHTTPFactory.m"; sourceTree = "<group>"; };
-		D5AD3AB9029B4ED9B36BA827 /* OSPreBundlePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPreBundlePlugin.h; path = "@outsystems/cordova-outsystems-core/OSPreBundlePlugin.h"; sourceTree = "<group>"; };
-		D5C8BC7D3CC345F392C322B6 /* AgentifaiHelper.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AgentifaiHelper.swift; path = "cordova-plugin-agentifai-assistant/AgentifaiHelper.swift"; sourceTree = "<group>"; };
-		D6C5314981824D4D97289AFB /* OSAuth.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSAuth.m; path = "@outsystems/cordova-outsystems-core/OSAuth.m"; sourceTree = "<group>"; };
-		D9E0FEC5C66D4A7388661DF2 /* OSCacheEngineProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheEngineProtocol.h; path = "@outsystems/cordova-outsystems-core/OSCacheEngineProtocol.h"; sourceTree = "<group>"; };
-		DBD817E349F249519A707C21 /* OSBroadcasterPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSBroadcasterPlugin.h; path = "@outsystems/cordova-outsystems-core/OSBroadcasterPlugin.h"; sourceTree = "<group>"; };
-		DC114E194EB244BFA180C2AF /* OSPreBundle.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPreBundle.h; path = "@outsystems/cordova-outsystems-core/OSPreBundle.h"; sourceTree = "<group>"; };
-		DD07525894CD40948696DAAF /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
-		DE7212F883434DEAA79D2EBE /* OSOtelUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSOtelUtils.m; path = "@outsystems/cordova-outsystems-core/OSOtelUtils.m"; sourceTree = "<group>"; };
-		E245A036560F48698488ADAF /* OSOTLPApiKeyManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSOTLPApiKeyManager.h; path = "@outsystems/cordova-outsystems-core/OSOTLPApiKeyManager.h"; sourceTree = "<group>"; };
-		E83B3C3A619D484BAB3F7F9D /* OSAbortRequestCommandArgs.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSAbortRequestCommandArgs.h; path = "@outsystems/cordova-outsystems-core/OSAbortRequestCommandArgs.h"; sourceTree = "<group>"; };
-		E87D6E552B994E3B9F7050D7 /* OSLoggerPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLoggerPlugin.m; path = "@outsystems/cordova-outsystems-core/OSLoggerPlugin.m"; sourceTree = "<group>"; };
-		EA9B914EEFDF4BED81524311 /* sqlite3.c */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sqlite3.c; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; };
-		EB62EE878E0A45429AD09AF2 /* OSCustomSchemeHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCustomSchemeHandler.h; path = "@outsystems/cordova-outsystems-core/OSCustomSchemeHandler.h"; sourceTree = "<group>"; };
+		8F455A63451B404CB65D19F8 /* OSHttpWKWebViewCookieHandlerEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpWKWebViewCookieHandlerEngine.m; path = "@outsystems/cordova-outsystems-core/OSHttpWKWebViewCookieHandlerEngine.m"; sourceTree = "<group>"; };
+		933EFE08D2734073A79BD4CC /* OSDateUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSDateUtils.h; path = "@outsystems/cordova-outsystems-core/OSDateUtils.h"; sourceTree = "<group>"; };
+		95404C87C51F44E980952019 /* CDVConnection.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVConnection.h; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; };
+		9BB94FF15DDC4301BE9C653A /* OSCacheResources.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheResources.h; path = "@outsystems/cordova-outsystems-core/OSCacheResources.h"; sourceTree = "<group>"; };
+		A1311DA3B7EF48CEA7B28D57 /* OSApplicationCache.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSApplicationCache.m; path = "@outsystems/cordova-outsystems-core/OSApplicationCache.m"; sourceTree = "<group>"; };
+		A1374FB30A53478FB1A5A3AB /* OSHttp.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttp.m; path = "@outsystems/cordova-outsystems-core/OSHttp.m"; sourceTree = "<group>"; };
+		A4AF5C636BD4435983F36A30 /* RSSwizzle.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RSSwizzle.m; path = "@outsystems/cordova-outsystems-core/RSSwizzle.m"; sourceTree = "<group>"; };
+		A5F1F5454F9347F89F06C0B5 /* OSHttpMethodEnum.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpMethodEnum.h; path = "@outsystems/cordova-outsystems-core/OSHttpMethodEnum.h"; sourceTree = "<group>"; };
+		A6686CF5E11B469295BBE2C6 /* OSPreBundle.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPreBundle.h; path = "@outsystems/cordova-outsystems-core/OSPreBundle.h"; sourceTree = "<group>"; };
+		A7D61AA0839A4CA598606079 /* OSSendRequestCommandArgs.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSSendRequestCommandArgs.h; path = "@outsystems/cordova-outsystems-core/OSSendRequestCommandArgs.h"; sourceTree = "<group>"; };
+		A84AAEA134984C9E9797EEE5 /* OSPureeServerOutput.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeServerOutput.m; path = "@outsystems/cordova-outsystems-core/OSPureeServerOutput.m"; sourceTree = "<group>"; };
+		A95606E0E584479EAA4D9391 /* CoreTelephony.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AAEB1ECEE4944AA6988B2EE1 /* sqlite3.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; };
+		AC905A23FDB543538FE6C151 /* OSHttpSharedCookieHandlerEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpSharedCookieHandlerEngine.m; path = "@outsystems/cordova-outsystems-core/OSHttpSharedCookieHandlerEngine.m"; sourceTree = "<group>"; };
+		AC9E59288B2B40EB8F819913 /* OSManifestParser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSManifestParser.h; path = "@outsystems/cordova-outsystems-core/OSManifestParser.h"; sourceTree = "<group>"; };
+		AD34AFDB547A46B79F9051CB /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
+		AD6BEC3D12B5415BBFA2BBB9 /* OSOTLPApiKeyManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSOTLPApiKeyManager.h; path = "@outsystems/cordova-outsystems-core/OSOTLPApiKeyManager.h"; sourceTree = "<group>"; };
+		AEC6DCDFF29A4229905CEF16 /* OSFileChecksum.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSFileChecksum.h; path = "@outsystems/cordova-outsystems-core/OSFileChecksum.h"; sourceTree = "<group>"; };
+		AF5EE0F01B624FAE85BABEA6 /* OSLog.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLog.h; path = "@outsystems/cordova-outsystems-core/OSLog.h"; sourceTree = "<group>"; };
+		B06BDF3F85D14AC3BB52F04C /* OSHttpPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpPlugin.m; path = "@outsystems/cordova-outsystems-core/OSHttpPlugin.m"; sourceTree = "<group>"; };
+		B2A5AB0C7EF8419DAB927E59 /* OSWebResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSWebResponse.m; path = "@outsystems/cordova-outsystems-core/OSWebResponse.m"; sourceTree = "<group>"; };
+		B2BEB29622EA42B8B085F0CE /* OSLogRecord.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLogRecord.h; path = "@outsystems/cordova-outsystems-core/OSLogRecord.h"; sourceTree = "<group>"; };
+		B2BF2F297BA04560BD36E9DB /* OSHTTPFactory.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHTTPFactory.h; path = "@outsystems/cordova-outsystems-core/OSHTTPFactory.h"; sourceTree = "<group>"; };
+		B503EF932B0B410D8DCFB445 /* CDVWebViewEngine+OutSystems.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewEngine+OutSystems.h"; path = "@outsystems/cordova-outsystems-core/CDVWebViewEngine+OutSystems.h"; sourceTree = "<group>"; };
+		B79EBD660B3A43B5852CE34E /* OSLoggerProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLoggerProtocol.h; path = "@outsystems/cordova-outsystems-core/OSLoggerProtocol.h"; sourceTree = "<group>"; };
+		BD837427F38B4A8BA568D2CD /* OSMobileCore.xcframework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = OSMobileCore.xcframework; path = "Agentifai Simulator/Plugins/@outsystems/cordova-outsystems-core/OSMobileCore.xcframework"; sourceTree = "<group>"; };
+		BDF2A57F4F394132BFF2AFA0 /* OSPreBundlePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPreBundlePlugin.h; path = "@outsystems/cordova-outsystems-core/OSPreBundlePlugin.h"; sourceTree = "<group>"; };
+		BE836B70BF4B43C1AA60A1CB /* OSOTLPApiKeyManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSOTLPApiKeyManager.m; path = "@outsystems/cordova-outsystems-core/OSOTLPApiKeyManager.m"; sourceTree = "<group>"; };
+		C39199323173405C9A026051 /* OSProtocolManagerPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSProtocolManagerPlugin.h; path = "@outsystems/cordova-outsystems-core/OSProtocolManagerPlugin.h"; sourceTree = "<group>"; };
+		C873BC0A3AACE497E2C79723 /* Pods-Agentifai Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agentifai Simulator.release.xcconfig"; path = "Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator.release.xcconfig"; sourceTree = "<group>"; };
+		CDBDCB3917C94412B099173D /* OSPureeOtlpOutput.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeOtlpOutput.h; path = "@outsystems/cordova-outsystems-core/OSPureeOtlpOutput.h"; sourceTree = "<group>"; };
+		CE948A2EEF394D81BD212159 /* OSApiKeyManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApiKeyManager.h; path = "@outsystems/cordova-outsystems-core/OSApiKeyManager.h"; sourceTree = "<group>"; };
+		CEA01FB26B2144E2BAC02860 /* OSLogRecord.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLogRecord.m; path = "@outsystems/cordova-outsystems-core/OSLogRecord.m"; sourceTree = "<group>"; };
+		CF8A979ADC5648AC991456EB /* OSCordovaLoaderImpl.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoaderImpl.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderImpl.h"; sourceTree = "<group>"; };
+		D0F20CD6FF074966ADA4A047 /* OSNativeCache.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSNativeCache.h; path = "@outsystems/cordova-outsystems-core/OSNativeCache.h"; sourceTree = "<group>"; };
+		D2D4063232FB462CA840B0C8 /* OSCustomSchemeHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCustomSchemeHandler.h; path = "@outsystems/cordova-outsystems-core/OSCustomSchemeHandler.h"; sourceTree = "<group>"; };
+		D36172FDB50E4703AD0D6C52 /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
+		D58F1933D439478F92A1E6A2 /* OSEventEmitterProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSEventEmitterProtocol.h; path = "@outsystems/cordova-outsystems-core/OSEventEmitterProtocol.h"; sourceTree = "<group>"; };
+		D5F29EA089BA4BB5A2AA0D25 /* OSCrashHandlerPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSCrashHandlerPlugin.m; path = "@outsystems/cordova-outsystems-core/OSCrashHandlerPlugin.m"; sourceTree = "<group>"; };
+		D8681F5D9CCA456694CCCD02 /* OSPureeLogger.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeLogger.h; path = "@outsystems/cordova-outsystems-core/OSPureeLogger.h"; sourceTree = "<group>"; };
+		D88F38BEAEE2499990E4AC59 /* OSWebResponse.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSWebResponse.h; path = "@outsystems/cordova-outsystems-core/OSWebResponse.h"; sourceTree = "<group>"; };
+		DD4523DD42AF46BEAF7051ED /* OSPureeFilter.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeFilter.h; path = "@outsystems/cordova-outsystems-core/OSPureeFilter.h"; sourceTree = "<group>"; };
+		DDCD6083A018440CAC80331A /* OSCacheListenerDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheListenerDelegate.h; path = "@outsystems/cordova-outsystems-core/OSCacheListenerDelegate.h"; sourceTree = "<group>"; };
+		DEC03154712C482D92A89C5A /* OSPureeOtlpOutput.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeOtlpOutput.m; path = "@outsystems/cordova-outsystems-core/OSPureeOtlpOutput.m"; sourceTree = "<group>"; };
+		E0802CA719714705809B61E4 /* OSHttpUrlSessionEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSHttpUrlSessionEngine.m; path = "@outsystems/cordova-outsystems-core/OSHttpUrlSessionEngine.m"; sourceTree = "<group>"; };
+		E159772CDAAC4EA59A483A81 /* OSApplicationInfoProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationInfoProtocol.h; path = "@outsystems/cordova-outsystems-core/OSApplicationInfoProtocol.h"; sourceTree = "<group>"; };
+		E1D502AB99364FDA86AC02F3 /* OSFileChecksum.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSFileChecksum.m; path = "@outsystems/cordova-outsystems-core/OSFileChecksum.m"; sourceTree = "<group>"; };
+		E21ED561235648A4BCA8D453 /* OSHttpCookieHandlerProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpCookieHandlerProtocol.h; path = "@outsystems/cordova-outsystems-core/OSHttpCookieHandlerProtocol.h"; sourceTree = "<group>"; };
+		E2408108C7B34834A215E283 /* OSCacheEngineProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheEngineProtocol.h; path = "@outsystems/cordova-outsystems-core/OSCacheEngineProtocol.h"; sourceTree = "<group>"; };
+		E5200BA0591C4BBFBCE2B0AB /* OSPureeLogger.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPureeLogger.m; path = "@outsystems/cordova-outsystems-core/OSPureeLogger.m"; sourceTree = "<group>"; };
+		E5F16A893CF946078F71E6B2 /* OSNetworkEventEmitter.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSNetworkEventEmitter.m; path = "@outsystems/cordova-outsystems-core/OSNetworkEventEmitter.m"; sourceTree = "<group>"; };
+		E6DE92B60E50436F948A1FD9 /* OSCrashHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCrashHandler.h; path = "@outsystems/cordova-outsystems-core/OSCrashHandler.h"; sourceTree = "<group>"; };
+		E71C25B24B6D4B11947EEB30 /* OSThreadSafeDictionaryWrapper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSThreadSafeDictionaryWrapper.m; path = "@outsystems/cordova-outsystems-core/OSThreadSafeDictionaryWrapper.m"; sourceTree = "<group>"; };
+		E7A793968FA94E8992797DEF /* sqlite3.c */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sqlite3.c; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; };
+		E87B0F47EBAA496EB3700EA3 /* OSHttpSharedCookieHandlerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpSharedCookieHandlerEngine.h; path = "@outsystems/cordova-outsystems-core/OSHttpSharedCookieHandlerEngine.h"; sourceTree = "<group>"; };
+		E90FB1E465EB43A19E9EB71F /* OSCordovaLoaderProtocol.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCordovaLoaderProtocol.h; path = "@outsystems/cordova-outsystems-core/OSCordovaLoaderProtocol.h"; sourceTree = "<group>"; };
+		E96DE020C47D46A98830B95E /* OSCrashHandlerPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCrashHandlerPlugin.h; path = "@outsystems/cordova-outsystems-core/OSCrashHandlerPlugin.h"; sourceTree = "<group>"; };
+		EB0B16416EF640678DD6361F /* OSAuth.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSAuth.h; path = "@outsystems/cordova-outsystems-core/OSAuth.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		EBA2D33902A440A3A214B523 /* OSHttpWKWebViewCookieHandlerEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpWKWebViewCookieHandlerEngine.h; path = "@outsystems/cordova-outsystems-core/OSHttpWKWebViewCookieHandlerEngine.h"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		EDD55583951444A084DAE8B6 /* OSLogger.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLogger.m; path = "@outsystems/cordova-outsystems-core/OSLogger.m"; sourceTree = "<group>"; };
-		EF05B9E84FED4E3481A8B995 /* OSPureeFilter.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSPureeFilter.h; path = "@outsystems/cordova-outsystems-core/OSPureeFilter.h"; sourceTree = "<group>"; };
-		F4740A8EFCF54C17BB7498BD /* OSApplicationInfoPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSApplicationInfoPlugin.h; path = "@outsystems/cordova-outsystems-core/OSApplicationInfoPlugin.h"; sourceTree = "<group>"; };
-		F4D633CCC4A54306A52D5E68 /* RSSwizzle.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RSSwizzle.m; path = "@outsystems/cordova-outsystems-core/RSSwizzle.m"; sourceTree = "<group>"; };
-		F7F718253CAA4369AE5D217B /* OSBroadcaster.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSBroadcaster.m; path = "@outsystems/cordova-outsystems-core/OSBroadcaster.m"; sourceTree = "<group>"; };
+		EEDF0D6A453345CC960C38BF /* OSDownloadOperation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSDownloadOperation.m; path = "@outsystems/cordova-outsystems-core/OSDownloadOperation.m"; sourceTree = "<group>"; };
+		EFF9219BA50549FEA3B291B1 /* AuthenticationServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		F02D472CE1274ED8BCD54EA6 /* OSNetworkEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSNetworkEvent.h; path = "@outsystems/cordova-outsystems-core/OSNetworkEvent.h"; sourceTree = "<group>"; };
+		F05367925216445E8E74A2EC /* OSHttpErrorCodeEnum.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpErrorCodeEnum.h; path = "@outsystems/cordova-outsystems-core/OSHttpErrorCodeEnum.h"; sourceTree = "<group>"; };
+		F127E2C1ACC747CAA06F1731 /* AgentifaiBridge.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AgentifaiBridge.swift; path = "cordova-plugin-agentifai-assistant/AgentifaiBridge.swift"; sourceTree = "<group>"; };
+		F432CF4D4B3F4E4D86EFFF3B /* OSLoggerPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSLoggerPlugin.h; path = "@outsystems/cordova-outsystems-core/OSLoggerPlugin.h"; sourceTree = "<group>"; };
+		F4C1B57CCCEC482C8CE0043C /* CustomPSPDFThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CustomPSPDFThreadSafeMutableDictionary.m; path = "cordova-sqlite-storage/CustomPSPDFThreadSafeMutableDictionary.m"; sourceTree = "<group>"; };
+		F6126E15BF1D4717ACE570F8 /* OSCacheEntry.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSCacheEntry.h; path = "@outsystems/cordova-outsystems-core/OSCacheEntry.h"; sourceTree = "<group>"; };
+		F72236F9B04246D1906F45E0 /* NSDictionary+Merge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Merge.m"; path = "@outsystems/cordova-outsystems-core/NSDictionary+Merge.m"; sourceTree = "<group>"; };
+		F79B28BC0E8548C397EAC2AB /* OSInspectorPreferences.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSInspectorPreferences.h; path = "@outsystems/cordova-outsystems-core/OSInspectorPreferences.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Agentifai Simulator/config.xml"; sourceTree = "<group>"; };
-		F9F1DC2982144DE1AA623018 /* OSPreBundlePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSPreBundlePlugin.m; path = "@outsystems/cordova-outsystems-core/OSPreBundlePlugin.m"; sourceTree = "<group>"; };
-		FA1052D026A64D6BBA46260A /* OSHttpUrlSessionEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpUrlSessionEngine.h; path = "@outsystems/cordova-outsystems-core/OSHttpUrlSessionEngine.h"; sourceTree = "<group>"; };
-		FA4552BD10E344CD9A3F7BEA /* OSInspectorNotificationHelper.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSInspectorNotificationHelper.m; path = "@outsystems/cordova-outsystems-core/OSInspectorNotificationHelper.m"; sourceTree = "<group>"; };
-		FDA7BC87D5E64494BDE819E7 /* OSHttpMethodEnum.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpMethodEnum.h; path = "@outsystems/cordova-outsystems-core/OSHttpMethodEnum.h"; sourceTree = "<group>"; };
+		F9B327FA79D4441E949CE957 /* OSProtocolManagerPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSProtocolManagerPlugin.m; path = "@outsystems/cordova-outsystems-core/OSProtocolManagerPlugin.m"; sourceTree = "<group>"; };
+		FE02EDCC227F4831A25BF9E9 /* OSBroadcaster.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSBroadcaster.h; path = "@outsystems/cordova-outsystems-core/OSBroadcaster.h"; sourceTree = "<group>"; };
+		FE3271DD112043B689A542FE /* OSHttpHeadersUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = OSHttpHeadersUtils.h; path = "@outsystems/cordova-outsystems-core/OSHttpHeadersUtils.h"; sourceTree = "<group>"; };
+		FF35C64AABB647E9AE642813 /* OSLog.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = OSLog.m; path = "@outsystems/cordova-outsystems-core/OSLog.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,10 +322,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				F8D3525EAA3C4307BF13A6A7 /* SystemConfiguration.framework in Frameworks */,
-				E11E987E1C4F4DEA83CBD207 /* CoreTelephony.framework in Frameworks */,
-				F3A690FE4BE743058CDAE11C /* AuthenticationServices.framework in Frameworks */,
-				6ABD7CB08C9759791E2B466D /* Pods_Agentifai_Simulator.framework in Frameworks */,
+				42DB9921243041BB8A952C7B /* SystemConfiguration.framework in Frameworks */,
+				7ECAE7EE706A4D37A352A79A /* CoreTelephony.framework in Frameworks */,
+				AE4C1E7F36AE4E7ABABA40DA /* AuthenticationServices.framework in Frameworks */,
+				0EF03B4D9A1FF2DF4F8956D7 /* Pods_Agentifai_Simulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				B1E6014CAD72EF3A51B11E82 /* Pods */,
+				BCC2D3C854EC3C9EA00E1E54 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -397,11 +397,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				905A04C2C68841838C606387 /* SystemConfiguration.framework */,
-				A30304E4F55E4DDA83FDFF4F /* CoreTelephony.framework */,
-				4D9B6C4137D94867A2A5B683 /* OSMobileCore.xcframework */,
-				BEA8A7148D20452882DE85AA /* AuthenticationServices.framework */,
-				792580AE51A0DACFF871BDAC /* Pods_Agentifai_Simulator.framework */,
+				76D3A3E9C4354282AC1DA6BE /* SystemConfiguration.framework */,
+				A95606E0E584479EAA4D9391 /* CoreTelephony.framework */,
+				BD837427F38B4A8BA568D2CD /* OSMobileCore.xcframework */,
+				EFF9219BA50549FEA3B291B1 /* AuthenticationServices.framework */,
+				095897E6CAF41340BB0E2049 /* Pods_Agentifai_Simulator.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -428,168 +428,168 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				8E041E98D56E4234BCB185D2 /* CDVConnection.m */,
-				2E46F50A185B40A89874D8A6 /* CDVReachability.m */,
-				62E3E58D79A145A7BEEEB312 /* CDVConnection.h */,
-				A106752223954ADF8659E78F /* CDVReachability.h */,
-				95C07317F361407DA907E2BA /* OSBroadcasterPlugin.m */,
-				F7F718253CAA4369AE5D217B /* OSBroadcaster.m */,
-				65AC2828CD814F129EB9C99C /* OSNetworkEvent.m */,
-				80244A8AB8994109A223AFD6 /* OSNetworkEventEmitter.m */,
-				D413C771FC244804928499C9 /* OSHTTPFactory.m */,
-				64DD896BF45347DC855DFDF1 /* OSProtocolManagerPlugin.m */,
-				59852F15628F4EE4B4DA5D3F /* OSApplicationInfo.m */,
-				AFEBC17F26244A9D9DF042B1 /* OSApplicationInfoPlugin.m */,
-				FA4552BD10E344CD9A3F7BEA /* OSInspectorNotificationHelper.m */,
-				0491632DC57345AA92DB4097 /* OSInspectorPlugin.m */,
-				3EC8AB16B38F44EFA0F8CD3E /* OSInspectorPreferences.m */,
-				E87D6E552B994E3B9F7050D7 /* OSLoggerPlugin.m */,
-				EDD55583951444A084DAE8B6 /* OSLogger.m */,
-				2014848A7BD743F086882156 /* OSPureeLogger.m */,
-				A9430B65EE984F609DC883AD /* OSDeviceInfo.m */,
-				09C2190825B1495F959C7BA2 /* OSLogRecord.m */,
-				6515AB3B064B414FAED5E55A /* NSDictionary+Merge.h */,
-				B178EEDF26A14D07BBC98BD9 /* NSDictionary+Merge.m */,
-				BF59D31B9B714C979E20FA76 /* OSDateUtils.h */,
-				7655F587E3324DC9963C1C28 /* OSDateUtils.m */,
-				6050DA653E9543CCA13127CE /* OSOtelUtils.h */,
-				DE7212F883434DEAA79D2EBE /* OSOtelUtils.m */,
-				56A78F91ED9D437EA861C51A /* OSOTLPApiKeyManager.m */,
-				81D1432E057C45D3ABC2030C /* OSPureeConsoleOutput.m */,
-				3545A66975894BECBED790C5 /* OSPureeServerOutput.m */,
-				2A12831F1CDC4124A640D5B6 /* OSPureeOtlpOutput.m */,
-				79C0AED1257741F0A1E535B0 /* OSLog.m */,
-				0F34F4F842474306AAE7D7AB /* OSPureeFilter.m */,
-				4E4F0608ABF042F3877FE819 /* OSHttpPlugin.m */,
-				A28D10235F8D495188957032 /* OSHttp.m */,
-				A59A86DB1BE0405AAA425E09 /* OSAbortRequestCommandArgs.m */,
-				C4E61D70970A4EF4B586A2CA /* OSSendRequestCommandArgs.m */,
-				888CAFAFCB2F462084FF2C66 /* OSHttpSharedCookieHandlerEngine.m */,
-				6EEDFE4F4FE04BBF8DBFB560 /* OSHttpUrlSessionEngine.m */,
-				3CFBF5EAA82F49F59FDCFE8A /* OSHttpWKWebViewCookieHandlerEngine.m */,
-				A0661715ABC74944B4C25ABD /* OSHttpHeadersUtils.m */,
-				28B23079B18344E0ADF3957B /* OSHttpPluginArgHelper.m */,
-				A5872CD026764F28A697691D /* OSHttpResultUtil.m */,
-				4567475F4BAE4585A0486371 /* OSCrashHandlerPlugin.m */,
-				87BE09F5AF2141A9AA868072 /* OSCrashHandler.m */,
-				65B02F4F2B88422A8415A36A /* OSDeepLinks.h */,
-				9B2ED761C9A8467C957C6089 /* OSDeepLinks.m */,
-				4BDE3E015DA74332AFB2E8CA /* OSManifestParser.m */,
-				B14BD50F51CA47EB8043F5AD /* OSManifest.m */,
-				5DD00C517916498491B5B2F3 /* OSCache.m */,
-				45092F526F914B3B847F37B5 /* OSNativeCache.m */,
-				1F0FCF0EFF9B4F50816FF2CE /* OSFileChecksum.m */,
-				C5C33499177745AEB510A927 /* OSMimeTypesHelper.m */,
-				A2F37E101EED45BFBB8119D6 /* OSThreadSafeDictionaryWrapper.m */,
-				430039AF1E3143B8B0C93374 /* OSApplicationCache.m */,
-				CDB1779589E448368339AEFB /* OSCacheEntry.m */,
-				971CC2E2D28B46449A4D376B /* OSCacheResources.m */,
-				212602801A374FE98ABBB5DB /* OSDownloadOperation.m */,
-				33FEBE89B9EA49B784AA6B1B /* OSWebResponse.m */,
-				F9F1DC2982144DE1AA623018 /* OSPreBundlePlugin.m */,
-				8F28044757224E42B726BC67 /* OSPreBundle.m */,
-				8FDD540EEBBD4FAABFB810A0 /* OSCordovaLoaderImpl.m */,
-				21F4B9E471204DC68C9F71A2 /* OSCordovaLoaderEngine.h */,
-				B5ED8C16862745F598DCC474 /* OSCordovaLoaderProtocol.h */,
-				610609F63D7D4D5F94823DC4 /* OSCordovaLoaderURLProtocol.m */,
-				4AF0EA38B7FC4F3AB04F42D5 /* OSCordovaLoader.m */,
-				7C7BBAFA8A5642D6B33AD52B /* OSWKWebViewEngine.m */,
-				8537A66FDCC246FCA0290FDC /* OSCustomSchemeHandler.m */,
-				F4D633CCC4A54306A52D5E68 /* RSSwizzle.m */,
-				D6C5314981824D4D97289AFB /* OSAuth.m */,
-				DBD817E349F249519A707C21 /* OSBroadcasterPlugin.h */,
-				B58FA337FE15405DA7E6692B /* OSBroadcaster.h */,
-				6E4CD02F6D864D31B041EF06 /* OSNetworkEvent.h */,
-				50931EAAFF22468E9A24B259 /* OSNetworkEventEmitter.h */,
-				6B0F4E5424024341828953C7 /* OSEventEmitterProtocol.h */,
-				96DD5A3BA0D04B65B9326A69 /* OSBroadcasterProtocol.h */,
-				00DD5AEB70E24C24933EA6AE /* OSEventProtocol.h */,
-				2F1AEC69A3EB4A5087807724 /* OSHTTPFactory.h */,
-				4A8EF1FF41344D2C9D8FB72C /* OSProtocolManagerPlugin.h */,
-				0D77762753194AAB8CCF9168 /* OSApplicationInfo.h */,
-				F4740A8EFCF54C17BB7498BD /* OSApplicationInfoPlugin.h */,
-				97E0ADF64EC04FAE95885749 /* OSApplicationInfoProtocol.h */,
-				5D0F2C07F0444D0BBDDE517E /* OSInspectorNotificationHelper.h */,
-				3E484E455FDE4AA3B70D51E6 /* OSInspectorPlugin.h */,
-				8328ADF0255F4304BA1C07DA /* OSInspectorPreferences.h */,
-				C1595E62795B4C768538E1C7 /* OSLoggerPlugin.h */,
-				BFA7DC5B726049F7B7B12D91 /* OSLogger.h */,
-				03CB6052E146405C82C2AA79 /* OSLoggerProtocol.h */,
-				C8B70E196C324CF68ACDA8AF /* OSApiKeyManager.h */,
-				4CF04F9B98C042D1BA83BECC /* OSLoggerEngine.h */,
-				8680D15CEC9445779DE00A27 /* OSPureeLogger.h */,
-				5E0B37C18E7E4CF2942A3056 /* OSDeviceInfo.h */,
-				C4BFB8D6D45C42B6898AAC6F /* OSLogRecord.h */,
-				E245A036560F48698488ADAF /* OSOTLPApiKeyManager.h */,
-				64B2B3D5EFAB42E79F904B5C /* OSPureeConsoleOutput.h */,
-				08E25F250A9B45569CA457D1 /* OSPureeServerOutput.h */,
-				536AE9FA43EA438DBB02C220 /* OSPureeOtlpOutput.h */,
-				C112154F712F465A81B0DD5B /* OSLog.h */,
-				EF05B9E84FED4E3481A8B995 /* OSPureeFilter.h */,
-				BA624BE4B0054513B8A99D12 /* OSHttpPlugin.h */,
-				C0E6350328EF49BF95A9DEE0 /* OSHttp.h */,
-				E83B3C3A619D484BAB3F7F9D /* OSAbortRequestCommandArgs.h */,
-				6AFA006AC2204748AC9A8232 /* OSSendRequestCommandArgs.h */,
-				D384EF86EA244CFF8F79EA4E /* OSHttpCookieHandlerProtocol.h */,
-				32A6A283A1384BAE8CD6501A /* OSHttpRequesterProtocol.h */,
-				FDA7BC87D5E64494BDE819E7 /* OSHttpMethodEnum.h */,
-				97C2380DEF194645B7A4DF3B /* OSHttpErrorCodeEnum.h */,
-				087ED5CB1BD343A89887EBBA /* OSHttpSharedCookieHandlerEngine.h */,
-				FA1052D026A64D6BBA46260A /* OSHttpUrlSessionEngine.h */,
-				EBA2D33902A440A3A214B523 /* OSHttpWKWebViewCookieHandlerEngine.h */,
-				BCCBAB68F35D4A86A578C0E7 /* OSHttpHeadersUtils.h */,
-				62BD64CE1BD34275A59C3BC9 /* OSHttpPluginArgHelper.h */,
-				68270004C8B54196B85613E3 /* OSHttpResultUtil.h */,
-				5025CA68495B44BB9EE6CD3E /* OSCrashHandlerPlugin.h */,
-				0A5E76D3D17945B39C7F7382 /* OSCrashHandlerEngine.h */,
-				BE806D2B29F247E7A00F6F7C /* OSCrashHandler.h */,
-				43BADBFB9C894A19AD9D2271 /* OSManifestParser.h */,
-				39CB8E5CD9AF416EAD1F8F62 /* OSManifestParserEngineProtocol.h */,
-				9114235E23944780AE743019 /* OSManifest.h */,
-				7C89C7CC525C42679F18A360 /* OSCache.h */,
-				49FDF93A15144FD588526136 /* OSNativeCache.h */,
-				991D5974C4A44EB28C5C2A18 /* OSFileChecksum.h */,
-				39997E500B32416AB2666AAC /* OSMimeTypesHelper.h */,
-				9618667394754FD284407694 /* OSThreadSafeDictionaryWrapper.h */,
-				D9E0FEC5C66D4A7388661DF2 /* OSCacheEngineProtocol.h */,
-				18FCDA7A4BEC4A12BDBADD9D /* OSCacheListenerDelegate.h */,
-				278EBD031FF348E2B8090E91 /* OSApplicationCache.h */,
-				5071281FED7447BD9436BEE5 /* OSCacheEntry.h */,
-				BA10D206AE9044628837E012 /* OSCacheResources.h */,
-				B731C07703F343F7B7F0C05C /* OSDownloadOperation.h */,
-				166BA05C8A804629851A181C /* OSWebResponse.h */,
-				D5AD3AB9029B4ED9B36BA827 /* OSPreBundlePlugin.h */,
-				38260D66FC204C838AC9FB60 /* OSPreBundleProtocol.h */,
-				DC114E194EB244BFA180C2AF /* OSPreBundle.h */,
-				31DDFFF6E3D04AADB69599D7 /* OSCordovaLoaderImpl.h */,
-				67C22DEDF6494881B68BFBB5 /* OSCordovaLoader.h */,
-				2124D1C6BA3647A6B1B290FE /* OSWKWebViewEngine.h */,
-				EB62EE878E0A45429AD09AF2 /* OSCustomSchemeHandler.h */,
-				85D9859EF6624DE195464E98 /* CDVWebViewEngine+OutSystems.h */,
-				B92A37F4E618428B8AC1941E /* RSSwizzle.h */,
-				33ABD016916E449D8FBC6639 /* OSAuth.h */,
-				5CDF78AAC10D4ABEA1375780 /* CDVDevice.m */,
-				DD07525894CD40948696DAAF /* CDVDevice.h */,
-				391D68417C6E4DC98B2B79BC /* CDVStatusBar.m */,
-				CFE7D578FFDA4DCD91BBCB28 /* CDVStatusBar.h */,
-				64007ABA099A459A9958C525 /* SQLitePlugin.m */,
-				5A667F0207A94BA890B39A49 /* CustomPSPDFThreadSafeMutableDictionary.m */,
-				EA9B914EEFDF4BED81524311 /* sqlite3.c */,
-				7EAE3143078D40BA92A07ABC /* SQLitePlugin.h */,
-				01F8CE4EA8BD4D1D910ED540 /* sqlite3.h */,
-				16186BDDA8144C9EAD90F3F2 /* AgentifaiBridge.swift */,
-				D5C8BC7D3CC345F392C322B6 /* AgentifaiHelper.swift */,
-				117D598F3F324DFDB308F1F0 /* AgentifaiPluginError.swift */,
+				3FEA33A2185A47AD910962EF /* CDVConnection.m */,
+				751DFE7CFFB042ABBB195F96 /* CDVReachability.m */,
+				95404C87C51F44E980952019 /* CDVConnection.h */,
+				810AD14170A1484BB181D80B /* CDVReachability.h */,
+				65632EEFF12940D99A54E73C /* OSBroadcasterPlugin.m */,
+				54D18E8BE41945278E05790D /* OSBroadcaster.m */,
+				5777FF27155B4F51AD5BEEFC /* OSNetworkEvent.m */,
+				E5F16A893CF946078F71E6B2 /* OSNetworkEventEmitter.m */,
+				1B2E2BCCCDAA4FC2BA9A4A1B /* OSHTTPFactory.m */,
+				F9B327FA79D4441E949CE957 /* OSProtocolManagerPlugin.m */,
+				77AC47F050F84493B251B268 /* OSApplicationInfo.m */,
+				6A574C7BC17649FD895C0A32 /* OSApplicationInfoPlugin.m */,
+				6E6D94634B544160B8F19564 /* OSInspectorNotificationHelper.m */,
+				3379C16D399144FF813765CC /* OSInspectorPlugin.m */,
+				5A8341247A1C42A799B9F043 /* OSInspectorPreferences.m */,
+				84F9C49EE8FF44E0939C7950 /* OSLoggerPlugin.m */,
+				2C83AD63BCFF4D5BBC032B47 /* OSLogger.m */,
+				E5200BA0591C4BBFBCE2B0AB /* OSPureeLogger.m */,
+				55D42BF804364F28BA045A52 /* OSDeviceInfo.m */,
+				CEA01FB26B2144E2BAC02860 /* OSLogRecord.m */,
+				37670F6A9ED24885B17DFBFE /* NSDictionary+Merge.h */,
+				F72236F9B04246D1906F45E0 /* NSDictionary+Merge.m */,
+				933EFE08D2734073A79BD4CC /* OSDateUtils.h */,
+				5C40493416204BBFA9D40BAC /* OSDateUtils.m */,
+				8C0C8FED8CB745278D62044A /* OSOtelUtils.h */,
+				35501B7791F048F9ADA72F91 /* OSOtelUtils.m */,
+				BE836B70BF4B43C1AA60A1CB /* OSOTLPApiKeyManager.m */,
+				6B22DD34538148A8A4F76255 /* OSPureeConsoleOutput.m */,
+				A84AAEA134984C9E9797EEE5 /* OSPureeServerOutput.m */,
+				DEC03154712C482D92A89C5A /* OSPureeOtlpOutput.m */,
+				FF35C64AABB647E9AE642813 /* OSLog.m */,
+				77ED8F4CA7434C7C8DC85598 /* OSPureeFilter.m */,
+				B06BDF3F85D14AC3BB52F04C /* OSHttpPlugin.m */,
+				A1374FB30A53478FB1A5A3AB /* OSHttp.m */,
+				59F773AA43F249158D3C7FE6 /* OSAbortRequestCommandArgs.m */,
+				840B629D962A40F080DC5278 /* OSSendRequestCommandArgs.m */,
+				AC905A23FDB543538FE6C151 /* OSHttpSharedCookieHandlerEngine.m */,
+				E0802CA719714705809B61E4 /* OSHttpUrlSessionEngine.m */,
+				8F455A63451B404CB65D19F8 /* OSHttpWKWebViewCookieHandlerEngine.m */,
+				5B2D351DE2B94596B451D28E /* OSHttpHeadersUtils.m */,
+				4BC30AB199F54AA9A4A05C89 /* OSHttpPluginArgHelper.m */,
+				02B27F2CB2484DDEA468DCC3 /* OSHttpResultUtil.m */,
+				D5F29EA089BA4BB5A2AA0D25 /* OSCrashHandlerPlugin.m */,
+				048F29AD0E884879A9087E9D /* OSCrashHandler.m */,
+				3D9F7AB0251F4C9D88F462A3 /* OSDeepLinks.h */,
+				58B670528B5148A9A712F5DE /* OSDeepLinks.m */,
+				81D2D655323648AFB419E89E /* OSManifestParser.m */,
+				54E4C48D13EF4FA499BF1238 /* OSManifest.m */,
+				461296FA08D04F81AC7CBF13 /* OSCache.m */,
+				8993C9D0E274430EAF95F9C1 /* OSNativeCache.m */,
+				E1D502AB99364FDA86AC02F3 /* OSFileChecksum.m */,
+				2536AA4901D84B2E81E29546 /* OSMimeTypesHelper.m */,
+				E71C25B24B6D4B11947EEB30 /* OSThreadSafeDictionaryWrapper.m */,
+				A1311DA3B7EF48CEA7B28D57 /* OSApplicationCache.m */,
+				6B037CDCE4D548789B7CECBC /* OSCacheEntry.m */,
+				80C33C7AF4D04741B4A9543F /* OSCacheResources.m */,
+				EEDF0D6A453345CC960C38BF /* OSDownloadOperation.m */,
+				B2A5AB0C7EF8419DAB927E59 /* OSWebResponse.m */,
+				4FAB3C0CC00F41DE84F410BC /* OSPreBundlePlugin.m */,
+				88CDF6DE182242A3AA2CED97 /* OSPreBundle.m */,
+				0C974091BFE54E0698DD2B51 /* OSCordovaLoaderImpl.m */,
+				42DAB6E8ED5242A48DCC2475 /* OSCordovaLoaderEngine.h */,
+				E90FB1E465EB43A19E9EB71F /* OSCordovaLoaderProtocol.h */,
+				716A9FABE39140A5A69FA0F6 /* OSCordovaLoaderURLProtocol.m */,
+				794FE871E04642E7A235D304 /* OSCordovaLoader.m */,
+				482955AFF6CB4B3F9D5E884E /* OSWKWebViewEngine.m */,
+				0A4007CB187F449D9D160D6D /* OSCustomSchemeHandler.m */,
+				A4AF5C636BD4435983F36A30 /* RSSwizzle.m */,
+				67A9DEF02478481D814DBD19 /* OSAuth.m */,
+				300654D23397419A80859E52 /* OSBroadcasterPlugin.h */,
+				FE02EDCC227F4831A25BF9E9 /* OSBroadcaster.h */,
+				F02D472CE1274ED8BCD54EA6 /* OSNetworkEvent.h */,
+				0A648118942844629B18DE72 /* OSNetworkEventEmitter.h */,
+				D58F1933D439478F92A1E6A2 /* OSEventEmitterProtocol.h */,
+				525670BFE2D9474286CD466F /* OSBroadcasterProtocol.h */,
+				7CCCEFE7D8B04498ADEB9013 /* OSEventProtocol.h */,
+				B2BF2F297BA04560BD36E9DB /* OSHTTPFactory.h */,
+				C39199323173405C9A026051 /* OSProtocolManagerPlugin.h */,
+				550DD3293C394BB595D37085 /* OSApplicationInfo.h */,
+				00E6BB9A0A034C65A48A8419 /* OSApplicationInfoPlugin.h */,
+				E159772CDAAC4EA59A483A81 /* OSApplicationInfoProtocol.h */,
+				23AF742FD9994A22AD230BA9 /* OSInspectorNotificationHelper.h */,
+				19F3B128045D4B9BB02D71AA /* OSInspectorPlugin.h */,
+				F79B28BC0E8548C397EAC2AB /* OSInspectorPreferences.h */,
+				F432CF4D4B3F4E4D86EFFF3B /* OSLoggerPlugin.h */,
+				24C95986A2A94F21A0B02108 /* OSLogger.h */,
+				B79EBD660B3A43B5852CE34E /* OSLoggerProtocol.h */,
+				CE948A2EEF394D81BD212159 /* OSApiKeyManager.h */,
+				742A65C217CA4F07A5CCD2C0 /* OSLoggerEngine.h */,
+				D8681F5D9CCA456694CCCD02 /* OSPureeLogger.h */,
+				63414279CF9F4A9C8D00630A /* OSDeviceInfo.h */,
+				B2BEB29622EA42B8B085F0CE /* OSLogRecord.h */,
+				AD6BEC3D12B5415BBFA2BBB9 /* OSOTLPApiKeyManager.h */,
+				1196813CD56F48F4918B7968 /* OSPureeConsoleOutput.h */,
+				0DDDB0FEB41243C8B6756C27 /* OSPureeServerOutput.h */,
+				CDBDCB3917C94412B099173D /* OSPureeOtlpOutput.h */,
+				AF5EE0F01B624FAE85BABEA6 /* OSLog.h */,
+				DD4523DD42AF46BEAF7051ED /* OSPureeFilter.h */,
+				1324C9C4D6B04E26B113AF10 /* OSHttpPlugin.h */,
+				38B70C8DEFC44D3ABDF6E5AB /* OSHttp.h */,
+				73C9478864EC4908BD54B612 /* OSAbortRequestCommandArgs.h */,
+				A7D61AA0839A4CA598606079 /* OSSendRequestCommandArgs.h */,
+				E21ED561235648A4BCA8D453 /* OSHttpCookieHandlerProtocol.h */,
+				6E17BFFFE244456088CF1DBD /* OSHttpRequesterProtocol.h */,
+				A5F1F5454F9347F89F06C0B5 /* OSHttpMethodEnum.h */,
+				F05367925216445E8E74A2EC /* OSHttpErrorCodeEnum.h */,
+				E87B0F47EBAA496EB3700EA3 /* OSHttpSharedCookieHandlerEngine.h */,
+				536570B7D98A4044BF650033 /* OSHttpUrlSessionEngine.h */,
+				5888D7D902D948658B901E22 /* OSHttpWKWebViewCookieHandlerEngine.h */,
+				FE3271DD112043B689A542FE /* OSHttpHeadersUtils.h */,
+				88B674C399414680BE37D28A /* OSHttpPluginArgHelper.h */,
+				231890A5AB3B4B27A3025C62 /* OSHttpResultUtil.h */,
+				E96DE020C47D46A98830B95E /* OSCrashHandlerPlugin.h */,
+				03893760DBB14F61A93986FF /* OSCrashHandlerEngine.h */,
+				E6DE92B60E50436F948A1FD9 /* OSCrashHandler.h */,
+				AC9E59288B2B40EB8F819913 /* OSManifestParser.h */,
+				03896D1AE2C443BCB23FFA6A /* OSManifestParserEngineProtocol.h */,
+				4AEB5C2910F041BA84DFF5B4 /* OSManifest.h */,
+				726914FE26CF4E8EABFE1137 /* OSCache.h */,
+				D0F20CD6FF074966ADA4A047 /* OSNativeCache.h */,
+				AEC6DCDFF29A4229905CEF16 /* OSFileChecksum.h */,
+				8223F050BDF9483A943C79B4 /* OSMimeTypesHelper.h */,
+				2553B58E851942ED93958323 /* OSThreadSafeDictionaryWrapper.h */,
+				E2408108C7B34834A215E283 /* OSCacheEngineProtocol.h */,
+				DDCD6083A018440CAC80331A /* OSCacheListenerDelegate.h */,
+				21CFFB879A3F4DA7B1715B65 /* OSApplicationCache.h */,
+				F6126E15BF1D4717ACE570F8 /* OSCacheEntry.h */,
+				9BB94FF15DDC4301BE9C653A /* OSCacheResources.h */,
+				12CCDF8015784BC6879C8E3D /* OSDownloadOperation.h */,
+				D88F38BEAEE2499990E4AC59 /* OSWebResponse.h */,
+				BDF2A57F4F394132BFF2AFA0 /* OSPreBundlePlugin.h */,
+				05B9FCF9417C4349B9097C1F /* OSPreBundleProtocol.h */,
+				A6686CF5E11B469295BBE2C6 /* OSPreBundle.h */,
+				CF8A979ADC5648AC991456EB /* OSCordovaLoaderImpl.h */,
+				5CB0FCE9ECC94552A80F1805 /* OSCordovaLoader.h */,
+				57582720E1964A1893C480C8 /* OSWKWebViewEngine.h */,
+				D2D4063232FB462CA840B0C8 /* OSCustomSchemeHandler.h */,
+				B503EF932B0B410D8DCFB445 /* CDVWebViewEngine+OutSystems.h */,
+				30FDFC83BF8F4BDCB6781454 /* RSSwizzle.h */,
+				EB0B16416EF640678DD6361F /* OSAuth.h */,
+				6C533EB2584B42D1AE80D8CD /* CDVDevice.m */,
+				0D5475EBA03B44B4A9BE6433 /* CDVDevice.h */,
+				AD34AFDB547A46B79F9051CB /* CDVStatusBar.m */,
+				D36172FDB50E4703AD0D6C52 /* CDVStatusBar.h */,
+				2A26ED5ED8DD4DEF804BFCDC /* SQLitePlugin.m */,
+				F4C1B57CCCEC482C8CE0043C /* CustomPSPDFThreadSafeMutableDictionary.m */,
+				E7A793968FA94E8992797DEF /* sqlite3.c */,
+				2B55550EA20D4EFBB7C1915C /* SQLitePlugin.h */,
+				AAEB1ECEE4944AA6988B2EE1 /* sqlite3.h */,
+				F127E2C1ACC747CAA06F1731 /* AgentifaiBridge.swift */,
+				084E9E6E8754404381687B8F /* AgentifaiHelper.swift */,
+				054EF3CBB96C4033936AD0BB /* AgentifaiPluginError.swift */,
 			);
 			name = Plugins;
 			path = "Agentifai Simulator/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
-		B1E6014CAD72EF3A51B11E82 /* Pods */ = {
+		BCC2D3C854EC3C9EA00E1E54 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				020903733CAB386B05C27521 /* Pods-Agentifai Simulator.debug.xcconfig */,
-				5E924C5485AD5154543AC287 /* Pods-Agentifai Simulator.release.xcconfig */,
+				2BEFD09F5AC45970481E9350 /* Pods-Agentifai Simulator.debug.xcconfig */,
+				C873BC0A3AACE497E2C79723 /* Pods-Agentifai Simulator.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -611,14 +611,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Agentifai Simulator" */;
 			buildPhases = (
-				923474AC2E10DB8EFE5E4E20 /* [CP] Check Pods Manifest.lock */,
+				3F56D2E12934B278F8CE85F5 /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				6B2B7916AC0443ECA781067A /* Embed Frameworks */,
-				09CB4AA64DEC9E3808C92469 /* [CP] Embed Pods Frameworks */,
-				339337922E8FFD1467FF3C57 /* [CP] Copy Pods Resources */,
+				E397858A5C4D4C18A7EC4CC0 /* Embed Frameworks */,
+				BC0B79F6E3C64D1380F97365 /* [CP] Embed Pods Frameworks */,
+				0028623AE3B3E761ED092DC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -698,21 +698,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09CB4AA64DEC9E3808C92469 /* [CP] Embed Pods Frameworks */ = {
+		0028623AE3B3E761ED092DC6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		304B58A110DAC018002A0835 /* Copy www directory */ = {
@@ -730,24 +730,7 @@
 			shellScript = "\"$SRCROOT/Agentifai Simulator/Scripts/copy-www-build-step.sh\"";
 			showEnvVarsInLog = 0;
 		};
-		339337922E8FFD1467FF3C57 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		923474AC2E10DB8EFE5E4E20 /* [CP] Check Pods Manifest.lock */ = {
+		3F56D2E12934B278F8CE85F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -769,6 +752,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BC0B79F6E3C64D1380F97365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -779,81 +779,81 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				E384199A19774CB283D532B7 /* CDVConnection.m in Sources */,
-				77787855D8C54F7A96DF7EE5 /* CDVReachability.m in Sources */,
-				4D273047AEA54CF59372829B /* OSBroadcasterPlugin.m in Sources */,
-				D781A53C673B4C34AD9BE1BF /* OSBroadcaster.m in Sources */,
-				7D30B78AF9E14C898BCD3E38 /* OSNetworkEvent.m in Sources */,
-				81E18DAB34D043CABE9296CE /* OSNetworkEventEmitter.m in Sources */,
-				67B2B40AA1574489B4E505AA /* OSHTTPFactory.m in Sources */,
-				2C1A54DD8DB7436E931DA47A /* OSProtocolManagerPlugin.m in Sources */,
-				10B624BAC5DA49ABAC0AADD8 /* OSApplicationInfo.m in Sources */,
-				EBAA0624F434448EB537DED3 /* OSApplicationInfoPlugin.m in Sources */,
-				B7FC59508E7E4B8B937A0B33 /* OSInspectorNotificationHelper.m in Sources */,
-				6FFBF6B4906E4CB38C6D56D8 /* OSInspectorPlugin.m in Sources */,
-				E808C04214B340A78F5953A6 /* OSInspectorPreferences.m in Sources */,
-				24FBF86D3CC44677B4F7748E /* OSLoggerPlugin.m in Sources */,
-				3C6ADBF1B25244FE85626ACC /* OSLogger.m in Sources */,
-				830E369B958C409996414227 /* OSPureeLogger.m in Sources */,
-				559DA7B283AE4F85BD77F095 /* OSDeviceInfo.m in Sources */,
-				E70CDD53FA4D4B6BBE4E8766 /* OSLogRecord.m in Sources */,
-				F1C1DCCA436041539D07920F /* NSDictionary+Merge.h in Sources */,
-				10C63828739E48A5880EE41F /* NSDictionary+Merge.m in Sources */,
-				B9B73F0E72224598932052B0 /* OSDateUtils.h in Sources */,
-				D8EF03746EC845F2AA79A9DA /* OSDateUtils.m in Sources */,
-				A0A09141F2994A00BFB035E9 /* OSOtelUtils.h in Sources */,
-				172A5A89A1934AF3BDF77BA2 /* OSOtelUtils.m in Sources */,
-				B700404A8D9F4B3793CB31B6 /* OSOTLPApiKeyManager.m in Sources */,
-				CAE3CAE7758C4C00B89B5B80 /* OSPureeConsoleOutput.m in Sources */,
-				455FA1D092A94DA581895D4F /* OSPureeServerOutput.m in Sources */,
-				C8973CD27288446D995C1BFA /* OSPureeOtlpOutput.m in Sources */,
-				955405181D1B4BBF9D0FEFFA /* OSLog.m in Sources */,
-				27040F3C073C42E08CE076F1 /* OSPureeFilter.m in Sources */,
-				7547E1505D834880A4361CC4 /* OSHttpPlugin.m in Sources */,
-				38F7DF83FBB74F7BACD78BAB /* OSHttp.m in Sources */,
-				6A994A1943004679B892DE6D /* OSAbortRequestCommandArgs.m in Sources */,
-				4B59F18D596741BBA72C7B7D /* OSSendRequestCommandArgs.m in Sources */,
-				74BB6DAC6A8A4920B1A8DD99 /* OSHttpSharedCookieHandlerEngine.m in Sources */,
-				B57EF70751904D40A1A69502 /* OSHttpUrlSessionEngine.m in Sources */,
-				5E385848F0D44791AB81DC5C /* OSHttpWKWebViewCookieHandlerEngine.m in Sources */,
-				56A46631623B410D94C20E83 /* OSHttpHeadersUtils.m in Sources */,
-				D04286524F574A60B5C5ACEB /* OSHttpPluginArgHelper.m in Sources */,
-				CDBF557529054B09BD3CA56D /* OSHttpResultUtil.m in Sources */,
-				EE36C86224E14430956331E1 /* OSCrashHandlerPlugin.m in Sources */,
-				C5395D53421B477EBF6DF710 /* OSCrashHandler.m in Sources */,
-				4565ADFA06BE4394964745F5 /* OSDeepLinks.h in Sources */,
-				940D76338F974FDDAD4322C3 /* OSDeepLinks.m in Sources */,
-				F9008F0EF943409C931BE7BB /* OSManifestParser.m in Sources */,
-				012BE5DC7ADA46FFB2628597 /* OSManifest.m in Sources */,
-				722B9A55A3764B7BA3D779A1 /* OSCache.m in Sources */,
-				FEFBF10ECFE54C999E78CBD7 /* OSNativeCache.m in Sources */,
-				A54655D63B5A48119176823D /* OSFileChecksum.m in Sources */,
-				68AA22F280534E30BC88D640 /* OSMimeTypesHelper.m in Sources */,
-				3545F8743D734CC391B91C82 /* OSThreadSafeDictionaryWrapper.m in Sources */,
-				63EABD83BB8C46B09D901F2C /* OSApplicationCache.m in Sources */,
-				4F2E2C291A0A40A9A50B6E35 /* OSCacheEntry.m in Sources */,
-				95F0267AC7EA41F182D1F86B /* OSCacheResources.m in Sources */,
-				0A47406F97C64C4BA585BF59 /* OSDownloadOperation.m in Sources */,
-				1FF2108BC9FF4C85873B23B4 /* OSWebResponse.m in Sources */,
-				C7A200DD3FB74D1CA96B84FD /* OSPreBundlePlugin.m in Sources */,
-				B7CE69A075AD41A9B1CED653 /* OSPreBundle.m in Sources */,
-				1A460BEC48574158B770C14C /* OSCordovaLoaderImpl.m in Sources */,
-				C92418D672754DBE9BF3BBD3 /* OSCordovaLoaderEngine.h in Sources */,
-				F3448CC0620747B698195C22 /* OSCordovaLoaderProtocol.h in Sources */,
-				AE376B8E3E3348D9A3CC0467 /* OSCordovaLoaderURLProtocol.m in Sources */,
-				FA9D5A61AE784E2B82EC2CBE /* OSCordovaLoader.m in Sources */,
-				4E3FEF2A9A0E40549EC4EF31 /* OSWKWebViewEngine.m in Sources */,
-				16CB86D8431448F99016616E /* OSCustomSchemeHandler.m in Sources */,
-				6D5A66BFDC9D45DBA360F446 /* RSSwizzle.m in Sources */,
-				648F69BBA9DE4084AF76A446 /* OSAuth.m in Sources */,
-				C78DD3E9946D440EB89DE846 /* CDVDevice.m in Sources */,
-				827BC71DB2594D418D3189D1 /* CDVStatusBar.m in Sources */,
-				97FB39D5217C40298B9B874A /* SQLitePlugin.m in Sources */,
-				81C999EB70F14C8EB841796E /* CustomPSPDFThreadSafeMutableDictionary.m in Sources */,
-				F2A072710A984E5D8D13F188 /* sqlite3.c in Sources */,
-				339CA9ACC3464196A94CEEFE /* AgentifaiBridge.swift in Sources */,
-				C64A8D3E246F4CBF86C7F733 /* AgentifaiHelper.swift in Sources */,
-				FDD342AC0C5241A69170A984 /* AgentifaiPluginError.swift in Sources */,
+				F313471D6B4243C5ACCCB020 /* CDVConnection.m in Sources */,
+				98845D3C7A4E4F8CB1CDE26E /* CDVReachability.m in Sources */,
+				194ADDEFF05049328C559111 /* OSBroadcasterPlugin.m in Sources */,
+				1B992A58651A4F998BD6B32D /* OSBroadcaster.m in Sources */,
+				BB24592C07AE4D6A924C497B /* OSNetworkEvent.m in Sources */,
+				9482B2C42DB64E3B8FF3496F /* OSNetworkEventEmitter.m in Sources */,
+				1DC309394D444294A50F8B0D /* OSHTTPFactory.m in Sources */,
+				8FF1FBC34F7D44629B835A22 /* OSProtocolManagerPlugin.m in Sources */,
+				FC25483D83974D788ACD60DD /* OSApplicationInfo.m in Sources */,
+				34E3F703AECF400A92380959 /* OSApplicationInfoPlugin.m in Sources */,
+				21E52C4D1D874E24949FE46F /* OSInspectorNotificationHelper.m in Sources */,
+				65577EEC38284A6C925A4E2C /* OSInspectorPlugin.m in Sources */,
+				42CB1A1DA1C14F70B11CD18D /* OSInspectorPreferences.m in Sources */,
+				CA71E4B91F28411A8B9E122B /* OSLoggerPlugin.m in Sources */,
+				4A7A9CE75B574ADF95088AD1 /* OSLogger.m in Sources */,
+				83F4AC0C12E14DF5A2710AEA /* OSPureeLogger.m in Sources */,
+				6E1E5F1B413546F2B7321652 /* OSDeviceInfo.m in Sources */,
+				A01F4FE0155B4B39B0F9BDD1 /* OSLogRecord.m in Sources */,
+				08F0C2E441D044D3BDFD2C74 /* NSDictionary+Merge.h in Sources */,
+				1F236B9AF63C4C4EB5065BE5 /* NSDictionary+Merge.m in Sources */,
+				095B4F608BC5457590D3C231 /* OSDateUtils.h in Sources */,
+				705526EF9A4B444BA6EAAD05 /* OSDateUtils.m in Sources */,
+				0AFCE561E52343089B248A64 /* OSOtelUtils.h in Sources */,
+				D4CABCA576D4448D9F21A84B /* OSOtelUtils.m in Sources */,
+				A668D483EBD648E7A5A78895 /* OSOTLPApiKeyManager.m in Sources */,
+				82E4C3BD374A409E8576B7A1 /* OSPureeConsoleOutput.m in Sources */,
+				61910211A5A7499A8F902035 /* OSPureeServerOutput.m in Sources */,
+				F2C7DB5F6F3A4538B3465F38 /* OSPureeOtlpOutput.m in Sources */,
+				467EEF65692E4BC19D2D6A3F /* OSLog.m in Sources */,
+				7CB4227A945C488B891AEE83 /* OSPureeFilter.m in Sources */,
+				504E9BE8141D4785A9B76844 /* OSHttpPlugin.m in Sources */,
+				B8BB061FD9774B72A02A8C4E /* OSHttp.m in Sources */,
+				38A90BBD487948D9A195C3EA /* OSAbortRequestCommandArgs.m in Sources */,
+				AEE47A1086D7485787876FD3 /* OSSendRequestCommandArgs.m in Sources */,
+				808F98C1960447909D8AA187 /* OSHttpSharedCookieHandlerEngine.m in Sources */,
+				3372A94095FB489A877CFD1D /* OSHttpUrlSessionEngine.m in Sources */,
+				7352924F7E694175B7BED17E /* OSHttpWKWebViewCookieHandlerEngine.m in Sources */,
+				10C1C1B5364E4E868EC99758 /* OSHttpHeadersUtils.m in Sources */,
+				99D6952C64D042CC83549491 /* OSHttpPluginArgHelper.m in Sources */,
+				2B86580DE9C748F1AC48CDAE /* OSHttpResultUtil.m in Sources */,
+				C8BC010302FA4A20BDCCA3BF /* OSCrashHandlerPlugin.m in Sources */,
+				CB80B553FEA14340B82991FC /* OSCrashHandler.m in Sources */,
+				1618A2271AF64D62AC3F192A /* OSDeepLinks.h in Sources */,
+				2D4B16D59F6A4D2A8FFE6EA3 /* OSDeepLinks.m in Sources */,
+				28B65054CC6A44709308C2ED /* OSManifestParser.m in Sources */,
+				11092CB6378E497AB7F11C7A /* OSManifest.m in Sources */,
+				C065959B8D754A75A88281E0 /* OSCache.m in Sources */,
+				92DD20D96C9B42EBA4C2FD4C /* OSNativeCache.m in Sources */,
+				1E28BE550373447B88BA9D96 /* OSFileChecksum.m in Sources */,
+				5ADE5E6B908C4A5482948B1C /* OSMimeTypesHelper.m in Sources */,
+				FC50E0B245ED4964AC5B2432 /* OSThreadSafeDictionaryWrapper.m in Sources */,
+				F5F668B9F7734743AD38E383 /* OSApplicationCache.m in Sources */,
+				5206F013AD114F918E72DCB2 /* OSCacheEntry.m in Sources */,
+				0B6D24F05CFE4F8684304773 /* OSCacheResources.m in Sources */,
+				EB1D753D49394C56BAE9A511 /* OSDownloadOperation.m in Sources */,
+				BB864B88D19B4242BD27B01A /* OSWebResponse.m in Sources */,
+				85B0DB629C374F6F9CF7ED7C /* OSPreBundlePlugin.m in Sources */,
+				55B6B61DA0FD44ADB019D8C9 /* OSPreBundle.m in Sources */,
+				32E2CD122B4A4044AF5C002E /* OSCordovaLoaderImpl.m in Sources */,
+				4D15B9890C1A439B9368847F /* OSCordovaLoaderEngine.h in Sources */,
+				2472C7A505194A4DBD369F19 /* OSCordovaLoaderProtocol.h in Sources */,
+				6A3DCBF6186C4EA99CF407F3 /* OSCordovaLoaderURLProtocol.m in Sources */,
+				59884B10197A4F048A0DABD7 /* OSCordovaLoader.m in Sources */,
+				6B1926DD27994A6E9B5E38D7 /* OSWKWebViewEngine.m in Sources */,
+				E49E37D2D1834F75A01B1ADD /* OSCustomSchemeHandler.m in Sources */,
+				7646B67507A94EE2BF1E2E97 /* RSSwizzle.m in Sources */,
+				B43B51C90FCA420784E89B4B /* OSAuth.m in Sources */,
+				2DFCAE6B40BB4B4AA1C07CD4 /* CDVDevice.m in Sources */,
+				30DFBBB0540A44B6B1BEAB90 /* CDVStatusBar.m in Sources */,
+				6A14DDFFD1174AB19A740C54 /* SQLitePlugin.m in Sources */,
+				E50A5F35DD0B40139A1C9B50 /* CustomPSPDFThreadSafeMutableDictionary.m in Sources */,
+				8BEE689EA3534DA7AC0616B9 /* sqlite3.c in Sources */,
+				C1B9BB26481948F9A43F8045 /* AgentifaiBridge.swift in Sources */,
+				86BC7326EE3A411CBD29670A /* AgentifaiHelper.swift in Sources */,
+				D14D4590DD4545ED9396CD82 /* AgentifaiPluginError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
