@@ -1,0 +1,11 @@
+framework module AgentifaiCoreDomain {
+  umbrella header "AgentifaiCoreDomain.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiCoreDomain.Swift {
+  header "AgentifaiCoreDomain-Swift.h"
+  requires objc
+}

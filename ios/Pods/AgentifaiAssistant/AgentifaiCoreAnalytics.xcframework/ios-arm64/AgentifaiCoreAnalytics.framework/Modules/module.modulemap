@@ -1,0 +1,11 @@
+framework module AgentifaiCoreAnalytics {
+  umbrella header "AgentifaiCoreAnalytics.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiCoreAnalytics.Swift {
+  header "AgentifaiCoreAnalytics-Swift.h"
+  requires objc
+}

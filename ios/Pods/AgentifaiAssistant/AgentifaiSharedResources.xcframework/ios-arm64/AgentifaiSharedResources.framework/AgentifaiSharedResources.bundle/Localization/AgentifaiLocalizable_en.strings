@@ -23,7 +23,8 @@
 "share" = "Share";
 "loading_information" = "Loading information…";
 "retry" = "Retry";
-
+"sound_on" = "With Sound";
+"sound_off" = "Muted";
 
 // Text Recognition Attachment
 "chat_text_recognition_message" = "Data collected by photo";

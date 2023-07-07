@@ -1,0 +1,4053 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackInput",
+        "printedName": "FeedbackInput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(attachment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackInput",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackInput",
+                "usr": "s:24AgentifaiFeatureFeedback0C5InputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackAttachment",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackAttachment",
+                "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C5InputC10attachmentAcA0C10AttachmentC_tcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C5InputC10attachmentAcA0C10AttachmentC_tcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback0C5InputC",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C5InputC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackButton",
+        "printedName": "FeedbackButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "label",
+            "printedName": "label",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC5labelSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC5labelSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC5labelSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC5labelSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC5valueSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC5valueSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC5valueSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC5valueSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(label:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackButton",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC5label5valueACSS_SStcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC5label5valueACSS_SStcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackButton",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C6ButtonC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Swift",
+        "printedName": "Swift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiRxSwiftCombine",
+        "printedName": "AgentifaiRxSwiftCombine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackSubmittedEvent",
+        "printedName": "FeedbackSubmittedEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "AgentifaiCoreDomain.EventType",
+                "usr": "s:19AgentifaiCoreDomain9EventTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC4type0A10CoreDomain0E4TypeOvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC4type0A10CoreDomain0E4TypeOvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventType",
+                    "printedName": "AgentifaiCoreDomain.EventType",
+                    "usr": "s:19AgentifaiCoreDomain9EventTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC4type0A10CoreDomain0E4TypeOvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC4type0A10CoreDomain0E4TypeOvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC2idSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC2idSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC2idSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC2idSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC5valueSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC5valueSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC5valueSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC5valueSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "feedback",
+            "printedName": "feedback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC8feedbackSSSgvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC8feedbackSSSgvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC8feedbackSSSgvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC8feedbackSSSgvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackSubmittedEvent",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackSubmittedEvent",
+                "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback0C14SubmittedEventC",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C14SubmittedEventC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Event",
+            "printedName": "Event",
+            "usr": "s:19AgentifaiCoreDomain5EventP",
+            "mangledName": "$s19AgentifaiCoreDomain5EventP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeatureFeedbackDI",
+        "printedName": "FeatureFeedbackDI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Container",
+                "printedName": "Swinject.Container",
+                "usr": "s:8Swinject9ContainerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "mangledName": "$s24AgentifaiFeatureFeedback0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback0bC2DIC",
+        "mangledName": "$s24AgentifaiFeatureFeedback0bC2DIC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DisposableHandler",
+        "printedName": "DisposableHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback17DisposableHandlerC7disposeyyF",
+            "mangledName": "$s24AgentifaiFeatureFeedback17DisposableHandlerC7disposeyyF",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback17DisposableHandlerC",
+        "mangledName": "$s24AgentifaiFeatureFeedback17DisposableHandlerC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiRxSwiftCombine",
+        "printedName": "AgentifaiRxSwiftCombine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiSharedResources",
+        "printedName": "AgentifaiSharedResources",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiRxSwiftCombine",
+        "printedName": "AgentifaiRxSwiftCombine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackViewController",
+        "printedName": "FeedbackViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackViewController",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackViewController",
+                    "usr": "s:24AgentifaiFeatureFeedback0C14ViewControllerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Dynamic",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contentView:theme:presentation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackViewController",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackViewController",
+                "usr": "s:24AgentifaiFeatureFeedback0C14ViewControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackView",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackView",
+                "usr": "s:24AgentifaiFeatureFeedback0C4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantTheme",
+                "printedName": "AgentifaiCoreUI.AssistantTheme",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetPresentation",
+                "printedName": "AgentifaiCoreUI.BottomSheetPresentation",
+                "usr": "s:15AgentifaiCoreUI23BottomSheetPresentationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C14ViewControllerC07contentD05theme12presentationAcA0cD0V_0A6CoreUI14AssistantThemeVAI23BottomSheetPresentationCtcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C14ViewControllerC07contentD05theme12presentationAcA0cD0V_0A6CoreUI14AssistantThemeVAI23BottomSheetPresentationCtcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback0C14ViewControllerC",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C14ViewControllerC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "AgentifaiCoreUI.BottomSheetViewController<AgentifaiFeatureFeedback.FeedbackView>",
+          "SwiftUI.UIHostingController<AgentifaiCoreUI.AssistantThemeView<AgentifaiCoreUI.BottomSheetView<AgentifaiFeatureFeedback.FeedbackView>>>",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_UIHostingViewable",
+            "printedName": "_UIHostingViewable",
+            "usr": "s:7SwiftUI18_UIHostingViewableP",
+            "mangledName": "$s7SwiftUI18_UIHostingViewableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackView",
+        "printedName": "FeedbackView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C4ViewV4bodyQrvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C4ViewV4bodyQrvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C4ViewV4bodyQrvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C4ViewV4bodyQrvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24AgentifaiFeatureFeedback0C4ViewV",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C4ViewV",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackAttachment",
+        "printedName": "FeedbackAttachment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC2idSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC2idSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC2idSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC2idSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AttachmentType",
+                "printedName": "AgentifaiCoreDomain.AttachmentType",
+                "usr": "s:19AgentifaiCoreDomain14AttachmentTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC4type0A10CoreDomain0D4TypeOvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC4type0A10CoreDomain0D4TypeOvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttachmentType",
+                    "printedName": "AgentifaiCoreDomain.AttachmentType",
+                    "usr": "s:19AgentifaiCoreDomain14AttachmentTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC4type0A10CoreDomain0D4TypeOvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC4type0A10CoreDomain0D4TypeOvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Language",
+                "printedName": "AgentifaiCoreDomain.Language",
+                "usr": "s:19AgentifaiCoreDomain8LanguageO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC8language0A10CoreDomain8LanguageOvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC8language0A10CoreDomain8LanguageOvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Language",
+                    "printedName": "AgentifaiCoreDomain.Language",
+                    "usr": "s:19AgentifaiCoreDomain8LanguageO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC8language0A10CoreDomain8LanguageOvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC8language0A10CoreDomain8LanguageOvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AgentifaiFeatureFeedback.FeedbackItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItem",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItem",
+                    "usr": "s:24AgentifaiFeatureFeedback0C4ItemP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC5itemsSayAA0C4Item_pGvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC5itemsSayAA0C4Item_pGvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AgentifaiFeatureFeedback.FeedbackItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeedbackItem",
+                        "printedName": "AgentifaiFeatureFeedback.FeedbackItem",
+                        "usr": "s:24AgentifaiFeatureFeedback0C4ItemP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC5itemsSayAA0C4Item_pGvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC5itemsSayAA0C4Item_pGvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:language:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackAttachment",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackAttachment",
+                "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Language",
+                "printedName": "AgentifaiCoreDomain.Language",
+                "usr": "s:19AgentifaiCoreDomain8LanguageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AgentifaiFeatureFeedback.FeedbackItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItem",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItem",
+                    "usr": "s:24AgentifaiFeatureFeedback0C4ItemP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC2id8language5itemsACSS_0A10CoreDomain8LanguageOSayAA0C4Item_pGtcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC2id8language5itemsACSS_0A10CoreDomain8LanguageOSayAA0C4Item_pGtcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackAttachment",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackAttachment",
+                "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback0C10AttachmentC",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C10AttachmentC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Attachment",
+            "printedName": "Attachment",
+            "usr": "s:19AgentifaiCoreDomain10AttachmentP",
+            "mangledName": "$s19AgentifaiCoreDomain10AttachmentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackItem",
+        "printedName": "FeedbackItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C4ItemP2idSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP2idSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C4ItemP2idSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP2idSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiFeatureFeedback.FeedbackItem>",
+                "sugared_genericSig": "<Self where Self : AgentifaiFeatureFeedback.FeedbackItem>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C4ItemP5titleSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP5titleSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C4ItemP5titleSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP5titleSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiFeatureFeedback.FeedbackItem>",
+                "sugared_genericSig": "<Self where Self : AgentifaiFeatureFeedback.FeedbackItem>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackItemType",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C4ItemP4typeAA0cD4TypeOvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP4typeAA0cD4TypeOvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C4ItemP4typeAA0cD4TypeOvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP4typeAA0cD4TypeOvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiFeatureFeedback.FeedbackItem>",
+                "sugared_genericSig": "<Self where Self : AgentifaiFeatureFeedback.FeedbackItem>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24AgentifaiFeatureFeedback0C4ItemP",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackItemType",
+        "printedName": "FeedbackItemType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "csat",
+            "printedName": "csat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiFeatureFeedback.FeedbackItemType.Type) -> AgentifaiFeatureFeedback.FeedbackItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeedbackItemType",
+                        "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                        "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO4csatyA2CmF",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO4csatyA2CmF",
+            "moduleName": "AgentifaiFeatureFeedback"
+          },
+          {
+            "kind": "Var",
+            "name": "nps",
+            "printedName": "nps",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiFeatureFeedback.FeedbackItemType.Type) -> AgentifaiFeatureFeedback.FeedbackItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeedbackItemType",
+                        "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                        "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO3npsyA2CmF",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO3npsyA2CmF",
+            "moduleName": "AgentifaiFeatureFeedback"
+          },
+          {
+            "kind": "Var",
+            "name": "resolution",
+            "printedName": "resolution",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiFeatureFeedback.FeedbackItemType.Type) -> AgentifaiFeatureFeedback.FeedbackItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeedbackItemType",
+                        "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                        "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO10resolutionyA2CmF",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO10resolutionyA2CmF",
+            "moduleName": "AgentifaiFeatureFeedback"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AgentifaiFeatureFeedback.FeedbackItemType.Type) -> AgentifaiFeatureFeedback.FeedbackItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeedbackItemType",
+                        "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                        "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO7successyA2CmF",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO7successyA2CmF",
+            "moduleName": "AgentifaiFeatureFeedback"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackItemType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO8rawValueSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO8rawValueSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO8rawValueSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO8rawValueSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO",
+        "mangledName": "$s24AgentifaiFeatureFeedback0C8ItemTypeO",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetPromoterScore",
+        "printedName": "NetPromoterScore",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Score",
+            "printedName": "Score",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "Priority",
+                "printedName": "Priority",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "low",
+                    "printedName": "low",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority.Type) -> AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Priority",
+                            "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Priority",
+                                "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO3lowyA2GmF",
+                    "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO3lowyA2GmF",
+                    "moduleName": "AgentifaiFeatureFeedback"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "medium",
+                    "printedName": "medium",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority.Type) -> AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Priority",
+                            "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Priority",
+                                "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO6mediumyA2GmF",
+                    "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO6mediumyA2GmF",
+                    "moduleName": "AgentifaiFeatureFeedback"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "high",
+                    "printedName": "high",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority.Type) -> AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Priority",
+                            "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Priority",
+                                "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO4highyA2GmF",
+                    "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO4highyA2GmF",
+                    "moduleName": "AgentifaiFeatureFeedback"
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(rawValue:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Priority",
+                            "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority",
+                            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO8rawValueAGSgSS_tcfc",
+                    "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO8rawValueAGSgSS_tcfc",
+                    "moduleName": "AgentifaiFeatureFeedback",
+                    "implicit": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "rawValue",
+                    "printedName": "rawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO8rawValueSSvp",
+                    "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO8rawValueSSvp",
+                    "moduleName": "AgentifaiFeatureFeedback",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO8rawValueSSvg",
+                        "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO8rawValueSSvg",
+                        "moduleName": "AgentifaiFeatureFeedback",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V8PriorityO",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "enumRawTypeName": "String",
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "RawRepresentable",
+                    "printedName": "RawRepresentable",
+                    "children": [
+                      {
+                        "kind": "TypeWitness",
+                        "name": "RawValue",
+                        "printedName": "RawValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SY",
+                    "mangledName": "$sSY"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Score",
+                    "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score",
+                    "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V6encode2toys7Encoder_p_tKF",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC2idSSvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC5titleSSvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackItemType",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC4typeAA0C8ItemTypeOvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scores",
+            "printedName": "scores",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AgentifaiFeatureFeedback.NetPromoterScore.Score]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Score",
+                    "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score",
+                    "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC6scoresSayAC0F0VGvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC6scoresSayAC0F0VGvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AgentifaiFeatureFeedback.NetPromoterScore.Score]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Score",
+                        "printedName": "AgentifaiFeatureFeedback.NetPromoterScore.Score",
+                        "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC0F0V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC6scoresSayAC0F0VGvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC6scoresSayAC0F0VGvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "positiveButton",
+            "printedName": "positiveButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackButton",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC14positiveButtonAA0cH0Cvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC14positiveButtonAA0cH0Cvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackButton",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                    "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC14positiveButtonAA0cH0Cvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC14positiveButtonAA0cH0Cvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "negativeButton",
+            "printedName": "negativeButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackButton",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC14negativeButtonAA0cH0Cvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC14negativeButtonAA0cH0Cvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackButton",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                    "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC14negativeButtonAA0cH0Cvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC14negativeButtonAA0cH0Cvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetPromoterScore",
+                "printedName": "AgentifaiFeatureFeedback.NetPromoterScore",
+                "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback16NetPromoterScoreC",
+        "mangledName": "$s24AgentifaiFeatureFeedback16NetPromoterScoreC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FeedbackItem",
+            "printedName": "FeedbackItem",
+            "usr": "s:24AgentifaiFeatureFeedback0C4ItemP",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Resolution",
+        "printedName": "Resolution",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback10ResolutionC2idSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC2idSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC2idSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC2idSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC2idSSvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC2idSSvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC2idSSvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC2idSSvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback10ResolutionC5titleSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC5titleSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC5titleSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC5titleSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC5titleSSvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC5titleSSvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC5titleSSvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC5titleSSvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackItemType",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC4typeAA0C8ItemTypeOvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "positiveButton",
+            "printedName": "positiveButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackButton",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback10ResolutionC14positiveButtonAA0cF0Cvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC14positiveButtonAA0cF0Cvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackButton",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                    "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC14positiveButtonAA0cF0Cvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC14positiveButtonAA0cF0Cvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "negativeButton",
+            "printedName": "negativeButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackButton",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback10ResolutionC14negativeButtonAA0cF0Cvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC14negativeButtonAA0cF0Cvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackButton",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackButton",
+                    "usr": "s:24AgentifaiFeatureFeedback0C6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC14negativeButtonAA0cF0Cvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC14negativeButtonAA0cF0Cvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Resolution",
+                "printedName": "AgentifaiFeatureFeedback.Resolution",
+                "usr": "s:24AgentifaiFeatureFeedback10ResolutionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback10ResolutionC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback10ResolutionC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback10ResolutionC",
+        "mangledName": "$s24AgentifaiFeatureFeedback10ResolutionC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FeedbackItem",
+            "printedName": "FeedbackItem",
+            "usr": "s:24AgentifaiFeatureFeedback0C4ItemP",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Success",
+        "printedName": "Success",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback7SuccessC2idSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC2idSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC2idSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC2idSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC2idSSvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC2idSSvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC2idSSvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC2idSSvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback7SuccessC5titleSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC5titleSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC5titleSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC5titleSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC5titleSSvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC5titleSSvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC5titleSSvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC5titleSSvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackItemType",
+                "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackItemType",
+                    "printedName": "AgentifaiFeatureFeedback.FeedbackItemType",
+                    "usr": "s:24AgentifaiFeatureFeedback0C8ItemTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvs",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvs",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvM",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC4typeAA0C8ItemTypeOvM",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AgentifaiFeatureFeedback7SuccessC11descriptionSSvp",
+            "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC11descriptionSSvp",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC11descriptionSSvg",
+                "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC11descriptionSSvg",
+                "moduleName": "AgentifaiFeatureFeedback",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Success",
+                "printedName": "AgentifaiFeatureFeedback.Success",
+                "usr": "s:24AgentifaiFeatureFeedback7SuccessC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AgentifaiFeatureFeedback7SuccessC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AgentifaiFeatureFeedback7SuccessC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AgentifaiFeatureFeedback",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24AgentifaiFeatureFeedback7SuccessC",
+        "mangledName": "$s24AgentifaiFeatureFeedback7SuccessC",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FeedbackItem",
+            "printedName": "FeedbackItem",
+            "usr": "s:24AgentifaiFeatureFeedback0C4ItemP",
+            "mangledName": "$s24AgentifaiFeatureFeedback0C4ItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUI",
+        "printedName": "AgentifaiCoreUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiFeatureFeedback"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/FeedbackView\/FeedbackViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/FeedbackView\/FeedbackViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 22,
+      "value": "\"AgentifaiFeatureFeedback.FeedbackViewController\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/FeedbackView\/widget\/NetPromoterScore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 581,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/FeedbackView\/widget\/NetPromoterScore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 6,
+      "value": "\"CSAT\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 5,
+      "value": "\"NPS\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 12,
+      "value": "\"RESOLUTION\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 9,
+      "value": "\"SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 6,
+      "value": "\"CSAT\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 5,
+      "value": "\"NPS\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 12,
+      "value": "\"RESOLUTION\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 9,
+      "value": "\"SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 5,
+      "value": "\"LOW\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 8,
+      "value": "\"MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1768,
+      "length": 6,
+      "value": "\"HIGH\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 5,
+      "value": "\"LOW\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 8,
+      "value": "\"MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureFeedback\/AgentifaiFeatureFeedback\/Model\/Attachment\/FeedbackItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1768,
+      "length": 6,
+      "value": "\"HIGH\""
+    }
+  ]
+}

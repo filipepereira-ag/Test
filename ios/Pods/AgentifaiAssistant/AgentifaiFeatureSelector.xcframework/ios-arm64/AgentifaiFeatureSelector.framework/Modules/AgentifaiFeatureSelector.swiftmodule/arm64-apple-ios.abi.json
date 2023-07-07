@@ -1217,14 +1217,14 @@
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureSelector\/AgentifaiFeatureSelector\/View\/View Controller\/Cell\/SelectorTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 263,
       "length": 23,
       "value": "\"SelectorTableViewCell\""
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiFeatureSelector\/AgentifaiFeatureSelector\/Models\/Input\/SelectorFeatureInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 757,
+      "offset": 749,
       "length": 4,
       "value": "true"
     },

@@ -1,19 +1,24 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiAssistant
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiAssistant
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import AgentifaiCoreAnalytics
 import AgentifaiCoreCommon
+import AgentifaiCoreDomain
 import AgentifaiCoreNetworking
 import AgentifaiCoreNotifications
 import AgentifaiCoreRealtime
 import AgentifaiCoreUI
 import AgentifaiCoreUserAuth
+import AgentifaiFeatureFeedback
 import AgentifaiFeatureNotifications
 import AgentifaiFeatureSelector
 import AgentifaiFeatureWebView
+import AgentifaiRxSwiftCombine
 import AgentifaiSharedResources
 import AnyCodable
+import Combine
 import CommonCrypto
 import Contacts
 import CoreFoundation
@@ -61,7 +66,7 @@ public class ApiEndpointConfiguration : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-public class AgentifaiUser : AgentifaiCoreCommon.User {
+public class AgentifaiUser : AgentifaiCoreDomain.User {
   final public let id: Swift.String
   final public let name: Swift.String?
   final public let token: Swift.String?

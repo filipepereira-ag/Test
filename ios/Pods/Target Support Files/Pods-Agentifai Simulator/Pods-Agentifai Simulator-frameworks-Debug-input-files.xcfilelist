@@ -1,9 +1,11 @@
 ${PODS_ROOT}/Target Support Files/Pods-Agentifai Simulator/Pods-Agentifai Simulator-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AnyCodable-FlightSchool/AnyCodable.framework
 ${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework
 ${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework
 ${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework
 ${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework
+${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework
 ${BUILT_PRODUCTS_DIR}/MTSlideToOpen/MTSlideToOpen.framework
 ${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework
 ${BUILT_PRODUCTS_DIR}/PureeOS/PureeOS.framework
@@ -21,13 +23,17 @@ ${BUILT_PRODUCTS_DIR}/YapDatabase/YapDatabase.framework
 ${BUILT_PRODUCTS_DIR}/abseil/absl.framework
 ${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework
 ${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreAnalytics/AgentifaiCoreAnalytics.framework/AgentifaiCoreAnalytics
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreCommon/AgentifaiCoreCommon.framework/AgentifaiCoreCommon
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreDomain/AgentifaiCoreDomain.framework/AgentifaiCoreDomain
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreNetworking/AgentifaiCoreNetworking.framework/AgentifaiCoreNetworking
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreNotifications/AgentifaiCoreNotifications.framework/AgentifaiCoreNotifications
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreRealtime/AgentifaiCoreRealtime.framework/AgentifaiCoreRealtime
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreUI/AgentifaiCoreUI.framework/AgentifaiCoreUI
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiCoreUserAuth/AgentifaiCoreUserAuth.framework/AgentifaiCoreUserAuth
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiFeatureFeedback/AgentifaiFeatureFeedback.framework/AgentifaiFeatureFeedback
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiFeatureNotifications/AgentifaiFeatureNotifications.framework/AgentifaiFeatureNotifications
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiFeatureSelector/AgentifaiFeatureSelector.framework/AgentifaiFeatureSelector
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiFeatureWebView/AgentifaiFeatureWebView.framework/AgentifaiFeatureWebView
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiRxSwiftCombine/AgentifaiRxSwiftCombine.framework/AgentifaiRxSwiftCombine
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgentifaiAssistant/AgentifaiSharedResources/AgentifaiSharedResources.framework/AgentifaiSharedResources

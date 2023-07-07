@@ -113,146 +113,182 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
-  - AgentifaiAssistant (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
-    - AgentifaiAssistant/AgentifaiCoreCommon (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiCoreNetworking (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiCoreNotifications (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiCoreRealtime (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiCoreUI (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiCoreUserAuth (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiFeatureNotifications (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiFeatureSelector (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiFeatureWebView (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AgentifaiAssistant/AgentifaiSharedResources (= 8.3.2-xcode14.2-xcode14.2-test3-test2-test)
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+  - AgentifaiAssistant (9.2.0-xcode14-1):
+    - AgentifaiAssistant/AgentifaiCoreAnalytics (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiCoreCommon (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiCoreDomain (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiCoreNetworking (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiCoreNotifications (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiCoreRealtime (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiCoreUI (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiCoreUserAuth (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiFeatureFeedback (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiFeatureNotifications (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiFeatureSelector (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiFeatureWebView (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiRxSwiftCombine (= 9.2.0-xcode14-1)
+    - AgentifaiAssistant/AgentifaiSharedResources (= 9.2.0-xcode14-1)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiCoreCommon (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreAnalytics (9.2.0-xcode14-1):
+    - AgentifaiAssistant/AgentifaiCoreNetworking
+    - AgentifaiAssistant/AgentifaiCoreUserAuth
+    - AgentifaiAssistant/AgentifaiRxSwiftCombine
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiCoreNetworking (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
-    - Alamofire (~> 4.7)
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreCommon (9.2.0-xcode14-1):
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiCoreNotifications (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreDomain (9.2.0-xcode14-1):
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreNetworking (9.2.0-xcode14-1):
+    - Alamofire (~> 5.7.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreNotifications (9.2.0-xcode14-1):
     - AgentifaiAssistant/AgentifaiCoreCommon
     - AgentifaiAssistant/AgentifaiCoreNetworking
     - AgentifaiAssistant/AgentifaiCoreRealtime
     - AgentifaiAssistant/AgentifaiCoreUserAuth
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiCoreRealtime (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreRealtime (9.2.0-xcode14-1):
     - AgentifaiAssistant/AgentifaiCoreUserAuth
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
     - ReachabilitySwift (~> 5.0)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
-    - Socket.IO-Client-Swift (~> 16)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+    - Socket.IO-Client-Swift (~> 16.0.1)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiCoreUI (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreUI (9.2.0-xcode14-1):
     - AgentifaiAssistant/AgentifaiCoreCommon
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - lottie-ios (~> 2.5.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - lottie-ios (~> 4.2.0)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiCoreUserAuth (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiCoreUserAuth (9.2.0-xcode14-1):
     - AgentifaiAssistant/AgentifaiCoreCommon
     - AgentifaiAssistant/AgentifaiCoreNetworking
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - JWTDecode (~> 2.6)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - JWTDecode (~> 3.0.1)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiFeatureNotifications (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiFeatureFeedback (9.2.0-xcode14-1):
+    - AgentifaiAssistant/AgentifaiCoreDomain
+    - AgentifaiAssistant/AgentifaiCoreUI
+    - AgentifaiAssistant/AgentifaiRxSwiftCombine
+    - AgentifaiAssistant/AgentifaiSharedResources
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiFeatureNotifications (9.2.0-xcode14-1):
     - AgentifaiAssistant/AgentifaiCoreNotifications
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiFeatureSelector (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiFeatureSelector (9.2.0-xcode14-1):
     - AgentifaiAssistant/AgentifaiCoreUI
     - AgentifaiAssistant/AgentifaiSharedResources
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiFeatureWebView (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiFeatureWebView (9.2.0-xcode14-1):
     - AgentifaiAssistant/AgentifaiCoreUI
     - AgentifaiAssistant/AgentifaiSharedResources
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - AgentifaiAssistant/AgentifaiSharedResources (8.3.2-xcode14.2-xcode14.2-test3-test2-test):
-    - AnyCodable-FlightSchool (~> 0.2.3)
-    - MaterialComponents/TextFields (~> 84.0)
-    - MDFInternationalization (~> 2.0)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiRxSwiftCombine (9.2.0-xcode14-1):
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
     - MTSlideToOpen (~> 1.5.1)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
     - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
-    - Swinject (~> 2.7.0)
-    - Toaster
-  - Alamofire (4.9.1)
-  - AnyCodable-FlightSchool (0.2.3)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - AgentifaiAssistant/AgentifaiSharedResources (9.2.0-xcode14-1):
+    - AnyCodable-FlightSchool (= 0.6.4)
+    - MaterialComponents/TextFields (~> 124.2.0)
+    - MTSlideToOpen (~> 1.5.1)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+    - SwiftGRPC-FirebaseFirestore-DependencyFix (~> 0.10.0-df)
+    - Swinject (~> 2.8.3)
+    - Toaster (~> 2.3.0)
+  - Alamofire (5.7.1)
+  - AnyCodable-FlightSchool (0.6.4)
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
@@ -272,22 +308,67 @@ PODS:
     - BoringSSL-GRPC (= 0.0.7)
     - gRPC-Core/Interface (= 1.28.2)
   - gRPC-Core/Interface (1.28.2)
-  - JWTDecode (2.6.3)
-  - lottie-ios (2.5.3)
-  - MaterialComponents/AnimationTiming (84.6.0)
-  - MaterialComponents/Palettes (84.6.0)
-  - MaterialComponents/private/Application (84.6.0)
-  - MaterialComponents/private/Math (84.6.0)
-  - MaterialComponents/TextFields (84.6.0):
+  - JWTDecode (3.0.1)
+  - lottie-ios (4.2.0)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/Buttons (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/Shadow
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (124.2.0)
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/Ripple (124.2.0):
     - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Shadow (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/ShadowElevations (124.2.0)
+  - MaterialComponents/ShadowLayer (124.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (124.2.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (124.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
     - MaterialComponents/Palettes
     - MaterialComponents/private/Math
     - MaterialComponents/Typography
     - MDFInternationalization
-  - MaterialComponents/Typography (84.6.0):
+  - MaterialComponents/Typography (124.2.0):
     - MaterialComponents/private/Application
     - MaterialComponents/private/Math
-  - MDFInternationalization (2.0.0)
+    - MDFTextAccessibility
+  - MDFInternationalization (3.0.0)
+  - MDFTextAccessibility (2.0.1)
   - MTSlideToOpen (1.5.1)
   - PureeOS (2.0.1.OS7):
     - YapDatabase (~> 4.0)
@@ -305,7 +386,7 @@ PODS:
     - gRPC-Core (<= 1.28.2, >= 1.21)
     - SwiftProtobuf (~> 1.7.0)
   - SwiftProtobuf (1.7.0)
-  - Swinject (2.7.1)
+  - Swinject (2.8.3)
   - Toaster (2.3.0)
   - YapDatabase (4.0.1):
     - YapDatabase/Standard (= 4.0.1)
@@ -415,7 +496,7 @@ PODS:
     - YapDatabase/Standard/Core
 
 DEPENDENCIES:
-  - "AgentifaiAssistant (from `https://mobile-agentifai:ATBBq3x8Q6TGQRk9tWkQJEnBdTsb76574791@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git`, tag `8.3.2-xcode14.2`)"
+  - "AgentifaiAssistant (from `https://mobile-agentifai:ATBBq3x8Q6TGQRk9tWkQJEnBdTsb76574791@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git`, tag `9.2.0-xcode14.1`)"
   - "FLEX (from `https://github.com/OutSystems/FLEX/`, tag `5.22.10+1.0.0`)"
   - PureeOS (from `https://github.com/OutSystems/puree-ios.git`, commit `2.0.1.OS7`)
 
@@ -430,6 +511,7 @@ SPEC REPOS:
     - lottie-ios
     - MaterialComponents
     - MDFInternationalization
+    - MDFTextAccessibility
     - MTSlideToOpen
     - ReachabilitySwift
     - RxCocoa
@@ -446,7 +528,7 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   AgentifaiAssistant:
     :git: "https://mobile-agentifai:ATBBq3x8Q6TGQRk9tWkQJEnBdTsb76574791@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git"
-    :tag: 8.3.2-xcode14.2
+    :tag: 9.2.0-xcode14.1
   FLEX:
     :git: https://github.com/OutSystems/FLEX/
     :tag: "5.22.10+1.0.0"
@@ -457,7 +539,7 @@ EXTERNAL SOURCES:
 CHECKOUT OPTIONS:
   AgentifaiAssistant:
     :git: "https://mobile-agentifai:ATBBq3x8Q6TGQRk9tWkQJEnBdTsb76574791@bitbucket.org/agentifai/agentifai-assistant-ios-tests.git"
-    :tag: 8.3.2-xcode14.2
+    :tag: 9.2.0-xcode14.1
   FLEX:
     :git: https://github.com/OutSystems/FLEX/
     :tag: "5.22.10+1.0.0"
@@ -467,16 +549,17 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
-  AgentifaiAssistant: f95ffd3df4728f20251ee62a6da45812f35d28db
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  AnyCodable-FlightSchool: cf53737f4bd1d9187cea453679734506e478fff3
+  AgentifaiAssistant: 6b00855dde9e05f73d6389dfa326e8d2b427773d
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  AnyCodable-FlightSchool: 7874d20b561d7f76093a138dea41850c34cbdc5c
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   FLEX: 82afae2b62eb4912a1b9909d7d819b1a4757272a
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
-  JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
-  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
-  MaterialComponents: 71139af6ca6875fbde8ab8e64a275b7fd6a22d7f
-  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  JWTDecode: 2eed97c2fa46ccaf3049a787004eedf0be474a87
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   MTSlideToOpen: dedc9abf1e377fef40544b84e5590d4981055030
   PureeOS: a8b6aedb63f32495a6950c4cf60f51d1e750cd4b
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
@@ -487,10 +570,10 @@ SPEC CHECKSUMS:
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
   SwiftGRPC-FirebaseFirestore-DependencyFix: 623fcb9196f6a134ec4deb36f80ba1e12cd0e601
   SwiftProtobuf: 4fd9645e69b72cbae6ec8da5be0cdd20ca6565dd
-  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
   Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
   YapDatabase: 350ab72b61f9dcc32504594da1a52a93f5ef1476
 
-PODFILE CHECKSUM: 254b5f0ff401e27030b00dba626f99fffb73ac28
+PODFILE CHECKSUM: 711ff8363a6442bf7760c4791d8f8187613571ba
 
 COCOAPODS: 1.12.0

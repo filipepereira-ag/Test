@@ -1,0 +1,233 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiCoreDomain
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AgentifaiCoreDomain
+import Foundation
+import RxSwift
+import Swift
+import _Concurrency
+import _StringProcessing
+public protocol Sender : Swift.Decodable, Swift.Encodable {
+  var id: Swift.String { get }
+  var type: AgentifaiCoreDomain.SenderType { get }
+  var preferredLanguages: [AgentifaiCoreDomain.Language] { get set }
+}
+public protocol CommandMessageProtocol : AgentifaiCoreDomain.Message {
+  var command: AgentifaiCoreDomain.Command { get set }
+}
+public enum EventType : Swift.String, Swift.Codable {
+  case chatStarted
+  case buttonPressed
+  case commandCompleted
+  case formEdited
+  case formSubmitted
+  case formCanceled
+  case matrixCardSubmitted
+  case nifDigitsSubmitted
+  case pickerItemSelected
+  case dataUploaded
+  case itemSelected
+  case itemsSelected
+  case valueSubmitted
+  case notificationActionSelected
+  case feedbackSubmitted
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum MessageState : Swift.String, Swift.Codable {
+  case pending
+  case done
+  case error
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Language : Swift.String, Swift.Codable {
+  case portuguesePortugal
+  case english
+  case french
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum AttachmentType : Swift.String, Swift.Codable {
+  case text
+  case voiceRecognition
+  case textRecognition
+  case contactRequest
+  case standardForm
+  case simpleForm
+  case horizontalButtons
+  case stackedButtons
+  case matrixCard
+  case nifCard
+  case pdf
+  case balances
+  case transactions
+  case transferForm
+  case picker
+  case consentForm
+  case cardDetails
+  case cardPaymentForm
+  case loanSimulator
+  case treePicker
+  case loanForm
+  case documentValidation
+  case dataUpload
+  case simpleDetails
+  case documentConsent
+  case cardAcquisition
+  case cardForm
+  case smsToken
+  case notifications
+  case feedback
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class MessageError : Swift.Codable {
+  public var type: AgentifaiCoreDomain.MessageErrorType
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public protocol Attachment : Swift.Decodable, Swift.Encodable {
+  var id: Swift.String { get }
+  var type: AgentifaiCoreDomain.AttachmentType { get }
+  var language: AgentifaiCoreDomain.Language { get }
+}
+public enum MessageErrorType : Swift.String, Swift.Codable {
+  case serverError
+  case unavailable
+  case upgradeRequired
+  case genericError
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CommandType : Swift.String, Swift.Codable {
+  case clientRequest
+  case getContacts
+  case getUserId
+  case freeContext
+  case saveData
+  case getData
+  case updateData
+  case deleteData
+  case httpRequest
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol Message : Swift.Decodable, Swift.Encodable {
+  var id: Swift.String { get set }
+  var type: AgentifaiCoreDomain.MessageType { get set }
+  var protocolVersion: Swift.String { get set }
+  var createdAt: Foundation.Date { get set }
+  var sender: AgentifaiCoreDomain.Sender { get set }
+  var state: AgentifaiCoreDomain.MessageState { get set }
+  var chatSessionId: Swift.String { get set }
+}
+public protocol UserSessionProtocol {
+  var id: Swift.String { get set }
+  var user: AgentifaiCoreDomain.InternalUserProtocol { get set }
+  var chatSessionId: Swift.String { get set }
+  var intent: Swift.String? { get set }
+  var authHeaders: [Swift.String : Swift.String] { get }
+  var fromNotification: Swift.Bool { get }
+}
+public enum SenderType : Swift.String, Swift.Codable {
+  case ai
+  case user
+  case widget
+  case integrationService
+  case `operator`
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol InternalUserProtocol : AgentifaiCoreDomain.User {
+  var hashId: Swift.String { get }
+  var token: Swift.String? { get }
+  var authHeaders: [Swift.String : Swift.String] { get }
+  var isAnonymous: Swift.Bool { get }
+  var isOnboardingNeeded: Swift.Bool { get }
+  var isConsentToTermsAndConditionsNeeded: Swift.Bool { get }
+}
+extension AgentifaiCoreDomain.InternalUserProtocol {
+  public func equal(to user: AgentifaiCoreDomain.InternalUserProtocol) -> Swift.Bool
+}
+public protocol MessageRepositoryProtocol {
+  func receive(chatSessionId: Swift.String) -> RxSwift.Observable<Swift.Result<AgentifaiCoreDomain.Message, Swift.Error>>
+  func send(message: AgentifaiCoreDomain.Message) -> RxSwift.Completable
+}
+public protocol EventMessageFactoryProtocol {
+  func create(event: AgentifaiCoreDomain.Event, sender: AgentifaiCoreDomain.Sender, chatSessionId: Swift.String) -> AgentifaiCoreDomain.EventMessageProtocol
+}
+public enum MessageType : Swift.String, Swift.Codable {
+  case chat
+  case command
+  case event
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol User : Swift.Decodable, Swift.Encodable {
+  var id: Swift.String { get }
+  var name: Swift.String? { get }
+}
+extension AgentifaiCoreDomain.User {
+  public func equal(to user: AgentifaiCoreDomain.User) -> Swift.Bool
+}
+public protocol Event : Swift.Decodable, Swift.Encodable {
+  var type: AgentifaiCoreDomain.EventType { get }
+}
+public protocol EventMessageProtocol : AnyObject, AgentifaiCoreDomain.Message {
+  var event: AgentifaiCoreDomain.Event { get set }
+}
+public protocol Command : Swift.Decodable, Swift.Encodable {
+  var id: Swift.String { get }
+  var type: AgentifaiCoreDomain.CommandType { get }
+}
+extension AgentifaiCoreDomain.EventType : Swift.Equatable {}
+extension AgentifaiCoreDomain.EventType : Swift.Hashable {}
+extension AgentifaiCoreDomain.EventType : Swift.RawRepresentable {}
+extension AgentifaiCoreDomain.MessageState : Swift.Equatable {}
+extension AgentifaiCoreDomain.MessageState : Swift.Hashable {}
+extension AgentifaiCoreDomain.MessageState : Swift.RawRepresentable {}
+extension AgentifaiCoreDomain.Language : Swift.Equatable {}
+extension AgentifaiCoreDomain.Language : Swift.Hashable {}
+extension AgentifaiCoreDomain.Language : Swift.RawRepresentable {}
+extension AgentifaiCoreDomain.AttachmentType : Swift.Equatable {}
+extension AgentifaiCoreDomain.AttachmentType : Swift.Hashable {}
+extension AgentifaiCoreDomain.AttachmentType : Swift.RawRepresentable {}
+extension AgentifaiCoreDomain.MessageErrorType : Swift.Equatable {}
+extension AgentifaiCoreDomain.MessageErrorType : Swift.Hashable {}
+extension AgentifaiCoreDomain.MessageErrorType : Swift.RawRepresentable {}
+extension AgentifaiCoreDomain.CommandType : Swift.Equatable {}
+extension AgentifaiCoreDomain.CommandType : Swift.Hashable {}
+extension AgentifaiCoreDomain.CommandType : Swift.RawRepresentable {}
+extension AgentifaiCoreDomain.SenderType : Swift.Equatable {}
+extension AgentifaiCoreDomain.SenderType : Swift.Hashable {}
+extension AgentifaiCoreDomain.SenderType : Swift.RawRepresentable {}
+extension AgentifaiCoreDomain.MessageType : Swift.Equatable {}
+extension AgentifaiCoreDomain.MessageType : Swift.Hashable {}
+extension AgentifaiCoreDomain.MessageType : Swift.RawRepresentable {}

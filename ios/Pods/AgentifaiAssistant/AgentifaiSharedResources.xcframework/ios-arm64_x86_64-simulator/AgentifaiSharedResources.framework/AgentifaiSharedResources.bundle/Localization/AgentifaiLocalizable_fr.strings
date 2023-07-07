@@ -23,6 +23,8 @@
 "share" = "Partager";
 "loading_information" = "Chargement des informations…";
 "retry" = "Réessayer";
+"sound_on" = "Avec du son";
+"sound_off" = "Pas de son";
 
 
 // Text Recognition Attachment

@@ -919,6 +919,33 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Animation",
+                "printedName": "AgentifaiCoreUI.Animation",
+                "usr": "s:15AgentifaiCoreUI9AnimationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI9AnimationC8filenameACSS_tcfc",
+            "mangledName": "$s15AgentifaiCoreUI9AnimationC8filenameACSS_tcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -1475,6 +1502,2652 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssistantColors",
+        "printedName": "AssistantColors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "primaryDefault",
+            "printedName": "primaryDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV14primaryDefault05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14primaryDefault05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV14primaryDefault05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14primaryDefault05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryLight",
+            "printedName": "primaryLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV12primaryLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV12primaryLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV12primaryLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV12primaryLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assistantDefault",
+            "printedName": "assistantDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV16assistantDefault05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV16assistantDefault05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV16assistantDefault05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV16assistantDefault05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondaryDefault",
+            "printedName": "secondaryDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV16secondaryDefault05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV16secondaryDefault05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV16secondaryDefault05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV16secondaryDefault05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondaryLight",
+            "printedName": "secondaryLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV14secondaryLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14secondaryLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV14secondaryLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14secondaryLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "basicDefault",
+            "printedName": "basicDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV12basicDefault05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV12basicDefault05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV12basicDefault05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV12basicDefault05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activePrimary",
+            "printedName": "activePrimary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV13activePrimary05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13activePrimary05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV13activePrimary05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13activePrimary05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activePrimaryLight",
+            "printedName": "activePrimaryLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV18activePrimaryLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV18activePrimaryLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV18activePrimaryLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV18activePrimaryLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activeSecondary",
+            "printedName": "activeSecondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV15activeSecondary05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV15activeSecondary05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV15activeSecondary05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV15activeSecondary05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV7warning05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV7warning05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV7warning05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV7warning05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundPrimary",
+            "printedName": "backgroundPrimary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV17backgroundPrimary05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV17backgroundPrimary05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV17backgroundPrimary05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV17backgroundPrimary05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundSecondary",
+            "printedName": "backgroundSecondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV19backgroundSecondary05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV19backgroundSecondary05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV19backgroundSecondary05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV19backgroundSecondary05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundTertiary",
+            "printedName": "backgroundTertiary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV18backgroundTertiary05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV18backgroundTertiary05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV18backgroundTertiary05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV18backgroundTertiary05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundQuaternary",
+            "printedName": "backgroundQuaternary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV20backgroundQuaternary05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV20backgroundQuaternary05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV20backgroundQuaternary05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV20backgroundQuaternary05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appBackground",
+            "printedName": "appBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV13appBackground05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13appBackground05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV13appBackground05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13appBackground05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorOne",
+            "printedName": "colorOne",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV8colorOne05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV8colorOne05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV8colorOne05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV8colorOne05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorOneLight",
+            "printedName": "colorOneLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV13colorOneLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13colorOneLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV13colorOneLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13colorOneLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorTwo",
+            "printedName": "colorTwo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV8colorTwo05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV8colorTwo05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV8colorTwo05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV8colorTwo05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorTwoLight",
+            "printedName": "colorTwoLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV13colorTwoLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13colorTwoLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV13colorTwoLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13colorTwoLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorThree",
+            "printedName": "colorThree",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV10colorThree05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV10colorThree05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV10colorThree05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV10colorThree05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorThreeLight",
+            "printedName": "colorThreeLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV15colorThreeLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV15colorThreeLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV15colorThreeLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV15colorThreeLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorFour",
+            "printedName": "colorFour",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV9colorFour05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV9colorFour05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV9colorFour05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV9colorFour05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorFourLight",
+            "printedName": "colorFourLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV14colorFourLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14colorFourLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV14colorFourLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14colorFourLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorFive",
+            "printedName": "colorFive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV9colorFive05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV9colorFive05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV9colorFive05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV9colorFive05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorFiveLight",
+            "printedName": "colorFiveLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV14colorFiveLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14colorFiveLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV14colorFiveLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14colorFiveLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorSix",
+            "printedName": "colorSix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV8colorSix05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV8colorSix05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV8colorSix05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV8colorSix05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorSixLight",
+            "printedName": "colorSixLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV13colorSixLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13colorSixLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV13colorSixLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV13colorSixLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorSeven",
+            "printedName": "colorSeven",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV10colorSeven05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV10colorSeven05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV10colorSeven05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV10colorSeven05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorSevenLight",
+            "printedName": "colorSevenLight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV15colorSevenLight05SwiftC05ColorVvp",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV15colorSevenLight05SwiftC05ColorVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV15colorSevenLight05SwiftC05ColorVvg",
+                "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV15colorSevenLight05SwiftC05ColorVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(primaryDefault:primaryLight:assistantDefault:secondaryDefault:secondaryLight:basicDefault:activePrimary:activePrimaryLight:activeSecondary:warning:backgroundPrimary:backgroundSecondary:backgroundTertiary:backgroundQuaternary:appBackground:colorOne:colorOneLight:colorTwo:colorTwoLight:colorThree:colorThreeLight:colorFour:colorFourLight:colorFive:colorFiveLight:colorSix:colorSixLight:colorSeven:colorSevenLight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantColors",
+                "printedName": "AgentifaiCoreUI.AssistantColors",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI15AssistantColorsV14primaryDefault0F5Light09assistantG009secondaryG00jH005basicG013activePrimary0lmH00L9Secondary7warning010backgroundM00pN00P8Tertiary0P10Quaternary13appBackground8colorOne0uvH00U3Two0uwH00U5Three0uxH00U4Four0uyH00U4Five0uzH00U3Six0u3SixH00U5Seven0u5SevenH0AC05SwiftC05ColorV_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_tcfc",
+            "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV14primaryDefault0F5Light09assistantG009secondaryG00jH005basicG013activePrimary0lmH00L9Secondary7warning010backgroundM00pN00P8Tertiary0P10Quaternary13appBackground8colorOne0uvH00U3Two0uwH00U5Three0uxH00U4Four0uyH00U4Five0uzH00U3Six0u3SixH00U5Seven0u5SevenH0AC05SwiftC05ColorV_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_A7_tcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI15AssistantColorsV",
+        "mangledName": "$s15AgentifaiCoreUI15AssistantColorsV",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssistantFonts",
+        "printedName": "AssistantFonts",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV5lightSSvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV5lightSSvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV5lightSSvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV5lightSSvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "regular",
+            "printedName": "regular",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV7regularSSvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV7regularSSvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV7regularSSvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV7regularSSvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "italic",
+            "printedName": "italic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV6italicSSvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV6italicSSvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV6italicSSvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV6italicSSvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV6mediumSSvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV6mediumSSvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV6mediumSSvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV6mediumSSvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bold",
+            "printedName": "bold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV4boldSSvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV4boldSSvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV4boldSSvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV4boldSSvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "symbols",
+            "printedName": "symbols",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV7symbolsSSvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV7symbolsSSvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV7symbolsSSvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV7symbolsSSvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fontSizeModifier",
+            "printedName": "fontSizeModifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV16fontSizeModifier0B10Foundation7CGFloatVvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV16fontSizeModifier0B8Graphics7CGFloatVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV16fontSizeModifier0B10Foundation7CGFloatVvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV16fontSizeModifier0B8Graphics7CGFloatVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(light:regular:italic:medium:bold:symbols:fontSizeModifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantFonts",
+                "printedName": "AgentifaiCoreUI.AssistantFonts",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV5light7regular6italic6medium4bold7symbols16fontSizeModifierACSS_S5S0B10Foundation7CGFloatVtcfc",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV5light7regular6italic6medium4bold7symbols16fontSizeModifierACSS_S5S0B8Graphics7CGFloatVtcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "size",
+            "printedName": "size(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AgentifaiCoreUI14AssistantFontsV4sizey0B10Foundation7CGFloatVSiF",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV4sizey0B8Graphics7CGFloatVSiF",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI14AssistantFontsV",
+        "mangledName": "$s15AgentifaiCoreUI14AssistantFontsV",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssistantTheme",
+        "printedName": "AssistantTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "colors",
+            "printedName": "colors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantColors",
+                "printedName": "AgentifaiCoreUI.AssistantColors",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantThemeV6colorsAA0D6ColorsVvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantThemeV6colorsAA0D6ColorsVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssistantColors",
+                    "printedName": "AgentifaiCoreUI.AssistantColors",
+                    "usr": "s:15AgentifaiCoreUI15AssistantColorsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV6colorsAA0D6ColorsVvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantThemeV6colorsAA0D6ColorsVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fonts",
+            "printedName": "fonts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantFonts",
+                "printedName": "AgentifaiCoreUI.AssistantFonts",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AssistantThemeV5fontsAA0D5FontsVvp",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantThemeV5fontsAA0D5FontsVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssistantFonts",
+                    "printedName": "AgentifaiCoreUI.AssistantFonts",
+                    "usr": "s:15AgentifaiCoreUI14AssistantFontsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV5fontsAA0D5FontsVvg",
+                "mangledName": "$s15AgentifaiCoreUI14AssistantThemeV5fontsAA0D5FontsVvg",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(colors:fonts:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantTheme",
+                "printedName": "AgentifaiCoreUI.AssistantTheme",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantColors",
+                "printedName": "AgentifaiCoreUI.AssistantColors",
+                "usr": "s:15AgentifaiCoreUI15AssistantColorsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantFonts",
+                "printedName": "AgentifaiCoreUI.AssistantFonts",
+                "usr": "s:15AgentifaiCoreUI14AssistantFontsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI14AssistantThemeV6colors5fontsAcA0D6ColorsV_AA0D5FontsVtcfc",
+            "mangledName": "$s15AgentifaiCoreUI14AssistantThemeV6colors5fontsAcA0D6ColorsV_AA0D5FontsVtcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI14AssistantThemeV",
+        "mangledName": "$s15AgentifaiCoreUI14AssistantThemeV",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssistantThemeKey",
+        "printedName": "AssistantThemeKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultValue",
+            "printedName": "defaultValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantTheme",
+                "printedName": "AgentifaiCoreUI.AssistantTheme",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI17AssistantThemeKeyV12defaultValueAA0dE0VvpZ",
+            "mangledName": "$s15AgentifaiCoreUI17AssistantThemeKeyV12defaultValueAA0dE0VvpZ",
+            "moduleName": "AgentifaiCoreUI",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssistantTheme",
+                    "printedName": "AgentifaiCoreUI.AssistantTheme",
+                    "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI17AssistantThemeKeyV12defaultValueAA0dE0VvgZ",
+                "mangledName": "$s15AgentifaiCoreUI17AssistantThemeKeyV12defaultValueAA0dE0VvgZ",
+                "moduleName": "AgentifaiCoreUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI17AssistantThemeKeyV",
+        "mangledName": "$s15AgentifaiCoreUI17AssistantThemeKeyV",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "EnvironmentKey",
+            "printedName": "EnvironmentKey",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssistantTheme",
+                    "printedName": "AgentifaiCoreUI.AssistantTheme",
+                    "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI14EnvironmentKeyP",
+            "mangledName": "$s7SwiftUI14EnvironmentKeyP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssistantThemeView",
+        "printedName": "AssistantThemeView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(theme:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantThemeView",
+                "printedName": "AgentifaiCoreUI.AssistantThemeView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:15AgentifaiCoreUI18AssistantThemeViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantTheme",
+                "printedName": "AgentifaiCoreUI.AssistantTheme",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI18AssistantThemeViewV5theme7contentACyxGAA0dE0V_xyXEtcfc",
+            "mangledName": "$s15AgentifaiCoreUI18AssistantThemeViewV5theme7contentACyxGAA0dE0V_xyXEtcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI18AssistantThemeViewV4bodyQrvp",
+            "mangledName": "$s15AgentifaiCoreUI18AssistantThemeViewV4bodyQrvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI18AssistantThemeViewV4bodyQrvg",
+                "mangledName": "$s15AgentifaiCoreUI18AssistantThemeViewV4bodyQrvg",
+                "moduleName": "AgentifaiCoreUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI18AssistantThemeViewV",
+        "mangledName": "$s15AgentifaiCoreUI18AssistantThemeViewV",
+        "moduleName": "AgentifaiCoreUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AttributedText",
+        "printedName": "AttributedText",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tags",
+            "printedName": "tags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : (SwiftUI.Text) -> SwiftUI.Text]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftUI.Text) -> SwiftUI.Text",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Text",
+                        "printedName": "SwiftUI.Text",
+                        "usr": "s:7SwiftUI4TextV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Text",
+                        "printedName": "SwiftUI.Text",
+                        "usr": "s:7SwiftUI4TextV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvpZ",
+            "mangledName": "$s15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvpZ",
+            "moduleName": "AgentifaiCoreUI",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : (SwiftUI.Text) -> SwiftUI.Text]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SwiftUI.Text) -> SwiftUI.Text",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Text",
+                            "printedName": "SwiftUI.Text",
+                            "usr": "s:7SwiftUI4TextV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Text",
+                            "printedName": "SwiftUI.Text",
+                            "usr": "s:7SwiftUI4TextV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvgZ",
+                "mangledName": "$s15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvgZ",
+                "moduleName": "AgentifaiCoreUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : (SwiftUI.Text) -> SwiftUI.Text]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SwiftUI.Text) -> SwiftUI.Text",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Text",
+                            "printedName": "SwiftUI.Text",
+                            "usr": "s:7SwiftUI4TextV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Text",
+                            "printedName": "SwiftUI.Text",
+                            "usr": "s:7SwiftUI4TextV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvsZ",
+                "mangledName": "$s15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvsZ",
+                "moduleName": "AgentifaiCoreUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvMZ",
+                "mangledName": "$s15AgentifaiCoreUI14AttributedTextV4tagsSDySS05SwiftC00E0VAGcGvMZ",
+                "moduleName": "AgentifaiCoreUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:tags:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AttributedText",
+                "printedName": "AgentifaiCoreUI.AttributedText",
+                "usr": "s:15AgentifaiCoreUI14AttributedTextV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : (SwiftUI.Text) -> SwiftUI.Text]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : (SwiftUI.Text) -> SwiftUI.Text]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SwiftUI.Text) -> SwiftUI.Text",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Text",
+                            "printedName": "SwiftUI.Text",
+                            "usr": "s:7SwiftUI4TextV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Text",
+                            "printedName": "SwiftUI.Text",
+                            "usr": "s:7SwiftUI4TextV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI14AttributedTextV_4tagsACSS_SDySS05SwiftC00E0VAGcGSgtcfc",
+            "mangledName": "$s15AgentifaiCoreUI14AttributedTextV_4tagsACSS_SDySS05SwiftC00E0VAGcGSgtcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI14AttributedTextV4bodyQrvp",
+            "mangledName": "$s15AgentifaiCoreUI14AttributedTextV4bodyQrvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI14AttributedTextV4bodyQrvg",
+                "mangledName": "$s15AgentifaiCoreUI14AttributedTextV4bodyQrvg",
+                "moduleName": "AgentifaiCoreUI",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI14AttributedTextV",
+        "mangledName": "$s15AgentifaiCoreUI14AttributedTextV",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1853,6 +4526,686 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomSheetView",
+        "printedName": "BottomSheetView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(presentation:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetView",
+                "printedName": "AgentifaiCoreUI.BottomSheetView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:15AgentifaiCoreUI15BottomSheetViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetPresentation",
+                "printedName": "AgentifaiCoreUI.BottomSheetPresentation",
+                "usr": "s:15AgentifaiCoreUI23BottomSheetPresentationC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI15BottomSheetViewV12presentation7contentACyxGAA0dE12PresentationC_xyctcfc",
+            "mangledName": "$s15AgentifaiCoreUI15BottomSheetViewV12presentation7contentACyxGAA0dE12PresentationC_xyctcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI15BottomSheetViewV4bodyQrvp",
+            "mangledName": "$s15AgentifaiCoreUI15BottomSheetViewV4bodyQrvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI15BottomSheetViewV4bodyQrvg",
+                "mangledName": "$s15AgentifaiCoreUI15BottomSheetViewV4bodyQrvg",
+                "moduleName": "AgentifaiCoreUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI15BottomSheetViewV",
+        "mangledName": "$s15AgentifaiCoreUI15BottomSheetViewV",
+        "moduleName": "AgentifaiCoreUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomSheetViewController",
+        "printedName": "BottomSheetViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modalPresentationStyle",
+            "printedName": "modalPresentationStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIModalPresentationStyle",
+                "printedName": "UIKit.UIModalPresentationStyle",
+                "usr": "c:@E@UIModalPresentationStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC22modalPresentationStyleSo07UIModaliJ0Vvp",
+            "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC22modalPresentationStyleSo07UIModaliJ0Vvp",
+            "moduleName": "AgentifaiCoreUI",
+            "overriding": true,
+            "objc_name": "modalPresentationStyle",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIModalPresentationStyle",
+                    "printedName": "UIKit.UIModalPresentationStyle",
+                    "usr": "c:@E@UIModalPresentationStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC22modalPresentationStyleSo07UIModaliJ0Vvg",
+                "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC22modalPresentationStyleSo07UIModaliJ0Vvg",
+                "moduleName": "AgentifaiCoreUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "overriding": true,
+                "objc_name": "modalPresentationStyle",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIModalPresentationStyle",
+                    "printedName": "UIKit.UIModalPresentationStyle",
+                    "usr": "c:@E@UIModalPresentationStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC22modalPresentationStyleSo07UIModaliJ0Vvs",
+                "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC22modalPresentationStyleSo07UIModaliJ0Vvs",
+                "moduleName": "AgentifaiCoreUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "overriding": true,
+                "objc_name": "setModalPresentationStyle:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contentView:theme:presentation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetViewController",
+                "printedName": "AgentifaiCoreUI.BottomSheetViewController<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantTheme",
+                "printedName": "AgentifaiCoreUI.AssistantTheme",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetPresentation",
+                "printedName": "AgentifaiCoreUI.BottomSheetPresentation",
+                "usr": "s:15AgentifaiCoreUI23BottomSheetPresentationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC07contentF05theme12presentationACyxGx_AA14AssistantThemeVAA0dE12PresentationCtcfc",
+            "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC07contentF05theme12presentationACyxGx_AA14AssistantThemeVAA0dE12PresentationCtcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiCoreUI.BottomSheetViewController<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomSheetViewController",
+                    "printedName": "AgentifaiCoreUI.BottomSheetViewController<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC5coderACyxGSgSo7NSCoderC_tcfc",
+            "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC5coderACyxGSgSo7NSCoderC_tcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Dynamic",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetViewController",
+                "printedName": "AgentifaiCoreUI.BottomSheetViewController<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantThemeView",
+                "printedName": "AgentifaiCoreUI.AssistantThemeView<AgentifaiCoreUI.BottomSheetView<τ_0_0>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomSheetView",
+                    "printedName": "AgentifaiCoreUI.BottomSheetView<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15AgentifaiCoreUI15BottomSheetViewV"
+                  }
+                ],
+                "usr": "s:15AgentifaiCoreUI18AssistantThemeViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC04rootF0ACyxGAA014AssistantThemeF0VyAA0deF0VyxGG_tcfc",
+            "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC04rootF0ACyxGAA014AssistantThemeF0VyAA0deF0VyxGG_tcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:rootView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AgentifaiCoreUI.BottomSheetViewController<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomSheetViewController",
+                    "printedName": "AgentifaiCoreUI.BottomSheetViewController<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantThemeView",
+                "printedName": "AgentifaiCoreUI.AssistantThemeView<AgentifaiCoreUI.BottomSheetView<τ_0_0>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BottomSheetView",
+                    "printedName": "AgentifaiCoreUI.BottomSheetView<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15AgentifaiCoreUI15BottomSheetViewV"
+                  }
+                ],
+                "usr": "s:15AgentifaiCoreUI18AssistantThemeViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC5coder04rootF0ACyxGSgSo7NSCoderC_AA014AssistantThemeF0VyAA0deF0VyxGGtcfc",
+            "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC5coder04rootF0ACyxGSgSo7NSCoderC_AA014AssistantThemeF0VyAA0deF0VyxGGtcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15AgentifaiCoreUI25BottomSheetViewControllerC",
+        "mangledName": "$s15AgentifaiCoreUI25BottomSheetViewControllerC",
+        "moduleName": "AgentifaiCoreUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:7SwiftUI19UIHostingControllerC",
+        "superclassNames": [
+          "SwiftUI.UIHostingController<AgentifaiCoreUI.AssistantThemeView<AgentifaiCoreUI.BottomSheetView<τ_0_0>>>",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_UIHostingViewable",
+            "printedName": "_UIHostingViewable",
+            "usr": "s:7SwiftUI18_UIHostingViewableP",
+            "mangledName": "$s7SwiftUI18_UIHostingViewableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BottomSheetPresentation",
+        "printedName": "BottomSheetPresentation",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BottomSheetPresentation",
+                "printedName": "AgentifaiCoreUI.BottomSheetPresentation",
+                "usr": "s:15AgentifaiCoreUI23BottomSheetPresentationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI23BottomSheetPresentationCACycfc",
+            "mangledName": "$s15AgentifaiCoreUI23BottomSheetPresentationCACycfc",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AgentifaiCoreUI23BottomSheetPresentationC7dismissyyF",
+            "mangledName": "$s15AgentifaiCoreUI23BottomSheetPresentationC7dismissyyF",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15AgentifaiCoreUI23BottomSheetPresentationC",
+        "mangledName": "$s15AgentifaiCoreUI23BottomSheetPresentationC",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
           }
         ]
       },
@@ -3211,6 +6564,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Color",
         "printedName": "Color",
@@ -3290,6 +6650,46 @@
                 "declKind": "Accessor",
                 "usr": "s:15AgentifaiCoreUI5ColorC2uiSo7UIColorCvg",
                 "mangledName": "$s15AgentifaiCoreUI5ColorC2uiSo7UIColorCvg",
+                "moduleName": "AgentifaiCoreUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swiftUI",
+            "printedName": "swiftUI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AgentifaiCoreUI5ColorC05swiftC005SwiftC0ABVvp",
+            "mangledName": "$s15AgentifaiCoreUI5ColorC05swiftC005SwiftC0ABVvp",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AgentifaiCoreUI5ColorC05swiftC005SwiftC0ABVvg",
+                "mangledName": "$s15AgentifaiCoreUI5ColorC05swiftC005SwiftC0ABVvg",
                 "moduleName": "AgentifaiCoreUI",
                 "accessorKind": "get"
               }
@@ -3527,6 +6927,26 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3585,6 +7005,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AgentifaiCoreUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3873,6 +7303,206 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LottieView",
+        "printedName": "LottieView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:loopMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LottieView",
+                "printedName": "AgentifaiCoreUI.LottieView",
+                "usr": "s:15AgentifaiCoreUI10LottieViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LottieLoopMode",
+                "printedName": "Lottie.LottieLoopMode",
+                "hasDefaultArg": true,
+                "usr": "s:6Lottie0A8LoopModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AgentifaiCoreUI10LottieViewV4name8loopModeACSS_0D00d4LoopH0Otcfc",
+            "mangledName": "$s15AgentifaiCoreUI10LottieViewV4name8loopModeACSS_0D00d4LoopH0Otcfc",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<AgentifaiCoreUI.LottieView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LottieView",
+                    "printedName": "AgentifaiCoreUI.LottieView",
+                    "usr": "s:15AgentifaiCoreUI10LottieViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AgentifaiCoreUI10LottieViewV10makeUIView7contextSo0G0C05SwiftC00G20RepresentableContextVyACG_tF",
+            "mangledName": "$s15AgentifaiCoreUI10LottieViewV10makeUIView7contextSo0G0C05SwiftC00G20RepresentableContextVyACG_tF",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<AgentifaiCoreUI.LottieView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LottieView",
+                    "printedName": "AgentifaiCoreUI.LottieView",
+                    "usr": "s:15AgentifaiCoreUI10LottieViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AgentifaiCoreUI10LottieViewV12updateUIView_7contextySo0G0C_05SwiftC00G20RepresentableContextVyACGtF",
+            "mangledName": "$s15AgentifaiCoreUI10LottieViewV12updateUIView_7contextySo0G0C_05SwiftC00G20RepresentableContextVyACGtF",
+            "moduleName": "AgentifaiCoreUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AgentifaiCoreUI10LottieViewV",
+        "mangledName": "$s15AgentifaiCoreUI10LottieViewV",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
           }
         ]
       },
@@ -5085,6 +8715,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5814,6 +9454,119 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "EnvironmentValues",
+        "printedName": "EnvironmentValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "assistantTheme",
+            "printedName": "assistantTheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssistantTheme",
+                "printedName": "AgentifaiCoreUI.AssistantTheme",
+                "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0Vvp",
+            "mangledName": "$s7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0Vvp",
+            "moduleName": "AgentifaiCoreUI",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssistantTheme",
+                    "printedName": "AgentifaiCoreUI.AssistantTheme",
+                    "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0Vvg",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0Vvg",
+                "moduleName": "AgentifaiCoreUI",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssistantTheme",
+                    "printedName": "AgentifaiCoreUI.AssistantTheme",
+                    "usr": "s:15AgentifaiCoreUI14AssistantThemeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0Vvs",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0Vvs",
+                "moduleName": "AgentifaiCoreUI",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0VvM",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV013AgentifaiCoreB0E14assistantThemeAD09AssistantH0VvM",
+                "moduleName": "AgentifaiCoreUI",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI17EnvironmentValuesV",
+        "mangledName": "$s7SwiftUI17EnvironmentValuesV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "NSLayoutConstraint",
         "printedName": "NSLayoutConstraint",
         "children": [
@@ -6065,6 +9818,91 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Text",
+        "printedName": "Text",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "customFont",
+            "printedName": "customFont(_:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Text",
+                "printedName": "SwiftUI.Text",
+                "usr": "s:7SwiftUI4TextV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4TextV013AgentifaiCoreB0E10customFont_4sizeACSS_0E10Foundation7CGFloatVtF",
+            "mangledName": "$s7SwiftUI4TextV013AgentifaiCoreB0E10customFont_4sizeACSS_0E8Graphics7CGFloatVtF",
+            "moduleName": "AgentifaiCoreUI",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI4TextV",
+        "mangledName": "$s7SwiftUI4TextV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
           }
         ]
       },
@@ -7618,63 +11456,469 @@
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Alert View\/AlertView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2702,
+      "offset": 2679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Alert View\/AlertView.swift",
       "kind": "StringLiteral",
-      "offset": 519,
+      "offset": 511,
       "length": 9,
       "value": "\"AgentifaiCoreUI.AlertView\""
     },
     {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5043,
+      "length": 9,
+      "value": "\"#070707\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5100,
+      "length": 9,
+      "value": "\"#50555C\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5161,
+      "length": 9,
+      "value": "\"#636C76\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5222,
+      "length": 9,
+      "value": "\"#838B95\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5281,
+      "length": 9,
+      "value": "\"#A2B6CA\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5338,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5396,
+      "length": 9,
+      "value": "\"#8756F3\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5459,
+      "length": 9,
+      "value": "\"#CBB5FB\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5519,
+      "length": 9,
+      "value": "\"#83BA79\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5571,
+      "length": 9,
+      "value": "\"#F33D3D\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5633,
+      "length": 9,
+      "value": "\"#DDD1FC\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5697,
+      "length": 9,
+      "value": "\"#F5F1FF\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5760,
+      "length": 9,
+      "value": "\"#EEEFF2\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5825,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5883,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5936,
+      "length": 9,
+      "value": "\"#15B3F7\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 5994,
+      "length": 9,
+      "value": "\"#D1F1FF\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6047,
+      "length": 9,
+      "value": "\"#15DB4D\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6105,
+      "length": 9,
+      "value": "\"#BDEFCB\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6160,
+      "length": 9,
+      "value": "\"#A776F9\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6220,
+      "length": 9,
+      "value": "\"#E3D1FF\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6274,
+      "length": 9,
+      "value": "\"#FF576B\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6333,
+      "length": 9,
+      "value": "\"#FFC6CD\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6387,
+      "length": 9,
+      "value": "\"#DCA553\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6446,
+      "length": 9,
+      "value": "\"#FFDDAB\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6499,
+      "length": 9,
+      "value": "\"#4B86CC\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6557,
+      "length": 9,
+      "value": "\"#B0D5FF\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6612,
+      "length": 9,
+      "value": "\"#8756F3\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6672,
+      "length": 9,
+      "value": "\"#CBB5FB\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6744,
+      "length": 14,
+      "value": "\"Roboto-Light\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6781,
+      "length": 16,
+      "value": "\"Roboto-Regular\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6819,
+      "length": 15,
+      "value": "\"Roboto-Italic\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6856,
+      "length": 15,
+      "value": "\"Roboto-Medium\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6891,
+      "length": 13,
+      "value": "\"Roboto-Bold\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 6927,
+      "length": 19,
+      "value": "\"Agentifai-Symbols\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/AssistantTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6978,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 4,
+      "value": "\"h1\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 4,
+      "value": "\"h2\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1341,
+      "length": 4,
+      "value": "\"h3\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 4,
+      "value": "\"h4\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
+      "length": 4,
+      "value": "\"h5\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1457,
+      "length": 4,
+      "value": "\"h6\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1495,
+      "length": 3,
+      "value": "\"i\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1525,
+      "length": 3,
+      "value": "\"u\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1558,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1595,
+      "length": 3,
+      "value": "\"b\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 5,
+      "value": "\"sup\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1662,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 5,
+      "value": "\"sub\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1720,
+      "length": 3,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/AttributedText\/AttributedText.swift",
+      "kind": "Array",
+      "offset": 2247,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/BehaviourView.swift",
       "kind": "IntegerLiteral",
-      "offset": 540,
+      "offset": 530,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/BehaviourView.swift",
       "kind": "IntegerLiteral",
-      "offset": 583,
+      "offset": 573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/BehaviourView.swift",
       "kind": "StringLiteral",
-      "offset": 468,
+      "offset": 462,
       "length": 13,
       "value": "\"AgentifaiCoreUI.BehaviourView\""
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/BehaviourView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3070,
+      "offset": 3032,
       "length": 5,
       "value": "false"
     },
     {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Bottom Sheet\/BottomSheetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Bottom Sheet\/BottomSheetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Bottom Sheet\/BottomSheetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 370,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Bottom Sheet\/BottomSheetViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 25,
+      "value": "\"AgentifaiCoreUI.BottomSheetViewController\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Bottom Sheet\/BottomSheetViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 25,
+      "value": "\"AgentifaiCoreUI.BottomSheetViewController\""
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Bottom Sheet\/BottomSheetViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2658,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Checkbox View\/CheckboxView.swift",
       "kind": "BooleanLiteral",
-      "offset": 229,
+      "offset": 225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Checkbox View\/CheckboxView.swift",
       "kind": "StringLiteral",
-      "offset": 274,
+      "offset": 266,
       "length": 18,
       "value": "\"boxUnchecked.pdf\""
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/Checkbox View\/CheckboxView.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 316,
       "length": 16,
       "value": "\"boxChecked.pdf\""
     },
@@ -7688,84 +11932,91 @@
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Color.swift",
       "kind": "IntegerLiteral",
-      "offset": 406,
+      "offset": 489,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/UI Bart Button Item\/CustomButtonUIBarButtonItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 337,
+      "offset": 329,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Utils\/Extensions\/Extension+NSLayoutConstraint.swift",
       "kind": "IntegerLiteral",
-      "offset": 824,
+      "offset": 899,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Utils\/Extensions\/Extension+NSLayoutConstraint.swift",
       "kind": "IntegerLiteral",
-      "offset": 847,
+      "offset": 930,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Utils\/Extensions\/Extension+NSLayoutConstraint.swift",
       "kind": "IntegerLiteral",
-      "offset": 871,
+      "offset": 962,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Utils\/Extensions\/Extension+NSLayoutConstraint.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 995,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Utils\/Extensions\/Extension+SwiftUIColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 567,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Utils\/Extensions\/Extension+UIColor.swift",
       "kind": "IntegerLiteral",
-      "offset": 249,
+      "offset": 245,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Utils\/Extensions\/Extension+UIColor.swift",
       "kind": "IntegerLiteral",
-      "offset": 520,
+      "offset": 512,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/LoadingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 230,
+      "offset": 226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/LoadingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 266,
+      "offset": 262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Views\/LoadingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1012,
+      "offset": 992,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Themes\/NavigationBarTheme.swift",
       "kind": "BooleanLiteral",
-      "offset": 497,
+      "offset": 489,
       "length": 5,
       "value": "false"
     },
@@ -7789,34 +12040,6 @@
       "offset": 170,
       "length": 9,
       "value": "\"AgentifaiCoreUI.SearchBar\""
-    },
-    {
-      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Configurations\/UserInterfaceStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 7,
-      "value": "\"light\""
-    },
-    {
-      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Configurations\/UserInterfaceStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 6,
-      "value": "\"dark\""
-    },
-    {
-      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Configurations\/UserInterfaceStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 7,
-      "value": "\"light\""
-    },
-    {
-      "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreUI\/AgentifaiCoreUI\/Models\/Configurations\/UserInterfaceStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 6,
-      "value": "\"dark\""
     }
   ]
 }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AgentifaiFeatureSelector-Swift.h</key>
 		<data>
-		buS3TPDrbBAKne7VWnO8dmtlDZM=
+		N6Wtujbin+mBg1yOwaAeXdQVqk8=
 		</data>
 		<key>Headers/AgentifaiFeatureSelector.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Q6+RqGyq3iaeCU+VqZnFwiA8/tc=
+		0UzjoZbwwOVzVPhYFt1Y2KYhGQU=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		l24iOq1eEmEoyh+tNSC4tRXhJDQ=
+		SNH2SrJhTcm1K2R1UH+ieoNVS90=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		M+YaDGCo2PsgBloEy3AzuDbd4N0=
+		eD3hTnIz8Lf3AHG6xnSSjDJqIes=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eVYU96xRqHZObHCf1BU3BvRd1Tg=
+		MZUULsOmZ4CVcZDLX4NpYdDCHNg=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		M+YaDGCo2PsgBloEy3AzuDbd4N0=
+		eD3hTnIz8Lf3AHG6xnSSjDJqIes=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9UqdD5Ke3O1ssyZSRU36JcwJzDg=
+		MCh2LjtSZiqJGDs/lG9EPZuR0Xs=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		l24iOq1eEmEoyh+tNSC4tRXhJDQ=
+		SNH2SrJhTcm1K2R1UH+ieoNVS90=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6r4WhCR66CnVZFXqVJxT1P6EZJY=
+		6vZC3X8LgWmD7qju2QxRTJCSx+8=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UcOih6H6G+Qe3F5MetewyvnDQ2k=
+		kLywNEcvrgBJGck9zwVrxblKmAc=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6r4WhCR66CnVZFXqVJxT1P6EZJY=
+		6vZC3X8LgWmD7qju2QxRTJCSx+8=
 		</data>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T0mz3GAlIunsb+dF74gyliokNS0=
+		isFA+iO2RYzoWot4OAkgPdX9GGU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1epZCIjAism9fKfUxl+t38rqREms5dR3e4SenVWywNQ=
+			GwHQ3GqbtY2pwEtt1sqLfYCg/oPFP2VXBt932SyeiNQ=
 			</data>
 		</dict>
 		<key>Headers/AgentifaiFeatureSelector.h</key>
@@ -89,70 +89,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bSRVZPY0DBvty9QQydtos8M7fKcxlAcdHGaULoxDvMU=
+			MQX/CSSyg4N3Vr5rQZOAsixh36T+r/gy+LNVD3qIikw=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DUjQhRkvMKo9SG6ZWRSbnTP8IDuZYp+PL5UuvFq4Dro=
+			9e3WgVF1KBm9hW6oPZeisbWsOGUmpM64awoQfoiswtc=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BvFO81pHUss+NklsEgpvsZ7YQjIpeBYUqnKuMN1X2ko=
+			5su+Pl04Q5VCPA/K/gfIP7q6oOTQzedYcpT6EMoNdNE=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DUjQhRkvMKo9SG6ZWRSbnTP8IDuZYp+PL5UuvFq4Dro=
+			9e3WgVF1KBm9hW6oPZeisbWsOGUmpM64awoQfoiswtc=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OWGs5jrcFyZFlj5SywUpw8/XhYWaCAyec/7LjL5VuxE=
+			OeAJ1MS5PL7NMcq0dX/EBpe4b111PFApeB4MbRqJgjg=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bSRVZPY0DBvty9QQydtos8M7fKcxlAcdHGaULoxDvMU=
+			MQX/CSSyg4N3Vr5rQZOAsixh36T+r/gy+LNVD3qIikw=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+OBxue3JR+ha25dQ3tBBnfIGbIgAyMIGPHONILejLE=
+			bMufDh/l5hTrbMJjdGzq1bgsm6gahdQbBWp3SQwmZi8=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eL4rycMHs+4AUJatqXIBgYaXsn+BxcVWLm1+YFGPFnE=
+			pQJkqKWc6g7aLU1z1zKxWqqRK3f4Q9nLJrOgBoAfVYw=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+OBxue3JR+ha25dQ3tBBnfIGbIgAyMIGPHONILejLE=
+			bMufDh/l5hTrbMJjdGzq1bgsm6gahdQbBWp3SQwmZi8=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureSelector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0CW8sGxjX6/2dPGrvYjYAFZzgCp8H7TYiPISjGiIl0=
+			HPDxQTfsqP6ZZOb7PVmz9QzkOO9VcU/eViTW09oBTDI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

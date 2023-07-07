@@ -1,0 +1,11 @@
+framework module AgentifaiFeatureFeedback {
+  umbrella header "AgentifaiFeatureFeedback.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiFeatureFeedback.Swift {
+  header "AgentifaiFeatureFeedback-Swift.h"
+  requires objc
+}

@@ -79,13 +79,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AgentifaiFeatureWebView"
-      },
-      {
-        "kind": "Import",
         "name": "Swinject",
         "printedName": "Swinject",
         "declKind": "Import",

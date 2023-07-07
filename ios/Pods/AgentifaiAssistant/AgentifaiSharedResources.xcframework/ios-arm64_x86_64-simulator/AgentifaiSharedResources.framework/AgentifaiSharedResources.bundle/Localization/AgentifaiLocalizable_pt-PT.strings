@@ -23,6 +23,8 @@
 "share" = "Partilhar";
 "loading_information" = "A carregar informação…";
 "retry" = "Tentar novamente";
+"sound_on" = "Com som";
+"sound_off" = "Sem som";
 
 
 // Text Recognition Attachment

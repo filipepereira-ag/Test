@@ -36,6 +36,13 @@
         "moduleName": "AgentifaiCoreUserAuth"
       },
       {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUserAuth"
+      },
+      {
         "kind": "TypeDecl",
         "name": "UserAuthenticatorProtocol",
         "printedName": "UserAuthenticatorProtocol",
@@ -299,13 +306,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "InternalUserProtocol",
-                "printedName": "AgentifaiCoreCommon.InternalUserProtocol",
-                "usr": "s:19AgentifaiCoreCommon20InternalUserProtocolP"
+                "printedName": "AgentifaiCoreDomain.InternalUserProtocol",
+                "usr": "s:19AgentifaiCoreDomain20InternalUserProtocolP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21AgentifaiCoreUserAuth07DefaultC13AuthenticatorC7restApi6mapper13configuration4userAC0aB10Networking04RestH8Protocol_p_0aB6Common10JSONMapper_pAA0cF13ConfigurationCAJ08InternalcN0_ptcfc",
-            "mangledName": "$s21AgentifaiCoreUserAuth07DefaultC13AuthenticatorC7restApi6mapper13configuration4userAC0aB10Networking04RestH8Protocol_p_0aB6Common10JSONMapper_pAA0cF13ConfigurationCAJ08InternalcN0_ptcfc",
+            "usr": "s:21AgentifaiCoreUserAuth07DefaultC13AuthenticatorC7restApi6mapper13configuration4userAC0aB10Networking04RestH8Protocol_p_0aB6Common10JSONMapper_pAA0cF13ConfigurationC0aB6Domain08InternalcN0_ptcfc",
+            "mangledName": "$s21AgentifaiCoreUserAuth07DefaultC13AuthenticatorC7restApi6mapper13configuration4userAC0aB10Networking04RestH8Protocol_p_0aB6Common10JSONMapper_pAA0cF13ConfigurationC0aB6Domain08InternalcN0_ptcfc",
             "moduleName": "AgentifaiCoreUserAuth",
             "declAttributes": [
               "AccessControl"
@@ -934,6 +941,13 @@
         "kind": "Import",
         "name": "AgentifaiCoreCommon",
         "printedName": "AgentifaiCoreCommon",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreUserAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreDomain",
+        "printedName": "AgentifaiCoreDomain",
         "declKind": "Import",
         "moduleName": "AgentifaiCoreUserAuth"
       }

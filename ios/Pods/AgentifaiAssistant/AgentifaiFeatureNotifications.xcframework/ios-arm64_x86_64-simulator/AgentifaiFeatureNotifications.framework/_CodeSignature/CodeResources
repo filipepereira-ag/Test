@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AgentifaiFeatureNotifications-Swift.h</key>
 		<data>
-		q6OcuIXUdsSIPx3VRgocsd6EFjc=
+		UN9b4A9zwu1Qp3d+dI0faQcpfYA=
 		</data>
 		<key>Headers/AgentifaiFeatureNotifications.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+QS0WVdAKLmjiPt3Gv2tFv25HVE=
+		gjEmgDljZVlAeMfbDP2etlDESlM=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AOts64JgJNrzgSNzdGP+lNV8t5Q=
+		PKkPGVNvgxgCvw63m3s7YhC3ka8=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Yr9+B/oRYJsCP8Ir4oARvTg6u14=
+		aUWkR0mhx2+ZcXkt6haAbDdnZpo=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		f2dw9RITAwsbxoollEGUFIkRGTs=
+		RmhK5nmN84miT/NK5dCPDvjgOyI=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Yr9+B/oRYJsCP8Ir4oARvTg6u14=
+		aUWkR0mhx2+ZcXkt6haAbDdnZpo=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IaaSI92ofVer0IRBUcF521SRrFA=
+		OQVKYp9e6Pr0fpdi1BfWZQoi0RI=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AOts64JgJNrzgSNzdGP+lNV8t5Q=
+		PKkPGVNvgxgCvw63m3s7YhC3ka8=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		di9uY22sV93B3OGE/Z+peZkgTc4=
+		ThBeAZdKjW1nw21vgw0seXiDdy0=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VhDZEX0bAAEVqF/TiB/Og2a8qaQ=
+		AlfaIMa3wnz0Jqd4Pk6aTh1ZZ7E=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		di9uY22sV93B3OGE/Z+peZkgTc4=
+		ThBeAZdKjW1nw21vgw0seXiDdy0=
 		</data>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qEoIEHUKrD3KYRnfUI6Miv5VrQA=
+		v6FGhFLIPOIxoxsQUrRg1cwZknM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H6i1G4ZZ4VROxkx24QOVRb/0zxcbca2mtuX3oZ14Zn0=
+			/RmhF1DRbghoW58B7qazueIuIEp8V0KaN4Arup3C0zk=
 			</data>
 		</dict>
 		<key>Headers/AgentifaiFeatureNotifications.h</key>
@@ -89,70 +89,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASAVZQZXkgJaZAsngUtO5sYR79jqKJe9nVxsnpyE38w=
+			PyjQ+L6wi3ORG0siqDloKl/Ifbb0yxvYR9a+IiyCODw=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9rfCGWDrRMzuVsBweVnbVkTISu1F4EUS+swDF+c3KNI=
+			KEA22fRWHd7yEpkmRQVcHd4gcDmtZpj5H3ocxoPfYGs=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rWSwbVhzzk1MZjnEO4F7KQ/hS3UAhawfMsEkNB4Ct4I=
+			NEN9HJQWMFrSzNWqeOSyH7eVCbb9YkfAIzIWUeCzO2E=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9rfCGWDrRMzuVsBweVnbVkTISu1F4EUS+swDF+c3KNI=
+			KEA22fRWHd7yEpkmRQVcHd4gcDmtZpj5H3ocxoPfYGs=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+gGfoA1XmIeenoe28I/4/O4yq4Qll7lg6A7YZseQT9M=
+			Ezbe2MBVCXbD6nH4HDrigOfTa6XhD82E9Nc+IzDinpM=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASAVZQZXkgJaZAsngUtO5sYR79jqKJe9nVxsnpyE38w=
+			PyjQ+L6wi3ORG0siqDloKl/Ifbb0yxvYR9a+IiyCODw=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Kuohni9zXB0gKVP+uwxFclav0icgInuqamGvmwA9S0=
+			ZgjYpFQhc5wa1RC3Hb7xXidjVtpTX3QbaXmnj2i+C+Q=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s2e/+zpBwxvqn3qElFRtzCMwX0Pqg90AedsBcq3sd78=
+			ENjOfhK3xyJgACibNESjwmPxgq9rUDTPOk2HPQa3C+s=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Kuohni9zXB0gKVP+uwxFclav0icgInuqamGvmwA9S0=
+			ZgjYpFQhc5wa1RC3Hb7xXidjVtpTX3QbaXmnj2i+C+Q=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiFeatureNotifications.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3P5lSxyW3Buuy1C+abcbOkYyx25upQj3S4fnjf83U5c=
+			q31et3FOhxC3PW2XlMZThSMSif5D9iw1rpZzUE3D5co=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

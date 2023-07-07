@@ -760,6 +760,54 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "void",
+            "printedName": "void(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<()>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<()>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking7RestApiC4void7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCyytGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking7RestApiC4void7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCyytGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -965,6 +1013,55 @@
             "declKind": "Func",
             "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP6string7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySSSgGGAA0dE7RequestC_tF",
             "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP6string7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCySSSgGGAA0dE7RequestC_tF",
+            "moduleName": "AgentifaiCoreNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNetworking.RestApiProtocol>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreNetworking.RestApiProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "void",
+            "printedName": "void(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimitiveSequence",
+                "printedName": "RxSwift.PrimitiveSequence<RxSwift.SingleTrait, AgentifaiCoreNetworking.RestApiResponse<()>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingleTrait",
+                    "printedName": "RxSwift.SingleTrait",
+                    "usr": "s:7RxSwift11SingleTraitO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestApiResponse",
+                    "printedName": "AgentifaiCoreNetworking.RestApiResponse<()>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "usr": "s:23AgentifaiCoreNetworking15RestApiResponseC"
+                  }
+                ],
+                "usr": "s:7RxSwift17PrimitiveSequenceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RestApiRequest",
+                "printedName": "AgentifaiCoreNetworking.RestApiRequest",
+                "usr": "s:23AgentifaiCoreNetworking14RestApiRequestC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AgentifaiCoreNetworking15RestApiProtocolP4void7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCyytGGAA0dE7RequestC_tF",
+            "mangledName": "$s23AgentifaiCoreNetworking15RestApiProtocolP4void7request7RxSwift17PrimitiveSequenceVyAF11SingleTraitOAA0dE8ResponseCyytGGAA0dE7RequestC_tF",
             "moduleName": "AgentifaiCoreNetworking",
             "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreNetworking.RestApiProtocol>",
             "sugared_genericSig": "<Self where Self : AgentifaiCoreNetworking.RestApiProtocol>",
@@ -2075,14 +2172,14 @@
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNetworking\/AgentifaiCoreNetworking\/Networking\/Response\/RestApiResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 432,
+      "offset": 424,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filipepereira\/Agentifai\/projects\/mobile\/ios\/widget-framework-ios\/AgentifaiCoreNetworking\/AgentifaiCoreNetworking\/Networking\/RestApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 6020,
+      "offset": 6985,
       "length": 5,
       "value": "false"
     }

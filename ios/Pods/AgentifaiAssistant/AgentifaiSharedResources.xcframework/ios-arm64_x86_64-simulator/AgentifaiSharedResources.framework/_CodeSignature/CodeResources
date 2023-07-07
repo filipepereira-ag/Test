@@ -6,19 +6,19 @@
 	<dict>
 		<key>AgentifaiSharedResources.bundle/AgentifaiLocalizable_en.strings</key>
 		<data>
-		VeV7maCL4oUmkmXyomufKC0MGTc=
+		/+x680kD5zcwsmwkC+azzwvtlOA=
 		</data>
 		<key>AgentifaiSharedResources.bundle/AgentifaiLocalizable_fr.strings</key>
 		<data>
-		SUSL4M7jYcht6mIULsgBGJKXwZM=
+		tZrLIw5y/cSJROLTYZop2tp+k0Q=
 		</data>
 		<key>AgentifaiSharedResources.bundle/AgentifaiLocalizable_pt-PT.strings</key>
 		<data>
-		h0h6XizZsIAuLbVLEe4lFhKk2fw=
+		NtSTQG0wJWp2skzQqADjVTnKSJc=
 		</data>
 		<key>AgentifaiSharedResources.bundle/Assets.car</key>
 		<data>
-		fJSGTz2Ru1jYZKInLdGQBVSSrJc=
+		iy1YT6pGhlxLN/ZqU5lo/TWFgPE=
 		</data>
 		<key>AgentifaiSharedResources.bundle/AssistantStartedListening.mp3</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>AgentifaiSharedResources.bundle/Info.plist</key>
 		<data>
-		HEO6gW+gqgY4DA00uO5gRK9WUCM=
+		1JpVmx1Oo5LM9ZjK2N9doJNIajA=
 		</data>
 		<key>AgentifaiSharedResources.bundle/Localization/AgentifaiLocalizable_en.strings</key>
 		<data>
-		ln6xml/+cb5SWTXFMmFDhKEEwH4=
+		LxU1Hl5rDfie4jcofhG1HGoC/es=
 		</data>
 		<key>AgentifaiSharedResources.bundle/Localization/AgentifaiLocalizable_fr.strings</key>
 		<data>
-		xPFCnEoLVcXXopSE9YkbSmwfwWw=
+		YuOEPoSCmlOh7Y74lpinwllJe74=
 		</data>
 		<key>AgentifaiSharedResources.bundle/Localization/AgentifaiLocalizable_pt-PT.strings</key>
 		<data>
-		mvotxs95jtRzywFFb2G5oRJ7yYA=
+		ca4BTCvuDhmWeNP/aJdghWoG5+o=
 		</data>
 		<key>AgentifaiSharedResources.bundle/Sounds/AssistantStartedListening.mp3</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/AgentifaiSharedResources-Swift.h</key>
 		<data>
-		WU1Gfsq7DK2mW82ETUvPS+HuSgk=
+		pKkBbrmiKjj18xhNwU9y9YLKHco=
 		</data>
 		<key>Headers/AgentifaiSharedResources-umbrella.h</key>
 		<data>
@@ -62,47 +62,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Rwn9BsarFESCXe0D8PvFWIC9s2w=
+		0O/TpE5DZlz3UwKlYS4x2w5IDa0=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oU81Edxgv0hW8egq3Jju2fibbBU=
+		rtWPBY053TfgYNFZZWGb0Ru5rhk=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		L/Frlf19AiiZF5guplDae5cv2u8=
+		TPirpByiLX6VoRPGVdePWKPZ1LE=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		h/Sg/sz3hUqXM3Bnm+toFlvIits=
+		YPQBJvd+nkCVWPG4sCHsI8X1kGA=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		L/Frlf19AiiZF5guplDae5cv2u8=
+		TPirpByiLX6VoRPGVdePWKPZ1LE=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IjsUzKrI0I+A+2acwCY/G3WhhP8=
+		eSUch/dWZWeha7UaUO3Ns9OiC/Y=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oU81Edxgv0hW8egq3Jju2fibbBU=
+		rtWPBY053TfgYNFZZWGb0Ru5rhk=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EkQgPWCqgI2TlZGispjabIp69Uk=
+		MsYCogX5CmZQgehGH2ATv+99/Zg=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IgET5mPIvn9U75ZvxVeTOGrAswI=
+		bX+R2CFal4z9TSHRAfUWLQ9BKlU=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EkQgPWCqgI2TlZGispjabIp69Uk=
+		MsYCogX5CmZQgehGH2ATv+99/Zg=
 		</data>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XZkAjHhebWOiDcKOwqYk44tEcpA=
+		VV828Hrq4tL413dFIZs4EXweJIM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,28 +115,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MjXCGZLfJSF+1bEZQ2v+6pteECiYiwX4G5Hck1IbSa4=
+			jCVLcx/0plvBiw9MqdgnffeKRyuAXDZIbnFaWCKTzVE=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/AgentifaiLocalizable_fr.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d5Z8vGimBMmT5XzH+BuIOsrSg/LmzKzvkVlEQPi5B5c=
+			FE1V1dgphzorE4yMAa8RzsWB22HrHiaVJFsTZQ75Gc8=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/AgentifaiLocalizable_pt-PT.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			idmtyPbB1wB5KFWkHqYR1kgguzJyG1jew9rNblhUtXY=
+			OJ5U7DMAZd4FOqMPDzIVFKinoUGEzhPxxS/7+yCNntg=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WnFQafa1GPBFEsNU2aee7UG1mzSU9/DVZrFKVv5U8KY=
+			GDFfLxqwGra6iPQgD7IiL/P4AjWKu9uib887ymge78o=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/AssistantStartedListening.mp3</key>
@@ -157,28 +157,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0hMUfJVI4SjjTAZS6Kny5yCtZFUtGykLCCDVwi5z4yU=
+			DqCennIlSK2mi2Yeiwmpvw/uRO8CMJj7W9yDEopecks=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/Localization/AgentifaiLocalizable_en.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			onA82CRxciydNpX3tW4Z0azWk4Z1NttBJQQ+y40HUuQ=
+			7S4LT2ADovh6dHjoMdpFUa0+v0ijmyGMTLuPc785FIU=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/Localization/AgentifaiLocalizable_fr.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yf4DZwp7Bs0ezL5GY0D9/k0TzR9PRhD+WD22RCBFr2M=
+			m4bfHwxDQ5boHgux3BzHVux1rYu+ZjnkKqtytdL2x9g=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/Localization/AgentifaiLocalizable_pt-PT.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/+x7LzoSJ8NyUkrX2BLrFsdn0HDIOOvEdg23H+6ab0=
+			99LKDzH9hsKIYxEgE6Bt/DT7X5kcm0/gKPBtfAOADZ8=
 			</data>
 		</dict>
 		<key>AgentifaiSharedResources.bundle/Sounds/AssistantStartedListening.mp3</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CCtU7ryWHs8KEs1cBNdILyTAeC79ADw8f8AN95z4wsE=
+			Itu1UMswLGKLPj69m0Ge6Zlj0Gi6WalPKIpLzrEE7Ss=
 			</data>
 		</dict>
 		<key>Headers/AgentifaiSharedResources-umbrella.h</key>
@@ -213,70 +213,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v4KOacHNU2rc7TlLeYqcCCWSxtnMy7aJtifS4+mDDis=
+			KS2LdvuY6ysPGNKM6C/Xu1h11cGOpEsdsnC+jmmw8bU=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M3kE0CZfJ/QkpQPlQ6ijXJJVy4iJib8zx2kUYRLkPwA=
+			F8tn0hiGdmX66nKp2nzLTlBzBEFXJ9bAJozZ3MuROhw=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2eUfDel3Nak2xRgLzSjpkIEPLj+YfTSgrPg5lah7hB4=
+			/YNo2XXWubVY4orCeZCcg2kVQ4xJiB4syecn7cF7ljM=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M3kE0CZfJ/QkpQPlQ6ijXJJVy4iJib8zx2kUYRLkPwA=
+			F8tn0hiGdmX66nKp2nzLTlBzBEFXJ9bAJozZ3MuROhw=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nlw8quNeUZlrvU8lMcbbpI+/Lkn697gsMIkrnEAjB+Y=
+			BFlKbl+/XAjTG+zh9XPQAnwm+Z+Ox2/ajEBUg5lwt+E=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v4KOacHNU2rc7TlLeYqcCCWSxtnMy7aJtifS4+mDDis=
+			KS2LdvuY6ysPGNKM6C/Xu1h11cGOpEsdsnC+jmmw8bU=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nwpLmO2A0RSQpzVRDNuWD9R50u6pjpQ5TZIVQsPHcw4=
+			kFbkSsbhAUkUL83RWF5mqNgZl/gttNla09qvvUygYO0=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nu3QLr8VlK6mnJhFAzCwAHR6lQysN9yZn/qFOIOmNA4=
+			dVZ0NRMaPqF4s4HOHh2TEU73ef9Mz7dGtlEG/ItG6Uo=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nwpLmO2A0RSQpzVRDNuWD9R50u6pjpQ5TZIVQsPHcw4=
+			kFbkSsbhAUkUL83RWF5mqNgZl/gttNla09qvvUygYO0=
 			</data>
 		</dict>
 		<key>Modules/AgentifaiSharedResources.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4rjYxY2N//DTu4VeTOmOhX2tGDeXoTQD2b6LVKFMo6M=
+			/DeiK7PKfsJsFhDNRvbT1zAI4ankOIawPgHinCB90R0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,0 +1,454 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreNetworking",
+        "printedName": "AgentifaiCoreNetworking",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUserAuth",
+        "printedName": "AgentifaiCoreUserAuth",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiRxSwiftCombine",
+        "printedName": "AgentifaiRxSwiftCombine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsRepository",
+        "printedName": "AnalyticsRepository",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<(), Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsEvent",
+                "printedName": "AgentifaiCoreAnalytics.AnalyticsEvent",
+                "usr": "s:22AgentifaiCoreAnalytics0C5EventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AgentifaiCoreAnalytics0C10RepositoryP9sendEvent5event7Combine12AnyPublisherVyyts5Error_pGAA0cF0C_tF",
+            "mangledName": "$s22AgentifaiCoreAnalytics0C10RepositoryP9sendEvent5event7Combine12AnyPublisherVyyts5Error_pGAA0cF0C_tF",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "genericSig": "<τ_0_0 where τ_0_0 : AgentifaiCoreAnalytics.AnalyticsRepository>",
+            "sugared_genericSig": "<Self where Self : AgentifaiCoreAnalytics.AnalyticsRepository>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22AgentifaiCoreAnalytics0C10RepositoryP",
+        "mangledName": "$s22AgentifaiCoreAnalytics0C10RepositoryP",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreMetricsConfiguration",
+        "printedName": "CoreMetricsConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseUrl:createPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreMetricsConfiguration",
+                "printedName": "AgentifaiCoreAnalytics.CoreMetricsConfiguration",
+                "usr": "s:22AgentifaiCoreAnalytics0B20MetricsConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22AgentifaiCoreAnalytics0B20MetricsConfigurationC7baseUrl10createPathACSS_SStcfc",
+            "mangledName": "$s22AgentifaiCoreAnalytics0B20MetricsConfigurationC7baseUrl10createPathACSS_SStcfc",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getUrl",
+            "printedName": "getUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AgentifaiCoreAnalytics0B20MetricsConfigurationC6getUrlSSyF",
+            "mangledName": "$s22AgentifaiCoreAnalytics0B20MetricsConfigurationC6getUrlSSyF",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreMetricsConfiguration",
+                "printedName": "AgentifaiCoreAnalytics.CoreMetricsConfiguration",
+                "usr": "s:22AgentifaiCoreAnalytics0B20MetricsConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22AgentifaiCoreAnalytics0B20MetricsConfigurationC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22AgentifaiCoreAnalytics0B20MetricsConfigurationC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22AgentifaiCoreAnalytics0B20MetricsConfigurationC",
+        "mangledName": "$s22AgentifaiCoreAnalytics0B20MetricsConfigurationC",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsEvent",
+        "printedName": "AnalyticsEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22AgentifaiCoreAnalytics0C5EventC4typeSSvp",
+            "mangledName": "$s22AgentifaiCoreAnalytics0C5EventC4typeSSvp",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22AgentifaiCoreAnalytics0C5EventC4typeSSvg",
+                "mangledName": "$s22AgentifaiCoreAnalytics0C5EventC4typeSSvg",
+                "moduleName": "AgentifaiCoreAnalytics",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsEvent",
+                "printedName": "AgentifaiCoreAnalytics.AnalyticsEvent",
+                "usr": "s:22AgentifaiCoreAnalytics0C5EventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22AgentifaiCoreAnalytics0C5EventC4typeACSS_tcfc",
+            "mangledName": "$s22AgentifaiCoreAnalytics0C5EventC4typeACSS_tcfc",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22AgentifaiCoreAnalytics0C5EventC",
+        "mangledName": "$s22AgentifaiCoreAnalytics0C5EventC",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreAnalyticsDI",
+        "printedName": "CoreAnalyticsDI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Container",
+                "printedName": "Swinject.Container",
+                "usr": "s:8Swinject9ContainerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AgentifaiCoreAnalytics0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "mangledName": "$s22AgentifaiCoreAnalytics0bC2DIC8register9containery8Swinject9ContainerC_tFZ",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22AgentifaiCoreAnalytics0bC2DIC",
+        "mangledName": "$s22AgentifaiCoreAnalytics0bC2DIC",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreNetworking",
+        "printedName": "AgentifaiCoreNetworking",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AgentifaiCoreUserAuth",
+        "printedName": "AgentifaiCoreUserAuth",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiCoreAnalytics"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

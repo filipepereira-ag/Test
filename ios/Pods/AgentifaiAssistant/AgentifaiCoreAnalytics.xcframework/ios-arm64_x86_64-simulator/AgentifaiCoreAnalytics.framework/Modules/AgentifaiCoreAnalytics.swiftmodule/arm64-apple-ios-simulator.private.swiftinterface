@@ -1,0 +1,32 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiCoreAnalytics
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AgentifaiCoreAnalytics
+import AgentifaiCoreNetworking
+import AgentifaiCoreUserAuth
+import AgentifaiRxSwiftCombine
+import Combine
+import Foundation
+import Swift
+import Swinject
+import _Concurrency
+import _StringProcessing
+public protocol AnalyticsRepository {
+  func sendEvent(event: AgentifaiCoreAnalytics.AnalyticsEvent) -> Combine.AnyPublisher<Swift.Void, Swift.Error>
+}
+public class CoreMetricsConfiguration : Swift.Decodable {
+  public init(baseUrl: Swift.String, createPath: Swift.String)
+  public func getUrl() -> Swift.String
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+}
+public class AnalyticsEvent {
+  final public let type: Swift.String
+  public init(type: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CoreAnalyticsDI {
+  public static func register(container: Swinject.Container)
+  @objc deinit
+}

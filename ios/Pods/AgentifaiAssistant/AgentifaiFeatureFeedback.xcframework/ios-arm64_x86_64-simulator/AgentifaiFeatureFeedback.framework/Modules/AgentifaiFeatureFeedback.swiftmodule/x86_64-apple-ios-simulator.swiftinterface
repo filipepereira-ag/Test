@@ -1,0 +1,132 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiFeatureFeedback
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AgentifaiCoreDomain
+import AgentifaiCoreUI
+@_exported import AgentifaiFeatureFeedback
+import AgentifaiRxSwiftCombine
+import AgentifaiSharedResources
+import Combine
+import Foundation
+import RxSwift
+import Swift
+import SwiftUI
+import Swinject
+import _Concurrency
+import _StringProcessing
+public class FeedbackInput {
+  public init(attachment: AgentifaiFeatureFeedback.FeedbackAttachment)
+  @objc deinit
+}
+public class FeedbackButton : Swift.Codable {
+  final public let label: Swift.String
+  final public let value: Swift.String
+  public init(label: Swift.String, value: Swift.String)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class FeedbackSubmittedEvent : AgentifaiCoreDomain.Event {
+  final public let type: AgentifaiCoreDomain.EventType
+  final public let id: Swift.String
+  final public let value: Swift.String
+  final public let feedback: Swift.String?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class FeatureFeedbackDI {
+  public static func register(container: Swinject.Container)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class DisposableHandler {
+  public func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class FeedbackViewController : AgentifaiCoreUI.BottomSheetViewController<AgentifaiFeatureFeedback.FeedbackView> {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_Concurrency.MainActor(unsafe) public struct FeedbackView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s24AgentifaiFeatureFeedback0C4ViewV4bodyQrvp", 0) __
+}
+public class FeedbackAttachment : AgentifaiCoreDomain.Attachment {
+  final public let id: Swift.String
+  final public let type: AgentifaiCoreDomain.AttachmentType
+  final public let language: AgentifaiCoreDomain.Language
+  final public let items: [AgentifaiFeatureFeedback.FeedbackItem]
+  public init(id: Swift.String, language: AgentifaiCoreDomain.Language, items: [AgentifaiFeatureFeedback.FeedbackItem])
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
+}
+public protocol FeedbackItem : Swift.Decodable, Swift.Encodable {
+  var id: Swift.String { get }
+  var title: Swift.String { get }
+  var type: AgentifaiFeatureFeedback.FeedbackItemType { get }
+}
+public enum FeedbackItemType : Swift.String, Swift.Codable {
+  case csat
+  case nps
+  case resolution
+  case success
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NetPromoterScore : AgentifaiFeatureFeedback.FeedbackItem {
+  public struct Score : Swift.Codable {
+    public enum Priority : Swift.String, Swift.Codable {
+      case low
+      case medium
+      case high
+      public init?(rawValue: Swift.String)
+      public typealias RawValue = Swift.String
+      public var rawValue: Swift.String {
+        get
+      }
+    }
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  public var id: Swift.String
+  public var title: Swift.String
+  public var type: AgentifaiFeatureFeedback.FeedbackItemType
+  final public let scores: [AgentifaiFeatureFeedback.NetPromoterScore.Score]
+  final public let positiveButton: AgentifaiFeatureFeedback.FeedbackButton
+  final public let negativeButton: AgentifaiFeatureFeedback.FeedbackButton
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Resolution : AgentifaiFeatureFeedback.FeedbackItem {
+  public var id: Swift.String
+  public var title: Swift.String
+  public var type: AgentifaiFeatureFeedback.FeedbackItemType
+  final public let positiveButton: AgentifaiFeatureFeedback.FeedbackButton
+  final public let negativeButton: AgentifaiFeatureFeedback.FeedbackButton
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Success : AgentifaiFeatureFeedback.FeedbackItem {
+  public var id: Swift.String
+  public var title: Swift.String
+  public var type: AgentifaiFeatureFeedback.FeedbackItemType
+  final public let description: Swift.String
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+extension AgentifaiFeatureFeedback.FeedbackItemType : Swift.Equatable {}
+extension AgentifaiFeatureFeedback.FeedbackItemType : Swift.Hashable {}
+extension AgentifaiFeatureFeedback.FeedbackItemType : Swift.RawRepresentable {}
+extension AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority : Swift.Equatable {}
+extension AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority : Swift.Hashable {}
+extension AgentifaiFeatureFeedback.NetPromoterScore.Score.Priority : Swift.RawRepresentable {}

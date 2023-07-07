@@ -1,0 +1,11 @@
+framework module AgentifaiRxSwiftCombine {
+  umbrella header "AgentifaiRxSwiftCombine.h"
+
+  export *
+  module * { export * }
+}
+
+module AgentifaiRxSwiftCombine.Swift {
+  header "AgentifaiRxSwiftCombine-Swift.h"
+  requires objc
+}

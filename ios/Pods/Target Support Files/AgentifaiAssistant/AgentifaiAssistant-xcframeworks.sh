@@ -23,10 +23,22 @@ variant_for_slice()
   "AgentifaiAssistant.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
+  "AgentifaiCoreAnalytics.xcframework/ios-arm64")
+    echo ""
+    ;;
+  "AgentifaiCoreAnalytics.xcframework/ios-arm64_x86_64-simulator")
+    echo "simulator"
+    ;;
   "AgentifaiCoreCommon.xcframework/ios-arm64")
     echo ""
     ;;
   "AgentifaiCoreCommon.xcframework/ios-arm64_x86_64-simulator")
+    echo "simulator"
+    ;;
+  "AgentifaiCoreDomain.xcframework/ios-arm64")
+    echo ""
+    ;;
+  "AgentifaiCoreDomain.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
   "AgentifaiCoreNetworking.xcframework/ios-arm64")
@@ -59,6 +71,12 @@ variant_for_slice()
   "AgentifaiCoreUserAuth.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
+  "AgentifaiFeatureFeedback.xcframework/ios-arm64")
+    echo ""
+    ;;
+  "AgentifaiFeatureFeedback.xcframework/ios-arm64_x86_64-simulator")
+    echo "simulator"
+    ;;
   "AgentifaiFeatureNotifications.xcframework/ios-arm64")
     echo ""
     ;;
@@ -75,6 +93,12 @@ variant_for_slice()
     echo ""
     ;;
   "AgentifaiFeatureWebView.xcframework/ios-arm64_x86_64-simulator")
+    echo "simulator"
+    ;;
+  "AgentifaiRxSwiftCombine.xcframework/ios-arm64")
+    echo ""
+    ;;
+  "AgentifaiRxSwiftCombine.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
   "AgentifaiSharedResources.xcframework/ios-arm64")
@@ -95,10 +119,22 @@ archs_for_slice()
   "AgentifaiAssistant.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
+  "AgentifaiCoreAnalytics.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
+  "AgentifaiCoreAnalytics.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
   "AgentifaiCoreCommon.xcframework/ios-arm64")
     echo "arm64"
     ;;
   "AgentifaiCoreCommon.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
+  "AgentifaiCoreDomain.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
+  "AgentifaiCoreDomain.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "AgentifaiCoreNetworking.xcframework/ios-arm64")
@@ -131,6 +167,12 @@ archs_for_slice()
   "AgentifaiCoreUserAuth.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
+  "AgentifaiFeatureFeedback.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
+  "AgentifaiFeatureFeedback.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
   "AgentifaiFeatureNotifications.xcframework/ios-arm64")
     echo "arm64"
     ;;
@@ -147,6 +189,12 @@ archs_for_slice()
     echo "arm64"
     ;;
   "AgentifaiFeatureWebView.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
+  "AgentifaiRxSwiftCombine.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
+  "AgentifaiRxSwiftCombine.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "AgentifaiSharedResources.xcframework/ios-arm64")
@@ -238,14 +286,18 @@ install_xcframework() {
 }
 
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiAssistant.xcframework" "AgentifaiAssistant" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreAnalytics.xcframework" "AgentifaiAssistant/AgentifaiCoreAnalytics" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreCommon.xcframework" "AgentifaiAssistant/AgentifaiCoreCommon" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreDomain.xcframework" "AgentifaiAssistant/AgentifaiCoreDomain" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreNetworking.xcframework" "AgentifaiAssistant/AgentifaiCoreNetworking" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreNotifications.xcframework" "AgentifaiAssistant/AgentifaiCoreNotifications" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreRealtime.xcframework" "AgentifaiAssistant/AgentifaiCoreRealtime" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreUI.xcframework" "AgentifaiAssistant/AgentifaiCoreUI" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreUserAuth.xcframework" "AgentifaiAssistant/AgentifaiCoreUserAuth" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureFeedback.xcframework" "AgentifaiAssistant/AgentifaiFeatureFeedback" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureNotifications.xcframework" "AgentifaiAssistant/AgentifaiFeatureNotifications" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureSelector.xcframework" "AgentifaiAssistant/AgentifaiFeatureSelector" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureWebView.xcframework" "AgentifaiAssistant/AgentifaiFeatureWebView" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiRxSwiftCombine.xcframework" "AgentifaiAssistant/AgentifaiRxSwiftCombine" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/AgentifaiAssistant/AgentifaiSharedResources.xcframework" "AgentifaiAssistant/AgentifaiSharedResources" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

@@ -1,0 +1,185 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AgentifaiRxSwiftCombine",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AgentifaiRxSwiftCombine"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "AgentifaiRxSwiftCombine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrimitiveSequence",
+        "printedName": "PrimitiveSequence",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "asPublisher",
+            "printedName": "asPublisher(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<(), Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CompositeDisposable",
+                "printedName": "RxSwift.CompositeDisposable",
+                "usr": "s:7RxSwift19CompositeDisposableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift17PrimitiveSequenceV09AgentifaiaB7CombineAA16CompletableTraitORszs5NeverORs_rlE11asPublisher5using0F003AnyK0Vyyts5Error_pGAA19CompositeDisposableC_tF",
+            "mangledName": "$s7RxSwift17PrimitiveSequenceV09AgentifaiaB7CombineAA16CompletableTraitORszs5NeverORs_rlE11asPublisher5using0F003AnyK0Vyyts5Error_pGAA19CompositeDisposableC_tF",
+            "moduleName": "AgentifaiRxSwiftCombine",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == RxSwift.CompletableTrait, τ_0_1 == Swift.Never>",
+            "sugared_genericSig": "<Trait, Element where Trait == RxSwift.CompletableTrait, Element == Swift.Never>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asPublisher",
+            "printedName": "asPublisher()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_0_1, Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift17PrimitiveSequenceV09AgentifaiaB7CombineAA11SingleTraitORszrlE11asPublisher0F003AnyJ0Vyq_s5Error_pGyF",
+            "mangledName": "$s7RxSwift17PrimitiveSequenceV09AgentifaiaB7CombineAA11SingleTraitORszrlE11asPublisher0F003AnyJ0Vyq_s5Error_pGyF",
+            "moduleName": "AgentifaiRxSwiftCombine",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 == RxSwift.SingleTrait>",
+            "sugared_genericSig": "<Trait, Element where Trait == RxSwift.SingleTrait>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7RxSwift17PrimitiveSequenceV",
+        "mangledName": "$s7RxSwift17PrimitiveSequenceV",
+        "moduleName": "RxSwift",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<Trait, Element>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PrimitiveSequenceType",
+            "printedName": "PrimitiveSequenceType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Trait",
+                "printedName": "Trait",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift21PrimitiveSequenceTypeP",
+            "mangledName": "$s7RxSwift21PrimitiveSequenceTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableConvertibleType",
+            "printedName": "ObservableConvertibleType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift25ObservableConvertibleTypeP",
+            "mangledName": "$s7RxSwift25ObservableConvertibleTypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

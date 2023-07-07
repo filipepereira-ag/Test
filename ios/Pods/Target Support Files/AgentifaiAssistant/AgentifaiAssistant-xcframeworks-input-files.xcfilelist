@@ -1,12 +1,16 @@
 ${PODS_ROOT}/Target Support Files/AgentifaiAssistant/AgentifaiAssistant-xcframeworks.sh
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiAssistant.xcframework
+${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreAnalytics.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreCommon.xcframework
+${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreDomain.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreNetworking.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreNotifications.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreRealtime.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreUI.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiCoreUserAuth.xcframework
+${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureFeedback.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureNotifications.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureSelector.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiFeatureWebView.xcframework
+${PODS_ROOT}/AgentifaiAssistant/AgentifaiRxSwiftCombine.xcframework
 ${PODS_ROOT}/AgentifaiAssistant/AgentifaiSharedResources.xcframework

@@ -26,7 +26,7 @@ let package = Package(
   dependencies: [
     .package(
         url: "https://github.com/Flight-School/AnyCodable",
-        from: "0.2.3"
+        from: "0.6.0"
     ),
   ]
 )
@@ -36,11 +36,11 @@ Then run the `swift build` command to build your project.
 
 ### CocoaPods
 
-You can install `AnyCodable` via CocoaPods,
+You can install `AnyCodable` via CocoaPods
 by adding the following line to your `Podfile`:
 
 ```ruby
-pod 'AnyCodable-FlightSchool', '~> 0.2.3'
+pod 'AnyCodable-FlightSchool', '~> 0.6.0'
 ```
 
 Run the `pod install` command to download the library
@@ -59,7 +59,7 @@ To use `AnyCodable` in your Xcode project using Carthage,
 specify it in `Cartfile`:
 
 ```
-github "Flight-School/AnyCodable" ~> 0.2.3
+github "Flight-School/AnyCodable" ~> 0.6.0
 ```
 
 Then run the `carthage update` command to build the framework,
@@ -75,14 +75,15 @@ import AnyCodable
 let dictionary: [String: AnyEncodable] = [
     "boolean": true,
     "integer": 1,
-    "double": 3.14159265358979323846,
+    "double": 3.141592653589793,
     "string": "string",
     "array": [1, 2, 3],
     "nested": [
         "a": "alpha",
         "b": "bravo",
         "c": "charlie"
-    ]
+    ],
+    "null": nil
 ]
 
 let encoder = JSONEncoder()
@@ -93,18 +94,19 @@ let json = try! encoder.encode(dictionary)
 
 ```swift
 let json = """
-     {
-         "boolean": true,
-         "integer": 1,
-         "double": 3.14159265358979323846,
-         "string": "string",
-         "array": [1, 2, 3],
-         "nested": {
-             "a": "alpha",
-             "b": "bravo",
-             "c": "charlie"
-         }
-     }
+{
+    "boolean": true,
+    "integer": 1,
+    "double": 3.141592653589793,
+    "string": "string",
+    "array": [1, 2, 3],
+    "nested": {
+        "a": "alpha",
+        "b": "bravo",
+        "c": "charlie"
+    },
+    "null": null
+}
 """.data(using: .utf8)!
 
 let decoder = JSONDecoder()
@@ -123,12 +125,12 @@ MIT
 
 Mattt ([@mattt](https://twitter.com/mattt))
 
-[build status]: https://travis-ci.com/Flight-School/AnyCodable
-[build status badge]: https://api.travis-ci.com/Flight-School/AnyCodable.svg?branch=master
+[build status]: https://github.com/Flight-School/AnyCodable/actions?query=workflow%3ACI
+[build status badge]: https://github.com/Flight-School/AnyCodable/workflows/CI/badge.svg
 [license]: https://opensource.org/licenses/MIT
 [license badge]: https://img.shields.io/cocoapods/l/AnyCodable-FlightSchool.svg
 [swift version]: https://swift.org/download/
-[swift version badge]: https://img.shields.io/badge/swift%20version-4.0+-orange.svg
+[swift version badge]: https://img.shields.io/badge/swift%20version-5.1+-orange.svg
 [cocoapods platforms badge]: https://img.shields.io/cocoapods/p/AnyCodable-FlightSchool.svg
 [cocoapods]: https://cocoapods.org/pods/AnyCodable-FlightSchool
 [cocoapods badge]: https://img.shields.io/cocoapods/v/AnyCodable-FlightSchool.svg

@@ -1,16 +1,18 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiCoreUI
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AgentifaiCoreUI
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AgentifaiCoreCommon
 @_exported import AgentifaiCoreUI
 import AgentifaiSharedResources
+import Combine
 import Foundation
 import Lottie
 import PDFKit
 import RxCocoa
 import RxSwift
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -47,6 +49,7 @@ public class AlertViewTheme {
 public class Animation : Swift.Decodable {
   final public let filename: Swift.String
   required public init(from decoder: Swift.Decoder) throws
+  public init(filename: Swift.String)
   @objc deinit
 }
 extension AgentifaiCoreUI.Animation : Swift.Equatable {
@@ -65,7 +68,80 @@ public class AnimationConfiguration : Swift.Decodable {
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
 }
-public typealias BehaviourCompletionHandler = ((_ complete: Swift.Bool) -> ())
+public struct AssistantColors {
+  public let primaryDefault: SwiftUI.Color
+  public let primaryLight: SwiftUI.Color
+  public let assistantDefault: SwiftUI.Color
+  public let secondaryDefault: SwiftUI.Color
+  public let secondaryLight: SwiftUI.Color
+  public let basicDefault: SwiftUI.Color
+  public let activePrimary: SwiftUI.Color
+  public let activePrimaryLight: SwiftUI.Color
+  public let activeSecondary: SwiftUI.Color
+  public let warning: SwiftUI.Color
+  public let backgroundPrimary: SwiftUI.Color
+  public let backgroundSecondary: SwiftUI.Color
+  public let backgroundTertiary: SwiftUI.Color
+  public let backgroundQuaternary: SwiftUI.Color
+  public let appBackground: SwiftUI.Color
+  public let colorOne: SwiftUI.Color
+  public let colorOneLight: SwiftUI.Color
+  public let colorTwo: SwiftUI.Color
+  public let colorTwoLight: SwiftUI.Color
+  public let colorThree: SwiftUI.Color
+  public let colorThreeLight: SwiftUI.Color
+  public let colorFour: SwiftUI.Color
+  public let colorFourLight: SwiftUI.Color
+  public let colorFive: SwiftUI.Color
+  public let colorFiveLight: SwiftUI.Color
+  public let colorSix: SwiftUI.Color
+  public let colorSixLight: SwiftUI.Color
+  public let colorSeven: SwiftUI.Color
+  public let colorSevenLight: SwiftUI.Color
+  public init(primaryDefault: SwiftUI.Color, primaryLight: SwiftUI.Color, assistantDefault: SwiftUI.Color, secondaryDefault: SwiftUI.Color, secondaryLight: SwiftUI.Color, basicDefault: SwiftUI.Color, activePrimary: SwiftUI.Color, activePrimaryLight: SwiftUI.Color, activeSecondary: SwiftUI.Color, warning: SwiftUI.Color, backgroundPrimary: SwiftUI.Color, backgroundSecondary: SwiftUI.Color, backgroundTertiary: SwiftUI.Color, backgroundQuaternary: SwiftUI.Color, appBackground: SwiftUI.Color, colorOne: SwiftUI.Color, colorOneLight: SwiftUI.Color, colorTwo: SwiftUI.Color, colorTwoLight: SwiftUI.Color, colorThree: SwiftUI.Color, colorThreeLight: SwiftUI.Color, colorFour: SwiftUI.Color, colorFourLight: SwiftUI.Color, colorFive: SwiftUI.Color, colorFiveLight: SwiftUI.Color, colorSix: SwiftUI.Color, colorSixLight: SwiftUI.Color, colorSeven: SwiftUI.Color, colorSevenLight: SwiftUI.Color)
+}
+public struct AssistantFonts {
+  public let light: Swift.String
+  public let regular: Swift.String
+  public let italic: Swift.String
+  public let medium: Swift.String
+  public let bold: Swift.String
+  public let symbols: Swift.String
+  public let fontSizeModifier: CoreFoundation.CGFloat
+  public init(light: Swift.String, regular: Swift.String, italic: Swift.String, medium: Swift.String, bold: Swift.String, symbols: Swift.String, fontSizeModifier: CoreFoundation.CGFloat)
+  public func size(_ size: Swift.Int) -> CoreFoundation.CGFloat
+}
+public struct AssistantTheme {
+  public let colors: AgentifaiCoreUI.AssistantColors
+  public let fonts: AgentifaiCoreUI.AssistantFonts
+  public init(colors: AgentifaiCoreUI.AssistantColors, fonts: AgentifaiCoreUI.AssistantFonts)
+}
+public struct AssistantThemeKey : SwiftUI.EnvironmentKey {
+  public static let defaultValue: AgentifaiCoreUI.AssistantTheme
+  public typealias Value = AgentifaiCoreUI.AssistantTheme
+}
+extension SwiftUI.EnvironmentValues {
+  public var assistantTheme: AgentifaiCoreUI.AssistantTheme {
+    get
+    set
+  }
+}
+public struct AssistantThemeView<Content> : SwiftUI.View where Content : SwiftUI.View {
+  public init(theme: AgentifaiCoreUI.AssistantTheme, @SwiftUI.ViewBuilder content: () -> Content)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15AgentifaiCoreUI18AssistantThemeViewV4bodyQrvp", 0) __<Content>
+}
+public struct AttributedText : SwiftUI.View {
+  public static var tags: [Swift.String : (SwiftUI.Text) -> (SwiftUI.Text)]
+  public init(_ htmlString: Swift.String, tags: [Swift.String : (SwiftUI.Text) -> (SwiftUI.Text)]? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15AgentifaiCoreUI14AttributedTextV4bodyQrvp", 0) __
+}
+public typealias BehaviourCompletionHandler = ((_ complete: Swift.Bool) -> Swift.Void)
 public protocol BehaviourViewProtocol {
   func animate(_ animation: AgentifaiCoreUI.Animation, repeats: Swift.Bool, onComplete: AgentifaiCoreUI.BehaviourCompletionHandler?)
   func stopAnimation(waitCompletion: Swift.Bool)
@@ -77,6 +153,28 @@ public protocol BehaviourViewProtocol {
 extension AgentifaiCoreUI.BehaviourView : AgentifaiCoreUI.BehaviourViewProtocol {
   @_Concurrency.MainActor(unsafe) public func animate(_ animation: AgentifaiCoreUI.Animation, repeats: Swift.Bool, onComplete: AgentifaiCoreUI.BehaviourCompletionHandler? = nil)
   @_Concurrency.MainActor(unsafe) public func stopAnimation(waitCompletion: Swift.Bool = false)
+}
+public struct BottomSheetView<Content> : SwiftUI.View where Content : SwiftUI.View {
+  public init(presentation: AgentifaiCoreUI.BottomSheetPresentation, @SwiftUI.ViewBuilder content: @escaping () -> Content)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15AgentifaiCoreUI15BottomSheetViewV4bodyQrvp", 0) __<Content>
+}
+@_Concurrency.MainActor(unsafe) open class BottomSheetViewController<Content> : SwiftUI.UIHostingController<AgentifaiCoreUI.AssistantThemeView<AgentifaiCoreUI.BottomSheetView<Content>>> where Content : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var modalPresentationStyle: UIKit.UIModalPresentationStyle {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public init(contentView: Content, theme: AgentifaiCoreUI.AssistantTheme, presentation: AgentifaiCoreUI.BottomSheetPresentation)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public class BottomSheetPresentation : Combine.ObservableObject {
+  public init()
+  public func dismiss()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
 }
 public class ButtonTheme {
   public var backgroundColor: AgentifaiCoreUI.Color?
@@ -109,6 +207,9 @@ public class Color : Swift.Codable {
   public var ui: UIKit.UIColor {
     get
   }
+  public var swiftUI: SwiftUI.Color {
+    get
+  }
   public init(hex: Swift.String, alpha: CoreFoundation.CGFloat = 1)
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
@@ -121,6 +222,9 @@ extension UIKit.NSLayoutConstraint {
   @_Concurrency.MainActor(unsafe) public static func create(withVisualFormat format: Swift.String, view: UIKit.UIView) -> [UIKit.NSLayoutConstraint]
   @_Concurrency.MainActor(unsafe) public static func pin(view: UIKit.UIView, padding: Swift.Int) -> [UIKit.NSLayoutConstraint]
   @_Concurrency.MainActor(unsafe) public static func pin(view: UIKit.UIView, topMargin: Swift.Int = 0, bottomMargin: Swift.Int = 0, leadingMargin: Swift.Int = 0, trailingMargin: Swift.Int = 0) -> [UIKit.NSLayoutConstraint]
+}
+extension SwiftUI.Text {
+  public func customFont(_ name: Swift.String, size: CoreFoundation.CGFloat) -> SwiftUI.Text
 }
 extension UIKit.UIButton {
   @_Concurrency.MainActor(unsafe) public func placeImageOnRight()
@@ -142,6 +246,14 @@ extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func startAnimating()
   @_Concurrency.MainActor(unsafe) public func stopAnimating(waitCompletion: Swift.Bool = false)
   @objc deinit
+}
+public struct LottieView : SwiftUI.UIViewRepresentable {
+  public init(name: Swift.String, loopMode: Lottie.LottieLoopMode = .playOnce)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: SwiftUI.UIViewRepresentableContext<AgentifaiCoreUI.LottieView>) -> UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: UIKit.UIView, context: SwiftUI.UIViewRepresentableContext<AgentifaiCoreUI.LottieView>)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = UIKit.UIView
 }
 public class NavigationBarTheme {
   public init(tintColor: AgentifaiCoreUI.Color, titleTextTheme: AgentifaiCoreUI.TextTheme, shadowColor: AgentifaiCoreUI.Color, backgroundColor: AgentifaiCoreUI.Color, isTranslucent: Swift.Bool = false)
