@@ -382,7 +382,7 @@
 		</data>
 		<key>Frameworks/AgentifaiCoreCommon.framework/AgentifaiCoreCommon</key>
 		<data>
-		BePBY2Vtq523KWPItGQ1pi1XQQA=
+		Zbyw7WS61ZQ9eDPqCwIU+dqVfZQ=
 		</data>
 		<key>Frameworks/AgentifaiCoreCommon.framework/Info.plist</key>
 		<data>
@@ -394,7 +394,7 @@
 		</data>
 		<key>Frameworks/AgentifaiCoreNetworking.framework/AgentifaiCoreNetworking</key>
 		<data>
-		cNLdTuU7j3ePk1dI4WyhMKAvgrg=
+		ycLy/nydg9NEbEBUxzlJnX6EvHk=
 		</data>
 		<key>Frameworks/AgentifaiCoreNetworking.framework/Info.plist</key>
 		<data>
@@ -406,7 +406,7 @@
 		</data>
 		<key>Frameworks/AgentifaiCoreNotifications.framework/AgentifaiCoreNotifications</key>
 		<data>
-		0Kb7arksc+dg3xcVxhSeYaDxfck=
+		ojZXjd82pPajYuflmlck1f6bo3A=
 		</data>
 		<key>Frameworks/AgentifaiCoreNotifications.framework/Info.plist</key>
 		<data>
@@ -418,7 +418,7 @@
 		</data>
 		<key>Frameworks/AgentifaiCoreRealtime.framework/AgentifaiCoreRealtime</key>
 		<data>
-		66oFB9TmSAgglC4Wx4ABdrOLUmk=
+		W6x+pquMxj62dUL8mj7wPXRJ778=
 		</data>
 		<key>Frameworks/AgentifaiCoreRealtime.framework/Info.plist</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>Frameworks/AgentifaiCoreUI.framework/AgentifaiCoreUI</key>
 		<data>
-		AEJHQ8edH36UwaUirkUTu5FL4GQ=
+		xieVsZDWULyKS4DvoQMkqFGtXnU=
 		</data>
 		<key>Frameworks/AgentifaiCoreUI.framework/AlertView.nib</key>
 		<data>
@@ -446,7 +446,7 @@
 		</data>
 		<key>Frameworks/AgentifaiCoreUserAuth.framework/AgentifaiCoreUserAuth</key>
 		<data>
-		njy5r91do8pNluqlP6+EvLSHUIA=
+		Gt7JUp3+JKDuCSPEJiWicbyqhIY=
 		</data>
 		<key>Frameworks/AgentifaiCoreUserAuth.framework/AgentifaiCoreUserAuth.podspec</key>
 		<data>
@@ -462,7 +462,7 @@
 		</data>
 		<key>Frameworks/AgentifaiFeatureNotifications.framework/AgentifaiFeatureNotifications</key>
 		<data>
-		XrB3ZHZCydGq7u9roV8EF5bjHE4=
+		D5APZbDTMoLRzheBUs+0JQkADwk=
 		</data>
 		<key>Frameworks/AgentifaiFeatureNotifications.framework/Info.plist</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Frameworks/AgentifaiFeatureSelector.framework/AgentifaiFeatureSelector</key>
 		<data>
-		/vEjcJ0NYjza7ybPhXtA1eKB3eI=
+		lRSnSaULcE/Car2Yn86hcAAHoAU=
 		</data>
 		<key>Frameworks/AgentifaiFeatureSelector.framework/Info.plist</key>
 		<data>
@@ -502,7 +502,7 @@
 		</data>
 		<key>Frameworks/AgentifaiFeatureWebView.framework/AgentifaiFeatureWebView</key>
 		<data>
-		InZrjXr0SlziG1KWF9/mTU9mvsE=
+		YQTgLAxrzz6Ont0q628c5TdgPIo=
 		</data>
 		<key>Frameworks/AgentifaiFeatureWebView.framework/Info.plist</key>
 		<data>
@@ -518,7 +518,7 @@
 		</data>
 		<key>Frameworks/AgentifaiSharedResources.framework/AgentifaiSharedResources</key>
 		<data>
-		SyVC5UrYjgezPhmzFXO9fZR7FHM=
+		RVqPng2S5HMN2247cEVTbJyCz20=
 		</data>
 		<key>Frameworks/AgentifaiSharedResources.framework/AgentifaiSharedResources.bundle/AgentifaiLocalizable_en.strings</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		jWp3e6he2gavBQhrTbBwRIsL07Y=
+		mroEb/nSBQBfqDXPT7hHZJo93Tw=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -590,7 +590,7 @@
 		</data>
 		<key>Frameworks/FLEX.framework/FLEX</key>
 		<data>
-		nTqvxtxrIkD3UDPtsenRDe2y85c=
+		Rl3ljnF7HVIVbtZYC/BDghU7iFE=
 		</data>
 		<key>Frameworks/FLEX.framework/Info.plist</key>
 		<data>
@@ -606,7 +606,7 @@
 		</data>
 		<key>Frameworks/JWTDecode.framework/JWTDecode</key>
 		<data>
-		TNIuBPlM0sEjmtxvuUZiRe+FULQ=
+		j6YmK0qt2JZ5rz16m8kqG5PQY4Y=
 		</data>
 		<key>Frameworks/JWTDecode.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -618,7 +618,7 @@
 		</data>
 		<key>Frameworks/Lottie.framework/Lottie</key>
 		<data>
-		u6VewvRjT6AIqhO5M/342KX2pA8=
+		Ia2jH6lFhyhZ44fagHO6PDbZ1jI=
 		</data>
 		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -630,7 +630,7 @@
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/MDFInternationalization</key>
 		<data>
-		WXaatKkDvllSaur9SmGv1QHqlUY=
+		M3nlgA67mf1cresKLrdF6vDyj1g=
 		</data>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -642,7 +642,7 @@
 		</data>
 		<key>Frameworks/MTSlideToOpen.framework/MTSlideToOpen</key>
 		<data>
-		jhzj1JBfEInpLGvi6ZeOtnS4xTI=
+		NWpPnGk8NaB6vXJhKwivUwVR0Vo=
 		</data>
 		<key>Frameworks/MTSlideToOpen.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -654,7 +654,7 @@
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialComponents</key>
 		<data>
-		2rQOc8MjEvdoVupOkpgVYOouog0=
+		Vc7KI8ffTSyaOiBKC4cCqvv4KIs=
 		</data>
 		<key>Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -682,7 +682,7 @@
 		</data>
 		<key>Frameworks/OSMobileCore.framework/OSMobileCore</key>
 		<data>
-		eY3vyTZqsLBB7pcjXZASyGokcG4=
+		CSo7at0XufcMyyVet/FQSiz1POM=
 		</data>
 		<key>Frameworks/OSMobileCore.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -694,7 +694,7 @@
 		</data>
 		<key>Frameworks/PureeOS.framework/PureeOS</key>
 		<data>
-		C9TnsQ6o06ARd5/7WULqZ3IFGc0=
+		gQCe/0gmpvnptMNq9OJLH4OpkjE=
 		</data>
 		<key>Frameworks/PureeOS.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -706,7 +706,7 @@
 		</data>
 		<key>Frameworks/Reachability.framework/Reachability</key>
 		<data>
-		K1ohavMZc0kB2BXYscoIyZ/wnUU=
+		JkdVOLCC4Zj2LV/lCwpZ95gPe50=
 		</data>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -718,7 +718,7 @@
 		</data>
 		<key>Frameworks/RxCocoa.framework/RxCocoa</key>
 		<data>
-		q8aXLiqDRoPcQwCdKS62jYbhz/w=
+		o+TdC6eUkoc8k4eLRTqk7tSG7Z0=
 		</data>
 		<key>Frameworks/RxCocoa.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -730,7 +730,7 @@
 		</data>
 		<key>Frameworks/RxRelay.framework/RxRelay</key>
 		<data>
-		34BeSg7lzViLq9qbrTwP7M5W3ok=
+		aV+6JhHXpf4iD3Rh55C08jrWKAg=
 		</data>
 		<key>Frameworks/RxRelay.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -742,7 +742,7 @@
 		</data>
 		<key>Frameworks/RxSwift.framework/RxSwift</key>
 		<data>
-		Lsz2i+KWCxAtRTiOQXMibbQc1xw=
+		vi6/dxAUdN2EiQFUO9GuLknqHTI=
 		</data>
 		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -754,7 +754,7 @@
 		</data>
 		<key>Frameworks/SocketIO.framework/SocketIO</key>
 		<data>
-		GG+45jgVqxpoVgJXjeM+8CdkP0Q=
+		6pg5Dl8Lo7iZkLN7RYCHgfnUDhw=
 		</data>
 		<key>Frameworks/SocketIO.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -766,7 +766,7 @@
 		</data>
 		<key>Frameworks/Starscream.framework/Starscream</key>
 		<data>
-		E1qDbqv4E+9KrWO+ifmmAObTiRY=
+		E6FknTBMrJiBb5V+i5zMGMnga8c=
 		</data>
 		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -778,7 +778,7 @@
 		</data>
 		<key>Frameworks/SwiftGRPC_FirebaseFirestore_DependencyFix.framework/SwiftGRPC_FirebaseFirestore_DependencyFix</key>
 		<data>
-		TfTFdNL/WFw/OGNUHsRAK3BKh4w=
+		ML6jFsNmilcEeBmydyHdOGeiITc=
 		</data>
 		<key>Frameworks/SwiftGRPC_FirebaseFirestore_DependencyFix.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -790,7 +790,7 @@
 		</data>
 		<key>Frameworks/SwiftProtobuf.framework/SwiftProtobuf</key>
 		<data>
-		JpnN2V4ItKZEbFO7lmDodNVT2lQ=
+		WbT+rpFzcvcAUWGl7Ce0DKHQbrw=
 		</data>
 		<key>Frameworks/SwiftProtobuf.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -802,7 +802,7 @@
 		</data>
 		<key>Frameworks/Swinject.framework/Swinject</key>
 		<data>
-		3/zvpOF2n9BYiMb0hdN7O8oyJZc=
+		8XQxoclKbkKaRKyl4611iIf+q50=
 		</data>
 		<key>Frameworks/Swinject.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -814,7 +814,7 @@
 		</data>
 		<key>Frameworks/Toaster.framework/Toaster</key>
 		<data>
-		tMpMnc95GnsLPlsCclwVABZCn8s=
+		rhqCQ/D1U5+XxfuQu0zbvk+S/6c=
 		</data>
 		<key>Frameworks/Toaster.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -826,7 +826,7 @@
 		</data>
 		<key>Frameworks/YapDatabase.framework/YapDatabase</key>
 		<data>
-		NMR6lxyk2Fh9g0ZDRry5UXSNIzk=
+		p+r2IRiLs205hhZ6m77CQ5qJtc4=
 		</data>
 		<key>Frameworks/YapDatabase.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -842,7 +842,7 @@
 		</data>
 		<key>Frameworks/absl.framework/absl</key>
 		<data>
-		7pSBSLBIvkzyYe3P6HZ/Sy/5uDQ=
+		Dc+eHKR1Dg8ImvEV8E8myFk9SEQ=
 		</data>
 		<key>Frameworks/grpc.framework/Info.plist</key>
 		<data>
@@ -854,11 +854,11 @@
 		</data>
 		<key>Frameworks/grpc.framework/grpc</key>
 		<data>
-		aFUkcNeoMLdw+ZYLAbo4G1ksnDQ=
+		GoYcThqOE0f6n/GyavugcT8LJ38=
 		</data>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<data>
-		GBmagL8Fy4DylRoDizCql8ZsRpQ=
+		zJ1JwrMawApwTUzKbQwv4CwDJEs=
 		</data>
 		<key>Frameworks/openssl_grpc.framework/Info.plist</key>
 		<data>
@@ -870,11 +870,11 @@
 		</data>
 		<key>Frameworks/openssl_grpc.framework/openssl_grpc</key>
 		<data>
-		ezzMMD85BNmAMctfsC9WQb0FCqM=
+		N+Weaj+1uIX//AoAoXhwD86EO3Y=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WMOex0G7dybeEb0409VzTfLLDR4=
+		tBQBuqESUVi300QFbj9IsnzZhKs=
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
@@ -910,7 +910,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		C0yCUe+cc3MNy28BDhzLZIlMiak=
+		ZlaULnOhwaqiPgTFhNk+DXJAWPg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -1078,7 +1078,7 @@
 		</data>
 		<key>www/manifest.json</key>
 		<data>
-		jopVYhTFyDvBBwwQz7GGKgkrD5I=
+		sdyhQ/WScEiQ61j9Pheb9js5zg0=
 		</data>
 		<key>www/mimetypes.manifest</key>
 		<data>
@@ -2081,7 +2081,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DfzZBz7ZP2wYtG4wa2MKYkQvQIjW4Hvh4QLbSLwDHeE=
+			s9GKcLaHMIW696ueDjGlO5tnZrHd7lQAT2OL3+NstL0=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiCoreCommon.framework/Info.plist</key>
@@ -2102,7 +2102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JD0F7vJ2mtTTyHQxIWv9bzU0FB9Cslx6CBjTEMkFUrg=
+			LVJP12tTV2qFag85d7nbABwyIFS3r+a1EvcuhcAWKEI=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiCoreNetworking.framework/Info.plist</key>
@@ -2123,7 +2123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			haKxC+emRhgQKxSQXwfQRVljofmorv2lCW+vx6qwlq4=
+			x3vI4f35H4hTPnJvoSxo6NthnmUzcNOffx7lRFRQeBA=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiCoreNotifications.framework/Info.plist</key>
@@ -2144,7 +2144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			naU27gITBnAwMGLpBt18rl0oxddo0O6Rs3A2VFm3Y5o=
+			GhzXHvttD84QYsnbPc5/vf8HnywpAI2Dxq+tRehYOhI=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiCoreRealtime.framework/Info.plist</key>
@@ -2165,7 +2165,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Za/rKQvUpcxPxGqgvtO2goXYOuUZ9MvBXaQgmSCv4yE=
+			4J5KgtPH8KpC1FXovWVljUS6vSZdlnQBY0XVdaheMg8=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiCoreUI.framework/AlertView.nib</key>
@@ -2193,7 +2193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N2G6pRP8Sh6SRRoMPJQnkGsSo9y2ib2oPyto2U+WJqY=
+			1B63r4esyk1xbNzmaY/gLC/2RdVudcEKpkERhPOQZcU=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiCoreUserAuth.framework/AgentifaiCoreUserAuth.podspec</key>
@@ -2221,7 +2221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TZNMSfSEUFy4WdNzMMYCJiyjntubkE+t4ayHF8KZL5U=
+			V+qUnusS7zix1zRvFkMUFpK9fvLhTjhL0/AJYk2Z8+I=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiFeatureNotifications.framework/Info.plist</key>
@@ -2256,7 +2256,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HEKgVErZF/X1l6e1tdqSGfCPbO70EamBh15DStvn3lg=
+			0KckyqSvC+QgAFIgnscT2jlUuxekBjfyKyFCnzgewn0=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiFeatureSelector.framework/Info.plist</key>
@@ -2291,7 +2291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ptL/MDfLOgkbtaIBin5J1DDMA9gXVcAP3ZgqfntRxR8=
+			sMEAgEYfiu1QV7hzrq36+q2DsPxwH9jCI+uyAWG7p3g=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiFeatureWebView.framework/Info.plist</key>
@@ -2319,7 +2319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tpBsquhUFoNv+4ZlCArml1mtwpK7nL03X9m94wC8pUM=
+			IB/nZrH0oUreR6juYIGrOctRR1AZZXB3LZJKwUaxb78=
 			</data>
 		</dict>
 		<key>Frameworks/AgentifaiSharedResources.framework/AgentifaiSharedResources.bundle/AgentifaiLocalizable_en.strings</key>
@@ -2424,7 +2424,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fmDMFh2LeWFYBY9kIzs/gW2ogDECmPKEsu8LD33aE0c=
+			87TyNBpnFdIAt72RO4D52hSEHfDcMFSRiedDZwprug8=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -2445,7 +2445,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z01x45IhoXASVf/44IrJbb6Au8PGBaxJU2xD7nnnJuw=
+			SdDCVmyNapFsEnkkkJZZpclbLuGab4USuOTRvDAMAho=
 			</data>
 		</dict>
 		<key>Frameworks/FLEX.framework/Info.plist</key>
@@ -2473,7 +2473,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4JeXMJkUzF1ha50KxItWf2MD7sViga/uxgSsdO8AIc=
+			rbcB1/Q7FToEs4dMGUulGqQUu/MVDd6eaocGqCvsGUg=
 			</data>
 		</dict>
 		<key>Frameworks/JWTDecode.framework/_CodeSignature/CodeResources</key>
@@ -2494,7 +2494,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YN+bWSQYqd+YhSGlpEo7QxKCIpbOcKjFwpxxBCVuHSM=
+			QIy4nExXpHdVkc48LwPdebBJuTdmRbKuv0cQzOEVxSg=
 			</data>
 		</dict>
 		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
@@ -2515,7 +2515,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GyLUj18zb5xUl+Taqui3YMhVuefsesyz5Bg1qpy04go=
+			FWgtH+peYLFPabNQMANe/+E+7Ptg6mRSJsiO7aLGBiU=
 			</data>
 		</dict>
 		<key>Frameworks/MDFInternationalization.framework/_CodeSignature/CodeResources</key>
@@ -2536,7 +2536,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4XpNHV3Z+2Kg8MDTxHiIWPz2iebdU//U+OqPZn9ifG8=
+			DmPWXRLL8PXd7Mx9Vhe4mb2o02RFPIw2kA0COG81pSQ=
 			</data>
 		</dict>
 		<key>Frameworks/MTSlideToOpen.framework/_CodeSignature/CodeResources</key>
@@ -2557,7 +2557,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			54DS7WFSArE9zx5HOfM0KU/lkUBfMVxknROXhVhNNac=
+			MXwtMlWtybEtcuvQ2zxTvtdYMoE7vkwOnlacvKm4r8s=
 			</data>
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources</key>
@@ -2606,7 +2606,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IZ41T9a0yPBZ2NhL5gD1Z/W4dBJOknDkDOaYCFyw8bY=
+			9jLKxWLMM+CqolUBcsV7tnm+A5B2uCDizxLN8+Fk8QQ=
 			</data>
 		</dict>
 		<key>Frameworks/OSMobileCore.framework/_CodeSignature/CodeResources</key>
@@ -2627,7 +2627,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g9eGXQREwxRw1FXrPyyJrs3Vk07YrM591Ewt8e+oHGk=
+			uwo3vJRb5wnM93nTxZwrjakSvcBCBlf0F0ffEXJ4wR4=
 			</data>
 		</dict>
 		<key>Frameworks/PureeOS.framework/_CodeSignature/CodeResources</key>
@@ -2648,7 +2648,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IZ0CR8Kei3E4deizqY0f2MxhRg3lfPoF9tPSIwDDROI=
+			aUy24AeHsqKx/fWQstk+rb6tFJmF6x1CXDpgvyLa7eU=
 			</data>
 		</dict>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
@@ -2669,7 +2669,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dxskSKSdymDSUZlWYMVRt6A0+r7F2AF8MVKWvQPxpsw=
+			J8iX/jb3bUjWAPAioO6WPKAimXYC6KcMoJAPk38OyL0=
 			</data>
 		</dict>
 		<key>Frameworks/RxCocoa.framework/_CodeSignature/CodeResources</key>
@@ -2690,7 +2690,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LTHtzWHFKyD4ylVpcUHnqI6gPo+l5kFiN2LB6YckgZw=
+			m/Z4B20bNsQfc+rd1H34/2fDIpjGRP0AHKdJeqVJufE=
 			</data>
 		</dict>
 		<key>Frameworks/RxRelay.framework/_CodeSignature/CodeResources</key>
@@ -2711,7 +2711,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZMxZ6bphs+Dmw1S8rQxWtKx3zcztNfp6mAhUXA9755A=
+			MkTqDu0Y/uGpnEoZZqZwyRL0Wo2IWOeJyWyZf3GVkjo=
 			</data>
 		</dict>
 		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>
@@ -2732,7 +2732,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ag2F5s3TxygFjUQ++8n4Bl1O1zqJdHGeKhim0Ql0pw=
+			5AA7+fDHSgeBMlAELbPrJZSnKUTUaYY/sSiLneYp/KU=
 			</data>
 		</dict>
 		<key>Frameworks/SocketIO.framework/_CodeSignature/CodeResources</key>
@@ -2753,7 +2753,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sQz+iUX1EwYiV/6EqJx7ii7HSf61l6sZ3SXspqEQZpk=
+			Ld4cpARxocLLGhoS7nTGuNrXNKgLnSBosihS5sJd7U8=
 			</data>
 		</dict>
 		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
@@ -2774,7 +2774,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y83XlHHYSS0IBPWUFcVRqE/psQQ0AQWI45J3W5+bN2o=
+			4z2wfqOICS/HfNSdH081AvaKLkh9JpeqsjGfMKYWoWU=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftGRPC_FirebaseFirestore_DependencyFix.framework/_CodeSignature/CodeResources</key>
@@ -2795,7 +2795,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1HH/ZBLT9Sf3kjKXFHHFR5sQ2GkHoYpOGKhh4bLa3Ck=
+			g0nIs1y0TPqWpE4f2TE/rRF10bbEJc+43lWU1s8yAm8=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftProtobuf.framework/_CodeSignature/CodeResources</key>
@@ -2816,7 +2816,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUFB6VxPgKw2EnCkd+hgxOTqvWf5Z92zg+xEY9PYuaM=
+			2jL4Lk5jEhA6DjntiSf9B7MijCgG1AkXSFBaBDG4ft0=
 			</data>
 		</dict>
 		<key>Frameworks/Swinject.framework/_CodeSignature/CodeResources</key>
@@ -2837,7 +2837,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			chXs0u8Nl2HA7r0xPNoTZWtkYIHYBr8tCqh52vswfxQ=
+			PYnl4kMBDIBMGDV3bdHYpb8DMYMHY9324iD/saImEJE=
 			</data>
 		</dict>
 		<key>Frameworks/Toaster.framework/_CodeSignature/CodeResources</key>
@@ -2858,7 +2858,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M8ELzjnN2ae+OBTXm7MzBBrBfQBwfD/bij6Vy3Hwc80=
+			b7FAlMywP/ytu47AkKU2qIn1mQzJlRB2vI9kP43v5U0=
 			</data>
 		</dict>
 		<key>Frameworks/YapDatabase.framework/_CodeSignature/CodeResources</key>
@@ -2886,7 +2886,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ysQYl8rr2Nm7PH7mogjC9P9/59+yNgxxsmrrxnBU1iI=
+			M/Q4lhymm+ZjUoynGay/IPsR9FhZZ/Sti1xvz8y9aoo=
 			</data>
 		</dict>
 		<key>Frameworks/grpc.framework/Info.plist</key>
@@ -2907,14 +2907,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aZP+thqkEvrau8hmdVpIC1eGkvMJBALyEMGthAgY6fI=
+			Zw7iOQJXEueBT/TU5rsLtOFxFMHrtkY5kcpLckmGO4M=
 			</data>
 		</dict>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V4uliF5IFI802kbcIKj/LJxzdkRYYXHbXhHo/4ybb/M=
+			4h/zeffn0GencNuqF42MYepzFnjb8AtxxPvLYbcTGFU=
 			</data>
 		</dict>
 		<key>Frameworks/openssl_grpc.framework/Info.plist</key>
@@ -2935,7 +2935,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OUERf/m/avNoczLVxLMQePxhjBdSTlLGdyMtUELxwDA=
+			gQTp07EkgcbmnB0K08UeKymbVG8QxrYjWZr5SSfenio=
 			</data>
 		</dict>
 		<key>MainViewController.nib</key>
@@ -2991,7 +2991,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OBlyt6vZerdSse8MynVviZD1n7Z08QcyuKqn9kuhcxY=
+			oIFVo3SvgekPb4Y73dxEcojSARWxUhsm6HyvZbIMxxc=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -3285,7 +3285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UuksC0kp+8AhYCR4n9e0RBGTBxvtaiptpSGlR+tfENc=
+			xTDs0elIkxjwLGlJwtXOkMZlNwlPj99Bz5EGVkrQxwA=
 			</data>
 		</dict>
 		<key>www/mimetypes.manifest</key>
