@@ -246,54 +246,6 @@
         "printedName": "AnalyticsEvent",
         "children": [
           {
-            "kind": "Var",
-            "name": "type",
-            "printedName": "type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22AgentifaiCoreAnalytics0C5EventC4typeSSvp",
-            "mangledName": "$s22AgentifaiCoreAnalytics0C5EventC4typeSSvp",
-            "moduleName": "AgentifaiCoreAnalytics",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22AgentifaiCoreAnalytics0C5EventC4typeSSvg",
-                "mangledName": "$s22AgentifaiCoreAnalytics0C5EventC4typeSSvg",
-                "moduleName": "AgentifaiCoreAnalytics",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(type:)",
@@ -319,6 +271,41 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsEvent",
+                "printedName": "AgentifaiCoreAnalytics.AnalyticsEvent",
+                "usr": "s:22AgentifaiCoreAnalytics0C5EventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsEvent",
+                "printedName": "AgentifaiCoreAnalytics.AnalyticsEvent",
+                "usr": "s:22AgentifaiCoreAnalytics0C5EventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22AgentifaiCoreAnalytics0C5EventC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22AgentifaiCoreAnalytics0C5EventC2eeoiySbAC_ACtFZ",
+            "moduleName": "AgentifaiCoreAnalytics",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -327,6 +314,15 @@
         "moduleName": "AgentifaiCoreAnalytics",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {

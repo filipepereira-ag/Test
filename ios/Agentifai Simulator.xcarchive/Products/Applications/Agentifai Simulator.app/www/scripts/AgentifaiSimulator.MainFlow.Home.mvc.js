@@ -569,7 +569,7 @@ _dependencies: [asPrimitiveValue(model.variables.getThemesAggr.dataFetchStatusAt
 	
     return View;
 });
-define("AgentifaiSimulator.MainFlow.Home.mvc$controller", ["OutSystems/ClientRuntime/Main", "AgentifaiSimulator.model", "AgentifaiSimulator.controller", "CommonPlugin.model", "AgentifaiAssistantPlugin.controller", "AgentifaiSimulator.languageResources", "AgentifaiSimulator.clientVariables", "AgentifaiSimulator.MainFlow.Home.mvc$debugger", "AgentifaiSimulator.MainFlow.controller", "AgentifaiSimulator.MainFlow.Home.mvc$controller.InitOnClick.SettingsJS", "CommonPlugin.model$ErrorRec", "AgentifaiSimulator.referencesHealth", "AgentifaiSimulator.referencesHealth$CommonPlugin", "AgentifaiAssistantPlugin.controller$Open", "AgentifaiSimulator.referencesHealth$AgentifaiAssistantPlugin", "AgentifaiAssistantPlugin.controller$CheckAgentifaiPlugin", "AgentifaiAssistantPlugin.controller$SetTheme", "AgentifaiAssistantPlugin.controller$RegisterUser", "AgentifaiAssistantPlugin.controller$Initialize", "AgentifaiAssistantPlugin.controller$SetWidgetDimensions", "AgentifaiAssistantPlugin.controller$Show", "AgentifaiAssistantPlugin.controller$UnregisterUser", "AgentifaiAssistantPlugin.controller$Hide", "AgentifaiSimulator.model$ThemesRecordList"], function (OutSystems, AgentifaiSimulatorModel, AgentifaiSimulatorController, CommonPluginModel, AgentifaiAssistantPluginController, AgentifaiSimulatorLanguageResources, AgentifaiSimulatorClientVariables, AgentifaiSimulator_MainFlow_Home_mvc_Debugger, AgentifaiSimulator_MainFlowController, AgentifaiSimulator_MainFlow_Home_mvc_controller_InitOnClick_SettingsJS) {
+define("AgentifaiSimulator.MainFlow.Home.mvc$controller", ["OutSystems/ClientRuntime/Main", "AgentifaiSimulator.model", "AgentifaiSimulator.controller", "CommonPlugin.model", "AgentifaiAssistantPlugin.controller", "AgentifaiSimulator.languageResources", "AgentifaiSimulator.clientVariables", "AgentifaiSimulator.MainFlow.Home.mvc$debugger", "AgentifaiSimulator.MainFlow.controller", "AgentifaiSimulator.MainFlow.Home.mvc$controller.RegisterUserOnClick.AuthenticatorJS", "AgentifaiSimulator.MainFlow.Home.mvc$controller.InitOnClick.SettingsJS", "CommonPlugin.model$ErrorRec", "AgentifaiSimulator.referencesHealth", "AgentifaiSimulator.referencesHealth$CommonPlugin", "AgentifaiAssistantPlugin.controller$Open", "AgentifaiSimulator.referencesHealth$AgentifaiAssistantPlugin", "AgentifaiAssistantPlugin.controller$CheckAgentifaiPlugin", "AgentifaiAssistantPlugin.controller$SetTheme", "AgentifaiAssistantPlugin.controller$RegisterUser", "AgentifaiAssistantPlugin.controller$Initialize", "AgentifaiAssistantPlugin.controller$SetWidgetDimensions", "AgentifaiAssistantPlugin.controller$Show", "AgentifaiAssistantPlugin.controller$UnregisterUser", "AgentifaiAssistantPlugin.controller$Hide", "AgentifaiSimulator.model$ThemesRecordList"], function (OutSystems, AgentifaiSimulatorModel, AgentifaiSimulatorController, CommonPluginModel, AgentifaiAssistantPluginController, AgentifaiSimulatorLanguageResources, AgentifaiSimulatorClientVariables, AgentifaiSimulator_MainFlow_Home_mvc_Debugger, AgentifaiSimulator_MainFlowController, AgentifaiSimulator_MainFlow_Home_mvc_controller_RegisterUserOnClick_AuthenticatorJS, AgentifaiSimulator_MainFlow_Home_mvc_controller_InitOnClick_SettingsJS) {
 var OS = OutSystems.Internal;
 var Controller = (function (_super) {
 __extends(Controller, _super);
@@ -715,12 +715,22 @@ varBag.model = model;
 varBag.idService = idService;
 controller.ensureControllerAlive("RegisterUserOnClick");
 callContext = controller.callContext(callContext);
+var authenticatorJSResult = new OS.DataTypes.VariableHolder();
 varBag.callContext = callContext;
-try {OutSystemsDebugger.push("OMivivUb40uhXdy2a9HVYw:eVZIKNPJ00G6968FSHdF6w:/NRWebFlows.fWtJs57lI0qCTlwkcDoxDA/NodesShownInESpaceTree.3Hwgi8tCOkGNeZCoVz1iPw/ClientActions.eVZIKNPJ00G6968FSHdF6w:+vq04XiaKyix092V4dQ+Gw", "AgentifaiSimulator", "RegisterUserOnClick", "NRFlows.ClientScreenActionFlow", callContext.id, varBag);
+varBag.authenticatorJSResult = authenticatorJSResult;
+try {OutSystemsDebugger.push("OMivivUb40uhXdy2a9HVYw:eVZIKNPJ00G6968FSHdF6w:/NRWebFlows.fWtJs57lI0qCTlwkcDoxDA/NodesShownInESpaceTree.3Hwgi8tCOkGNeZCoVz1iPw/ClientActions.eVZIKNPJ00G6968FSHdF6w:Uzw0LeCQcmRQApPuomu8WQ", "AgentifaiSimulator", "RegisterUserOnClick", "NRFlows.ClientScreenActionFlow", callContext.id, varBag);
 OutSystemsDebugger.handleBreakpoint("OMivivUb40uhXdy2a9HVYw:tblwDZLRWUqSi_lYZtpUGA", callContext.id);
+OutSystemsDebugger.handleBreakpoint("OMivivUb40uhXdy2a9HVYw:BWsLsj40VU6j_evEXQ5HLQ", callContext.id);
+authenticatorJSResult.value = controller.safeExecuteJSNode(AgentifaiSimulator_MainFlow_Home_mvc_controller_RegisterUserOnClick_AuthenticatorJS, "Authenticator", "RegisterUserOnClick", {
+AuthHeaders: OS.DataConversion.JSNodeParamConverter.to(null, OS.Types.Object)
+}, function ($parameters) {
+var jsNodeResult = new (controller.constructor.getVariableGroupType("AgentifaiSimulator.MainFlow.Home.RegisterUserOnClick$authenticatorJSResult"))();
+jsNodeResult.authHeadersOut = OS.DataConversion.JSNodeParamConverter.from($parameters.AuthHeaders, OS.Types.Object);
+return jsNodeResult;
+}, {}, {});
 OutSystemsDebugger.handleBreakpoint("OMivivUb40uhXdy2a9HVYw:L5J1tJe0IEKvHQReJkxELw", callContext.id);
 // Execute Action: RegisterUser
-AgentifaiAssistantPluginController.default.registerUser$Action("123456789", "Agentifai", "", null, callContext);
+AgentifaiAssistantPluginController.default.registerUser$Action("123456789", "Agentifai", "", OS.BuiltinFunctions.toObject(authenticatorJSResult.value.authHeadersOut), callContext);
 OutSystemsDebugger.handleBreakpoint("OMivivUb40uhXdy2a9HVYw:0w5Uu0bZDkOfm9TLH0F+FA", callContext.id);
 } catch (ex) {
 OutSystemsDebugger.handleException(ex, callContext.id);
@@ -730,6 +740,15 @@ OutSystemsDebugger.pop("OMivivUb40uhXdy2a9HVYw:eVZIKNPJ00G6968FSHdF6w", callCont
 }
 
 };
+Controller.registerVariableGroupType("AgentifaiSimulator.MainFlow.Home.RegisterUserOnClick$authenticatorJSResult", [{
+name: "AuthHeaders",
+attrName: "authHeadersOut",
+mandatory: true,
+dataType: OS.Types.Object,
+defaultValue: function () {
+return null;
+}
+}]);
 Controller.prototype._initOnClick$Action = function (callContext) {
 var varBag = {};
 var model = this.model;
@@ -998,6 +1017,15 @@ return Controller;
 })(OS.Controller.BaseViewController);
 return new OS.Controller.ControllerFactory(Controller, AgentifaiSimulatorLanguageResources);
 });
+define("AgentifaiSimulator.MainFlow.Home.mvc$controller.RegisterUserOnClick.AuthenticatorJS", [], function () {
+return function ($parameters, $actions, $roles, $public) {
+var authHeaders = {
+    
+}
+
+$parameters.AuthHeaders = authHeaders;
+};
+});
 define("AgentifaiSimulator.MainFlow.Home.mvc$controller.InitOnClick.SettingsJS", [], function () {
 return function ($parameters, $actions, $roles, $public) {
 var settings = {
@@ -1025,6 +1053,11 @@ getter: function (varBag, idService) {
 return varBag.vars.value.keyInLocal;
 },
 dataType: OS.Types.Text
+},
+"BWsLsj40VU6j_evEXQ5HLQ": {
+getter: function (varBag, idService) {
+return varBag.authenticatorJSResult.value;
+}
 },
 "naX6fGcSeUKgJmsh24N_qg": {
 getter: function (varBag, idService) {

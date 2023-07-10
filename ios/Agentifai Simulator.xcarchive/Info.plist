@@ -15,7 +15,7 @@
 		<key>CFBundleShortVersionString</key>
 		<string>0.39.0</string>
 		<key>CFBundleVersion</key>
-		<string>134</string>
+		<string>135</string>
 		<key>SigningIdentity</key>
 		<string>Apple Development: Filipe Pereira (2S3TPNZ46Z)</string>
 		<key>Team</key>
@@ -24,7 +24,7 @@
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2023-07-10T13:56:28Z</date>
+	<date>2023-07-10T17:08:51Z</date>
 	<key>Name</key>
 	<string>Agentifai Simulator</string>
 	<key>SchemeName</key>

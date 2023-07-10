@@ -1,6 +1,6 @@
 {
   "name": "AgentifaiAssistant",
-  "version": "9.2.0-xcode14-1",
+  "version": "9.2.1-xcode14.1",
   "summary": "The Agentifai iOS SDK, for integrating Agentifai into your iOS application.",
   "homepage": "https://agentifai.com/",
   "license": {
@@ -16,7 +16,7 @@
   "swift_versions": "5.0",
   "source": {
     "git": "git@bitbucket.org:agentifai/agentifai-assistant-ios.git",
-    "tag": "9.2.0-xcode14-1"
+    "tag": "9.2.1-xcode14.1"
   },
   "vendored_frameworks": "AgentifaiAssistant.xcframework",
   "resources": "AgentifaiAssistantResources.bundle",

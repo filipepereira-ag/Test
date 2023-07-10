@@ -296,7 +296,7 @@ vars.value.tokenInLocal = tokenIn;
 vars.value.authHeadersInLocal = authHeadersIn;
 varBag.callContext = callContext;
 varBag.vars = vars;
-try {OutSystemsDebugger.push("dxxec54fvEG69NKTMk04Rg:UzbRCksKvEyVGIiL+dddpw:/ClientActionFlows.UzbRCksKvEyVGIiL+dddpw:Ma5EXcf4KOnAjEK0GFMu3A", "AgentifaiAssistantPlugin", "RegisterUser", "NRFlows.ClientActionFlow", callContext.id, varBag);
+try {OutSystemsDebugger.push("dxxec54fvEG69NKTMk04Rg:UzbRCksKvEyVGIiL+dddpw:/ClientActionFlows.UzbRCksKvEyVGIiL+dddpw:KO2nzMfHR8LsQGk2Unu4bQ", "AgentifaiAssistantPlugin", "RegisterUser", "NRFlows.ClientActionFlow", callContext.id, varBag);
 OutSystemsDebugger.handleBreakpoint("dxxec54fvEG69NKTMk04Rg:DcRMUyzwREinl49yWwKaTw", callContext.id);
 OutSystemsDebugger.handleBreakpoint("dxxec54fvEG69NKTMk04Rg:700sSHPNHkusVYgqLzprEQ", callContext.id);
 controller.safeExecuteJSNode(AgentifaiAssistantPlugin_controller_RegisterUser_RegisterUserJS, "RegisterUser", "RegisterUser", {
@@ -344,7 +344,7 @@ return "";
 }, {
 name: "AuthHeaders",
 attrName: "authHeadersInLocal",
-mandatory: false,
+mandatory: true,
 dataType: OS.Types.Object,
 defaultValue: function () {
 return null;

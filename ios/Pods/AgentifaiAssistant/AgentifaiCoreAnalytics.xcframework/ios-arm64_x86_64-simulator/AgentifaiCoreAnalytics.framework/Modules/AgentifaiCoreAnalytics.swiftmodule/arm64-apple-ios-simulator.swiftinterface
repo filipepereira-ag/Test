@@ -21,9 +21,9 @@ public class CoreMetricsConfiguration : Swift.Decodable {
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
 }
-public class AnalyticsEvent {
-  final public let type: Swift.String
+public class AnalyticsEvent : Swift.Equatable {
   public init(type: Swift.String)
+  public static func == (lhs: AgentifaiCoreAnalytics.AnalyticsEvent, rhs: AgentifaiCoreAnalytics.AnalyticsEvent) -> Swift.Bool
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CoreAnalyticsDI {
